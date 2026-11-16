@@ -1,0 +1,32 @@
+name: Refresh official CNY rate
+on:
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-data-cny
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch Bank of Russia daily quote
+        run: python scripts/update_cny.py
+      - name: Commit validated data when changed
+        run: |
+          git config user.name "product-radar-bot"
+          git config user.email "product-radar-bot@users.noreply.github.com"
+          git add data/market/cny_rub.json data/status.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: refresh official CNY rate"
+            git push
+          fi
