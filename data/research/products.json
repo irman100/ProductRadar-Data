@@ -1,7 +1,98 @@
 {
   "schema_version": "1.0",
   "market": "RU",
+  "status": "partial",
   "researched_at": null,
-  "status": "not_researched",
-  "products": []
+  "data_kind": "expert_hypotheses",
+  "notice": "Эти позиции не являются свежим исследованием спроса или подтвержденными продажами. Источник: архив 40 стартовых гипотез Product Radar; проверка рынка ещё не выполнена.",
+  "products": [
+    {
+      "id": "CN-001",
+      "name": "Набор модульных разделителей для ящика",
+      "category": "Хранение",
+      "reasoning": "Компактный набор для организации ящиков. Нужна проверка спроса на конкретную комплектацию.",
+      "risk": "Хлипкие защёлки, несоответствие размера",
+      "chinese_query": "抽屉分隔板 可调节",
+      "confidence": "low",
+      "evidence_level": "hypothesis",
+      "sources": []
+    },
+    {
+      "id": "CN-002",
+      "name": "Складной органайзер на полку шкафа",
+      "category": "Хранение",
+      "reasoning": "Проверить комплекты из нескольких штук, размеры и плотность материала.",
+      "risk": "Большая кубатура, прочность ткани",
+      "chinese_query": "衣柜收纳盒 折叠",
+      "confidence": "low",
+      "evidence_level": "hypothesis",
+      "sources": []
+    },
+    {
+      "id": "CN-003",
+      "name": "Складной органайзер для обуви",
+      "category": "Хранение",
+      "reasoning": "Лёгкий тип товара для домашнего хранения.",
+      "risk": "Разрыв ткани, размеры",
+      "chinese_query": "鞋子收纳袋 折叠",
+      "confidence": "low",
+      "evidence_level": "hypothesis",
+      "sources": []
+    },
+    {
+      "id": "CN-004",
+      "name": "Вакуумные пакеты для хранения одежды",
+      "category": "Хранение",
+      "reasoning": "Плоская упаковка; требуется испытать герметичность и клапаны.",
+      "risk": "Потеря вакуума, дефекты швов",
+      "chinese_query": "真空压缩收纳袋",
+      "confidence": "low",
+      "evidence_level": "hypothesis",
+      "sources": []
+    },
+    {
+      "id": "CN-005",
+      "name": "Силиконовый коврик для смесителя",
+      "category": "Кухня",
+      "reasoning": "Небьющийся кухонный аксессуар; подходит только для некоторых конфигураций раковин.",
+      "risk": "Несовместимость с краном, запах, материал",
+      "chinese_query": "水龙头沥水垫 硅胶",
+      "confidence": "low",
+      "evidence_level": "hypothesis",
+      "sources": []
+    },
+    {
+      "id": "CN-006",
+      "name": "Щётки для очистки узких швов",
+      "category": "Уборка",
+      "reasoning": "Компактные комплекты щёток; качество необходимо проверить на образцах.",
+      "risk": "Качество щетины, неудобная ручка",
+      "chinese_query": "缝隙清洁刷 套装",
+      "confidence": "low",
+      "evidence_level": "hypothesis",
+      "sources": []
+    },
+    {
+      "id": "CN-007",
+      "name": "Многоразовая щётка для шерсти",
+      "category": "Зоотовары",
+      "reasoning": "Идея для теста в сегменте ухода за домом с животными.",
+      "risk": "Результат зависит от ткани и вида шерсти",
+      "chinese_query": "可重复使用除毛刷",
+      "confidence": "low",
+      "evidence_level": "hypothesis",
+      "sources": []
+    },
+    {
+      "id": "CN-008",
+      "name": "Складной органайзер в багажник",
+      "category": "Автотовары",
+      "reasoning": "Проверить складной размер, материал и потребительскую цену.",
+      "risk": "Объёмный вес и качество швов",
+      "chinese_query": "汽车后备箱收纳箱 折叠",
+      "confidence": "low",
+      "evidence_level": "hypothesis",
+      "sources": []
+    }
+  ]
 }
