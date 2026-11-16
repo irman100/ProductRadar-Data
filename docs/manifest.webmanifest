@@ -1,10 +1,10 @@
 {
-  "id": "/",
+  "id": "./",
   "name": "Product Radar — поиск перспективных товаров",
   "short_name": "Product Radar",
   "description": "Каталог гипотез товаров для импорта из Китая в Россию",
-  "start_url": "/?source=pwa",
-  "scope": "/",
+  "start_url": "./?source=pwa",
+  "scope": "./",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#f5f7f4",
