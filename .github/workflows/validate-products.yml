@@ -1,0 +1,25 @@
+name: Validate product catalogue
+on:
+  push:
+    paths:
+      - "data/research/products.json"
+      - "scripts/validate_products.py"
+      - ".github/workflows/validate-products.yml"
+  pull_request:
+    paths:
+      - "data/research/products.json"
+      - "scripts/validate_products.py"
+      - ".github/workflows/validate-products.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-products:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reject products without attributed real photographs
+        run: python scripts/validate_products.py data/research/products.json
