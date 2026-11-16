@@ -1,0 +1,25 @@
+name: Validate verified market catalogue
+on:
+  push:
+    paths:
+      - 'data/verified/**'
+      - 'scripts/validate_verified.py'
+      - '.github/workflows/validate-verified.yml'
+  pull_request:
+    paths:
+      - 'data/verified/**'
+      - 'scripts/validate_verified.py'
+      - '.github/workflows/validate-verified.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reject unsupported bestseller claims
+        run: python scripts/validate_verified.py
