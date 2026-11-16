@@ -4,7 +4,7 @@
   "status": "partial",
   "researched_at": null,
   "data_kind": "expert_hypotheses",
-  "notice": "36 товарных идей для первичной проверки. Агрегированные показатели категорий АКИТ подтверждают только оборот сегментов, НЕ продажи конкретных SKU. Все товарные позиции — исследовательские гипотезы; закупочные цены, фактические продажи и качество образцов не проверены. Фото первых 8 товаров — внешние примеры, у остальных фото отсутствуют.",
+  "notice": "36 гипотез товаров. У всех товаров указаны фотографии-примеры из независимых торговых каталогов и ссылки на источники; ссылки на внешние фото могут перестать работать. Продажи конкретных SKU, закупочные цены и качество китайского поставщика не подтверждены. Никакие изображения не являются генерациями ИИ.",
   "products": [
     {
       "id": "CN-001",
@@ -152,10 +152,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://www.pepper-mill.com/cdn/shop/products/612405TRQ_1024x.jpg?v=1621108869",
+      "image_source_url": "https://www.pepper-mill.com/products/stretch-fit-silicone-lids",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Stretch & Fit Silicone Lids — Pepper Mill",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-010",
@@ -167,10 +170,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://dimex-eg.com/storage/app/public/product/2026-02-04-698344034079d.webp",
+      "image_source_url": "https://dimex-eg.com/store/product/collapsible-silicone-dish-drying-rack-space-saving-kitchen-organizer-for-dishes-cutlery-SbDmHf",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Collapsible Dish Drying Rack — Dimex",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-011",
@@ -182,10 +188,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i5.walmartimages.com/asr/bafa36a3-6ecf-4b32-b306-aabb7555295b.09048f054d02470e8c1302e787f6176f.jpeg",
+      "image_source_url": "https://www.walmart.ca/en/ip/TIMIFIS-Silicone-Air-Fryer-Liner-Reusable-Basket-Heat-Resistant-Easy-Cleaning-fryers-Pot-Round-fryer-Oven-Accessories/3A74KMR5X5X5",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Silicone Air Fryer Liner — Walmart Canada",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-012",
@@ -197,10 +206,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://thumbnail.image.rakuten.co.jp/%400_mall/precious-baba/cabinet/11485398/imgrc0092526729.jpg",
+      "image_source_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%82%A6%E3%82%A7%E3%82%A2%2B%E3%82%BB%E3%83%83%E3%83%88/205776/",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Mesh Laundry Bag Set — Rakuten marketplace search",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-013",
@@ -212,10 +224,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://www.infinitecables.com/cdn/shop/products/cc-ad10p-bk_alt4_1600x.jpg?v=1686060606",
+      "image_source_url": "https://www.infinitecables.com/products/cable-clips-multi-pack-adhesive-pack-of-10",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Adhesive Cable Clips — Infinite Cables",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-014",
@@ -227,10 +242,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://www.pbtech.co.nz/imgprod/C/A/CABVCR1046__1.jpg",
+      "image_source_url": "https://www.pbtech.co.nz/product/CABVCR1046/Velcro-VEL25564-Cable-Management-Tie---20cm---Blac",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Reusable Cable Ties — PB Tech",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-015",
@@ -242,10 +260,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i5.walmartimages.com/seo/Uxcell-Fabric-Storage-Bin-Cube-with-Lid-and-Handle-Collapsible-Storage-Basket-Beige-20-16-11-5in_6ae625a7-c97b-41b4-b6de-2a0402c9f815.437378c3915d22fc3e0541bf576dbb3a.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+      "image_source_url": "https://www.walmart.com/ip/13704808994",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Collapsible Fabric Storage Bin — Walmart",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-016",
@@ -257,10 +278,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://m.media-amazon.com/images/I/41pB5vTQQZL._SL500_.jpg",
+      "image_source_url": "https://www.wantitall.co.za/Vellax-Self-Adhesive-Cabinet-Door-Bumpers--64-pcs-Sticky-Silicone-Clear-Sound-Dampening-Rubber-Bumpers-for-Wal-ap-B09LVX9GFZ.html",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Self Adhesive Furniture Bumpers — WantItAll",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-017",
@@ -272,10 +296,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i5.walmartimages.com/asr/fd5b07b8-dce3-455f-b875-7f50303fe905.455790a79af021559d065c096ecb55ed.png?odnBg=FFFFFF&odnHeight=612&odnWidth=612",
+      "image_source_url": "https://www.walmart.com.mx/ip/productos-de-limpieza/estropajo-de-silicona-para-platos-paquete-de-7-esponja-de-silicona-para-platos-apto-para-uso-alimentario-sin-bpa-reutilizable-apto-para-lavavajillas-y-de-secado-rapido/00955532158548",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Silicone Dish Scrubbers — Walmart Mexico",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-018",
@@ -287,10 +314,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://hankpets.com/cdn/shop/files/Hank-Pet-Hair-Remover.jpg?v=1750952889&width=1066",
+      "image_source_url": "https://hankpets.com/",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Reusable Pet Hair Roller — HankPets",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-019",
@@ -302,10 +332,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://www.tryhydropaws.com/cdn/shop/files/S8888fbef71804897ad2e24489320ec7dI_530x.webp?v=1751595523",
+      "image_source_url": "https://www.tryhydropaws.com/products/silicone-dog-mat-non-stick-pet-fountain-tray-cat-bowl-mat-waterproof-food-pad-pet-feeding-drinking-pads-easy-washing-placemat",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Silicone Pet Feeding Mat — HydroPaws",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-020",
@@ -317,10 +350,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i5.walmartimages.com/asr/6969ee71-fefa-41ca-b406-cc59cee2a3c2.6b5f92f110c7b2c55027bf33fd9b1597.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
+      "image_source_url": "https://www.walmart.com/ip/2688743003",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Collapsible Travel Pet Bowls — Walmart",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-021",
@@ -332,10 +368,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i.ebayimg.com/images/g/nAQAAeSwNRdqoMq0/s-l960.png",
+      "image_source_url": "https://www.ebay.com/itm/377482729239",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Soft Cat Toy Mice Set — eBay",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-022",
@@ -347,10 +386,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i.ebayimg.com/images/g/8JIAAOSwE7BnQbvW/s-l1200.jpg",
+      "image_source_url": "https://www.ebay.com/itm/126791984494",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Car Registration Holder — eBay",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-023",
@@ -362,10 +404,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i5.walmartimages.com/seo/Universal-Car-Rear-Trunk-Floor-Protector-Cargo-Mat-Carpet-Liner-for-Auto-Sedan-SUV-Van-Coupe-Trimmable-Black_be7f2a31-ce27-4d19-a1fa-9854a08edb0d.935d04ee961f0d1c9f4c60e0bd1b177d.jpeg",
+      "image_source_url": "https://www.walmart.com/ip/5085143873",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Universal Rubber Trunk Mat — Walmart",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-024",
@@ -377,10 +422,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i5.walmartimages.com/seo/Car-Hook-for-Purse-and-Bag-4-Pack-Hanger-Storage-Organizer-for-Car-SUV-Truck-Seat-Headrest-Hooks-4-Pack-Black_700feeb2-6bad-4247-bf79-770702adf544.121f0ceb7d6ec014471a3a3ff21ac276.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
+      "image_source_url": "https://www.walmart.com/ip/3019165099",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Car Seat Headrest Hooks — Walmart",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-025",
@@ -392,10 +440,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://papershop.com.au/cdn/shop/files/StudioSeriesArtist_sPaintbrushSet.jpg?v=1708565554",
+      "image_source_url": "https://papershop.com.au/products/artists-brush-set",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Synthetic Artist Paintbrush Set — Paper Shop",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-026",
@@ -407,10 +458,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://wamplerdiy.com/cdn/shop/files/71kgb888S9L_1024x1024.jpg?v=1711515998",
+      "image_source_url": "https://wamplerdiy.com/products/2-pack-36-grids-clear-plastic-organizer-box-with-adjustable-dividers-small-craft-organizers-and-storage-compartment-container-for-bead-nail-jewelry-art-diy-crafts-fishing-tackle-small-items",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Bead Compartment Organizer — Wampler DIY",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-027",
@@ -422,10 +476,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://ae01.alicdn.com/kf/H08cadf005d9441c88ba360d1b37b102cN/Drawing-Board-Template-Scratch-Art-Paper-Cards-Spirograph-Graffiti-Painting-Stencil-Learning-Educational-Toys-Children-Kids.jpg_640x640.jpg",
+      "image_source_url": "https://www.dropshipper.com/product/drawing-board-template-scratch-art-paper-cards-spirograph-graffiti-painting-stencil-learning-educational-toys-children-kids-gift/",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Drawing Stencil Set — Dropshipper",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-028",
@@ -437,10 +494,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://craft-resin.co.uk/cdn/shop/files/extra-thick-silicone-craft-mat-60x40-cm-13-mm-2740534.png?v=1766501947&width=2048",
+      "image_source_url": "https://craft-resin.co.uk/products/large-silicone-mat-60x40-cm",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Silicone Craft Mat — Craft Resin",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-029",
@@ -452,10 +512,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://target.scene7.com/is/image/Target/GUEST_7f2b4158-a4b4-454b-a806-172a92fd11f9?fmt=pjpeg&hei=488&wid=488",
+      "image_source_url": "https://www.target.com/p/-/A-91385018",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Hanging Toiletry Bag — Target",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-030",
@@ -467,10 +530,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i5.walmartimages.com/asr/0dfe678d-4715-4191-a534-ef5526de72bd.c865aed4b3764c09323c4516538478bf.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
+      "image_source_url": "https://www.walmart.com/ip/2480314640",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Waterproof Travel Shoe Bag — Walmart",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-031",
@@ -482,10 +548,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://cdn.pacifiko.com/image/cache/catalog/p/ODZjYmI2OG-500x500.jpg",
+      "image_source_url": "https://www.pacifiko.com/compras-en-linea/matein-cable-organizer-bag-large-travel-storage-bag-sturdy-tool-case-with-handle-for-cellphone-cord-electronics-accessories-carrying-tech-bag-for-ipad-up-to-12-9inch-powerbank-hard-drive-black-color-1-antique-black-tamano-large%26pid%3DODZjYmI2OG",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Travel Cable Organizer — Pacifiko",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-032",
@@ -497,10 +566,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://upload.jaknot.com/2024/10/images/products/104970/original/gengli-sarung-koper-elastis-luggage-suitcase-stretch-cover-19-21-inch-gl-21.jpg",
+      "image_source_url": "https://www.jakartanotebook.com/p/gengli-sarung-koper-elastis-luggage-suitcase-stretch-cover-size-s-gl-21-gray",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Stretch Luggage Cover — JakartaNotebook",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-033",
@@ -512,10 +584,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://i.ebayimg.com/images/g/65EAAeSwDZhqq~M2/s-l960.jpg",
+      "image_source_url": "https://www.ebay.com.au/itm/137747586313",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Transparent Cosmetic Organizer — eBay",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-034",
@@ -527,10 +602,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://shop.r10s.jp/plusnao/cabinet/itempic3149/zak-36074.jpg",
+      "image_source_url": "https://item.rakuten.co.jp/plusnao/zak-36074/",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Skincare Headband and Wristband Set — Rakuten",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-035",
@@ -542,10 +620,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://hinokii.sg/cdn/shop/files/61wGLmaNFRL._AC_SL1500_1200x1200.webp?v=1709103963",
+      "image_source_url": "https://hinokii.sg/products/ugreen-adjustable-aluminum-mobile-phone-holder",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Folding Desktop Phone Stand — Hinokii",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     },
     {
       "id": "CN-036",
@@ -557,10 +638,13 @@
       "confidence": "low",
       "evidence_level": "hypothesis",
       "sources": [],
-      "image_url": null,
-      "image_source_url": null,
-      "image_note": "Нет подтверждённой фотографии. Откройте результаты поиска реальных предложений через ссылки в карточке.",
-      "reviewed_at": "2026-11-16"
+      "image_url": "https://cdn.shopify.com/s/files/1/0276/4734/4774/products/3-tier-spice-rack-trendha-2.jpg?v=1706869961",
+      "image_source_url": "https://odayfashion.com/products/3-tier-spice-rack-r6bd6-6902281437318",
+      "image_note": "Фотография похожего реально продаваемого товара из внешнего каталога. Не подтверждает российские продажи, китайского поставщика, артикул или доступность. Внешний хостинг может запретить встраивание.",
+      "reviewed_at": "2026-11-16",
+      "image_source_title": "Three Tier Spice Rack — Oday Fashion",
+      "image_checked_at": "2026-11-17",
+      "image_kind": "merchant_example"
     }
   ]
 }
