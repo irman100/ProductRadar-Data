@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-11-17",
+  "market": "RU",
+  "status": "evidence_collected_not_published",
+  "policy": "Records below have directly observed marketplace purchase counters, but lack independently verified hotlinkable images of exact SKU. They remain research observations, NOT public product cards until exact product photo and image provenance are verified.",
+  "observations": [
+    {
+      "platform": "Yandex Market",
+      "market_id": "5467897951",
+      "name": "Smart Solutions Keep In SS0000398 — органайзер с крышкой",
+      "category": "Мебель и товары для дома",
+      "observed_purchases": 405,
+      "purchases_displayed_as": "405 купили",
+      "period": "not disclosed by marketplace",
+      "rating": 4.9,
+      "rating_count": 52,
+      "checked_at": "2026-11-17",
+      "product_url": "https://market.yandex.ru/card/organayzer-s-kryshkoy-keep-in-dlya-kukhonnogo-khraneniya-s-otdeleniyami-smart-solutions-ss0000398/5467897951",
+      "supporting_same_sku_url": "https://www.vazaro.ru/product/organayzer_s_kryshkoy_27_h_17_sm_termoplastik_prozrachnyy_seriya_keep_in_smart_solutions_kitay_162967/",
+      "made_in_china_evidence": "https://www.vazaro.ru/product/organayzer_s_kryshkoy_27_h_17_sm_termoplastik_prozrachnyy_seriya_keep_in_smart_solutions_kitay_162967/",
+      "image_status": "exact_sku_image_url_pending",
+      "publishable": false
+    },
+    {
+      "platform": "Yandex Market",
+      "market_id": "4498341350",
+      "name": "Органайзер для косметики, мелочей и канцелярии, белый с разделителями и ящиками",
+      "category": "Мебель и товары для дома",
+      "observed_purchases": 2200,
+      "purchases_displayed_as": "2.2K купили",
+      "period": "not disclosed by marketplace",
+      "rating": 4.8,
+      "rating_count": 385,
+      "checked_at": "2026-11-17",
+      "product_url": "https://market.yandex.ru/card/organayzer-dlya-khraneniya-kosmetiki-melochey-kantselyarii-belyy-s-razdelitelyami-i-yashchikami/4498341350",
+      "image_status": "exact_sku_image_url_pending",
+      "publishable": false
+    }
+  ]
+}
