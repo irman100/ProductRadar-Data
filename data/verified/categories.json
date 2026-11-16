@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0",
+  "market": "RU",
+  "status": "verified_category_aggregates",
+  "period_start": "2026-01-01",
+  "period_end": "2026-09-30",
+  "published_at": "2026-11-12",
+  "verified_at": "2026-11-17",
+  "metric": "share_of_online_sales_value",
+  "ranking_method": "Оборот в рублях за один и тот же период; при равенстве округлённых долей более высокий оборот раньше. Рейтинг не отражает маржинальность импорта.",
+  "source_name": "АКИТ, данные о российской интернет-торговле за девять месяцев 2026",
+  "source_url": "https://www.retail.ru/news/akit-za-9-mesyatsev-2026-goda-obem-internet-torgovli-sostavil-10-85-trln-rubley-12-noyabrya-2026-284375/",
+  "notice": "Включены только пять крупнейших категорий по документированному денежному обороту. Продуктовый рейтинг отдельных SKU не может быть рассчитан из этих агрегированных данных.",
+  "categories": [
+    {
+      "id": "home",
+      "name": "Мебель и товары для дома",
+      "share_percent": 15.7,
+      "turnover_billion_rub": 1710,
+      "rank": 1
+    },
+    {
+      "id": "grocery",
+      "name": "Продукты питания",
+      "share_percent": 14.7,
+      "turnover_billion_rub": 1599,
+      "rank": 2
+    },
+    {
+      "id": "fashion",
+      "name": "Одежда и обувь",
+      "share_percent": 14.7,
+      "turnover_billion_rub": 1596,
+      "rank": 3
+    },
+    {
+      "id": "electronics",
+      "name": "Цифровая и бытовая техника",
+      "share_percent": 13.3,
+      "turnover_billion_rub": 1450,
+      "rank": 4
+    },
+    {
+      "id": "beauty",
+      "name": "Красота и здоровье",
+      "share_percent": 6.5,
+      "turnover_billion_rub": 706,
+      "rank": 5
+    }
+  ]
+}
