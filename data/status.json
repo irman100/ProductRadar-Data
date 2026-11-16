@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "currency": {
+    "state": "pending_first_run",
+    "updated_at": null
+  },
+  "research": {
+    "state": "not_researched",
+    "updated_at": null
+  },
+  "notes": "Currency refresh does not imply refreshed market demand."
+}
