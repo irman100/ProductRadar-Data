@@ -1,0 +1,17 @@
+{
+  "schema_version": "2.0",
+  "market": "RU",
+  "status": "awaiting_verified_product_level_evidence",
+  "verified_at": "2026-11-17",
+  "period": null,
+  "notice": "Нет опубликованных конкретных SKU, для которых одновременно подтверждены датированные продажи/место в рейтинге, конкретная карточка товара и реальная фотография. Предыдущие 36 идей остаются отдельно в data/research/products.json и НЕ включаются в проверенный каталог.",
+  "required_evidence": [
+    "dated_sales_metric_or_explicit_bestseller_rank",
+    "exact_product_url",
+    "photo_url",
+    "photo_source_url",
+    "source_urls",
+    "date_checked"
+  ],
+  "products": []
+}
