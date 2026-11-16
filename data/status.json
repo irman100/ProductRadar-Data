@@ -5,8 +5,11 @@
     "updated_at": null
   },
   "research": {
-    "state": "not_researched",
-    "updated_at": null
+    "state": "partial",
+    "updated_at": "2026-11-16T19:00:00+01:00",
+    "source": "AKIT 2026-01..2026-09 aggregate",
+    "category_count": 6,
+    "product_count": 0
   },
   "notes": "Currency refresh does not imply refreshed market demand."
 }
