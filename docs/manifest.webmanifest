@@ -34,7 +34,7 @@
     {
       "name": "Товарные идеи",
       "short_name": "Товары",
-      "url": "/#products-list",
+      "url": "./#products-list",
       "icons": [
         {
           "src": "./icon-192.png",
