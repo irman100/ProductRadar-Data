@@ -4,7 +4,7 @@
 set -euo pipefail
 ROOT="/home/dockeruser/product-radar-public"
 DEST="$ROOT/index.html"
-SOURCE="https://raw.githubusercontent.com/irman100/ProductRadar-Data/4a0c5a180bf6e808a732636370a4db27682fe213/docs/index.html"
+SOURCE="https://raw.githubusercontent.com/irman100/ProductRadar-Data/d4393283545df52fb21544c8f8d61749b76bbf12/docs/index.html"
 [ -f "$DEST" ] || { echo "ERROR: not found: $DEST" >&2; exit 1; }
 command -v curl >/dev/null || { echo "ERROR: curl is required" >&2; exit 1; }
 TMP="$(mktemp "$ROOT/.index.html.new.XXXXXX")"
