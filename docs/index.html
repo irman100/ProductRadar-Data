@@ -79,7 +79,7 @@ $('#refresh').addEventListener('click',()=>{load();fashionStats();loadOffers();l
 let offers=[];
 function drawOffers(){
  const q=$('#shop-search').value.trim().toLowerCase();
- const rows=offers.filter(p=>(p.name+' '+p.sku+' '+p.category).toLowerCase().includes(q));
+ const rows=offers.filter(p=>(p.name+' '+p.sku+' '+p.category).toLowerCase().includes(q)).sort((a,b)=>(b.demand_status==='marketplace_purchase_counter_observed')-(a.demand_status==='marketplace_purchase_counter_observed') || (Number.parseInt(b.evidence_value,10)||0)-(Number.parseInt(a.evidence_value,10)||0));
  const observed=offers.filter(p=>p.demand_status==='marketplace_purchase_counter_observed').length;
  $('#shop-status').textContent='Показано '+rows.length+' из '+offers.length+' реальных карточек одежды. Из них '+observed+' с наблюдаемыми покупками; целевой ассортимент — минимум 20 на категорию после проверки.';
  $('#shop-list').innerHTML=rows.map(p=>{
