@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "report_id": "radar-2026-11-17-initial",
+  "published_at": "2026-11-17",
+  "report_type": "evidence_based_editorial",
+  "title": "Обзор Product Radar: что покупают в России и какие модели стоит проверить для ввоза",
+  "subtitle": "Конкретные товары и первые сигналы спроса. Пока нет подтверждённой оптовой цены и полной себестоимости ни для одного SKU.",
+  "summary": "В опубликованных наблюдениях самые большие счётчики у машинки для удаления катышков Xiaomi Mijia, электрического насоса Xiaomi, рюкзака Xiaomi и увлажнителя Xiaomi. Это не рейтинг продаж за месяц: период счётчиков неизвестен. По одежде найдены реальные модели ANTA, Bosideng и Li-Ning, но подтверждённого спроса по этим артикулам пока недостаточно.",
+  "highlights": [
+    {
+      "product_id": "CN-RU-015",
+      "name": "Xiaomi Mijia Lint Remover MQXJQ01KL — машинка для удаления катышков",
+      "evidence_value": "17,4 тыс. купили",
+      "evidence_metric": "Наблюдаемый счётчик покупок на Яндекс Маркете",
+      "evidence_date": "2026-11-17",
+      "source_url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+      "interpretation": "Наблюдаемый счётчик покупок на карточке; неизвестен период накопления и не подтверждена оптовая закупка в Китае."
+    },
+    {
+      "product_id": "CN-RU-005",
+      "name": "Xiaomi Mijia Electric Air Pump 2 — насос MJCQB06QW",
+      "evidence_value": "3,2 тыс. купили",
+      "evidence_metric": "Счётчик «купили» в публичном предложении Яндекс Маркета",
+      "evidence_date": "2026-11-17",
+      "source_url": "https://market.yandex.ru/card/xiaomi-kompressor-portativnyy-xiaomi-portable-electric-air-compressor-2-mjcqb06qw-bhr7112gl/103658583109",
+      "interpretation": "Наблюдаемый счётчик покупок на карточке; неизвестен период накопления и не подтверждена оптовая закупка в Китае."
+    },
+    {
+      "product_id": "CN-RU-014",
+      "name": "Xiaomi Mi Colorful Mini Backpack (2076) — рюкзак 10 л, чёрный",
+      "evidence_value": "2,9 тыс. купили",
+      "evidence_metric": "Наблюдаемый счётчик «купили» в российской товарной карточке",
+      "evidence_date": "2026-11-17",
+      "source_url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
+      "interpretation": "Наблюдаемый счётчик покупок на карточке; неизвестен период накопления и не подтверждена оптовая закупка в Китае."
+    },
+    {
+      "product_id": "CN-RU-008",
+      "name": "Xiaomi Smart Humidifier 2 EU — увлажнитель BHR6026EU",
+      "evidence_value": "2,2 тыс. купили",
+      "evidence_metric": "Счётчик «купили» в публичном предложении Яндекс Маркета",
+      "evidence_date": "2026-11-17",
+      "source_url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-xiaomi-smart-humidifier-2-eu-mjjsq05dy-bhr6026eu/4996170194",
+      "interpretation": "Наблюдаемый счётчик покупок на карточке; неизвестен период накопления и не подтверждена оптовая закупка в Китае."
+    },
+    {
+      "product_id": "CN-RU-006",
+      "name": "UGREEN CM880 (55544) — USB-C хаб 7-в-1",
+      "evidence_value": "1,3 тыс. купили",
+      "evidence_metric": "Счётчик «купили» в публичном предложении Яндекс Маркета",
+      "evidence_date": "2026-11-17",
+      "source_url": "https://market.yandex.ru/card/usb-kontsentratordok-stantsiya-ugreen-cm880-55610-khab-usb-c-7-in-1-dp-8k30hzhdmi-4k60hz-usb3020-pd100w-hub/227714188188598272",
+      "interpretation": "Наблюдаемый счётчик покупок на карточке; неизвестен период накопления и не подтверждена оптовая закупка в Китае."
+    }
+  ],
+  "findings": [
+    {
+      "title": "Одежда: есть реальные модели, но нет надёжного рейтинга их продаж",
+      "body": "Найдены восемь конкретных моделей курток и пуховиков ANTA, Bosideng и Li-Ning с артикулами и ссылками на магазины. Для закупки необходимо найти спрос по точным размерам/артикулам, проверить маркировку и стоимость возвратов.",
+      "category": "Одежда и обувь",
+      "status": "requires_demand_verification"
+    },
+    {
+      "title": "Мелкая техника и аксессуары: видимые покупки, но нет расчёта импорта",
+      "body": "На российских карточках наблюдаются покупки моделей Xiaomi, UGREEN и Deerma. Для оценки перепродажи требуются оптовое предложение, документы, стоимость доставки и комиссия площадки.",
+      "category": "Техника и аксессуары",
+      "status": "requires_sourcing_verification"
+    },
+    {
+      "title": "Пока нельзя советовать закупать без проверки поставщика",
+      "body": "Китайское происхождение бренда не доказывает страну выпуска конкретной партии. Оптовая цена, наличие партии, легальность ввоза и итоговая маржа не установлены.",
+      "category": "Логистика и экономика",
+      "status": "insufficient_evidence"
+    }
+  ],
+  "next_research": [
+    "Найти подтверждённые продажи по точным SKU верхней одежды",
+    "Собрать 1688/Alibaba предложения с минимальной партией и оптовой ценой",
+    "Рассчитать себестоимость с доставкой, пошлинами, комиссиями и возвратами",
+    "Перепроверить актуальность ссылок и покупок с указанием периода"
+  ],
+  "research_status": "partial",
+  "units_sold_period_verified": false,
+  "china_wholesale_quotes_verified": 0,
+  "profitable_skus_verified": 0,
+  "sources": [
+    {
+      "title": "Исходные наблюдения SKU — Product Radar",
+      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/verified/products.json"
+    },
+    {
+      "title": "Реальные модели курток — Product Radar",
+      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/real_offers/outerwear_20261117.json"
+    }
+  ]
+}
