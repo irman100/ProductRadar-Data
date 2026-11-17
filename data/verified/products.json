@@ -292,6 +292,28 @@
       "import_risk": "Небольшой аккумулятор, износ лезвий, качество сетки, гарантия, контрафакт",
       "logistics_note": "Компактная упаковка, но аккумулятор требует проверки условий перевозки",
       "review_status": "public_marketplace_counter_china_sourcing_unverified"
+    },
+    {
+      "id": "CN-RU-016",
+      "name": "Deerma DEM-F628S — ультразвуковой увлажнитель воздуха, 5 л",
+      "category": "Мебель и товары для дома",
+      "product_url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-deerma-dem-f628s/103240549853",
+      "image_url": "https://indexiq.ru/storage/tiny/deerma/Air-Humidifier-5L-DEM-F628S/Deerma-Air-Humidifier-5L-DEM-F628S-01.jpg",
+      "image_source_url": "https://indexiq.ru/product/deerma-air-humidifier-5l-dem-f628s/",
+      "image_source_title": "IndexIQ — Deerma Air Humidifier 5L DEM-F628S",
+      "image_checked_at": "2026-11-17",
+      "evidence_source_url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-deerma-dem-f628s/103240549853",
+      "evidence_metric": "Счётчик «купили» конкретного предложения Яндекс Маркета",
+      "evidence_value": "697 купили",
+      "evidence_type": "documented_units_sold",
+      "evidence_date": "2026-11-17",
+      "evidence_period": "Не раскрыт",
+      "evidence_scope": "marketplace_card_counter_not_periodized",
+      "china_sourcing_status": "Китайский бренд Deerma; изготовитель партии и доступность прямой оптовой закупки в Китае не подтверждены",
+      "origin_country_verified": false,
+      "import_risk": "Электробезопасность, риск протечки, гарантия, возвраты, отличия версий RU/EU/CN",
+      "logistics_note": "Габаритный электроприбор: объёмный вес, проверка вилки и обязательной оценки соответствия",
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     }
   ]
 }
