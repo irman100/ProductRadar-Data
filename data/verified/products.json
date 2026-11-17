@@ -312,6 +312,42 @@
       "evidence_scope": "shared_across_product_variants",
       "evidence_period": "Период не раскрыт площадкой",
       "research_note": "Счётчик группы вкусов и фасовок Jardin, не доказанные покупки именно мешка Americano Crema 1 кг."
+    },
+    {
+      "id": "PR-V-017",
+      "name": "Pantene Pro-V «Интенсивное восстановление», шампунь 400 мл",
+      "category": "Красота и здоровье",
+      "product_url": "https://market.yandex.ru/card/pantene-pro-v-shampun-intensivnoye-vosstanovleniye-dlya-povrezhdennykh-i-oslablennykh-volos-pantin-400-ml-/103577349372",
+      "image_url": "https://dionashop.kz/upload/iblock/9cc/d7ztfa0kos5webdfc4oqay1gg43l5qhq.jpeg",
+      "image_source_url": "https://dionashop.kz/catalog/shampuni_2/pantene_pro_v_shampun_intensivnoe_vosstanovlenie_400ml_/",
+      "image_source_title": "DionaShop — шампунь Pantene, 400 мл",
+      "evidence_source_url": "https://business.market.yandex.ru/catalog--sredstva-dlia-ukhoda-za-volosami/17437085/list?page=2",
+      "evidence_metric": "Покупки товара в публичном каталоге Яндекс Маркета",
+      "evidence_value": "≈36,1 тыс. купили",
+      "evidence_scope": "marketplace_listing_counter",
+      "evidence_type": "documented_units_sold",
+      "evidence_date": "2026-11-17",
+      "evidence_period": "Не указан",
+      "image_checked_at": "2026-11-17",
+      "research_note": "Площадка не раскрывает период счётчика и возможное объединение вариантов; не использовать как месячные продажи."
+    },
+    {
+      "id": "PR-V-018",
+      "name": "Head & Shoulders «Основной уход» 2в1, шампунь и бальзам 800 мл",
+      "category": "Красота и здоровье",
+      "product_url": "https://lavka.yandex.kz/good/no_translation-800-millilitre-7",
+      "image_url": "https://yastatic.net/avatars/get-grocery-goods/2783132/02695183-9601-4f84-8b09-c17e283d1839/500x500-orig",
+      "image_source_url": "https://lavka.yandex.kz/good/no_translation-800-millilitre-7",
+      "image_source_title": "Яндекс Лавка Казахстан — Head & Shoulders 2в1, 800 мл",
+      "evidence_source_url": "https://business.market.yandex.ru/catalog--sredstva-dlia-ukhoda-za-volosami/17437085/list?page=2",
+      "evidence_metric": "Покупки товара в публичном каталоге Яндекс Маркета",
+      "evidence_value": "≈63,8 тыс. купили",
+      "evidence_scope": "marketplace_listing_counter",
+      "evidence_type": "documented_units_sold",
+      "evidence_date": "2026-11-17",
+      "evidence_period": "Не указан",
+      "image_checked_at": "2026-11-17",
+      "research_note": "Период счётчика не указан. Фото 800 мл той же линейки; упаковка может отличаться в разных странах."
     }
   ],
   "sources": [
