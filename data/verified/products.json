@@ -226,6 +226,28 @@
       "image_source_url": "https://kingandmoffattretail.com/products/xiaomi-smart-band-9-smart-watch-glacier-silver-bhr834",
       "import_risk": "Батарея, радио, гарантия, проверить фактическую страну производства конкретной партии",
       "logistics_note": "Требования к батарее и Bluetooth, сверить версию GLOBAL"
+    },
+    {
+      "id": "CN-RU-013",
+      "name": "Xiaomi Redmi Buds 6 Play — чёрные наушники BHR8776GL",
+      "category": "Цифровая и бытовая техника",
+      "product_url": "https://market.yandex.ru/card/tws-naushniki-redmi-buds-6-play-black-bhr8776gl/103747826362",
+      "image_url": "https://content.rozetka.com.ua/goods/images/big/493915018.jpg",
+      "image_source_url": "https://rozetka.com.ua/ua/449629070/p449629070/",
+      "image_source_title": "Rozetka — Redmi Buds 6 Play, Black BHR8776GL",
+      "image_checked_at": "2026-11-17",
+      "evidence_source_url": "https://market.yandex.ru/card/tws-naushniki-redmi-buds-6-play-black-bhr8776gl/103747826362",
+      "evidence_value": "826 купили",
+      "evidence_metric": "Счётчик покупок конкретного предложения на Яндекс Маркете",
+      "evidence_type": "documented_units_sold",
+      "evidence_date": "2026-11-17",
+      "evidence_period": "Период не раскрыт",
+      "evidence_scope": "marketplace_card_counter_not_periodized",
+      "china_sourcing_status": "Модель китайского бренда Xiaomi. Страна производства конкретной партии и оптовый поставщик пока не подтверждены",
+      "origin_country_verified": false,
+      "import_risk": "Аккумуляторы, Bluetooth, сертификация, риск подделок и возвратов",
+      "logistics_note": "Проверка документов на радиоустройство и международную перевозку батареи",
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     }
   ]
 }
