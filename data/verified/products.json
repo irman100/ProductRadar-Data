@@ -314,6 +314,28 @@
       "import_risk": "Электробезопасность, риск протечки, гарантия, возвраты, отличия версий RU/EU/CN",
       "logistics_note": "Габаритный электроприбор: объёмный вес, проверка вилки и обязательной оценки соответствия",
       "review_status": "public_marketplace_counter_china_sourcing_unverified"
+    },
+    {
+      "id": "CN-RU-017",
+      "name": "Li-Ning AFYV001-4 — мужская ветровка Trail Running, серо-оливковая",
+      "category": "Одежда и обувь",
+      "product_url": "https://market.yandex.ru/card/afyv001-4-vetrovka-trail-running-seryy/4700694670",
+      "image_url": "https://lining-sport.ru/upload/iblock/ae2/bm0je225rx1vpplijhm7xk2o8wky8mdn/photo_2025-08-08_13-37-35.jpg",
+      "image_source_url": "https://lining-sport.ru/product/afyv001_4_vetrovka_trail_running_seryy/",
+      "image_source_title": "Li-Ning Россия — AFYV001-4, фото детали капюшона точной модели",
+      "image_checked_at": "2026-11-17",
+      "evidence_source_url": "https://market.yandex.ru/card/afyv001-4-vetrovka-trail-running-seryy/4700694670",
+      "evidence_metric": "Счётчик «купили» на карточке российского Яндекс Маркета (не рейтинг бестселлеров)",
+      "evidence_value": "4 купили",
+      "evidence_type": "documented_units_sold",
+      "evidence_date": "2026-11-17",
+      "evidence_period": "Не указан площадкой",
+      "evidence_scope": "marketplace_card_counter_not_periodized",
+      "china_sourcing_status": "Li-Ning — китайский бренд, модель AFYV001-4 продаётся в России. Прямая закупка у производителя и страна выпуска конкретной партии не подтверждены",
+      "origin_country_verified": false,
+      "import_risk": "Размерные сетки RU/CN, возвраты по посадке, документы на одежду, маркировка, сезонность",
+      "logistics_note": "Без батареи; легкая ветровка, но нужна проверка упаковки/таможенного кода и маркировки",
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     }
   ]
 }
