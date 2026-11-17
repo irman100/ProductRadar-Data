@@ -27,7 +27,7 @@
       "origin_country_verified": false,
       "import_risk": "Риск подделок и различий между версиями Wiha/Mijia; сверять точный MJJXLSD002QW и комплектацию. В открытых метаданных Маркета встречается другое обозначение DZN4020CN; точный SKU перед закупкой уточнить.",
       "logistics_note": "Без аккумулятора; компактный набор. Требования к маркировке и качеству инструмента проверить",
-      "review_status": "public_purchase_counter_observed_supplier_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     },
     {
       "id": "CN-RU-002",
@@ -49,7 +49,7 @@
       "origin_country_verified": false,
       "import_risk": "Петли, устойчивость и риск подделок; проверить массу и жёсткость",
       "logistics_note": "Без электроники, компактная упаковка; проверить бренд и разрешения на продажу",
-      "review_status": "public_purchase_counter_observed_supplier_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     },
     {
       "id": "CN-RU-003",
@@ -71,7 +71,7 @@
       "origin_country_verified": false,
       "import_risk": "Электробезопасность, напряжение/вилка, гарантия, крупная упаковка и возвраты",
       "logistics_note": "Габаритный электроприбор; проверять EAC/ТР ТС и сервисное обслуживание",
-      "review_status": "public_purchase_counter_observed_supplier_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     },
     {
       "id": "CN-RU-004",
@@ -93,7 +93,7 @@
       "origin_country_verified": false,
       "import_risk": "Брак щётки, питание и сервис, объёмный вес, цена логистики",
       "logistics_note": "Проводной прибор: нужна проверка обязательной оценки соответствия и вилки",
-      "review_status": "public_purchase_counter_observed_supplier_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     },
     {
       "id": "CN-RU-005",
@@ -115,7 +115,7 @@
       "origin_country_verified": false,
       "import_risk": "Литий-ионный аккумулятор, перевозка, гарантия, конкурентная цена",
       "logistics_note": "Аккумулятор: ограничения международной перевозки и документы на батарею",
-      "review_status": "public_purchase_counter_observed_supplier_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     },
     {
       "id": "CN-RU-006",
@@ -137,7 +137,7 @@
       "origin_country_verified": false,
       "import_risk": "Несоответствие SKU 55544/55610, совместимость USB-C и заявленных режимов; проверка образца обязательна",
       "logistics_note": "Компактный прибор, без батареи; проверка электромагнитной совместимости и документации",
-      "review_status": "public_purchase_counter_observed_supplier_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     },
     {
       "id": "CN-RU-007",
@@ -159,7 +159,7 @@
       "origin_country_verified": false,
       "import_risk": "Батарея, сертификация радиооборудования, гарантийные возвраты, подделки",
       "logistics_note": "Литиевые батареи и Bluetooth: более сложная логистика/документы",
-      "review_status": "public_purchase_counter_observed_supplier_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     },
     {
       "id": "CN-RU-008",
@@ -181,7 +181,7 @@
       "origin_country_verified": false,
       "import_risk": "Гарантийные возвраты, кубатура, электрика, конфликт EU и CN версий",
       "logistics_note": "Габаритный электроприбор, документы обязательны. Сверять EU BHR6026EU",
-      "review_status": "public_purchase_counter_observed_supplier_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     },
     {
       "image_source_title": "Фото конкретной цветовой версии из карточки продавца",
