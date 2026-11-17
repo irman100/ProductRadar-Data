@@ -270,6 +270,28 @@
       "import_risk": "Сходство реплик, качество швов, фабричная упаковка, проверка маркировки текстильных изделий",
       "logistics_note": "Лёгкий товар, нет батареи; обычно упаковывается компактно, объёмный вес проверить у перевозчика",
       "review_status": "public_marketplace_counter_china_sourcing_unverified"
+    },
+    {
+      "id": "CN-RU-015",
+      "name": "Xiaomi Mijia Lint Remover MQXJQ01KL — машинка для удаления катышков",
+      "category": "Мебель и товары для дома",
+      "product_url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+      "evidence_source_url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+      "image_url": "https://yablonya.com/upload/iblock/6d5/yjvpj3fv8p8tfgiq9l7s4rwfv3ogrukn.png",
+      "image_source_url": "https://yablonya.com/catalog/xiaomi_27/mashinka_dlya_udaleniya_katyshkov_xiaomi_mijia_mqxjq01kl/",
+      "image_source_title": "Яблоня — фото MQXJQ01KL, белая",
+      "image_checked_at": "2026-11-17",
+      "evidence_type": "documented_units_sold",
+      "evidence_metric": "Наблюдаемый счётчик покупок на Яндекс Маркете",
+      "evidence_value": "17,4 тыс. купили",
+      "evidence_date": "2026-11-17",
+      "evidence_period": "Площадка не раскрывает период",
+      "evidence_scope": "marketplace_card_counter_not_periodized",
+      "china_sourcing_status": "Xiaomi Mijia — китайский бренд; фабрика и условия оптовой закупки в Китае не подтверждены",
+      "origin_country_verified": false,
+      "import_risk": "Небольшой аккумулятор, износ лезвий, качество сетки, гарантия, контрафакт",
+      "logistics_note": "Компактная упаковка, но аккумулятор требует проверки условий перевозки",
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     }
   ]
 }
