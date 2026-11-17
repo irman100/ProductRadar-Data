@@ -331,11 +331,16 @@
       "evidence_date": "2026-11-17",
       "evidence_period": "Не указан площадкой",
       "evidence_scope": "marketplace_card_counter_not_periodized",
-      "china_sourcing_status": "Li-Ning — китайский бренд, модель AFYV001-4 продаётся в России. Прямая закупка у производителя и страна выпуска конкретной партии не подтверждены",
+      "china_sourcing_status": "Найдена розничная поставка именно AFYV001-4 из Китая на российской площадке; оптовый производитель и закупочная цена фабрики не подтверждены.",
       "origin_country_verified": false,
       "import_risk": "Размерные сетки RU/CN, возвраты по посадке, документы на одежду, маркировка, сезонность",
       "logistics_note": "Без батареи; легкая ветровка, но нужна проверка упаковки/таможенного кода и маркировки",
-      "review_status": "public_marketplace_counter_china_sourcing_unverified"
+      "review_status": "public_marketplace_counter_china_sourcing_unverified",
+      "china_retail_offer_url": "https://global.podrygka.ru/product/lining-running-collection-jackets-coats-men-s-white-birch-gray-military-green-a67030211",
+      "china_retail_price_rub_observed": 3782,
+      "china_retail_delivery_from_rub_observed": 1668,
+      "china_retail_price_checked_at": "2026-11-17",
+      "china_retail_note": "В открытом российском предложении заявлена отправка из Китая, цена 3 782 ₽ и доставка от 1 668 ₽; это РОЗНИЦА, не цена фабрики. Возможны изменения, импортные пошлины и документы не учтены."
     }
   ]
 }
