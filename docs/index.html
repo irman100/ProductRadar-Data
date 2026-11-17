@@ -12,14 +12,20 @@
 .group{margin:24px 0 30px}.group-title{display:flex;justify-content:space-between;gap:8px;align-items:baseline;border-bottom:1px solid #d9e7dd;padding-bottom:10px;margin-bottom:14px}.group-title h3{font-size:19px;margin:0}.group-title small{color:#64776d}.scope{border-left:3px solid #c59c56;padding:8px 10px;background:#fff8ed;border-radius:4px;color:#70552e;font-size:12px}.source{display:block}.content .num{line-height:1.22;font-size:18px}.content p{line-height:1.45}</style></head><body>
 <header><strong>◈ Product Radar</strong><small>Наблюдаемые покупки • Китай → Россия</small></header>
 <main>
-<section class="hero"><small>ПОДБОР ДЛЯ ИМПОРТА ИЗ КИТАЯ</small><h1>Китайские товары: спрос в России</h1><p class="hint">Проверяем реальные модели китайских брендов: покупки на российских площадках, фотографию, артикул и риски ввоза. Наличие модели на рынке не доказывает доступность оптовой закупки в Китае. Период счётчиков покупок площадка не раскрывает.</p>
+<section class="hero"><small>ПОДБОР ДЛЯ ИМПОРТА ИЗ КИТАЯ</small><h1>Китайские товары: спрос и конкретные модели</h1><p class="hint">Проверяем реальные модели китайских брендов: покупки на российских площадках, фотографию, артикул и риски ввоза. Наличие модели на рынке не доказывает доступность оптовой закупки в Китае. Период счётчиков покупок площадка не раскрывает.</p>
 <div class="actions"><button id="refresh">Загрузить свежие данные</button><a href="https://github.com/irman100/ProductRadar-Data" rel="noopener noreferrer" target="_blank">Данные и методика ↗</a></div><div id="status" role="status">Загрузка подтверждённых данных…</div>
 <div class="summary"><div class="stat"><small>Категорий в статистике</small><b id="cat-count">—</b></div><div class="stat"><small>Моделей с открытыми наблюдениями</small><b id="item-count">—</b></div><div class="stat"><small>Период данных</small><b id="period" style="font-size:14px">—</b></div></div></section>
 <section id="categories"><h2>1. Размер рынка по категориям</h2><p class="hint">Общий оборот онлайн-торговли по АКИТ: это контекст российского спроса, а не рейтинг товаров китайского происхождения и не прогноз прибыльности импорта.</p><div id="cat-list" class="table"></div><p class="hint" id="cat-source"></p></section>
 <section id="fashion"><h2>2. Куртки и верхняя одежда — фактический спрос</h2><p class="hint">Отдельная статистика по продажам в России. Не путайте рост подкатегории с продажами конкретной куртки.</p><div id="fashion-list" class="cards"></div></section>
 <section id="products"><h2>3. Китайские модели с опубликованными покупками</h2><p class="hint">В карточке каждой модели — фактический счётчик покупок, реальная фотография, источник, риск импорта. Страна изготовления конкретной партии, оптовый поставщик и закупочная прибыль требуют отдельной проверки. Бренд китайский — это ещё не подтверждённое происхождение каждого экземпляра.</p><input id="search" placeholder="Поиск подтверждённых товаров" aria-label="Поиск подтверждённых товаров"><div id="items"></div><div id="empty" class="empty" hidden><h3>Нет карточек по текущему поиску</h3><p>Попробуйте другой поисковый запрос. Не подтверждённые товарные идеи хранятся отдельно и здесь не показываются.</p><p style="margin-top:12px"><a href="https://seller.ozon.ru/media/boost/kak-najti-hodovoj-tovar-dlya-torgovli-na-marketplejse/" target="_blank" rel="noopener noreferrer">Почему нужны данные продаж по SKU ↗</a></p></div></section>
-<footer class="foot">Product Radar • Рынок России: АКИТ • Товары китайских брендов: открытые предложения • Фабрика, себестоимость и документы ввоза ещё не проверены.</footer>
-</main><nav class="nav"><a href="#categories"><span>◉</span>Категории</a><a href="#fashion"><span>◈</span>Куртки</a><a href="#products"><span>▦</span>Товары</a><a href="#refresh"><span>↻</span>Обновить</a></nav>
+<section id="shop"><h2>4. Реальные куртки и пуховики — открыть товар</h2>
+<p class="hint">Здесь указаны конкретные артикулы, настоящие фотографии продавцов и ссылки на страницы товара. Можно открыть предложение в России или за рубежом, сравнить модели и искать точно такой артикул в Китае. Внимание: наличие страницы товара не подтверждает его популярность, остатки на складе или оптового поставщика.</p>
+<div class="summary"><div class="stat"><small>Моделей с артикулами</small><b id="shop-count">—</b></div><div class="stat"><small>Тип записи</small><b style="font-size:14px">Реальные SKU</b></div><div class="stat"><small>Продажи по SKU</small><b style="font-size:14px">Нет данных</b></div></div>
+<div class="actions"><input id="shop-search" placeholder="Поиск: ANTA, Bosideng, Li-Ning, артикул" aria-label="Найти конкретный товар"></div>
+<p id="shop-status" class="hint" role="status">Загружаем товарные карточки…</p>
+<div id="shop-list" class="cards"></div></section>
+<footer class="foot">Product Radar • Рынок России: АКИТ • Конкретные модели: страницы продавцов и открытые наблюдения • Фабрика, себестоимость и документы ввоза ещё не проверены.</footer>
+</main><nav class="nav"><a href="#categories"><span>◉</span>Категории</a><a href="#fashion"><span>◈</span>Куртки</a><a href="#products"><span>▦</span>Спрос</a><a href="#shop"><span>▤</span>Куртки</a><a href="#refresh"><span>↻</span>Обновить</a></nav>
 <script>
 (()=>{'use strict';
 const BASE='https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/verified/';
@@ -54,6 +60,26 @@ $('#cat-source').innerHTML='Источник: <a href="'+esc(safeUrl(c.source_ur
 $('#cat-count').textContent=categories.length;$('#item-count').textContent=products.length;$('#period').textContent='янв–сен 2026';$('#status').textContent='Данные проверены: '+esc(c.verified_at)+'. Счётчики покупок показывают состояние на дату наблюдения, не продажи за последние 30 дней.';draw()
 }catch(e){$('#status').textContent='Не удалось получить подтверждённые данные: '+e.message+'; последний успешный результат не заменён.'}finally{b.disabled=false}}
 $('#refresh').addEventListener('click',()=>{load();fashionStats()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();window.scrollTo({top:0,behavior:'smooth'})});
-if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();
+
+let offers=[];
+function drawOffers(){
+ const q=$('#shop-search').value.trim().toLowerCase();
+ const rows=offers.filter(p=>(p.name+' '+p.sku+' '+p.category).toLowerCase().includes(q));
+ $('#shop-status').textContent='Показано '+rows.length+' из '+offers.length+' моделей. Покупки конкретных артикулов не подтверждены.';
+ $('#shop-list').innerHTML=rows.map(p=>'<article class="card"><div class="photo"><img src="'+esc(safeUrl(p.image_url))+'" loading="lazy" alt="'+esc(p.name)+'" onerror="this.closest(\'.card\').querySelector(\'.photo\').textContent=\'Фото недоступно — откройте товар у продавца\'"></div><div class="content"><span class="tag">'+esc(p.category)+'</span><h3>'+esc(p.name)+'</h3><p><b>Артикул:</b> '+esc(p.sku)+'</p><div class="scope">Реальная карточка продавца · подтверждённых продаж по SKU нет</div><a class="source" href="'+esc(safeUrl(p.purchase_url))+'" target="_blank" rel="noopener noreferrer">Открыть товар у продавца ↗</a><a class="source" href="'+esc(safeUrl(p.russian_comparison_url))+'" target="_blank" rel="noopener noreferrer">Сравнить предложения в России ↗</a><a class="source" href="'+esc(safeUrl(p.china_search_url))+'" target="_blank" rel="noopener noreferrer">Найти этот артикул в Китае ↗</a><a class="source" href="'+esc(safeUrl(p.image_source_url))+'" target="_blank" rel="noopener noreferrer">Источник фото ↗</a></div></article>').join('')||'<div class="empty">По вашему запросу товаров не найдено.</div>';
+}
+async function loadOffers(){
+try{
+ const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/real_offers/outerwear_20261117.json?v='+Date.now(),{cache:'no-store'});
+ if(!r.ok)throw Error('HTTP '+r.status);
+ const d=await r.json();
+ if(d.data_kind!=='real_sku_merchant_offers'||!Array.isArray(d.products))throw Error('Неверный формат');
+ offers=d.products.filter(p=>p&&p.sku&&p.name&&p.image_url&&p.demand_status==='sku_sales_not_verified'&&['purchase_url','image_url','image_source_url','russian_comparison_url','china_search_url'].every(k=>safeUrl(p[k])));
+ $('#shop-count').textContent=offers.length;drawOffers();
+}catch(e){$('#shop-status').textContent='Карточки временно недоступны: '+e.message;}
+}
+$('#shop-search').addEventListener('input',drawOffers);
+
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();loadOffers();
 })();
 </script></body></html>
