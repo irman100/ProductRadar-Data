@@ -248,6 +248,28 @@
       "import_risk": "Аккумуляторы, Bluetooth, сертификация, риск подделок и возвратов",
       "logistics_note": "Проверка документов на радиоустройство и международную перевозку батареи",
       "review_status": "public_marketplace_counter_china_sourcing_unverified"
+    },
+    {
+      "id": "CN-RU-014",
+      "name": "Xiaomi Mi Colorful Mini Backpack (2076) — рюкзак 10 л, чёрный",
+      "category": "Одежда и обувь",
+      "product_url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
+      "image_url": "https://www.orrohomedubai.com/cdn/shop/products/ZJB4143GL-BLACK-MAIN.jpg?v=1676367049",
+      "image_source_url": "https://www.orrohomedubai.com/products/xiaomi-small-casual-daypack-lightweight-backpack-14-inch-laptop-backpack-mini-travel-bag-for-school-business-work-bag",
+      "image_source_title": "ORRO HOME — Mi Casual Daypack Black ZJB4143GL, аналогичный артикул модели 2076",
+      "image_checked_at": "2026-11-17",
+      "evidence_source_url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
+      "evidence_metric": "Наблюдаемый счётчик «купили» в российской товарной карточке",
+      "evidence_value": "2,9 тыс. купили",
+      "evidence_type": "documented_units_sold",
+      "evidence_date": "2026-11-17",
+      "evidence_period": "Не раскрыт",
+      "evidence_scope": "marketplace_card_counter_not_periodized",
+      "china_sourcing_status": "Модель китайского бренда Xiaomi, варианты SKU ZJB4134CN/ZJB4143GL; фабрика и оптовая цена не проверены",
+      "origin_country_verified": false,
+      "import_risk": "Сходство реплик, качество швов, фабричная упаковка, проверка маркировки текстильных изделий",
+      "logistics_note": "Лёгкий товар, нет батареи; обычно упаковывается компактно, объёмный вес проверить у перевозчика",
+      "review_status": "public_marketplace_counter_china_sourcing_unverified"
     }
   ]
 }
