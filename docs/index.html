@@ -16,15 +16,29 @@
 <div class="actions"><button id="refresh">Обновить исследование</button><a href="https://github.com/irman100/ProductRadar-Data" rel="noopener noreferrer" target="_blank">Данные и методика ↗</a></div><div id="status" role="status">Загрузка подтверждённых данных…</div>
 <div class="summary"><div class="stat"><small>Проверенных категорий</small><b id="cat-count">—</b></div><div class="stat"><small>Моделей для проверки импорта</small><b id="item-count">—</b></div><div class="stat"><small>Период данных</small><b id="period" style="font-size:14px">—</b></div></div></section>
 <section id="categories"><h2>1. Размер рынка по категориям</h2><p class="hint">Общий оборот онлайн-торговли по АКИТ: это контекст российского спроса, а не рейтинг товаров китайского происхождения и не прогноз прибыльности импорта.</p><div id="cat-list" class="table"></div><p class="hint" id="cat-source"></p></section>
-<section id="products"><h2>2. Китайские модели с наблюдаемыми покупками</h2><p class="hint">В карточке каждой модели — фактический счётчик покупок, реальная фотография, источник, риск импорта. Страна изготовления конкретной партии, оптовый поставщик и закупочная прибыль требуют отдельной проверки. Бренд китайский — это ещё не подтверждённое происхождение каждого экземпляра.</p><input id="search" placeholder="Поиск подтверждённых товаров" aria-label="Поиск подтверждённых товаров"><div id="items"></div><div id="empty" class="empty" hidden><h3>Нет карточек по текущему поиску</h3><p>Попробуйте другой поисковый запрос. Не подтверждённые товарные идеи хранятся отдельно и здесь не показываются.</p><p style="margin-top:12px"><a href="https://seller.ozon.ru/media/boost/kak-najti-hodovoj-tovar-dlya-torgovli-na-marketplejse/" target="_blank" rel="noopener noreferrer">Почему нужны данные продаж по SKU ↗</a></p></div></section>
+<section id="fashion"><h2>2. Куртки и верхняя одежда — фактический спрос</h2><p class="hint">Отдельная статистика по продажам в России. Не путайте рост подкатегории с продажами конкретной куртки.</p><div id="fashion-list" class="cards"></div></section>
+<section id="products"><h2>3. Китайские модели с наблюдаемыми покупками</h2><p class="hint">В карточке каждой модели — фактический счётчик покупок, реальная фотография, источник, риск импорта. Страна изготовления конкретной партии, оптовый поставщик и закупочная прибыль требуют отдельной проверки. Бренд китайский — это ещё не подтверждённое происхождение каждого экземпляра.</p><input id="search" placeholder="Поиск подтверждённых товаров" aria-label="Поиск подтверждённых товаров"><div id="items"></div><div id="empty" class="empty" hidden><h3>Нет карточек по текущему поиску</h3><p>Попробуйте другой поисковый запрос. Не подтверждённые товарные идеи хранятся отдельно и здесь не показываются.</p><p style="margin-top:12px"><a href="https://seller.ozon.ru/media/boost/kak-najti-hodovoj-tovar-dlya-torgovli-na-marketplejse/" target="_blank" rel="noopener noreferrer">Почему нужны данные продаж по SKU ↗</a></p></div></section>
 <footer class="foot">Product Radar • Рынок России: АКИТ • Товары китайских брендов: открытые предложения • Фабрика, себестоимость и документы ввоза ещё не проверены.</footer>
-</main><nav class="nav"><a href="#categories"><span>◉</span>Категории</a><a href="#products"><span>▦</span>Товары</a><a href="#refresh"><span>↻</span>Обновить</a></nav>
+</main><nav class="nav"><a href="#categories"><span>◉</span>Категории</a><a href="#fashion"><span>◈</span>Куртки</a><a href="#products"><span>▦</span>Товары</a><a href="#refresh"><span>↻</span>Обновить</a></nav>
 <script>
 (()=>{'use strict';
 const BASE='https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/verified/';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'?u.href:''}catch{return ''}};
 let categories=[],products=[];
+async function fashionStats(){
+const box=$('#fashion-list');if(!box)return;
+try{
+const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/verified/fashion_market_20261117.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
+const data=await r.json();
+const selected=(data.sources||[]).filter(s=>s.units_sold_million||s.orders_yoy_multiplier);
+box.innerHTML=selected.map(s=>{
+const num=s.units_sold_million?s.units_sold_million.toLocaleString('ru-RU')+' млн шт.':('×'+s.orders_yoy_multiplier.toLocaleString('ru-RU'));
+const label=s.units_sold_million?'Продано курток за июль–сентябрь 2026':'Рост заказов год к году';
+return '<article class="card"><div class="content"><span class="tag">'+esc(s.publisher)+'</span><div class="num">'+esc(num)+'</div><h3>'+esc(s.metric)+'</h3><p>'+esc(label)+'</p><p>'+esc(s.period)+'</p><p>'+esc(s.note)+'</p><a class="source" href="'+esc(safeUrl(s.url))+'" rel="noopener noreferrer" target="_blank">Посмотреть исследование ↗</a></div></article>';
+}).join('');
+}catch(e){box.innerHTML='<p class="hint">Данные о куртках временно недоступны. Повторите обновление.</p>'}
+}
 function validProduct(p){return p&&typeof p==='object'&&['id','name','category','image_url','image_source_url','image_source_title','product_url','evidence_source_url','evidence_date','evidence_metric','evidence_value'].every(k=>typeof p[k]==='string'&&p[k].trim())&&['image_url','image_source_url','product_url','evidence_source_url'].every(k=>safeUrl(p[k]))}
 function draw(){
 const q=$('#search').value.trim().toLowerCase();
@@ -39,7 +53,7 @@ $('#cat-list').innerHTML=categories.map(x=>'<div class="cat"><span class="rank">
 $('#cat-source').innerHTML='Источник: <a href="'+esc(safeUrl(c.source_url))+'" target="_blank" rel="noopener noreferrer">'+esc(c.source_name)+'</a> · проверено '+esc(c.verified_at);
 $('#cat-count').textContent=categories.length;$('#item-count').textContent=products.length;$('#period').textContent='янв–сен 2026';$('#status').textContent='Данные проверены: '+esc(c.verified_at)+'. Обновление исследования — каждые 3 дня; дата исследования не равна дате новых продаж.';draw()
 }catch(e){$('#status').textContent='Не удалось получить подтверждённые данные: '+e.message+'; последний успешный результат не заменён.'}finally{b.disabled=false}}
-$('#refresh').addEventListener('click',load);$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();window.scrollTo({top:0,behavior:'smooth'})});
-if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();
+$('#refresh').addEventListener('click',()=>{load();fashionStats()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();window.scrollTo({top:0,behavior:'smooth'})});
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();
 })();
 </script></body></html>
