@@ -32,10 +32,11 @@ def validate(cat_path,products_path):
         s=x.get("share_percent")
         if not isinstance(s,(int,float)) or not(0<s<=100):errors.append("Invalid category share")
     if not https_url(c.get("source_url")):errors.append("Missing official/reported category source")
+    if p.get("focus")!="import_from_china": errors.append("Catalogue must focus on China sourcing")
     products=p.get("products")
     if not isinstance(products,list):errors.append("products must be a list");products=[]
     ids=set()
-    required=("id","name","category","product_url","image_url","image_source_url","image_source_title","evidence_source_url","evidence_metric","evidence_value","evidence_date")
+    required=("id","name","category","product_url","image_url","image_source_url","image_source_title","evidence_source_url","evidence_metric","evidence_value","evidence_date","china_sourcing_status","import_risk","logistics_note")
     for x in products:
         name=x.get("id","<missing>") if isinstance(x,dict) else "<invalid>"
         if not isinstance(x,dict):errors.append("Non-object product");continue
@@ -49,6 +50,8 @@ def validate(cat_path,products_path):
         except (KeyError,ValueError,TypeError):errors.append(f"{name}: invalid evidence date")
         if x.get("evidence_type") not in ("documented_units_sold","documented_revenue","documented_bestseller_position"):
             errors.append(f"{name}: unsupported evidence_type")
+        if x.get("id","").startswith("PR-V-"): errors.append(f"{name}: legacy generic-market card not allowed")
+        if x.get("review_status")!="public_marketplace_counter_china_sourcing_unverified": errors.append(f"{name}: missing sourcing review status")
         if x.get("image_url","").lower().split("?")[0].endswith(".svg"):
             errors.append(f"{name}: SVG not a product photo")
     return errors,len(categories),len(products)
