@@ -1,8 +1,9 @@
 {
   "schema_version": "1.0",
   "currency": {
-    "state": "pending_first_run",
-    "updated_at": null
+    "state": "ok",
+    "updated_at": "2026-11-17T16:54:53+00:00",
+    "effective_date": "2026-11-18"
   },
   "research": {
     "state": "partial",
