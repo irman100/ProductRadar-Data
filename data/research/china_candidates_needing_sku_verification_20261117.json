@@ -1,0 +1,50 @@
+{
+  "status": "not_public",
+  "reason": "Catalogue-listing counters not uniquely bound to exact SKU; keep evidence for recheck",
+  "products": [
+    {
+      "id": "CN-RU-009",
+      "name": "UGREEN US261 (50152) — кабель USB-C/USB-C 60 Вт, 2 м",
+      "category": "Цифровая и бытовая техника",
+      "product_url": "https://market.yandex.ru/search?text=UGREEN%20US261%2050152",
+      "evidence_source_url": "https://market.yandex.ru/search?text=ugreen",
+      "evidence_value": "166 купили (предложение в списке)",
+      "image_url": "https://www.nayontelecom.com.bd/uploads/product/gallery/20260316618690996.png",
+      "image_source_url": "https://www.nayontelecom.com.bd/product/ugreen-us261-50152-60w-2m-type-c-to-type-c-braided-cable",
+      "image_source_title": "Реальная фотография указанной модели из карточки продавца",
+      "evidence_type": "documented_units_sold",
+      "evidence_metric": "Счётчик «купили» в публичном предложении Яндекс Маркета",
+      "evidence_date": "2026-11-17",
+      "image_checked_at": "2026-11-17",
+      "evidence_period": "Период не указан площадкой",
+      "evidence_scope": "catalogue_listing_not_periodized",
+      "china_sourcing_status": "Китайский бренд/линейка. Фабрика, возможность прямой закупки и страна производства конкретного SKU не проверены",
+      "origin_country_verified": false,
+      "import_risk": "Низкий чек и высокая конкуренция, проверить заявленный PD и долговечность",
+      "logistics_note": "Лёгкий аксессуар, без батарей; низкая стоимость увеличивает значение комиссии и доставки",
+      "review_status": "public_purchase_counter_observed_supplier_unverified"
+    },
+    {
+      "id": "CN-RU-010",
+      "name": "UGREEN LP428 (15846) — магнитный автомобильный держатель MagSafe",
+      "category": "Цифровая и бытовая техника",
+      "product_url": "https://market.yandex.ru/category/ugreen-derzhatel-dlya-telefona",
+      "evidence_source_url": "https://market.yandex.ru/category/ugreen-derzhatel-dlya-telefona",
+      "evidence_value": "76 купили (предложение в списке)",
+      "image_url": "https://b2b.innpro.pl/data/include/cms/012UGREEN/LP428-15846/4.jpg",
+      "image_source_url": "https://www.ugreen.pl/en/products/stands-mounts/car/magnetic-mount-car-ugreen-lp428-for-grille-148903",
+      "image_source_title": "Реальная фотография указанной модели из карточки продавца",
+      "evidence_type": "documented_units_sold",
+      "evidence_metric": "Счётчик «купили» в публичном предложении Яндекс Маркета",
+      "evidence_date": "2026-11-17",
+      "image_checked_at": "2026-11-17",
+      "evidence_period": "Период не указан площадкой",
+      "evidence_scope": "catalogue_listing_not_periodized",
+      "china_sourcing_status": "Китайский бренд/линейка. Фабрика, возможность прямой закупки и страна производства конкретного SKU не проверены",
+      "origin_country_verified": false,
+      "import_risk": "Совместимость с воздуховодами и MagSafe, влияние вибрации и перегрева",
+      "logistics_note": "Лёгкий аксессуар, нет батареи; проверить магниты и комплектацию",
+      "review_status": "public_purchase_counter_observed_supplier_unverified"
+    }
+  ]
+}
