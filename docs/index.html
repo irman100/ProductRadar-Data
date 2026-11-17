@@ -18,8 +18,13 @@
 <section id="categories"><h2>1. Размер рынка по категориям</h2><p class="hint">Общий оборот онлайн-торговли по АКИТ: это контекст российского спроса, а не рейтинг товаров китайского происхождения и не прогноз прибыльности импорта.</p><div id="cat-list" class="table"></div><p class="hint" id="cat-source"></p></section>
 <section id="fashion"><h2>2. Куртки и верхняя одежда — фактический спрос</h2><p class="hint">Отдельная статистика по продажам в России. Не путайте рост подкатегории с продажами конкретной куртки.</p><div id="fashion-list" class="cards"></div></section>
 <section id="products"><h2>3. Китайские модели с наблюдаемыми покупками</h2><p class="hint">В карточке каждой модели — фактический счётчик покупок, реальная фотография, источник, риск импорта. Страна изготовления конкретной партии, оптовый поставщик и закупочная прибыль требуют отдельной проверки. Бренд китайский — это ещё не подтверждённое происхождение каждого экземпляра.</p><input id="search" placeholder="Поиск подтверждённых товаров" aria-label="Поиск подтверждённых товаров"><div id="items"></div><div id="empty" class="empty" hidden><h3>Нет карточек по текущему поиску</h3><p>Попробуйте другой поисковый запрос. Не подтверждённые товарные идеи хранятся отдельно и здесь не показываются.</p><p style="margin-top:12px"><a href="https://seller.ozon.ru/media/boost/kak-najti-hodovoj-tovar-dlya-torgovli-na-marketplejse/" target="_blank" rel="noopener noreferrer">Почему нужны данные продаж по SKU ↗</a></p></div></section>
-<footer class="foot">Product Radar • Рынок России: АКИТ • Товары китайских брендов: открытые предложения • Фабрика, себестоимость и документы ввоза ещё не проверены.</footer>
-</main><nav class="nav"><a href="#categories"><span>◉</span>Категории</a><a href="#fashion"><span>◈</span>Куртки</a><a href="#products"><span>▦</span>Товары</a><a href="#refresh"><span>↻</span>Обновить</a></nav>
+<section id="candidates"><h2>4. Ассортимент для проверки — Китай → Россия</h2>
+<p class="hint">74 новых товарных направления: реальные продажи конкретных SKU и китайские поставщики пока НЕ подтверждены. Ссылки ведут на поисковые выдачи Ozon, Wildberries и 1688, а не на проверенные товарные карточки. Эти позиции не являются рекомендацией к закупке.</p>
+<div class="summary"><div class="stat"><small>Кандидатов к исследованию</small><b id="candidate-count">—</b></div><div class="stat"><small>Категорий</small><b id="candidate-cats">—</b></div><div class="stat"><small>Уровень доказательств</small><b style="font-size:14px">Гипотезы</b></div></div>
+<div class="actions"><input id="candidate-search" placeholder="Найти товар или категорию" aria-label="Поиск кандидатов"><select id="candidate-filter" aria-label="Категория кандидатов" style="padding:12px;border:1px solid #c8dacf;border-radius:10px;max-width:100%;background:#fff"><option value="">Все категории</option></select></div>
+<div id="candidate-status" class="hint" role="status">Загрузка кандидатов из GitHub…</div><div id="candidate-items" class="cards"></div></section>
+<footer class="foot">Гипотезы ассортимента показаны отдельно от подтверждённых счётчиков покупок. • Product Radar • Рынок России: АКИТ • Товары китайских брендов: открытые предложения • Фабрика, себестоимость и документы ввоза ещё не проверены.</footer>
+</main><nav class="nav"><a href="#categories"><span>◉</span>Категории</a><a href="#fashion"><span>◈</span>Куртки</a><a href="#products"><span>▦</span>Товары</a><a href="#candidates"><span>＋</span>Кандидаты</a><a href="#refresh"><span>↻</span>Обновить</a></nav>
 <script>
 (()=>{'use strict';
 const BASE='https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/verified/';
@@ -54,6 +59,31 @@ $('#cat-source').innerHTML='Источник: <a href="'+esc(safeUrl(c.source_ur
 $('#cat-count').textContent=categories.length;$('#item-count').textContent=products.length;$('#period').textContent='янв–сен 2026';$('#status').textContent='Данные проверены: '+esc(c.verified_at)+'. Обновление исследования — каждые 3 дня; дата исследования не равна дате новых продаж.';draw()
 }catch(e){$('#status').textContent='Не удалось получить подтверждённые данные: '+e.message+'; последний успешный результат не заменён.'}finally{b.disabled=false}}
 $('#refresh').addEventListener('click',()=>{load();fashionStats()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();window.scrollTo({top:0,behavior:'smooth'})});
-if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();
+
+let candidates=[];
+function drawCandidates(){
+ const q=$('#candidate-search').value.trim().toLowerCase(),cat=$('#candidate-filter').value;
+ const list=candidates.filter(p=>(!cat||p.category===cat)&&(p.name+' '+p.category+' '+p.chinese_query).toLowerCase().includes(q));
+ $('#candidate-status').textContent='Показано '+list.length+' из '+candidates.length+' кандидатов. Продажи SKU и поставщики не проверены.';
+ $('#candidate-items').innerHTML=list.map(p=>'<article class="card"><div class="content"><span class="tag">'+esc(p.category)+'</span><h3>'+esc(p.name)+'</h3><div class="scope">На исследовании · спрос SKU не подтверждён</div><p><b>Поиск на китайском:</b> '+esc(p.chinese_query)+'</p><p><b>Риски:</b> '+esc(p.risks||'Нужна проверка')+'</p><a class="source" target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(p.ru_search_links.ozon))+'">Похожие товары на Ozon ↗</a><a class="source" target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(p.ru_search_links.wildberries))+'">Похожие товары на Wildberries ↗</a><a class="source" target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(p.ru_search_links.china_1688_search))+'">Поиск поставщика на 1688 ↗</a></div></article>').join('')||'<div class="empty">Совпадений нет. Измените поиск или категорию.</div>';
+}
+async function loadCandidates(){
+ try{
+  const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/research/assortment_candidates_20261117.json?v='+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw Error('HTTP '+r.status);
+  const d=await r.json();
+  if(!Array.isArray(d.products)||d.data_kind!=='expert_hypotheses')throw Error('Неверный формат');
+  const valid=p=>p&&typeof p.id==='string'&&typeof p.name==='string'&&typeof p.category==='string'&&typeof p.chinese_query==='string'&&p.evidence_level==='unverified_product_hypothesis'&&p.ru_search_links&&['ozon','wildberries','china_1688_search'].every(k=>safeUrl(p.ru_search_links[k]));
+  candidates=d.products.filter(valid);
+  const cats=[...new Set(candidates.map(p=>p.category))];
+  $('#candidate-filter').innerHTML='<option value="">Все категории</option>'+cats.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
+  $('#candidate-count').textContent=candidates.length;$('#candidate-cats').textContent=cats.length;
+  drawCandidates();
+ }catch(e){$('#candidate-status').textContent='Не удалось загрузить кандидатов: '+e.message;}
+}
+$('#candidate-search').addEventListener('input',drawCandidates);
+$('#candidate-filter').addEventListener('change',drawCandidates);
+
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();loadCandidates();
 })();
 </script></body></html>
