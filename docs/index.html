@@ -98,7 +98,7 @@ $('#shop-search').addEventListener('input',drawOffers);
 
 async function loadReport(){
  try{
-  const url='https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/reports/2026-11-17.json?v='+Date.now();
+  const url='https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/reports/latest.json?v='+Date.now();
   const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
   const d=await r.json();if(d.report_type!=='evidence_based_editorial'||!Array.isArray(d.findings))throw Error('Неверный формат');
   $('#report-date').textContent=d.published_at;
