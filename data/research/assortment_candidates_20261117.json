@@ -1,0 +1,1417 @@
+{
+  "schema_version": "1.0",
+  "market": "RU",
+  "status": "partial",
+  "researched_at": null,
+  "created_at": "2026-11-17",
+  "data_kind": "expert_hypotheses",
+  "notice": "74 кандидата без подтверждённых продаж SKU, поставщиков и цен закупки. Ссылки являются поисковыми запросами. Нельзя считать их проверенными товарами или рекомендациями к закупке.",
+  "products": [
+    {
+      "id": "PR-CAND-001",
+      "name": "Женский длинный стёганый пуховик с капюшоном",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款长款连帽羽绒服",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D1%82%D1%91%D0%B3%D0%B0%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D0%BA%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D1%82%D1%91%D0%B3%D0%B0%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D0%BA%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E9%95%BF%E6%AC%BE%E8%BF%9E%E5%B8%BD%E7%BE%BD%E7%BB%92%E6%9C%8D"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-002",
+      "name": "Женский короткий пуховик оверсайз",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款短款宽松羽绒服",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D0%BA%20%D0%BE%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%B9%D0%B7",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D0%BA%20%D0%BE%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%B9%D0%B7",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E7%9F%AD%E6%AC%BE%E5%AE%BD%E6%9D%BE%E7%BE%BD%E7%BB%92%E6%9C%8D"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-003",
+      "name": "Женская удлинённая куртка с синтетическим утеплителем",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款中长款棉服",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%B4%D0%BB%D0%B8%D0%BD%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%B4%D0%BB%D0%B8%D0%BD%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E4%B8%AD%E9%95%BF%E6%AC%BE%E6%A3%89%E6%9C%8D"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-004",
+      "name": "Женский демисезонный стёганый бомбер",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款菱格夹克",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B5%D0%BC%D0%B8%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D1%82%D1%91%D0%B3%D0%B0%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%BE%D0%BC%D0%B1%D0%B5%D1%80",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B5%D0%BC%D0%B8%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D1%82%D1%91%D0%B3%D0%B0%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%BE%D0%BC%D0%B1%D0%B5%D1%80",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E8%8F%B1%E6%A0%BC%E5%A4%B9%E5%85%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-005",
+      "name": "Женская непромокаемая ветровка с капюшоном",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款防水连帽冲锋衣",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BC%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BC%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E9%98%B2%E6%B0%B4%E8%BF%9E%E5%B8%BD%E5%86%B2%E9%94%8B%E8%A1%A3"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-006",
+      "name": "Женская куртка софтшелл",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款软壳外套",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D1%88%D0%B5%D0%BB%D0%BB",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D1%88%D0%B5%D0%BB%D0%BB",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E8%BD%AF%E5%A3%B3%E5%A4%96%E5%A5%97"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-007",
+      "name": "Женская флисовая куртка на молнии",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款摇粒绒抓绒外套",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E6%91%87%E7%B2%92%E7%BB%92%E6%8A%93%E7%BB%92%E5%A4%96%E5%A5%97"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-008",
+      "name": "Мужской короткий пуховик с капюшоном",
+      "category": "Верхняя одежда",
+      "chinese_query": "男款短款连帽羽绒服",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D0%BA%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D0%BA%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E6%AC%BE%E7%9F%AD%E6%AC%BE%E8%BF%9E%E5%B8%BD%E7%BE%BD%E7%BB%92%E6%9C%8D"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-009",
+      "name": "Мужская удлинённая зимняя парка",
+      "category": "Верхняя одежда",
+      "chinese_query": "男款中长款冬季派克服",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%B4%D0%BB%D0%B8%D0%BD%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B7%D0%B8%D0%BC%D0%BD%D1%8F%D1%8F%20%D0%BF%D0%B0%D1%80%D0%BA%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%B4%D0%BB%D0%B8%D0%BD%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B7%D0%B8%D0%BC%D0%BD%D1%8F%D1%8F%20%D0%BF%D0%B0%D1%80%D0%BA%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E6%AC%BE%E4%B8%AD%E9%95%BF%E6%AC%BE%E5%86%AC%E5%AD%A3%E6%B4%BE%E5%85%8B%E6%9C%8D"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-010",
+      "name": "Мужская куртка софтшелл на флисе",
+      "category": "Верхняя одежда",
+      "chinese_query": "男款加绒软壳冲锋衣",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D1%88%D0%B5%D0%BB%D0%BB%20%D0%BD%D0%B0%20%D1%84%D0%BB%D0%B8%D1%81%D0%B5",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D1%88%D0%B5%D0%BB%D0%BB%20%D0%BD%D0%B0%20%D1%84%D0%BB%D0%B8%D1%81%D0%B5",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E6%AC%BE%E5%8A%A0%E7%BB%92%E8%BD%AF%E5%A3%B3%E5%86%B2%E9%94%8B%E8%A1%A3"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-011",
+      "name": "Мужская лёгкая складная ветровка",
+      "category": "Верхняя одежда",
+      "chinese_query": "男款轻薄防风夹克",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BB%D1%91%D0%B3%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%BA%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BB%D1%91%D0%B3%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%BA%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E6%AC%BE%E8%BD%BB%E8%96%84%E9%98%B2%E9%A3%8E%E5%A4%B9%E5%85%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-012",
+      "name": "Мужская стёганая демисезонная куртка",
+      "category": "Верхняя одежда",
+      "chinese_query": "男款绗缝夹克",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D1%82%D1%91%D0%B3%D0%B0%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%B5%D0%BC%D0%B8%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D1%82%D1%91%D0%B3%D0%B0%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%B5%D0%BC%D0%B8%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E6%AC%BE%E7%BB%97%E7%BC%9D%E5%A4%B9%E5%85%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-013",
+      "name": "Мужской флисовый жилет",
+      "category": "Верхняя одежда",
+      "chinese_query": "男款抓绒马甲",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B6%D0%B8%D0%BB%D0%B5%D1%82",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B6%D0%B8%D0%BB%D0%B5%D1%82",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E6%AC%BE%E6%8A%93%E7%BB%92%E9%A9%AC%E7%94%B2"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-014",
+      "name": "Женский утеплённый жилет с капюшоном",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款连帽棉马甲",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B6%D0%B8%D0%BB%D0%B5%D1%82%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B6%D0%B8%D0%BB%D0%B5%D1%82%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E8%BF%9E%E5%B8%BD%E6%A3%89%E9%A9%AC%E7%94%B2"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-015",
+      "name": "Детская утеплённая куртка унисекс",
+      "category": "Верхняя одежда",
+      "chinese_query": "儿童加厚棉服",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%83%D0%BD%D0%B8%D1%81%D0%B5%D0%BA%D1%81",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%83%D0%BD%D0%B8%D1%81%D0%B5%D0%BA%D1%81",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%84%BF%E7%AB%A5%E5%8A%A0%E5%8E%9A%E6%A3%89%E6%9C%8D"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-016",
+      "name": "Детская демисезонная ветровка",
+      "category": "Верхняя одежда",
+      "chinese_query": "儿童春秋防风外套",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B4%D0%B5%D0%BC%D0%B8%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%BA%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B4%D0%B5%D0%BC%D0%B8%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%BA%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%84%BF%E7%AB%A5%E6%98%A5%E7%A7%8B%E9%98%B2%E9%A3%8E%E5%A4%96%E5%A5%97"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-017",
+      "name": "Детский комплект куртка и полукомбинезон",
+      "category": "Верхняя одежда",
+      "chinese_query": "儿童冬季滑雪服套装",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%BF%D0%BE%D0%BB%D1%83%D0%BA%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B5%D0%B7%D0%BE%D0%BD",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%BF%D0%BE%D0%BB%D1%83%D0%BA%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B5%D0%B7%D0%BE%D0%BD",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%84%BF%E7%AB%A5%E5%86%AC%E5%AD%A3%E6%BB%91%E9%9B%AA%E6%9C%8D%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-018",
+      "name": "Женский лёгкий тренч без подкладки",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款轻薄风衣",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D1%91%D0%B3%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B5%D0%BD%D1%87%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D1%91%D0%B3%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B5%D0%BD%D1%87%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E8%BD%BB%E8%96%84%E9%A3%8E%E8%A1%A3"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-019",
+      "name": "Мужской утеплённый бомбер",
+      "category": "Верхняя одежда",
+      "chinese_query": "男款加厚飞行夹克",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%BE%D0%BC%D0%B1%D0%B5%D1%80",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%BE%D0%BC%D0%B1%D0%B5%D1%80",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E6%AC%BE%E5%8A%A0%E5%8E%9A%E9%A3%9E%E8%A1%8C%E5%A4%B9%E5%85%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-020",
+      "name": "Женская спортивная куртка на молнии",
+      "category": "Верхняя одежда",
+      "chinese_query": "女款运动拉链外套",
+      "risks": "Размеры, маркировка, свойства ткани, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E6%AC%BE%E8%BF%90%E5%8A%A8%E6%8B%89%E9%93%BE%E5%A4%96%E5%A5%97"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-021",
+      "name": "Женский трикотажный домашний костюм",
+      "category": "Базовая одежда",
+      "chinese_query": "女士家居服套装",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B8%D0%BA%D0%BE%D1%82%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D1%81%D1%82%D1%8E%D0%BC",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B8%D0%BA%D0%BE%D1%82%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D1%81%D1%82%D1%8E%D0%BC",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E5%A3%AB%E5%AE%B6%E5%B1%85%E6%9C%8D%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-022",
+      "name": "Мужской флисовый домашний костюм",
+      "category": "Базовая одежда",
+      "chinese_query": "男士抓绒家居服套装",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D1%81%D1%82%D1%8E%D0%BC",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D1%81%D1%82%D1%8E%D0%BC",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E5%A3%AB%E6%8A%93%E7%BB%92%E5%AE%B6%E5%B1%85%E6%9C%8D%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-023",
+      "name": "Женские утеплённые леггинсы",
+      "category": "Базовая одежда",
+      "chinese_query": "女士加绒打底裤",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B5%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BB%D0%B5%D0%B3%D0%B3%D0%B8%D0%BD%D1%81%D1%8B",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B5%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BB%D0%B5%D0%B3%D0%B3%D0%B8%D0%BD%D1%81%D1%8B",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E5%A3%AB%E5%8A%A0%E7%BB%92%E6%89%93%E5%BA%95%E8%A3%A4"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-024",
+      "name": "Мужские термобрюки",
+      "category": "Базовая одежда",
+      "chinese_query": "男士保暖裤",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B8%D0%B5%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D0%B1%D1%80%D1%8E%D0%BA%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B8%D0%B5%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D0%B1%D1%80%D1%8E%D0%BA%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E5%A3%AB%E4%BF%9D%E6%9A%96%E8%A3%A4"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-025",
+      "name": "Женский лонгслив базовый",
+      "category": "Базовая одежда",
+      "chinese_query": "女士纯色长袖T恤",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%BE%D0%BD%D0%B3%D1%81%D0%BB%D0%B8%D0%B2%20%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%BE%D0%BD%D0%B3%D1%81%D0%BB%D0%B8%D0%B2%20%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E5%A3%AB%E7%BA%AF%E8%89%B2%E9%95%BF%E8%A2%96T%E6%81%A4"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-026",
+      "name": "Мужской хлопковый лонгслив",
+      "category": "Базовая одежда",
+      "chinese_query": "男士纯棉长袖T恤",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D1%85%D0%BB%D0%BE%D0%BF%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BB%D0%BE%D0%BD%D0%B3%D1%81%D0%BB%D0%B8%D0%B2",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9%20%D1%85%D0%BB%D0%BE%D0%BF%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BB%D0%BE%D0%BD%D0%B3%D1%81%D0%BB%D0%B8%D0%B2",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E5%A3%AB%E7%BA%AF%E6%A3%89%E9%95%BF%E8%A2%96T%E6%81%A4"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-027",
+      "name": "Женская толстовка оверсайз без принта",
+      "category": "Базовая одежда",
+      "chinese_query": "女士宽松连帽卫衣",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%82%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BE%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%B9%D0%B7%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%82%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BE%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%B9%D0%B7%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E5%A3%AB%E5%AE%BD%E6%9D%BE%E8%BF%9E%E5%B8%BD%E5%8D%AB%E8%A1%A3"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-028",
+      "name": "Мужская толстовка на молнии",
+      "category": "Базовая одежда",
+      "chinese_query": "男士拉链连帽卫衣",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D1%82%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D1%82%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%94%B7%E5%A3%AB%E6%8B%89%E9%93%BE%E8%BF%9E%E5%B8%BD%E5%8D%AB%E8%A1%A3"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-029",
+      "name": "Комплект спортивных носков 5 пар",
+      "category": "Базовая одежда",
+      "chinese_query": "运动袜五双装",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85%20%D0%BD%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%205%20%D0%BF%D0%B0%D1%80",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85%20%D0%BD%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%205%20%D0%BF%D0%B0%D1%80",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BF%90%E5%8A%A8%E8%A2%9C%E4%BA%94%E5%8F%8C%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-030",
+      "name": "Утеплённая шапка бини",
+      "category": "Базовая одежда",
+      "chinese_query": "加厚针织帽",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A3%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%88%D0%B0%D0%BF%D0%BA%D0%B0%20%D0%B1%D0%B8%D0%BD%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A3%D1%82%D0%B5%D0%BF%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%88%D0%B0%D0%BF%D0%BA%D0%B0%20%D0%B1%D0%B8%D0%BD%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%8A%A0%E5%8E%9A%E9%92%88%E7%BB%87%E5%B8%BD"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-031",
+      "name": "Комплект бафф и перчатки",
+      "category": "Базовая одежда",
+      "chinese_query": "围脖手套套装",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%20%D0%B1%D0%B0%D1%84%D1%84%20%D0%B8%20%D0%BF%D0%B5%D1%80%D1%87%D0%B0%D1%82%D0%BA%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%20%D0%B1%D0%B0%D1%84%D1%84%20%D0%B8%20%D0%BF%D0%B5%D1%80%D1%87%D0%B0%D1%82%D0%BA%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%9B%B4%E8%84%96%E6%89%8B%E5%A5%97%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-032",
+      "name": "Женская спортивная футболка быстросохнущая",
+      "category": "Базовая одежда",
+      "chinese_query": "女士速干运动T恤",
+      "risks": "Размеры, состав ткани, маркировка, возвраты",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D1%81%D0%BE%D1%85%D0%BD%D1%83%D1%89%D0%B0%D1%8F",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D1%81%D0%BE%D1%85%D0%BD%D1%83%D1%89%D0%B0%D1%8F",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A5%B3%E5%A3%AB%E9%80%9F%E5%B9%B2%E8%BF%90%E5%8A%A8T%E6%81%A4"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-033",
+      "name": "Раздвижные разделители для ящиков, набор",
+      "category": "Товары для дома",
+      "chinese_query": "可伸缩抽屉隔板套装",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A0%D0%B0%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%8F%D1%89%D0%B8%D0%BA%D0%BE%D0%B2%2C%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A0%D0%B0%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%8F%D1%89%D0%B8%D0%BA%D0%BE%D0%B2%2C%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%8F%AF%E4%BC%B8%E7%BC%A9%E6%8A%BD%E5%B1%89%E9%9A%94%E6%9D%BF%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-034",
+      "name": "Вакуумные пакеты с ручным насосом",
+      "category": "Товары для дома",
+      "chinese_query": "真空收纳袋手泵套装",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%92%D0%B0%D0%BA%D1%83%D1%83%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D1%8B%20%D1%81%20%D1%80%D1%83%D1%87%D0%BD%D1%8B%D0%BC%20%D0%BD%D0%B0%D1%81%D0%BE%D1%81%D0%BE%D0%BC",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%92%D0%B0%D0%BA%D1%83%D1%83%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D1%8B%20%D1%81%20%D1%80%D1%83%D1%87%D0%BD%D1%8B%D0%BC%20%D0%BD%D0%B0%D1%81%D0%BE%D1%81%D0%BE%D0%BC",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%9C%9F%E7%A9%BA%E6%94%B6%E7%BA%B3%E8%A2%8B%E6%89%8B%E6%B3%B5%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-035",
+      "name": "Складной короб для хранения одежды",
+      "category": "Товары для дома",
+      "chinese_query": "衣物折叠收纳箱",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%20%D0%B4%D0%BB%D1%8F%20%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%20%D0%B4%D0%BB%D1%8F%20%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%A1%A3%E7%89%A9%E6%8A%98%E5%8F%A0%E6%94%B6%E7%BA%B3%E7%AE%B1"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-036",
+      "name": "Органайзер подвесной для шкафа",
+      "category": "Товары для дома",
+      "chinese_query": "衣柜悬挂收纳袋",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%BF%D0%BE%D0%B4%D0%B2%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%20%D0%B4%D0%BB%D1%8F%20%D1%88%D0%BA%D0%B0%D1%84%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%BF%D0%BE%D0%B4%D0%B2%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%20%D0%B4%D0%BB%D1%8F%20%D1%88%D0%BA%D0%B0%D1%84%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%A1%A3%E6%9F%9C%E6%82%AC%E6%8C%82%E6%94%B6%E7%BA%B3%E8%A2%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-037",
+      "name": "Органайзер под раковину двухъярусный",
+      "category": "Товары для дома",
+      "chinese_query": "水槽下双层收纳架",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%BF%D0%BE%D0%B4%20%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D1%83%20%D0%B4%D0%B2%D1%83%D1%85%D1%8A%D1%8F%D1%80%D1%83%D1%81%D0%BD%D1%8B%D0%B9",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%BF%D0%BE%D0%B4%20%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D1%83%20%D0%B4%D0%B2%D1%83%D1%85%D1%8A%D1%8F%D1%80%D1%83%D1%81%D0%BD%D1%8B%D0%B9",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B0%B4%E6%A7%BD%E4%B8%8B%E5%8F%8C%E5%B1%82%E6%94%B6%E7%BA%B3%E6%9E%B6"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-038",
+      "name": "Крючки без сверления, комплект",
+      "category": "Товары для дома",
+      "chinese_query": "免打孔挂钩套装",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9A%D1%80%D1%8E%D1%87%D0%BA%D0%B8%20%D0%B1%D0%B5%D0%B7%20%D1%81%D0%B2%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D1%80%D1%8E%D1%87%D0%BA%D0%B8%20%D0%B1%D0%B5%D0%B7%20%D1%81%D0%B2%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%85%8D%E6%89%93%E5%AD%94%E6%8C%82%E9%92%A9%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-039",
+      "name": "Мешки для стирки деликатных вещей",
+      "category": "Товары для дома",
+      "chinese_query": "洗衣护洗袋套装",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D0%B5%D1%88%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%81%D1%82%D0%B8%D1%80%D0%BA%D0%B8%20%D0%B4%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B5%D1%89%D0%B5%D0%B9",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D0%B5%D1%88%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%81%D1%82%D0%B8%D1%80%D0%BA%D0%B8%20%D0%B4%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B5%D1%89%D0%B5%D0%B9",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B4%97%E8%A1%A3%E6%8A%A4%E6%B4%97%E8%A2%8B%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-040",
+      "name": "Щётка для чистки оконных направляющих",
+      "category": "Товары для дома",
+      "chinese_query": "窗槽清洁刷",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A9%D1%91%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8%20%D0%BE%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D1%85",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A9%D1%91%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8%20%D0%BE%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D1%85",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%AA%97%E6%A7%BD%E6%B8%85%E6%B4%81%E5%88%B7"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-041",
+      "name": "Щётка для удаления шерсти с мебели",
+      "category": "Товары для дома",
+      "chinese_query": "沙发宠物毛发清洁刷",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A9%D1%91%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%88%D0%B5%D1%80%D1%81%D1%82%D0%B8%20%D1%81%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A9%D1%91%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%88%D0%B5%D1%80%D1%81%D1%82%D0%B8%20%D1%81%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B2%99%E5%8F%91%E5%AE%A0%E7%89%A9%E6%AF%9B%E5%8F%91%E6%B8%85%E6%B4%81%E5%88%B7"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-042",
+      "name": "Органайзер для кабелей и зарядок",
+      "category": "Товары для дома",
+      "chinese_query": "数据线收纳包",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%B8%20%D0%B7%D0%B0%D1%80%D1%8F%D0%B4%D0%BE%D0%BA",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%B8%20%D0%B7%D0%B0%D1%80%D1%8F%D0%B4%D0%BE%D0%BA",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%95%B0%E6%8D%AE%E7%BA%BF%E6%94%B6%E7%BA%B3%E5%8C%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-043",
+      "name": "Набор силиконовых крышек разного диаметра",
+      "category": "Товары для дома",
+      "chinese_query": "硅胶保鲜盖套装",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BA%D1%80%D1%8B%D1%88%D0%B5%D0%BA%20%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B8%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BA%D1%80%D1%8B%D1%88%D0%B5%D0%BA%20%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B8%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%A1%85%E8%83%B6%E4%BF%9D%E9%B2%9C%E7%9B%96%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-044",
+      "name": "Силиконовые вкладыши для аэрофритюрницы",
+      "category": "Товары для дома",
+      "chinese_query": "空气炸锅硅胶垫",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A1%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4%D1%8B%D1%88%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D1%8D%D1%80%D0%BE%D1%84%D1%80%D0%B8%D1%82%D1%8E%D1%80%D0%BD%D0%B8%D1%86%D1%8B",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A1%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4%D1%8B%D1%88%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D1%8D%D1%80%D0%BE%D1%84%D1%80%D0%B8%D1%82%D1%8E%D1%80%D0%BD%D0%B8%D1%86%D1%8B",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%A1%85%E8%83%B6%E5%9E%AB"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-045",
+      "name": "Раскладная сушилка для посуды",
+      "category": "Товары для дома",
+      "chinese_query": "折叠沥水架",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A0%D0%B0%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D1%88%D0%B8%D0%BB%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D1%81%D1%83%D0%B4%D1%8B",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A0%D0%B0%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D1%88%D0%B8%D0%BB%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D1%81%D1%83%D0%B4%D1%8B",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%8A%98%E5%8F%A0%E6%B2%A5%E6%B0%B4%E6%9E%B6"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-046",
+      "name": "Коврик для обуви водоотталкивающий",
+      "category": "Товары для дома",
+      "chinese_query": "鞋垫防水地垫",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9A%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%B1%D1%83%D0%B2%D0%B8%20%D0%B2%D0%BE%D0%B4%D0%BE%D0%BE%D1%82%D1%82%D0%B0%D0%BB%D0%BA%D0%B8%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%B1%D1%83%D0%B2%D0%B8%20%D0%B2%D0%BE%D0%B4%D0%BE%D0%BE%D1%82%D1%82%D0%B0%D0%BB%D0%BA%D0%B8%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%9E%8B%E5%9E%AB%E9%98%B2%E6%B0%B4%E5%9C%B0%E5%9E%AB"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-047",
+      "name": "Чехол для сезонной одежды с молнией",
+      "category": "Товары для дома",
+      "chinese_query": "衣服防尘收纳袋",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A7%D0%B5%D1%85%D0%BE%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D1%81%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B5%D0%B9",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A7%D0%B5%D1%85%D0%BE%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D1%81%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B5%D0%B9",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%A1%A3%E6%9C%8D%E9%98%B2%E5%B0%98%E6%94%B6%E7%BA%B3%E8%A2%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-048",
+      "name": "Коврик для кухонной раковины",
+      "category": "Товары для дома",
+      "chinese_query": "水槽防溅垫",
+      "risks": "Качество, материалы, объёмный вес, документы",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9A%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D1%83%D1%85%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D1%8B",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D1%83%D1%85%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D1%8B",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B0%B4%E6%A7%BD%E9%98%B2%E6%BA%85%E5%9E%AB"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-049",
+      "name": "Складной органайзер багажника с перегородками",
+      "category": "Автоаксессуары",
+      "chinese_query": "汽车后备箱折叠收纳箱",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B1%D0%B0%D0%B3%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA%D0%B0%20%D1%81%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BA%D0%B0%D0%BC%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B1%D0%B0%D0%B3%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA%D0%B0%20%D1%81%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BA%D0%B0%D0%BC%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%A4%87%E7%AE%B1%E6%8A%98%E5%8F%A0%E6%94%B6%E7%BA%B3%E7%AE%B1"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-050",
+      "name": "Органайзер на спинку сиденья",
+      "category": "Автоаксессуары",
+      "chinese_query": "汽车座椅后背收纳袋",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D1%83%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D1%8F",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D1%83%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D1%8F",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B1%BD%E8%BD%A6%E5%BA%A7%E6%A4%85%E5%90%8E%E8%83%8C%E6%94%B6%E7%BA%B3%E8%A2%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-051",
+      "name": "Крючки на подголовник автомобиля",
+      "category": "Автоаксессуары",
+      "chinese_query": "汽车头枕挂钩",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9A%D1%80%D1%8E%D1%87%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D1%80%D1%8E%D1%87%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B1%BD%E8%BD%A6%E5%A4%B4%E6%9E%95%E6%8C%82%E9%92%A9"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-052",
+      "name": "Мешок для автомобильного мусора",
+      "category": "Автоаксессуары",
+      "chinese_query": "车载垃圾袋",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D0%B5%D1%88%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D1%83%D1%81%D0%BE%D1%80%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D0%B5%D1%88%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D1%83%D1%81%D0%BE%D1%80%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BD%A6%E8%BD%BD%E5%9E%83%E5%9C%BE%E8%A2%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-053",
+      "name": "Автомобильная салфетка из микрофибры, набор",
+      "category": "Автоаксессуары",
+      "chinese_query": "汽车清洁超细纤维毛巾",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B0%D0%BB%D1%84%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B8%D0%B7%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%B8%D0%B1%D1%80%D1%8B%2C%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B0%D0%BB%D1%84%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B8%D0%B7%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%B8%D0%B1%D1%80%D1%8B%2C%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B1%BD%E8%BD%A6%E6%B8%85%E6%B4%81%E8%B6%85%E7%BB%86%E7%BA%A4%E7%BB%B4%E6%AF%9B%E5%B7%BE"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-054",
+      "name": "Набор щёток для салона автомобиля",
+      "category": "Автоаксессуары",
+      "chinese_query": "汽车内饰清洁刷套装",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D1%89%D1%91%D1%82%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D1%89%D1%91%D1%82%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B1%BD%E8%BD%A6%E5%86%85%E9%A5%B0%E6%B8%85%E6%B4%81%E5%88%B7%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-055",
+      "name": "Солнцезащитная шторка на лобовое стекло",
+      "category": "Автоаксессуары",
+      "chinese_query": "汽车前挡遮阳帘",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B0%D1%8F%20%D1%88%D1%82%D0%BE%D1%80%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BB%D0%BE%D0%B1%D0%BE%D0%B2%D0%BE%D0%B5%20%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%BE",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B0%D1%8F%20%D1%88%D1%82%D0%BE%D1%80%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BB%D0%BE%D0%B1%D0%BE%D0%B2%D0%BE%D0%B5%20%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%BE",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B1%BD%E8%BD%A6%E5%89%8D%E6%8C%A1%E9%81%AE%E9%98%B3%E5%B8%98"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-056",
+      "name": "Органайзер для документов водителя",
+      "category": "Автоаксессуары",
+      "chinese_query": "汽车证件收纳包",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B1%BD%E8%BD%A6%E8%AF%81%E4%BB%B6%E6%94%B6%E7%BA%B3%E5%8C%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-057",
+      "name": "Многоразовый ролик для удаления шерсти из салона",
+      "category": "Автоаксессуары",
+      "chinese_query": "车内宠物毛发清洁器",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%80%D0%BE%D0%BB%D0%B8%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%88%D0%B5%D1%80%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%20%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%80%D0%BE%D0%BB%D0%B8%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%88%D0%B5%D1%80%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%20%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BD%A6%E5%86%85%E5%AE%A0%E7%89%A9%E6%AF%9B%E5%8F%91%E6%B8%85%E6%B4%81%E5%99%A8"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-058",
+      "name": "Боковой органайзер для сиденья без электрики",
+      "category": "Автоаксессуары",
+      "chinese_query": "汽车座椅缝隙收纳盒",
+      "risks": "Совместимость, прочность, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%91%D0%BE%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D1%8F%20%D0%B1%D0%B5%D0%B7%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D0%BA%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%91%D0%BE%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D1%8F%20%D0%B1%D0%B5%D0%B7%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D0%BA%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B1%BD%E8%BD%A6%E5%BA%A7%E6%A4%85%E7%BC%9D%E9%9A%99%E6%94%B6%E7%BA%B3%E7%9B%92"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-059",
+      "name": "Складная силиконовая миска для собак",
+      "category": "Зоотовары",
+      "chinese_query": "宠物折叠硅胶碗",
+      "risks": "Безопасность, материалы, износостойкость",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BC%D0%B8%D1%81%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BC%D0%B8%D1%81%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%AE%A0%E7%89%A9%E6%8A%98%E5%8F%A0%E7%A1%85%E8%83%B6%E7%A2%97"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-060",
+      "name": "Дорожная бутылка-поилка для собак",
+      "category": "Зоотовары",
+      "chinese_query": "宠物外出饮水壶",
+      "risks": "Безопасность, материалы, износостойкость",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%94%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B8%D0%BB%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%94%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B8%D0%BB%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%AE%A0%E7%89%A9%E5%A4%96%E5%87%BA%E9%A5%AE%E6%B0%B4%E5%A3%B6"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-061",
+      "name": "Коврик под миски животных",
+      "category": "Зоотовары",
+      "chinese_query": "宠物食盆防滑垫",
+      "risks": "Безопасность, материалы, износостойкость",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9A%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%BF%D0%BE%D0%B4%20%D0%BC%D0%B8%D1%81%D0%BA%D0%B8%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%BF%D0%BE%D0%B4%20%D0%BC%D0%B8%D1%81%D0%BA%D0%B8%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%AE%A0%E7%89%A9%E9%A3%9F%E7%9B%86%E9%98%B2%E6%BB%91%E5%9E%AB"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-062",
+      "name": "Щётка для вычёсывания шерсти кошек",
+      "category": "Зоотовары",
+      "chinese_query": "猫咪梳毛刷",
+      "risks": "Безопасность, материалы, износостойкость",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A9%D1%91%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D1%8B%D1%87%D1%91%D1%81%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%88%D0%B5%D1%80%D1%81%D1%82%D0%B8%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BA",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A9%D1%91%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D1%8B%D1%87%D1%91%D1%81%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%88%D0%B5%D1%80%D1%81%D1%82%D0%B8%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BA",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%8C%AB%E5%92%AA%E6%A2%B3%E6%AF%9B%E5%88%B7"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-063",
+      "name": "Защитный чехол на автомобильное сиденье для питомца",
+      "category": "Зоотовары",
+      "chinese_query": "宠物汽车座椅保护垫",
+      "risks": "Безопасность, материалы, износостойкость",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B5%D1%85%D0%BE%D0%BB%20%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B8%D1%82%D0%BE%D0%BC%D1%86%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B5%D1%85%D0%BE%D0%BB%20%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B8%D1%82%D0%BE%D0%BC%D1%86%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%AE%A0%E7%89%A9%E6%B1%BD%E8%BD%A6%E5%BA%A7%E6%A4%85%E4%BF%9D%E6%8A%A4%E5%9E%AB"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-064",
+      "name": "Игровой тоннель для кошек",
+      "category": "Зоотовары",
+      "chinese_query": "猫咪玩具隧道",
+      "risks": "Безопасность, материалы, износостойкость",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%82%D0%BE%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BA",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%82%D0%BE%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BA",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%8C%AB%E5%92%AA%E7%8E%A9%E5%85%B7%E9%9A%A7%E9%81%93"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-065",
+      "name": "Складная сумка для лакомств на прогулку",
+      "category": "Зоотовары",
+      "chinese_query": "宠物训练零食包",
+      "risks": "Безопасность, материалы, износостойкость",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D0%BC%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BB%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B3%D1%83%D0%BB%D0%BA%D1%83",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D0%BC%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BB%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B3%D1%83%D0%BB%D0%BA%D1%83",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%AE%A0%E7%89%A9%E8%AE%AD%E7%BB%83%E9%9B%B6%E9%A3%9F%E5%8C%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-066",
+      "name": "Нескользящий коврик для лотка",
+      "category": "Зоотовары",
+      "chinese_query": "猫砂防带出垫",
+      "risks": "Безопасность, материалы, износостойкость",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9D%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%BB%D0%BE%D1%82%D0%BA%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9D%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%BB%D0%BE%D1%82%D0%BA%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%8C%AB%E7%A0%82%E9%98%B2%E5%B8%A6%E5%87%BA%E5%9E%AB"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-067",
+      "name": "Фитнес-резинки из ткани, набор",
+      "category": "Спорт и поездки",
+      "chinese_query": "布艺健身弹力圈套装",
+      "risks": "Надёжность, размеры, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A4%D0%B8%D1%82%D0%BD%D0%B5%D1%81-%D1%80%D0%B5%D0%B7%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%B8%D0%B7%20%D1%82%D0%BA%D0%B0%D0%BD%D0%B8%2C%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A4%D0%B8%D1%82%D0%BD%D0%B5%D1%81-%D1%80%D0%B5%D0%B7%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%B8%D0%B7%20%D1%82%D0%BA%D0%B0%D0%BD%D0%B8%2C%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%B8%83%E8%89%BA%E5%81%A5%E8%BA%AB%E5%BC%B9%E5%8A%9B%E5%9C%88%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-068",
+      "name": "Ремень для растяжки с петлями",
+      "category": "Спорт и поездки",
+      "chinese_query": "瑜伽拉伸带多环",
+      "risks": "Надёжность, размеры, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A0%D0%B5%D0%BC%D0%B5%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D1%81%D1%82%D1%8F%D0%B6%D0%BA%D0%B8%20%D1%81%20%D0%BF%D0%B5%D1%82%D0%BB%D1%8F%D0%BC%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A0%D0%B5%D0%BC%D0%B5%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D1%81%D1%82%D1%8F%D0%B6%D0%BA%D0%B8%20%D1%81%20%D0%BF%D0%B5%D1%82%D0%BB%D1%8F%D0%BC%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%91%9C%E4%BC%BD%E6%8B%89%E4%BC%B8%E5%B8%A6%E5%A4%9A%E7%8E%AF"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-069",
+      "name": "Сумка для мокрой спортивной одежды",
+      "category": "Спорт и поездки",
+      "chinese_query": "防水运动衣物袋",
+      "risks": "Надёжность, размеры, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A1%D1%83%D0%BC%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D0%BA%D1%80%D0%BE%D0%B9%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A1%D1%83%D0%BC%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D0%BA%D1%80%D0%BE%D0%B9%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%98%B2%E6%B0%B4%E8%BF%90%E5%8A%A8%E8%A1%A3%E7%89%A9%E8%A2%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-070",
+      "name": "Набор компрессионных мешков для чемодана",
+      "category": "Спорт и поездки",
+      "chinese_query": "旅行压缩收纳袋套装",
+      "risks": "Надёжность, размеры, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BC%D0%B5%D1%88%D0%BA%D0%BE%D0%B2%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BE%D0%B4%D0%B0%D0%BD%D0%B0",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BC%D0%B5%D1%88%D0%BA%D0%BE%D0%B2%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BE%D0%B4%D0%B0%D0%BD%D0%B0",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%97%85%E8%A1%8C%E5%8E%8B%E7%BC%A9%E6%94%B6%E7%BA%B3%E8%A2%8B%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-071",
+      "name": "Органайзер для дорожной косметички",
+      "category": "Спорт и поездки",
+      "chinese_query": "旅行洗漱收纳包",
+      "risks": "Надёжность, размеры, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%BA%D0%B8",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%BA%D0%B8",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%97%85%E8%A1%8C%E6%B4%97%E6%BC%B1%E6%94%B6%E7%BA%B3%E5%8C%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-072",
+      "name": "Чехол для обуви в поездку, комплект",
+      "category": "Спорт и поездки",
+      "chinese_query": "旅行鞋子收纳袋套装",
+      "risks": "Надёжность, размеры, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A7%D0%B5%D1%85%D0%BE%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%B1%D1%83%D0%B2%D0%B8%20%D0%B2%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D1%83%2C%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A7%D0%B5%D1%85%D0%BE%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%B1%D1%83%D0%B2%D0%B8%20%D0%B2%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D1%83%2C%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%97%85%E8%A1%8C%E9%9E%8B%E5%AD%90%E6%94%B6%E7%BA%B3%E8%A2%8B%E5%A5%97%E8%A3%85"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-073",
+      "name": "Чехол для чемодана эластичный",
+      "category": "Спорт и поездки",
+      "chinese_query": "弹力行李箱保护套",
+      "risks": "Надёжность, размеры, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%A7%D0%B5%D1%85%D0%BE%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BE%D0%B4%D0%B0%D0%BD%D0%B0%20%D1%8D%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%A7%D0%B5%D1%85%D0%BE%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BE%D0%B4%D0%B0%D0%BD%D0%B0%20%D1%8D%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%BC%B9%E5%8A%9B%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%BF%9D%E6%8A%A4%E5%A5%97"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    },
+    {
+      "id": "PR-CAND-074",
+      "name": "Водонепроницаемый чехол для документов",
+      "category": "Спорт и поездки",
+      "chinese_query": "防水证件收纳袋",
+      "risks": "Надёжность, размеры, качество",
+      "ru_search_links": {
+        "ozon": "https://www.ozon.ru/search/?text=%D0%92%D0%BE%D0%B4%D0%BE%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BD%D0%B8%D1%86%D0%B0%D0%B5%D0%BC%D1%8B%D0%B9%20%D1%87%D0%B5%D1%85%D0%BE%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+        "wildberries": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%92%D0%BE%D0%B4%D0%BE%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BD%D0%B8%D1%86%D0%B0%D0%B5%D0%BC%D1%8B%D0%B9%20%D1%87%D0%B5%D1%85%D0%BE%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+        "china_1688_search": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%98%B2%E6%B0%B4%E8%AF%81%E4%BB%B6%E6%94%B6%E7%BA%B3%E8%A2%8B"
+      },
+      "evidence_level": "unverified_product_hypothesis",
+      "sku_sales_verified": false,
+      "china_supplier_verified": false,
+      "wholesale_price_verified": false,
+      "unit_economics_verified": false,
+      "commercial_status": "research_queue",
+      "next_action": "Проверить российские карточки, предложения поставщиков Китая, экономику и документы"
+    }
+  ]
+}
