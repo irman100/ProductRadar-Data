@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "market": "RU",
+  "checked_at": "2026-11-17",
+  "category": "Одежда и обувь",
+  "subsector": "Верхняя одежда и куртки",
+  "status": "documented_category_evidence_not_sku_ranking",
+  "sources": [
+    {
+      "id": "chestny-znak-2026q3",
+      "publisher": "Честный знак (пересказ Finance Mail)",
+      "period": "2026-07-01/2026-09-30",
+      "metric": "Куртки в России",
+      "units_sold_million": 22.7,
+      "revenue_billion_rub": 69.3,
+      "units_yoy_change_percent": 21,
+      "revenue_yoy_change_percent": 12,
+      "url": "https://finance.mail.ru/article/chestnyj-znak-traty-rossiyan-na-verhnyuyu-odezhdu-dostigli-pochti-94-mlrd-69236505/",
+      "note": "Рынок всех брендов, не импорт только из Китая."
+    },
+    {
+      "id": "ozon-september",
+      "publisher": "Ozon (через Retail.ru)",
+      "period": "2026-09-01/2026-09-14",
+      "metric": "Общий спрос на верхнюю одежду, год к году",
+      "orders_yoy_multiplier": 1.5,
+      "url": "https://www.retail.ru/news/ozon-spros-na-verkhnyuyu-odezhdu-v-nachale-sentyabrya-vyros-v-1-5-raza-god-k-god-25-sentyabrya-2026-282563/",
+      "note": "На Ozon, категории целиком, не конкретные SKU."
+    },
+    {
+      "id": "ozon-kids-september",
+      "publisher": "Ozon (через Retail.ru)",
+      "period": "2026-09-01/2026-09-14",
+      "metric": "Детские пуховики, заказы год к году",
+      "orders_yoy_multiplier": 1.7,
+      "url": "https://www.retail.ru/news/ozon-spros-na-verkhnyuyu-odezhdu-v-nachale-sentyabrya-vyros-v-1-5-raza-god-k-god-25-sentyabrya-2026-282563/",
+      "note": "Рост спроса подкатегории, не продажи конкретной детской модели."
+    },
+    {
+      "id": "ozon-october",
+      "publisher": "Ozon (через Новости Mail)",
+      "period": "2026-10-01/2026-10-12",
+      "metric": "Пуховики, зимние куртки и пальто, заказы год к году",
+      "orders_yoy_multiplier": 1.4,
+      "url": "https://news.mail.ru/economics/72725226/",
+      "note": "Несколько типов верхней одежды объединены."
+    },
+    {
+      "id": "poizon-trends",
+      "publisher": "Poizon (через РИА МОДА)",
+      "period": "осень–зима 2026",
+      "metric": "Отмечаемые в обзоре фасоны",
+      "styles": [
+        "кожаные куртки",
+        "бомберы",
+        "шерстяные пальто",
+        "бушлаты"
+      ],
+      "url": "https://riamoda.ru/news/67249.html",
+      "note": "Обзор предпочтений и трендов, не данные продаж в штуках."
+    }
+  ],
+  "china_brands_to_verify": [
+    {
+      "brand": "Li-Ning",
+      "models": [
+        "AFYV001-4",
+        "AYMU079-1"
+      ],
+      "source": "https://lining-sport.ru/catalog/jackets/",
+      "note": "Есть товарные страницы российского продавца; спрос конкретной модели подтверждать отдельно."
+    },
+    {
+      "brand": "ANTA",
+      "models": [
+        "852241910-3",
+        "952547927-1"
+      ],
+      "source": "https://anta-sport.ru/cat/muzhskie-pukhoviki",
+      "note": "Есть фотографии и розничные предложения. Прямую оптовую поставку и официальные условия покупки проверять."
+    },
+    {
+      "brand": "Bosideng",
+      "models": [
+        "B30145252Y"
+      ],
+      "source": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+      "note": "Реальный бренд и модель, но нет проверенного показателя российских продаж именно SKU."
+    }
+  ],
+  "meaning": "Эти цифры обосновывают изучение направления курток. Они НЕ обосновывают рейтинг конкретных китайских курток; для публикации SKU необходимы конкретная карточка, совпадающая модель на фото и наблюдаемая метрика спроса."
+}
