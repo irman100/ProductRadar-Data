@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "market": "RU",
+  "researched_at": "2026-11-17",
+  "status": "research_only_not_sales_rank",
+  "notice": "9 реальных предметных карточек верхней одежды с фотографиями, SKU и источниками. Только один (AFYV001-4) имеет подтверждённые 4 покупки в России и уже есть в основном каталоге. Другие 8 не включать в публичный рейтинг пока не найдены российские измеримые продажи по точному SKU. Наличие модели на сайте продавца не является гипотезой; перспективность закупки не доказана.",
+  "models": [
+    {
+      "sku": "LI-NING-AFYV001-4",
+      "name": "Li-Ning AFYV001-4 — ветровка Trail Running, серый",
+      "product_url": "https://lining-sport.ru/product/afyv001_4_vetrovka_trail_running_seryy/",
+      "image_url": "https://lining-sport.ru/upload/iblock/ae2/bm0je225rx1vpplijhm7xk2o8wky8mdn/photo_2025-08-08_13-37-35.jpg",
+      "image_source_url": "https://lining-sport.ru/product/afyv001_4_vetrovka_trail_running_seryy/",
+      "russia_reference_url": "https://market.yandex.ru/card/afyv001-4-vetrovka-trail-running-seryy/4700694670",
+      "observed_purchase_counter": "4 купили",
+      "evidence_note": "есть в публичном каталоге",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    },
+    {
+      "sku": "BOSIDENG-B30145252Y",
+      "name": "Bosideng B30145252Y — женский Classic Down Coat with Hood",
+      "product_url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+      "image_url": "https://www.bosidengfashion.com/cdn/shop/files/bosideng-2023-4-black-women-s-classic-down-coat-with-hood-5252-b30145252y8056155-80a-88213-30634058711175.jpg?v=1744045039&width=2048",
+      "image_source_url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+      "russia_reference_url": "https://market.yandex.ru/category/kurtki-bosideng",
+      "observed_purchase_counter": null,
+      "evidence_note": "подтверждено существование модели и продажи марки в РФ; счётчик именно B30145252Y не найден",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    },
+    {
+      "sku": "ANTA-952547927-1",
+      "name": "ANTA 952547927-1 — мужской чёрный короткий пуховик",
+      "product_url": "https://www.momoshop.com.tw/TP/TP0009562/goodsDetail/TP00095620004364",
+      "image_url": "https://i6.momoshop.com.tw/1780279809/goodsimg/TP000/9562/0004/364/TP00095620004364_R_m.jpg",
+      "image_source_url": "https://www.momoshop.com.tw/TP/TP0009562/goodsDetail/TP00095620004364",
+      "russia_reference_url": "https://market.yandex.ru/card/anta-down-jacket-unisex-basic-black-4xl/5025032654",
+      "observed_purchase_counter": null,
+      "evidence_note": "есть похожая модель ANTA Basic в России, точное совпадение SKU и покупки не подтверждены",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    },
+    {
+      "sku": "ANTA-952547901-1",
+      "name": "ANTA 952547901-1 — мужской пуховик Puffer Down Jacket",
+      "product_url": "https://anta.com.vn/products/ao-khoac-long-vu-puffer-down-jacket-anta-952547901-1",
+      "image_url": "https://cdn.hstatic.net/products/1000150581/952547901-1__8__7a93c76d9c4f4622a7a248c5ca80e736_1024x1024.jpg",
+      "image_source_url": "https://anta.com.vn/products/ao-khoac-long-vu-puffer-down-jacket-anta-952547901-1",
+      "russia_reference_url": "https://market.yandex.ru/category/pukhoviki-anta",
+      "observed_purchase_counter": null,
+      "evidence_note": "реальная модель ANTA; измеримый спрос данного SKU в России не подтверждён",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    },
+    {
+      "sku": "ANTA-852241910-3",
+      "name": "ANTA 852241910-3 — пуховик KT без капюшона",
+      "product_url": "https://anta-sport.ru/product/puhovik-bez-kapyushona-anta-kt",
+      "image_url": "https://cdnya.proimagescdn.ru/images/bimages/1368/852241910-3_1.jpg",
+      "image_source_url": "https://anta-sport.ru/product/puhovik-bez-kapyushona-anta-kt",
+      "russia_reference_url": "https://market.yandex.ru/card/pukhovik-anta-kt-down-jacket-tsvet-chernyy-razmer-s-int/103719112751",
+      "observed_purchase_counter": null,
+      "evidence_note": "есть товар ANTА KT на Яндекс Маркете, но соответствие конкретному артикулу 852241910-3 не подтверждено",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    },
+    {
+      "sku": "LINING-AYMU079-1",
+      "name": "Li-Ning AYMU079-1 — мужской пуховик Active, чёрный",
+      "product_url": "https://lining-sport.ru/product/aymu079_1_pukhovik_active_chyernyy/",
+      "image_url": "https://lining-sport.ru/upload/iblock/b92/snt4ib2qlusz48t4a2pnsdspgdyhtl4h/2I6A6651.jpg",
+      "image_source_url": "https://lining-sport.ru/product/aymu079_1_pukhovik_active_chyernyy/",
+      "russia_reference_url": "https://market.yandex.ru/category/pukhoviki-li-ning",
+      "observed_purchase_counter": null,
+      "evidence_note": "реальный SKU на сайте продавца; прямой счётчик покупок по SKU не найден",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    },
+    {
+      "sku": "LINING-AFDS365-1",
+      "name": "Li-Ning AFDS365-1 — белая ветровка Logo Running",
+      "product_url": "https://www.kickscrew.com/products/li-ning-logo-running-windbreaker-white-afds365-1",
+      "image_url": "https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_c45a19eb-c4da-40ee-9eaf-d80a6b65708b.jpg?v=1714117145",
+      "image_source_url": "https://www.kickscrew.com/products/li-ning-logo-running-windbreaker-white-afds365-1",
+      "russia_reference_url": "https://market.yandex.ru/category/li-ning-vetrovki",
+      "observed_purchase_counter": null,
+      "evidence_note": "модель и фото существуют у продавца; отдельный подтверждённый спрос в РФ не найден",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    },
+    {
+      "sku": "LINING-AFDW104-8",
+      "name": "Li-Ning AFDW104-8 — женская ветровка Essentials, чёрная",
+      "product_url": "https://lining-sport.ru/product/afdw104_8_vetrovka_essentials_chernyy/",
+      "image_url": "https://lining-sport.ru/upload/resize_cache/iblock/76f/nqq1esyqeje4oy9o0mkr9fio715mwsba/512_512_1/Li-Ning%2019.02.2603491%201%20-%20main.jpg",
+      "image_source_url": "https://lining-sport.ru/product/afdw104_8_vetrovka_essentials_chernyy/",
+      "russia_reference_url": "https://market.yandex.ru/category/li-ning-vetrovki",
+      "observed_purchase_counter": null,
+      "evidence_note": "модель продаётся в российском магазине; счётчик покупки SKU не подтверждён",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    },
+    {
+      "sku": "LINING-AYMU197-3",
+      "name": "Li-Ning AYMU197-3 — пуховик Badfive, коричневый",
+      "product_url": "https://www.joom.com/en/products/68ca5adae0ccc2018216b7b0",
+      "image_url": "https://img.joomcdn.net/6906565dd52155ae4079763c24e73c4469361c8d_1024_1024.jpeg",
+      "image_source_url": "https://www.joom.com/en/products/68ca5adae0ccc2018216b7b0",
+      "russia_reference_url": "https://market.yandex.ru/card/lining-badfive-down-jacket-winter-mens-earth-brown-l/4992108551",
+      "observed_purchase_counter": null,
+      "evidence_note": "сходная серия Badfive на Маркете, артикул/совпадение модели не подтверждены",
+      "origin_of_specific_sku_verified": false,
+      "china_factory_verified": false
+    }
+  ]
+}
