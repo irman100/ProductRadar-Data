@@ -92,7 +92,7 @@
 </div>
 <p id="catalog-status" class="hint" role="status">Загружаются карточки…</p>
 <div id="catalog-grid" class="catalog-grid"></div>
-<p class="hint">Фото загружаются с внешних сайтов, где они доступны. Если изображение не загружается, карточка остаётся на странице и открывает товар на сайте продавца. При необходимости проверяйте цену, размер и наличие непосредственно там.</p>
+<p class="hint">Фото загружаются с внешних сайтов по ссылкам из каталога и метаданных продавцов, где они доступны. Если изображение не загружается, карточка остаётся на странице и открывает товар на сайте продавца. При необходимости проверяйте цену, размер и наличие непосредственно там.</p>
 </section>
 <section id="quality-audit" class="report" aria-label="Качество данных и готовность к закупке">
 <h2>Можно ли уже закупать?</h2><p class="hint">Product Radar показывает найденные товары и наблюдения российских маркетплейсов. Это ещё не рейтинг выгодных закупок: оптовые поставщики, полная себестоимость и прибыльность требуют подтверждения.</p>
@@ -283,19 +283,32 @@ function drawUnifiedCatalog(){
 const q=$('#catalog-query').value.trim().toLowerCase(),g=$('#catalog-group').value,pf=$('#catalog-proof').value;
 const rows=unifiedCatalog.filter(p=>(p.name+' '+(p.sku||'')+' '+p.group).toLowerCase().includes(q)&& (g==='all'||p.group===g)&&(pf==='all'||pf==='purchases'&&p.evidence_type==='cumulative_purchases'||pf==='photos'&&safeUrl(p.image_url)||pf==='priority'&&p.priority!==null&&p.priority>=8));
 $('#catalog-count').textContent=unifiedCatalog.length+' разных товаров';
-$('#catalog-status').textContent='Показано '+rows.length+' из '+unifiedCatalog.length+'. У всех карточек есть прямая ссылка на продавца; наличие и цены требуют проверки.';
+$('#catalog-status').textContent='Показано '+rows.length+' из '+unifiedCatalog.length+'. Фото подключаются по прямым ссылкам продавцов, если доступны. При сбое карточка остаётся видимой.';
 $('#catalog-grid').innerHTML=rows.map(p=>{
 const src=safeUrl(p.image_url),img=src?'<img src="'+esc(src)+'" alt="'+esc(p.name)+'" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">'+cardFallback(p).replace('class="catalog-fallback"','class="catalog-fallback" hidden'):cardFallback(p);
 const score=typeof p.priority==='number'?'<span class="catalog-pill">Проверка '+p.priority+'/10</span>':'';
 const evidence=p.evidence_type==='cumulative_purchases'&&p.evidence?'<span class="catalog-pill">'+esc(p.evidence)+' · период неизвестен</span>':'<span class="catalog-pill catalog-pill-muted">Продажи SKU не подтверждены</span>';
 const links=(p.sources||[]).filter(s=>safeUrl(s.url)&&safeUrl(s.url)!==safeUrl(p.url)).slice(0,3).map(s=>'<a target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(s.url))+'">'+esc(s.platform||'Источник')+' ↗</a>').join('');
+const photoDirect=safeUrl(p.image_url)?'<a href="'+esc(safeUrl(p.image_url))+'" target="_blank" rel="noopener noreferrer">Открыть оригинал фото ↗</a>':'';
 const china=safeUrl(p.china_url)?'<a target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(p.china_url))+'">Китайский аналог ↗</a>':'';
 return '<article class="catalog-card"><div class="catalog-photo">'+img+'</div><div class="catalog-copy"><div class="catalog-tags"><span class="catalog-pill">'+esc(p.group)+'</span>'+score+'</div><h3>'+esc(p.name)+'</h3><div class="catalog-tags">'+evidence+'</div><p>'+esc(p.explanation||'')+'</p><details class="catalog-detail"><summary>Что ещё проверить</summary><p>'+esc(p.next_check||'Спрос, цену, документы и поставщика.')+'</p><p>'+esc(p.china_note||'')+'</p></details><div class="catalog-actions"><a class="catalog-button" href="'+esc(safeUrl(p.url))+'" target="_blank" rel="noopener noreferrer">Открыть товар и фотографии ↗</a><div class="catalog-links">'+links+china+'</div></div></div></article>';
 }).join('')||'<div class="empty"><h3>Не найдено товаров</h3><p>Измените запрос или фильтр.</p></div>';
 }
 async function loadUnifiedCatalog(){
 try{const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/catalog/unified.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(d.dataset!=='unified_product_catalog'||!Array.isArray(d.products))throw Error('Неверный формат данных');
-const keys=new Set();unifiedCatalog=d.products.filter(p=>{if(!p||!p.name||!p.group||!safeUrl(p.url))return false;const key=new URL(p.url).hostname.toLowerCase()+new URL(p.url).pathname.replace(/\/$/,'').toLowerCase();if(keys.has(key))return false;keys.add(key);return true;});
+// Image URLs come from the catalog or a separate merchant-metadata index.
+let imageIndex={};
+try{
+ const ir=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/catalog/images.json?v='+Date.now(),{cache:'no-store'});
+ if(ir.ok){const im=await ir.json();if(im&&im.items&&typeof im.items==='object')imageIndex=im.items;}
+}catch(e){/* The main catalog must remain available if image metadata fails. */}
+const keys=new Set();unifiedCatalog=d.products.map(p=>{
+ const found=imageIndex[p.id];
+ if(!safeUrl(p.image_url)&&found&&safeUrl(found.image_url)){
+   return {...p,image_url:found.image_url,image_source_url:found.image_source_url||p.url};
+ }
+ return p;
+}).filter(p=>{if(!p||!p.name||!p.group||!safeUrl(p.url))return false;const key=new URL(p.url).hostname.toLowerCase()+new URL(p.url).pathname.replace(/\/$/,'').toLowerCase();if(keys.has(key))return false;keys.add(key);return true;});
 const selected=$('#catalog-group').value;$('#catalog-group').innerHTML='<option value="all">Все категории</option>'+[...new Set(unifiedCatalog.map(p=>p.group))].sort((a,b)=>a.localeCompare(b,'ru')).map(g=>'<option value="'+esc(g)+'">'+esc(g)+'</option>').join('');
 $('#catalog-group').value=[...new Set(unifiedCatalog.map(p=>p.group))].includes(selected)?selected:'all';
 $('#audit-cards').textContent=unifiedCatalog.length;$('#audit-photo').textContent=unifiedCatalog.filter(p=>!safeUrl(p.image_url)).length;drawUnifiedCatalog();
