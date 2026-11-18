@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "published_at": "2026-11-18",
+  "market": "RU",
+  "budget_min_rub": 5000,
+  "budget_max_rub": 300000,
+  "title": "Мультиплощадочное исследование: конкретные товары и варианты закупки из Китая",
+  "methodology": "Проверяли конкретные страницы продавцов России и отдельные китайские оптовые источники. Показатели отзывов не являются числом продаж. Категорийный интерес не доказывает продажи точного SKU. Источники датированы; цены и остатки изменяются. Розничные товары и китайские аналоги не заявляются идентичными.",
+  "legend": {
+    "cross_market_references": "Другие российские площадки служат независимыми признаками наличия/интереса к типу товара, а не доказательством продаж того же SKU",
+    "supplier_analogs": "Китайские оптовые листинги похожей продукции; не подтверждают фабрику оригинального бренда",
+    "purchase_ready": "Требуется проверенная цена с MOQ, логистика, регуляторные расходы, сравнимая цена продажи и расчёт чистой маржи"
+  },
+  "items": [
+    {
+      "id": "MR-001",
+      "name": "Xiaomi Mijia — машинка для удаления катышков",
+      "category": "Уход за одеждой",
+      "ru_platform": "Ozon",
+      "ru_product_url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+      "ru_sku": "Ozon 1582928123",
+      "signals": [
+        {
+          "type": "reviews",
+          "value": "37 467 отзывов",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+          "note": "Общее число отзывов карточки, не продажи за период"
+        },
+        {
+          "type": "availability_other_market",
+          "value": "Есть объявления Xiaomi Mijia",
+          "source": "Wildberries",
+          "url": "https://www.wildberries.ru/catalog/tags/pribor-dlja-udalenija-shersti-s-odezhdy",
+          "note": "Категорийная выдача; точное SKU не сверено"
+        },
+        {
+          "type": "listing",
+          "value": "MQXJQ01KL",
+          "source": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl/103186979139",
+          "note": "Точный артикул в названии; не следует объединять счётчики разных карточек"
+        }
+      ],
+      "china_offer_url": "https://apparel.alibaba.com/product/electric-fabric-lint-remover",
+      "china_offer_type": "comparable_unbranded_products",
+      "china_example": "Оптовые электрические машинки, включая MOQ от 4 шт. у одного предложения; не оригинал Xiaomi",
+      "china_moq_example": 4,
+      "china_price_example_usd": 2.8,
+      "budget_fit": "5–20 тыс. ₽ — только после точного расчёта",
+      "why": "Сильный сигнал потребительского интереса по количеству отзывов и присутствию на разных площадках.",
+      "risks": "Подделки Xiaomi, аккумулятор, документы, качество ножей; оптовый аналог не тождественен брендовому SKU",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
+    },
+    {
+      "id": "MR-002",
+      "name": "ANTA ODP A-PROTECTION — мужской чёрный пуховик",
+      "category": "Верхняя одежда",
+      "ru_platform": "Lamoda",
+      "ru_product_url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
+      "ru_sku": "Lamoda MP002XM0C9XK",
+      "signals": [
+        {
+          "type": "listing",
+          "value": "Реальная карточка ODP A-PROTECTION",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
+          "note": "Нет доступного периода продаж"
+        },
+        {
+          "type": "category",
+          "value": "79 мужских курток и пуховиков ANTA в выдаче",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/479-2767/clothes-muzhskaya-verkhnyaya-odezhda-anta/",
+          "note": "Ширина ассортимента, не продажи SKU"
+        },
+        {
+          "type": "category",
+          "value": "Категория пуховиков",
+          "source": "Wildberries",
+          "url": "https://www.wildberries.ru/catalog/zhenshchinam/odezhda/puhoviki/tags/na-puhu",
+          "note": "Иллюстрация конкурентной категории; не товар ANTA"
+        }
+      ],
+      "china_offer_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_example": "Категория оптовых пуховиков на Alibaba; не поставщик ANTA",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "budget_fit": "50–300 тыс. ₽ — экономика неизвестна",
+      "why": "Точный SKU доступен в российском магазине; категория одежды значима для рынка, но спрос SKU не измерен.",
+      "risks": "Маркировка одежды, размерные возвраты, сезонность и законность закупки оригинального бренда",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
+    },
+    {
+      "id": "MR-003",
+      "name": "ANTA ODP Winter Vibes — женский чёрный пуховик",
+      "category": "Верхняя одежда",
+      "ru_platform": "Lamoda",
+      "ru_product_url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
+      "ru_sku": "Lamoda MP002XW1CQRN",
+      "signals": [
+        {
+          "type": "listing",
+          "value": "Точная карточка ODP Winter Vibes",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
+          "note": "Продажи и остатки не подтверждены"
+        },
+        {
+          "type": "category",
+          "value": "74 женские куртки ANTA в выдаче",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "note": "Размер категории, не доказательство продаж артикула"
+        },
+        {
+          "type": "market_presence",
+          "value": "Пуховики китайского бренда Bosideng",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/brand/bosideng-29461901/",
+          "note": "Конкурентный ориентир в брендовом сегменте"
+        }
+      ],
+      "china_offer_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_example": "Разные независимые пуховики с MOQ от 1–2 шт. в категории; не ANTA",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "budget_fit": "20–300 тыс. ₽ — без расчёта",
+      "why": "Конкретный женский SKU, конкурентные сигналы по сегменту, но пока нет доказательств достаточного спроса именно SKU.",
+      "risks": "Размеры, возвраты, сезонный остаток, документы и брендовые ограничения",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
+    },
+    {
+      "id": "MR-004",
+      "name": "Органайзер в багажник / автомобильная сумка",
+      "category": "Автоаксессуары",
+      "ru_platform": "Ozon",
+      "ru_product_url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/",
+      "ru_sku": "Ozon 3189390009",
+      "signals": [
+        {
+          "type": "reviews",
+          "value": "467 отзывов",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/reviews/",
+          "note": "Отзывы, не периодические продажи"
+        },
+        {
+          "type": "alternative_listing",
+          "value": "Органайзер 70×30×30",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-dlya-avtomobilya-70-30-30-1709330527/",
+          "note": "Другая модель, сравнивать размеры"
+        }
+      ],
+      "china_offer_url": "https://www.alibaba.com/product-detail/Wholesale-Multipurpose-Car-Trunk-Organizer-Foldable_1601714941909.html",
+      "china_offer_type": "comparable_product_not_identical",
+      "china_example": "Складной органайзер из Oxford 600D — товарная страница Alibaba; MOQ/цена требуют повторной проверки",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "budget_fit": "20–50 тыс. ₽ — зависит от объёмного веса",
+      "why": "Точное предложение в России и отклики покупателей; оптовый аналог существует, но размеры могут различаться.",
+      "risks": "Объёмный вес, плотность ткани, качество швов, доставка",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
+    },
+    {
+      "id": "MR-005",
+      "name": "Bosideng B30145252Y — женский пуховик с капюшоном",
+      "category": "Верхняя одежда",
+      "ru_platform": "Bosideng",
+      "ru_product_url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+      "ru_sku": "B30145252Y",
+      "signals": [
+        {
+          "type": "specific_listing",
+          "value": "Официально опубликованная модель B30145252Y",
+          "source": "Bosideng",
+          "url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+          "note": "Модель существует, спрос в РФ по SKU не определён"
+        },
+        {
+          "type": "market_presence",
+          "value": "Пуховики Bosideng в России",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/brand/bosideng-29461901/",
+          "note": "Брендовые предложения, не точный SKU"
+        }
+      ],
+      "china_offer_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_example": "Пуховики других поставщиков; бренд Bosideng и фабрика не установлены",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "budget_fit": "50–300 тыс. ₽ — не подтверждён",
+      "why": "Предметный пример модели китайского бренда, но до рекомендаций о закупке требуется подтверждение спроса в РФ.",
+      "risks": "Право на бренд, оригинальность партии, документы, маркировка, возвраты",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
+    }
+  ],
+  "source_policy": {
+    "minimum_research_sources": 2,
+    "sku_status_rule": "Присутствие на разных сайтах считается подтверждением рыночного предложения, а не двух независимых продаж",
+    "publication_rule": "Все товары — исследования, не рекомендации к оптовой закупке. Прямые ссылки только на конкретные товарные страницы РФ; если китайская ссылка ведёт на категорию, явно пометить.",
+    "photo_rule": "Показывать изображение только при подтверждённом праве встраивания; иначе открыть карточку продавца."
+  }
+}
