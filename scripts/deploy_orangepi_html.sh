@@ -4,7 +4,7 @@
 set -euo pipefail
 ROOT="/home/dockeruser/product-radar-public"
 DEST="$ROOT/index.html"
-SOURCE="https://raw.githubusercontent.com/irman100/ProductRadar-Data/2af0a0818b77d85d5244aa3cf4f05e5dac8e9224/docs/index.html"
+SOURCE="https://raw.githubusercontent.com/irman100/ProductRadar-Data/66c064d4e903b2b30a39b01075e3d7e208a480c8/docs/index.html"
 [ -f "$DEST" ] || { echo "ERROR: not found: $DEST" >&2; exit 1; }
 command -v curl >/dev/null || { echo "ERROR: curl is required" >&2; exit 1; }
 TMP="$(mktemp "$ROOT/.index.html.new.XXXXXX")"
@@ -13,10 +13,10 @@ curl -fLSs --connect-timeout 12 --max-time 45 "$SOURCE" -o "$TMP"
 python3 - "$TMP" <<'PY'
 import sys
 s=open(sys.argv[1],encoding='utf-8').read()
-required=['id="opportunities"','id="opp-list"','loadOpportunities();','<!doctype html>','const BASE=','data/verified/','id="products"','function draw()','load();fashionStats();loadOffers();','id="shop"','id="research-report"','loadReport();','marketplace_purchase_counter_observed','id="quality-audit"','id="report-sources"']
+required=['id="priority"','id="economics"','loadPriority();','id="opportunities"','id="opp-list"','loadOpportunities();','<!doctype html>','const BASE=','data/verified/','id="products"','function draw()','load();fashionStats();loadOffers();','id="shop"','id="research-report"','loadReport();','marketplace_purchase_counter_observed','id="quality-audit"','id="report-sources"']
 assert all(x in s for x in required), "Downloaded HTML is incomplete"
 assert 'id="candidates"' not in s, "Unverified research cards must not be public"
-print("HTML verified: cross-market opportunity cards and research report")
+print("HTML verified: ranked SKU opportunities, cost calculator, research report")
 PY
 BACKUP="$ROOT/index.html.backup.$(date -u +%Y%m%dT%H%M%SZ)"
 cp -p "$DEST" "$BACKUP"
