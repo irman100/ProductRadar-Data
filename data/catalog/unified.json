@@ -1,0 +1,1313 @@
+{
+  "schema_version": "2.0",
+  "generated_at": "2026-11-18",
+  "dataset": "unified_product_catalog",
+  "purpose": "Deduplicated storefront, one real merchant URL per card; evidence and sourcing kept distinct",
+  "source_files": [
+    "data/recommendations/latest.json",
+    "data/real_offers/outerwear_20261117.json",
+    "data/research/multimarket_opportunities_20261118.json"
+  ],
+  "notes": "No live revalidation of vendors. If image missing/broken show category placeholder and original seller link, not an invented image. Priority is editorial investigation order, not predicted sales.",
+  "products": [
+    {
+      "id": "RD-CN-RU-002",
+      "name": "UGREEN LP678 (15608) — складная алюминиевая подставка для телефона",
+      "group": "Электроника и аксессуары",
+      "original_category": "Аксессуары смартфонов",
+      "sku": "CN-RU-002",
+      "url": "https://market.yandex.ru/card/podstavka-ugreen-dlya-telefona-nastolnaya-skladnaya-15608-seryy/4757640666",
+      "image_url": "https://www.ugreen.pl/hpeciai/a8ad5ab5ee99ed1557485601575a6f3a/eng_pm_UGREEN-LP678-folding-stand-for-phone-148905_2.jpg",
+      "image_source_url": null,
+      "priority": 9,
+      "explanation": "Компактная алюминиевая подставка, простая логистика; похожие UGREEN доступны на Ozon.",
+      "next_check": "Не путать LP678 c LP263/LP805; сравнить точный артикул и конкуренцию.",
+      "evidence": "453 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/podstavka-ugreen-dlya-telefona-nastolnaya-skladnaya-15608-seryy/4757640666",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "453 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/category/podstavki-ugreen/",
+          "signal_type": "additional_listing_or_category",
+          "claim": "Наличие похожих или сопоставимых предложений",
+          "note": "Совпадение точного SKU на второй площадке не подтверждено"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-014",
+      "name": "Xiaomi Mi Colorful Mini Backpack (2076) — рюкзак 10 л, чёрный",
+      "group": "Одежда и аксессуары",
+      "original_category": "Сумки и рюкзаки",
+      "sku": "CN-RU-014",
+      "url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
+      "image_url": "https://www.orrohomedubai.com/cdn/shop/products/ZJB4143GL-BLACK-MAIN.jpg?v=1676367049",
+      "image_source_url": null,
+      "priority": 9,
+      "explanation": "Покупки в карточке конкретного рюкзака, компактный формат; присутствие рюкзаков Xiaomi на Ozon.",
+      "next_check": "Материал, размер, маркировка и текстильные требования; совпадение конкретной модели на площадках не установлено.",
+      "evidence": "2,9 тыс. купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "2,9 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/category/ryukzak-xiaomi-mi-casual-backpack/",
+          "signal_type": "additional_listing_or_category",
+          "claim": "Наличие похожих или сопоставимых предложений",
+          "note": "Совпадение точного SKU на второй площадке не подтверждено"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-015",
+      "name": "Xiaomi Mijia Lint Remover MQXJQ01KL — машинка для удаления катышков",
+      "group": "Дом и повседневные товары",
+      "original_category": "Уход за одеждой",
+      "sku": "CN-RU-015",
+      "url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+      "image_url": "https://yablonya.com/upload/iblock/6d5/yjvpj3fv8p8tfgiq9l7s4rwfv3ogrukn.png",
+      "image_source_url": null,
+      "priority": 9,
+      "explanation": "Много накопленных покупок в карточке Яндекс Маркета, есть отдельная карточка Ozon. Компактный товар; у аналогов встречаются небольшие MOQ.",
+      "next_check": "Подтвердить качество и батарею, выбрать оригинал либо легальный аналог, проверить сертификаты.",
+      "evidence": "17,4 тыс. купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "17,4 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+          "signal_type": "additional_listing_or_category",
+          "claim": "Наличие похожих или сопоставимых предложений",
+          "note": "Совпадение точного SKU на второй площадке не подтверждено"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-001",
+      "name": "Xiaomi Mi Precision Screwdriver Kit — набор отвёрток 24 в 1, MJJXLSD002QW",
+      "group": "Дом и повседневные товары",
+      "original_category": "Инструменты и ремонт",
+      "sku": "CN-RU-001",
+      "url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+      "image_url": "https://www.metalife.co.nz/cdn/shop/products/BHR4680GL_wr_01.jpg?v=1680212673",
+      "image_source_url": null,
+      "priority": 8,
+      "explanation": "Небольшой набор, понятная комплектация; наблюдаются покупки модели в России.",
+      "next_check": "Проверить оригинальность, комплект бит, цену партии и отличие артикулов.",
+      "evidence": "1,2 тыс. купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "1,2 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-006",
+      "name": "UGREEN CM880 (55544) — USB-C хаб 7-в-1",
+      "group": "Электроника и аксессуары",
+      "original_category": "Аксессуары компьютеров",
+      "sku": "CN-RU-006",
+      "url": "https://market.yandex.ru/card/usb-kontsentratordok-stantsiya-ugreen-cm880-55610-khab-usb-c-7-in-1-dp-8k30hzhdmi-4k60hz-usb3020-pd100w-hub/227714188188598272",
+      "image_url": "https://content.rozetka.com.ua/goods/images/big/634124348.jpg",
+      "image_source_url": null,
+      "priority": 7,
+      "explanation": "Наблюдаемые покупки, компактный товар; покупатели ищут USB-C хабы.",
+      "next_check": "Проверить точный CM880/55610, стандарты портов, гарантию и совместимость.",
+      "evidence": "1,3 тыс. купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/usb-kontsentratordok-stantsiya-ugreen-cm880-55610-khab-usb-c-7-in-1-dp-8k30hzhdmi-4k60hz-usb3020-pd100w-hub/227714188188598272",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "1,3 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-005",
+      "name": "Xiaomi Mijia Electric Air Pump 2 — насос MJCQB06QW",
+      "group": "Автотовары",
+      "original_category": "Автоаксессуары",
+      "sku": "CN-RU-005",
+      "url": "https://market.yandex.ru/card/xiaomi-kompressor-portativnyy-xiaomi-portable-electric-air-compressor-2-mjcqb06qw-bhr7112gl/103658583109",
+      "image_url": "https://xiaomix.com.ua/sites/default/files/product/elektrichniy-nasos-xiaomi-mijia-electric-air-pump-2-25792.jpg",
+      "image_source_url": null,
+      "priority": 7,
+      "explanation": "Есть наблюдаемые покупки модели MJCQB06QW; компактный автотовар.",
+      "next_check": "Аккумулятор, гарантия, ввоз техники, условия перевозки и конкурентная цена.",
+      "evidence": "3,2 тыс. купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/xiaomi-kompressor-portativnyy-xiaomi-portable-electric-air-compressor-2-mjcqb06qw-bhr7112gl/103658583109",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "3,2 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-MR-004",
+      "name": "Органайзер в багажник / автомобильная сумка",
+      "group": "Автотовары",
+      "original_category": "Автоаксессуары",
+      "sku": "MR-004",
+      "url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": 7,
+      "explanation": "Конкретная карточка Ozon с отзывами и товарный аналог Alibaba.",
+      "next_check": "Размер, материал Oxford, MOQ, кубатура; отзывы — не число продаж.",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": "https://www.alibaba.com/product-detail/Wholesale-Multipurpose-Car-Trunk-Organizer-Foldable_1601714941909.html",
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/reviews/",
+          "claim": "467 отзывов",
+          "note": "Отзывы, не периодические продажи"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-dlya-avtomobilya-70-30-30-1709330527/",
+          "claim": "Органайзер 70×30×30",
+          "note": "Другая модель, сравнивать размеры"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-OZON-1313640836",
+      "name": "Регулируемая шлейка-жилет для собак",
+      "group": "Одежда и аксессуары",
+      "original_category": "Зоотовары",
+      "sku": "OZON-1313640836",
+      "url": "https://www.ozon.ru/product/shleyka-dlya-sobak-reguliruemyy-zhilet-troynoy-protivopobeg-progulki-dlya-malenkih-srednih-i-1313640836/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": 7,
+      "explanation": "Растущая категория зоотоваров по АКИТ; конкретная карточка изделия на Ozon. Компактная текстильная вещь без электроники, но размеров много.",
+      "next_check": "Проверить размерную сетку, прочность пряжек, возвраты, материалы и требования к текстилю.",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/shleyka-dlya-sobak-reguliruemyy-zhilet-troynoy-protivopobeg-progulki-dlya-malenkih-srednih-i-1313640836/",
+          "signal_type": "specific_listing_only",
+          "claim": "Точная карточка предложения; продажи SKU не установлены",
+          "note": "Наличие листинга не означает высокий спрос"
+        },
+        {
+          "platform": "АКИТ",
+          "url": "https://www.retail.ru/news/akit-za-9-mesyatsev-2026-goda-obem-internet-torgovli-sostavil-10-85-trln-rubley-12-noyabrya-2026-284375/",
+          "signal_type": "category_growth_yoy",
+          "claim": "Рост зоомагазинов 26,8% по обороту",
+          "note": "Категорийный показатель, не продажи SKU"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-013",
+      "name": "Xiaomi Redmi Buds 6 Play — чёрные наушники BHR8776GL",
+      "group": "Электроника и аксессуары",
+      "original_category": "Аудио",
+      "sku": "CN-RU-013",
+      "url": "https://market.yandex.ru/card/tws-naushniki-redmi-buds-6-play-black-bhr8776gl/103747826362",
+      "image_url": "https://content.rozetka.com.ua/goods/images/big/493915018.jpg",
+      "image_source_url": null,
+      "priority": 6,
+      "explanation": "Накопленные покупки точной модели, лёгкий товар.",
+      "next_check": "Батареи, подделки, возвраты, маркировка радиооборудования.",
+      "evidence": "826 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/tws-naushniki-redmi-buds-6-play-black-bhr8776gl/103747826362",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "826 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-011",
+      "name": "Xiaomi Smart Band 9 — фитнес-браслет Arctic Blue",
+      "group": "Электроника и аксессуары",
+      "original_category": "Носимая электроника",
+      "sku": "CN-RU-011",
+      "url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-blue/4352265808",
+      "image_url": "https://i.mi.ua/media/catalog/product/cache/3/image/710x600/602f0fa2c1f0d1ba5e241f914e856ff9/x/i/xiaomi_smart_band_9-tpu_blue_-side45_45.webp",
+      "image_source_url": null,
+      "priority": 6,
+      "explanation": "Покупки, известная модель, компактная.",
+      "next_check": "Оригинальность, батарея, документы, гарантия.",
+      "evidence": "881 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-blue/4352265808",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "881 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-012",
+      "name": "Xiaomi Smart Band 9 — фитнес-браслет Glacier Silver",
+      "group": "Электроника и аксессуары",
+      "original_category": "Носимая электроника",
+      "sku": "CN-RU-012",
+      "url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-silver-white/103834290668",
+      "image_url": "https://kingandmoffattretail.com/cdn/shop/files/E71026290_Xiaomi_Smart_Band_9_Glacier_Silver_ebab7451-8262-4021-815a-0dc1427ca4be.webp?v=1765814992",
+      "image_source_url": null,
+      "priority": 6,
+      "explanation": "Наблюдения вариантов одной серии; не суммировать как независимые модели.",
+      "next_check": "Дубликат серии Smart Band 9, цвет не равен новой нише.",
+      "evidence": "788 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-silver-white/103834290668",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "788 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-OZON-1962683054",
+      "name": "Интерактивный мячик с хвостом для кошек, серый",
+      "group": "Зоотовары",
+      "original_category": "Зоотовары",
+      "sku": "OZON-1962683054",
+      "url": "https://www.ozon.ru/product/interaktivnaya-igrushka-dlya-koshek-umnyy-myachik-s-hvostom-serogo-tsveta-1962683054/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": 6,
+      "explanation": "У зоомагазинов в РФ рост онлайн-оборота на 26,8% год к году по АКИТ; конкретный интерактивный мячик представлен на Ozon. Продажи SKU не раскрыты.",
+      "next_check": "Проверить отзывы, батареи/качество, себестоимость и спрос точного предложения на других площадках.",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/interaktivnaya-igrushka-dlya-koshek-umnyy-myachik-s-hvostom-serogo-tsveta-1962683054/",
+          "signal_type": "specific_listing_only",
+          "claim": "Точная карточка предложения; продажи SKU не установлены",
+          "note": "Наличие листинга не означает высокий спрос"
+        },
+        {
+          "platform": "АКИТ",
+          "url": "https://www.retail.ru/news/akit-za-9-mesyatsev-2026-goda-obem-internet-torgovli-sostavil-10-85-trln-rubley-12-noyabrya-2026-284375/",
+          "signal_type": "category_growth_yoy",
+          "claim": "Рост зоомагазинов 26,8% по обороту",
+          "note": "Категорийный показатель, не продажи SKU"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-007",
+      "name": "Xiaomi Redmi Buds 4 — беспроводные наушники, белые, BHR5846GL",
+      "group": "Электроника и аксессуары",
+      "original_category": "Аудио",
+      "sku": "CN-RU-007",
+      "url": "https://market.yandex.ru/card/xiaomi-redmi-buds-4-white/103240420368",
+      "image_url": "https://mobilyskalka.cz/_obchody/6363/prilohy/761/sluchatka-xiaomi-redmi-buds-4-bila.jpg.big.jpg",
+      "image_source_url": null,
+      "priority": 5,
+      "explanation": "Покупки наблюдались, но более старое поколение продукта.",
+      "next_check": "Подделки, гарантия, актуальность модели, батареи.",
+      "evidence": "95 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/xiaomi-redmi-buds-4-white/103240420368",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "95 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-008",
+      "name": "Xiaomi Smart Humidifier 2 EU — увлажнитель BHR6026EU",
+      "group": "Дом и повседневные товары",
+      "original_category": "Климатическая техника",
+      "sku": "CN-RU-008",
+      "url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-xiaomi-smart-humidifier-2-eu-mjjsq05dy-bhr6026eu/4996170194",
+      "image_url": "https://cdn2.electronicscrazy.sg/Productimage/2022-12-0604-45-5026.webp",
+      "image_source_url": null,
+      "priority": 5,
+      "explanation": "Зафиксированы покупки; спрос может быть сезонным.",
+      "next_check": "Бак и хрупкие детали, электротехника, документы и гарантийные возвраты.",
+      "evidence": "2,2 тыс. купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-xiaomi-smart-humidifier-2-eu-mjjsq05dy-bhr6026eu/4996170194",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "2,2 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-016",
+      "name": "Deerma DEM-F628S — ультразвуковой увлажнитель воздуха, 5 л",
+      "group": "Дом и повседневные товары",
+      "original_category": "Климатическая техника",
+      "sku": "CN-RU-016",
+      "url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-deerma-dem-f628s/103240549853",
+      "image_url": "https://indexiq.ru/storage/tiny/deerma/Air-Humidifier-5L-DEM-F628S/Deerma-Air-Humidifier-5L-DEM-F628S-01.jpg",
+      "image_source_url": null,
+      "priority": 4,
+      "explanation": "Наблюдаемые покупки; спрос на увлажнители есть, но импорт сложнее.",
+      "next_check": "Объём, электробезопасность, доставка, срок службы.",
+      "evidence": "697 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-deerma-dem-f628s/103240549853",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "697 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-003",
+      "name": "Deerma DX118C — вертикальный проводной пылесос 2 в 1",
+      "group": "Дом и повседневные товары",
+      "original_category": "Техника для уборки",
+      "sku": "CN-RU-003",
+      "url": "https://market.yandex.ru/card/pylesos-deerma-dx118c/102336612509",
+      "image_url": "https://www.orrohomedubai.com/cdn/shop/products/DX118-C-1.png?v=1658569003",
+      "image_source_url": null,
+      "priority": 4,
+      "explanation": "Наблюдаемые покупки, но габаритная техника требует больше вложений.",
+      "next_check": "Объёмный вес, электробезопасность, гарантия; для маленького бюджета не подходит.",
+      "evidence": "887 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/pylesos-deerma-dx118c/102336612509",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "887 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-CN-RU-004",
+      "name": "Deerma DX700 Pro — вертикальный пылесос, чёрный",
+      "group": "Дом и повседневные товары",
+      "original_category": "Техника для уборки",
+      "sku": "CN-RU-004",
+      "url": "https://market.yandex.ru/card/vertikalnyy-provodnoy-pylesos-deerma-dx700-pro-chernyy/103240210164",
+      "image_url": "https://www.deerma.com.pe/cdn/shop/files/DX700_2_b4ed04d1-a4e5-4ead-8d1b-9af3888907d9.png?v=1755711803&width=1214",
+      "image_source_url": null,
+      "priority": 4,
+      "explanation": "Наблюдаемые покупки, но товар громоздкий и сложен в логистике.",
+      "next_check": "Полная стоимость доставки и документы; модель может быть нерентабельна.",
+      "evidence": "924 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/vertikalnyy-provodnoy-pylesos-deerma-dx700-pro-chernyy/103240210164",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "924 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-OZON-5761260692",
+      "name": "Кормушка с резервуаром 3,8 л для кошек",
+      "group": "Зоотовары",
+      "original_category": "Зоотовары",
+      "sku": "OZON-5761260692",
+      "url": "https://www.ozon.ru/product/avtomaticheskaya-kormushka-dlya-koshek-3-8l-neoprokidyvaemaya-miska-s-rezervuarom-dlya-suhogo-5761260692/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": 4,
+      "explanation": "Зоокатегория растёт в РФ, конкретная карточка кормушки есть на Ozon. Рентабельность неясна из-за объёма и возможного брака.",
+      "next_check": "Проверить объёмный вес, материал для контакта с кормом, упаковку и документы.",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": null,
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/avtomaticheskaya-kormushka-dlya-koshek-3-8l-neoprokidyvaemaya-miska-s-rezervuarom-dlya-suhogo-5761260692/",
+          "signal_type": "specific_listing_only",
+          "claim": "Точная карточка предложения; продажи SKU не установлены",
+          "note": "Наличие листинга не означает высокий спрос"
+        },
+        {
+          "platform": "АКИТ",
+          "url": "https://www.retail.ru/news/akit-za-9-mesyatsev-2026-goda-obem-internet-torgovli-sostavil-10-85-trln-rubley-12-noyabrya-2026-284375/",
+          "signal_type": "category_growth_yoy",
+          "claim": "Рост зоомагазинов 26,8% по обороту",
+          "note": "Категорийный показатель, не продажи SKU"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-MR-002",
+      "name": "ANTA ODP A-PROTECTION — мужской чёрный пуховик",
+      "group": "Куртки и пуховики",
+      "original_category": "Куртки мужские",
+      "sku": "MR-002",
+      "url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": 4,
+      "explanation": "Конкретная модель ANTA на Lamoda и ассортимент верхней одежды марки.",
+      "next_check": "Спрос точной модели, размеры, возвраты, маркировка, право на бренд.",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
+          "claim": "Реальная карточка ODP A-PROTECTION",
+          "note": "Нет доступного периода продаж"
+        },
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/479-2767/clothes-muzhskaya-verkhnyaya-odezhda-anta/",
+          "claim": "79 мужских курток и пуховиков ANTA в выдаче",
+          "note": "Ширина ассортимента, не продажи SKU"
+        },
+        {
+          "platform": "Wildberries",
+          "url": "https://www.wildberries.ru/catalog/zhenshchinam/odezhda/puhoviki/tags/na-puhu",
+          "claim": "Категория пуховиков",
+          "note": "Иллюстрация конкурентной категории; не товар ANTA"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-MR-003",
+      "name": "ANTA ODP Winter Vibes — женский чёрный пуховик",
+      "group": "Куртки и пуховики",
+      "original_category": "Куртки женские",
+      "sku": "MR-003",
+      "url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": 4,
+      "explanation": "Женская модель ANTA Winter Vibes с прямой карточкой Lamoda; зимняя сезонность.",
+      "next_check": "Спрос и размеры, качество наполнителя, возвраты и документы.",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
+          "claim": "Точная карточка ODP Winter Vibes",
+          "note": "Продажи и остатки не подтверждены"
+        },
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "claim": "74 женские куртки ANTA в выдаче",
+          "note": "Размер категории, не доказательство продаж артикула"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/brand/bosideng-29461901/",
+          "claim": "Пуховики китайского бренда Bosideng",
+          "note": "Конкурентный ориентир в брендовом сегменте"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "RD-MR-005",
+      "name": "Bosideng B30145252Y — женский пуховик с капюшоном",
+      "group": "Куртки и пуховики",
+      "original_category": "Куртки женские",
+      "sku": "MR-005",
+      "url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+      "image_url": "https://www.bosidengfashion.com/cdn/shop/files/bosideng-2023-4-black-women-s-classic-down-coat-with-hood-5252-b30145252y8056155-80a-88213-30634058711175.jpg?v=1744045039&width=2048",
+      "image_source_url": null,
+      "priority": 2,
+      "explanation": "Есть точный артикул производителя Bosideng, но нет доказательств российских продаж.",
+      "next_check": "Найти российский спрос SKU, оптового поставщика и документы.",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "sources": [
+        {
+          "platform": "Bosideng",
+          "url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+          "claim": "Официально опубликованная модель B30145252Y",
+          "note": "Модель существует, спрос в РФ по SKU не определён"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/brand/bosideng-29461901/",
+          "claim": "Пуховики Bosideng в России",
+          "note": "Брендовые предложения, не точный SKU"
+        },
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/category/kurtki-bosideng",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/recommendations/latest.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-RU-ANTA-103594293902",
+      "name": "ANTA — короткий чёрный пуховик",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "MARKET-103594293902",
+      "url": "https://market.yandex.ru/card/pukhovik-korotkiy-chernyy/103594293902",
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/pukhovik-korotkiy-chernyy/103594293902",
+      "priority": null,
+      "explanation": "Покупки наблюдались в открытой карточке. Период и доступность оптовой закупки не подтверждены.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": "23 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/card/pukhovik-korotkiy-chernyy/103594293902",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-RU-ANTA-5025032654",
+      "name": "ANTA Basic — пуховик унисекс, чёрный, 4XL",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "MARKET-5025032654",
+      "url": "https://market.yandex.ru/card/anta-down-jacket-unisex-basic-black-4xl/5025032654",
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/anta-down-jacket-unisex-basic-black-4xl/5025032654",
+      "priority": null,
+      "explanation": "Покупки наблюдались в открытой карточке. Период и доступность оптовой закупки не подтверждены.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": "25 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/card/anta-down-jacket-unisex-basic-black-4xl/5025032654",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-RU-ANTA-5650132137",
+      "name": "ANTA Irving Collection — пуховик унисекс, чёрный, L",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "MARKET-5650132137",
+      "url": "https://market.yandex.ru/card/anta-irving-collection-pukhovik-uniseks-chernyy-l/5650132137",
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/anta-irving-collection-pukhovik-uniseks-chernyy-l/5650132137",
+      "priority": null,
+      "explanation": "Покупки наблюдались в открытой карточке. Период и доступность оптовой закупки не подтверждены.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": "32 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/card/anta-irving-collection-pukhovik-uniseks-chernyy-l/5650132137",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-RU-ANTA-103719112751",
+      "name": "ANTA KT Down Jacket — чёрный пуховик, размер S",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "MARKET-103719112751",
+      "url": "https://market.yandex.ru/card/pukhovik-anta-kt-down-jacket-tsvet-chernyy-razmer-s-int/103719112751",
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/pukhovik-anta-kt-down-jacket-tsvet-chernyy-razmer-s-int/103719112751",
+      "priority": null,
+      "explanation": "Покупки наблюдались в открытой карточке. Период и доступность оптовой закупки не подтверждены.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": "3 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/card/pukhovik-anta-kt-down-jacket-tsvet-chernyy-razmer-s-int/103719112751",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-RU-LINING-4716227508",
+      "name": "Li-Ning AFDVC10-4 — спортивная куртка Essentials, синяя, S",
+      "group": "Куртки и пуховики",
+      "original_category": "Ветровки",
+      "sku": "MARKET-4716227508",
+      "url": "https://market.yandex.ru/card/afdvc10-4-kurtka-essentials-siniy/4716227508",
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/afdvc10-4-kurtka-essentials-siniy/4716227508",
+      "priority": null,
+      "explanation": "Покупки наблюдались в открытой карточке. Период и доступность оптовой закупки не подтверждены.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": "11 купили",
+      "evidence_type": "cumulative_purchases",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/card/afdvc10-4-kurtka-essentials-siniy/4716227508",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-ANTA-852241910-3",
+      "name": "ANTA 852241910-3 — пуховик KT без капюшона",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "ANTA-852241910-3",
+      "url": "https://anta-sport.ru/product/puhovik-bez-kapyushona-anta-kt",
+      "image_url": "https://cdnya.proimagescdn.ru/images/bimages/1368/852241910-3_1.jpg",
+      "image_source_url": "https://anta-sport.ru/product/puhovik-bez-kapyushona-anta-kt",
+      "priority": null,
+      "explanation": "Реальная модель и ссылка на продавца; текущие остатки и спрос именно этого артикула не проверены. Поиск 1688 не является подтверждённым поставщиком.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": null,
+      "evidence_type": "listing_only",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Продавец",
+          "url": "https://anta-sport.ru/product/puhovik-bez-kapyushona-anta-kt",
+          "claim": "Товарная карточка"
+        },
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/card/pukhovik-anta-kt-down-jacket-tsvet-chernyy-razmer-s-int/103719112751",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-ANTA-952547901-1",
+      "name": "ANTA 952547901-1 — мужской пуховик Puffer Down Jacket",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "ANTA-952547901-1",
+      "url": "https://anta.com.vn/products/ao-khoac-long-vu-puffer-down-jacket-anta-952547901-1",
+      "image_url": "https://cdn.hstatic.net/products/1000150581/952547901-1__8__7a93c76d9c4f4622a7a248c5ca80e736_1024x1024.jpg",
+      "image_source_url": "https://anta.com.vn/products/ao-khoac-long-vu-puffer-down-jacket-anta-952547901-1",
+      "priority": null,
+      "explanation": "Реальная модель и ссылка на продавца; текущие остатки и спрос именно этого артикула не проверены. Поиск 1688 не является подтверждённым поставщиком.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": null,
+      "evidence_type": "listing_only",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Продавец",
+          "url": "https://anta.com.vn/products/ao-khoac-long-vu-puffer-down-jacket-anta-952547901-1",
+          "claim": "Товарная карточка"
+        },
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/category/pukhoviki-anta",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-ANTA-952547927-1",
+      "name": "ANTA 952547927-1 — мужской чёрный короткий пуховик",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "ANTA-952547927-1",
+      "url": "https://www.momoshop.com.tw/TP/TP0009562/goodsDetail/TP00095620004364",
+      "image_url": "https://i6.momoshop.com.tw/1780279809/goodsimg/TP000/9562/0004/364/TP00095620004364_R_m.jpg",
+      "image_source_url": "https://www.momoshop.com.tw/TP/TP0009562/goodsDetail/TP00095620004364",
+      "priority": null,
+      "explanation": "Реальная модель и ссылка на продавца; текущие остатки и спрос именно этого артикула не проверены. Поиск 1688 не является подтверждённым поставщиком.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": null,
+      "evidence_type": "listing_only",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Продавец",
+          "url": "https://www.momoshop.com.tw/TP/TP0009562/goodsDetail/TP00095620004364",
+          "claim": "Товарная карточка"
+        },
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/card/anta-down-jacket-unisex-basic-black-4xl/5025032654",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "MULTI-MR-006",
+      "name": "ANTA ODP — женский чёрный пуховик",
+      "group": "Куртки и пуховики",
+      "original_category": "Верхняя одежда",
+      "sku": "Lamoda MP002XW1C99L",
+      "url": "https://www.lamoda.ru/p/mp002xw1c99l/clothes-anta-pukhovik/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": null,
+      "explanation": "Конкретная модель в российском магазине, пригодная для сравнения цены и посадки; спрос SKU ещё не измерен",
+      "next_check": "Размерная сетка, маркировка, возвраты, оригинальность бренда, сезонность",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": null,
+      "china_note": "На Alibaba представлены независимые похожие пуховики, а не подтверждённые поставки ANTA",
+      "sources": [
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1c99l/clothes-anta-pukhovik/",
+          "claim": "Модель и цвет с отдельной карточкой",
+          "note": "Покупки конкретной позиции не опубликованы"
+        },
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "claim": "Категория курток ANTA, ассортимент в продаже",
+          "note": "Контекст категории, не второе независимое подтверждение продаж"
+        }
+      ],
+      "data_sources": [
+        "data/research/multimarket_opportunities_20261118.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "MULTI-MR-007",
+      "name": "ANTA ODP A-PROTECTION — бежевый пуховик",
+      "group": "Куртки и пуховики",
+      "original_category": "Верхняя одежда",
+      "sku": "Lamoda MP002XM0C9XF",
+      "url": "https://www.lamoda.ru/p/mp002xm0c9xf/clothes-anta-pukhovik/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": null,
+      "explanation": "Конкретная модель в российском магазине, пригодная для сравнения цены и посадки; спрос SKU ещё не измерен",
+      "next_check": "Размерная сетка, маркировка, возвраты, оригинальность бренда, сезонность",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": null,
+      "china_note": "На Alibaba представлены независимые похожие пуховики, а не подтверждённые поставки ANTA",
+      "sources": [
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xm0c9xf/clothes-anta-pukhovik/",
+          "claim": "Модель и цвет с отдельной карточкой",
+          "note": "Покупки конкретной позиции не опубликованы"
+        },
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "claim": "Категория курток ANTA, ассортимент в продаже",
+          "note": "Контекст категории, не второе независимое подтверждение продаж"
+        }
+      ],
+      "data_sources": [
+        "data/research/multimarket_opportunities_20261118.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "MULTI-MR-008",
+      "name": "ANTA ODP A-PROTECTION — женский бежевый пуховик",
+      "group": "Куртки и пуховики",
+      "original_category": "Верхняя одежда",
+      "sku": "Lamoda MP002XW1CQRP",
+      "url": "https://www.lamoda.ru/p/mp002xw1cqrp/clothes-anta-pukhovik/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": null,
+      "explanation": "Конкретная модель в российском магазине, пригодная для сравнения цены и посадки; спрос SKU ещё не измерен",
+      "next_check": "Размерная сетка, маркировка, возвраты, оригинальность бренда, сезонность",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": null,
+      "china_note": "На Alibaba представлены независимые похожие пуховики, а не подтверждённые поставки ANTA",
+      "sources": [
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1cqrp/clothes-anta-pukhovik/",
+          "claim": "Модель и цвет с отдельной карточкой",
+          "note": "Покупки конкретной позиции не опубликованы"
+        },
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "claim": "Категория курток ANTA, ассортимент в продаже",
+          "note": "Контекст категории, не второе независимое подтверждение продаж"
+        }
+      ],
+      "data_sources": [
+        "data/research/multimarket_opportunities_20261118.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "MULTI-MR-009",
+      "name": "ANTA ODP A-PROTECTION — женский чёрный пуховик",
+      "group": "Куртки и пуховики",
+      "original_category": "Верхняя одежда",
+      "sku": "Lamoda MP002XW1CQRU",
+      "url": "https://www.lamoda.ru/p/mp002xw1cqru/clothes-anta-pukhovik/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": null,
+      "explanation": "Конкретная модель в российском магазине, пригодная для сравнения цены и посадки; спрос SKU ещё не измерен",
+      "next_check": "Размерная сетка, маркировка, возвраты, оригинальность бренда, сезонность",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": null,
+      "china_note": "На Alibaba представлены независимые похожие пуховики, а не подтверждённые поставки ANTA",
+      "sources": [
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1cqru/clothes-anta-pukhovik/",
+          "claim": "Модель и цвет с отдельной карточкой",
+          "note": "Покупки конкретной позиции не опубликованы"
+        },
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "claim": "Категория курток ANTA, ассортимент в продаже",
+          "note": "Контекст категории, не второе независимое подтверждение продаж"
+        }
+      ],
+      "data_sources": [
+        "data/research/multimarket_opportunities_20261118.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-LINING-AFDS365-1",
+      "name": "Li-Ning AFDS365-1 — белая ветровка Logo Running",
+      "group": "Куртки и пуховики",
+      "original_category": "Ветровки",
+      "sku": "LINING-AFDS365-1",
+      "url": "https://www.kickscrew.com/products/li-ning-logo-running-windbreaker-white-afds365-1",
+      "image_url": "https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_c45a19eb-c4da-40ee-9eaf-d80a6b65708b.jpg?v=1714117145",
+      "image_source_url": "https://www.kickscrew.com/products/li-ning-logo-running-windbreaker-white-afds365-1",
+      "priority": null,
+      "explanation": "Реальная модель и ссылка на продавца; текущие остатки и спрос именно этого артикула не проверены. Поиск 1688 не является подтверждённым поставщиком.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": null,
+      "evidence_type": "listing_only",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Продавец",
+          "url": "https://www.kickscrew.com/products/li-ning-logo-running-windbreaker-white-afds365-1",
+          "claim": "Товарная карточка"
+        },
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/category/li-ning-vetrovki",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-LINING-AFDW104-8",
+      "name": "Li-Ning AFDW104-8 — женская ветровка Essentials, чёрная",
+      "group": "Куртки и пуховики",
+      "original_category": "Ветровки",
+      "sku": "LINING-AFDW104-8",
+      "url": "https://lining-sport.ru/product/afdw104_8_vetrovka_essentials_chernyy/",
+      "image_url": "https://lining-sport.ru/upload/resize_cache/iblock/76f/nqq1esyqeje4oy9o0mkr9fio715mwsba/512_512_1/Li-Ning%2019.02.2603491%201%20-%20main.jpg",
+      "image_source_url": "https://lining-sport.ru/product/afdw104_8_vetrovka_essentials_chernyy/",
+      "priority": null,
+      "explanation": "Реальная модель и ссылка на продавца; текущие остатки и спрос именно этого артикула не проверены. Поиск 1688 не является подтверждённым поставщиком.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": null,
+      "evidence_type": "listing_only",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Продавец",
+          "url": "https://lining-sport.ru/product/afdw104_8_vetrovka_essentials_chernyy/",
+          "claim": "Товарная карточка"
+        },
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/category/li-ning-vetrovki",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-LINING-AYMU079-1",
+      "name": "Li-Ning AYMU079-1 — мужской пуховик Active, чёрный",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "LINING-AYMU079-1",
+      "url": "https://lining-sport.ru/product/aymu079_1_pukhovik_active_chyernyy/",
+      "image_url": "https://lining-sport.ru/upload/iblock/b92/snt4ib2qlusz48t4a2pnsdspgdyhtl4h/2I6A6651.jpg",
+      "image_source_url": "https://lining-sport.ru/product/aymu079_1_pukhovik_active_chyernyy/",
+      "priority": null,
+      "explanation": "Реальная модель и ссылка на продавца; текущие остатки и спрос именно этого артикула не проверены. Поиск 1688 не является подтверждённым поставщиком.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": null,
+      "evidence_type": "listing_only",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Продавец",
+          "url": "https://lining-sport.ru/product/aymu079_1_pukhovik_active_chyernyy/",
+          "claim": "Товарная карточка"
+        },
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/category/pukhoviki-li-ning",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "OUT-LINING-AYMU197-3",
+      "name": "Li-Ning AYMU197-3 — пуховик Badfive, коричневый",
+      "group": "Куртки и пуховики",
+      "original_category": "Пуховики и куртки",
+      "sku": "LINING-AYMU197-3",
+      "url": "https://www.joom.com/en/products/68ca5adae0ccc2018216b7b0",
+      "image_url": "https://img.joomcdn.net/6906565dd52155ae4079763c24e73c4469361c8d_1024_1024.jpeg",
+      "image_source_url": "https://www.joom.com/en/products/68ca5adae0ccc2018216b7b0",
+      "priority": null,
+      "explanation": "Реальная модель и ссылка на продавца; текущие остатки и спрос именно этого артикула не проверены. Поиск 1688 не является подтверждённым поставщиком.",
+      "next_check": "Проверить объём продаж, размеры, маркировку и возвраты.",
+      "evidence": null,
+      "evidence_type": "listing_only",
+      "china_url": null,
+      "china_note": "Прямой поставщик точной модели не подтверждён.",
+      "sources": [
+        {
+          "platform": "Продавец",
+          "url": "https://www.joom.com/en/products/68ca5adae0ccc2018216b7b0",
+          "claim": "Товарная карточка"
+        },
+        {
+          "platform": "Россия: сравнение",
+          "url": "https://market.yandex.ru/card/lining-badfive-down-jacket-winter-mens-earth-brown-l/4992108551",
+          "claim": "Похожие предложения"
+        }
+      ],
+      "data_sources": [
+        "data/real_offers/outerwear_20261117.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    },
+    {
+      "id": "MULTI-MR-001",
+      "name": "Xiaomi Mijia — машинка для удаления катышков",
+      "group": "Дом и повседневные товары",
+      "original_category": "Уход за одеждой",
+      "sku": "Ozon 1582928123",
+      "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+      "image_url": null,
+      "image_source_url": null,
+      "priority": null,
+      "explanation": "Сильный сигнал потребительского интереса по количеству отзывов и присутствию на разных площадках.",
+      "next_check": "Подделки Xiaomi, аккумулятор, документы, качество ножей; оптовый аналог не тождественен брендовому SKU",
+      "evidence": null,
+      "evidence_type": "listing_or_category",
+      "china_url": null,
+      "china_note": "Оптовые электрические машинки, включая MOQ от 4 шт. у одного предложения; не оригинал Xiaomi",
+      "sources": [
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+          "claim": "37 467 отзывов",
+          "note": "Общее число отзывов карточки, не продажи за период"
+        },
+        {
+          "platform": "Wildberries",
+          "url": "https://www.wildberries.ru/catalog/tags/pribor-dlja-udalenija-shersti-s-odezhdy",
+          "claim": "Есть объявления Xiaomi Mijia",
+          "note": "Категорийная выдача; точное SKU не сверено"
+        },
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl/103186979139",
+          "claim": "MQXJQ01KL",
+          "note": "Точный артикул в названии; не следует объединять счётчики разных карточек"
+        }
+      ],
+      "data_sources": [
+        "data/research/multimarket_opportunities_20261118.json"
+      ],
+      "last_observed": "2026-11-18",
+      "procurement_ready": false
+    }
+  ]
+}
