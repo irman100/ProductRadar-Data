@@ -279,6 +279,13 @@ function recalcEconomics(){
 
 
 let unifiedCatalog=[],catalogMode='evidence';
+function refreshCatalogGroups(){
+ const selected=$('#catalog-group').value;
+ const names=[...new Set(unifiedCatalog.filter(p=>catalogMode==='evidence'?p.demand_review_status==='observed_purchase_signal':p.demand_review_status!=='observed_purchase_signal').map(p=>p.group))].sort((a,b)=>a.localeCompare(b,'ru'));
+ $('#catalog-group').innerHTML='<option value="all">Все категории</option>'+names.map(g=>'<option value="'+esc(g)+'">'+esc(g)+'</option>').join('');
+ $('#catalog-group').value=names.includes(selected)?selected:'all';
+}
+
 const catalogGlyph=g=>/Куртки/.test(g)?'🧥':/Одежда/.test(g)?'🎒':/Зоо/.test(g)?'🐾':/Авто/.test(g)?'🚗':/Электро/.test(g)?'🔌':'📦';
 function cardFallback(p){return '<div class="catalog-fallback"><span class="glyph" aria-hidden="true">'+catalogGlyph(p.group)+'</span><b>Фото на сайте продавца</b><span>'+esc(p.group)+'</span></div>'}
 function drawUnifiedCatalog(){
@@ -313,8 +320,7 @@ const keys=new Set();unifiedCatalog=d.products.map(p=>{
  }
  return p;
 }).filter(p=>{if(!p||!p.name||!p.group||!safeUrl(p.url))return false;const key=new URL(p.url).hostname.toLowerCase()+new URL(p.url).pathname.replace(/\/$/,'').toLowerCase();if(keys.has(key))return false;keys.add(key);return true;});
-const selected=$('#catalog-group').value;$('#catalog-group').innerHTML='<option value="all">Все категории</option>'+[...new Set(unifiedCatalog.map(p=>p.group))].sort((a,b)=>a.localeCompare(b,'ru')).map(g=>'<option value="'+esc(g)+'">'+esc(g)+'</option>').join('');
-$('#catalog-group').value=[...new Set(unifiedCatalog.map(p=>p.group))].includes(selected)?selected:'all';
+refreshCatalogGroups();
 $('#audit-cards').textContent=unifiedCatalog.length;$('#audit-photo').textContent=unifiedCatalog.filter(p=>!safeUrl(p.image_url)).length;drawUnifiedCatalog();
 }catch(e){$('#catalog-status').textContent='Не удалось загрузить единый каталог: '+e.message;}
 }
@@ -326,7 +332,7 @@ function setCatalogMode(mode){
  $('#catalog-mode-evidence').setAttribute('aria-pressed',mode==='evidence'?'true':'false');
  $('#catalog-mode-research').setAttribute('aria-pressed',mode==='research'?'true':'false');
  $('#catalog-group').value='all';$('#catalog-proof').value='all';$('#catalog-query').value='';
- drawUnifiedCatalog();
+ refreshCatalogGroups();drawUnifiedCatalog();
 }
 $('#catalog-mode-evidence').addEventListener('click',()=>setCatalogMode('evidence'));
 $('#catalog-mode-research').addEventListener('click',()=>setCatalogMode('research'));
