@@ -22,6 +22,11 @@
 <section class="hero"><small>ПОДБОР ДЛЯ ИМПОРТА ИЗ КИТАЯ</small><h1>Product Radar — товары и рынок</h1><p class="hint">Исследования российского спроса, конкретные товарные карточки и поиск закупки в Китае. Отчёты содержат источники и дату; прибыльность не обещается без расчёта полной себестоимости.</p>
 <div class="actions"><button id="refresh">Загрузить свежие данные</button><a href="https://github.com/irman100/ProductRadar-Data" rel="noopener noreferrer" target="_blank">Данные и методика ↗</a></div><div id="status" role="status">Загрузка подтверждённых данных…</div>
 <div class="summary"><div class="stat"><small>Категорий в статистике</small><b id="cat-count">—</b></div><div class="stat"><small>Моделей с открытыми наблюдениями</small><b id="item-count">—</b></div><div class="stat"><small>Период данных</small><b id="period" style="font-size:14px">—</b></div></div></section>
+<section id="quality-audit" class="report" aria-label="Качество данных и готовность к закупке">
+<h2>Можно ли уже закупать?</h2><p class="hint">Product Radar показывает найденные товары и наблюдения российских маркетплейсов. Это ещё не рейтинг выгодных закупок: оптовые поставщики, полная себестоимость и прибыльность требуют подтверждения.</p>
+<div class="summary"><div class="stat"><small>Товары в витринах</small><b id="audit-cards">—</b></div><div class="stat"><small>Готовы к обоснованной закупке</small><b id="audit-ready">—</b></div><div class="stat"><small>Нет фото у карточек одежды</small><b id="audit-photo">—</b></div></div>
+<p class="hint" id="audit-date">Получаем структурную проверку данных…</p><p class="report-note">Статус «счётчик покупок наблюдался» не означает «товар ходовой сегодня». Кнопка поиска на 1688 не подтверждает поставщика или доступность партии.</p>
+</section>
 <section id="research-report" class="report" aria-labelledby="report-title">
 <p class="report-meta">ПОСЛЕДНИЙ ОПУБЛИКОВАННЫЙ ОБЗОР · <span id="report-date">загрузка…</span></p>
 <h2 id="report-title">Что покупать в Китае для продажи в России?</h2>
@@ -36,7 +41,7 @@
 <div class="actions"><input id="shop-search" placeholder="Поиск: ANTA, Bosideng, Li-Ning, артикул" aria-label="Найти конкретный товар"></div>
 <p id="shop-status" class="hint" role="status">Загружаем товарные карточки…</p>
 <div id="shop-list" class="cards"></div><p class="hint">Цель: не менее 20 проверенных карточек в каждой категории. Пока не набрано: качество и ссылки важнее искусственного наполнения.</p></section>
-<section id="products"><h2>Товары с наблюдаемыми покупками в России</h2><p class="hint">В карточке каждой модели — фактический счётчик покупок, реальная фотография, источник, риск импорта. Страна изготовления конкретной партии, оптовый поставщик и закупочная прибыль требуют отдельной проверки. Бренд китайский — это ещё не подтверждённое происхождение каждого экземпляра.</p><input id="search" placeholder="Поиск подтверждённых товаров" aria-label="Поиск подтверждённых товаров"><div id="items"></div><div id="empty" class="empty" hidden><h3>Нет карточек по текущему поиску</h3><p>Попробуйте другой поисковый запрос. Не подтверждённые товарные идеи хранятся отдельно и здесь не показываются.</p><p style="margin-top:12px"><a href="https://seller.ozon.ru/media/boost/kak-najti-hodovoj-tovar-dlya-torgovli-na-marketplejse/" target="_blank" rel="noopener noreferrer">Почему нужны данные продаж по SKU ↗</a></p></div></section>
+<section id="products"><h2>Товары с наблюдаемыми покупками в России</h2><p class="hint">В карточке каждой модели — фактический счётчик покупок, реальная фотография, источник, риск импорта. Страна изготовления конкретной партии, оптовый поставщик и закупочная прибыль требуют отдельной проверки. Бренд китайский — это ещё не подтверждённое происхождение каждого экземпляра.</p><input id="search" placeholder="Поиск товаров с наблюдениями" aria-label="Поиск подтверждённых товаров"><div id="items"></div><div id="empty" class="empty" hidden><h3>Нет карточек по текущему поиску</h3><p>Попробуйте другой поисковый запрос. Не подтверждённые товарные идеи хранятся отдельно и здесь не показываются.</p><p style="margin-top:12px"><a href="https://seller.ozon.ru/media/boost/kak-najti-hodovoj-tovar-dlya-torgovli-na-marketplejse/" target="_blank" rel="noopener noreferrer">Почему нужны данные продаж по SKU ↗</a></p></div></section>
 <section id="categories"><h2>Рынок по категориям</h2><p class="hint">Общий оборот онлайн-торговли по АКИТ: это контекст российского спроса, а не рейтинг товаров китайского происхождения и не прогноз прибыльности импорта.</p><div id="cat-list" class="table"></div><p class="hint" id="cat-source"></p></section>
 <section id="fashion"><h2>Статистика категории верхней одежды</h2><p class="hint">Отдельная статистика по продажам в России. Не путайте рост подкатегории с продажами конкретной куртки.</p><div id="fashion-list" class="cards"></div></section>
 <footer class="foot">Product Radar • Рынок России: АКИТ • Конкретные модели: страницы продавцов и открытые наблюдения • Фабрика, себестоимость и документы ввоза ещё не проверены.</footer>
@@ -74,7 +79,7 @@ $('#cat-list').innerHTML=categories.map(x=>'<div class="cat"><span class="rank">
 $('#cat-source').innerHTML='Источник: <a href="'+esc(safeUrl(c.source_url))+'" target="_blank" rel="noopener noreferrer">'+esc(c.source_name)+'</a> · проверено '+esc(c.verified_at);
 $('#cat-count').textContent=categories.length;$('#item-count').textContent=products.length;$('#period').textContent='янв–сен 2026';$('#status').textContent='Данные проверены: '+esc(c.verified_at)+'. Счётчики покупок показывают состояние на дату наблюдения, не продажи за последние 30 дней.';draw()
 }catch(e){$('#status').textContent='Не удалось получить подтверждённые данные: '+e.message+'; последний успешный результат не заменён.'}finally{b.disabled=false}}
-$('#refresh').addEventListener('click',()=>{load();fashionStats();loadOffers();loadReport()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();loadOffers();loadReport();fashionStats();window.scrollTo({top:0,behavior:'smooth'})});
+$('#refresh').addEventListener('click',()=>{load();fashionStats();loadOffers();loadReport();loadAudit()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();loadOffers();loadReport();loadAudit();fashionStats();window.scrollTo({top:0,behavior:'smooth'})});
 
 let offers=[];
 function drawOffers(){
@@ -113,6 +118,8 @@ async function loadReport(){
  }catch(e){$('#report-date').textContent='не подтверждена';$('#report-summary').textContent='Отчёт сейчас недоступен. Данные товаров остаются доступны ниже.';}
 }
 
-if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();loadOffers();loadReport();
+async function loadAudit(){
+try{const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/quality/catalog_audit_20261118.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();$('#audit-cards').textContent=Number(d.observed_marketplace_cards)+Number(d.apparel_offer_cards);$('#audit-ready').textContent=d.ready_to_buy_for_resale;$('#audit-photo').textContent=d.apparel_cards_without_photo_url;$('#audit-date').textContent='Структура файлов проверена '+d.audited_at+'. Доступность страниц продавцов и достоверность счётчиков онлайн не проверялись.';}catch(e){$('#audit-date').textContent='Аудит недоступен: '+e.message;}}
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();loadOffers();loadReport();loadAudit();
 })();
 </script></body></html>
