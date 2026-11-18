@@ -1,0 +1,52 @@
+name: Resolve merchant product image URLs
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 6 */3 * *'
+  push:
+    paths:
+      - 'scripts/refresh_merchant_images.py'
+      - 'data/catalog/unified.json'
+      - '.github/workflows/merchant-images.yml'
+permissions:
+  contents: write
+concurrency:
+  group: merchant-image-metadata-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Discover primary images from public merchant metadata
+        run: python scripts/refresh_merchant_images.py --limit 40
+      - name: Validate resulting URL index
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          products=json.loads(Path('data/catalog/unified.json').read_text(encoding='utf-8'))['products']
+          out=json.loads(Path('data/catalog/images.json').read_text(encoding='utf-8'))
+          assert set(out['items']) == {p['id'] for p in products}
+          for item in out['items'].values():
+              url=item.get('image_url')
+              assert url is None or url.startswith('https://')
+          print('Image index valid:',len(out['items']))
+          PY
+      - name: Commit updated external image links
+        run: |
+          git config user.name "product-radar-bot"
+          git config user.email "product-radar-bot@users.noreply.github.com"
+          git add data/catalog/images.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(radar): refresh merchant image metadata links"
+            git push
+          else
+            echo "No new image URLs"
+          fi
