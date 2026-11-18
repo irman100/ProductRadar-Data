@@ -202,6 +202,142 @@
       "risks": "Право на бренд, оригинальность партии, документы, маркировка, возвраты",
       "ready_to_buy": false,
       "checked_at": "2026-11-18"
+    },
+    {
+      "id": "MR-006",
+      "name": "ANTA ODP — женский чёрный пуховик",
+      "category": "Верхняя одежда",
+      "ru_platform": "Lamoda",
+      "ru_product_url": "https://www.lamoda.ru/p/mp002xw1c99l/clothes-anta-pukhovik/",
+      "ru_sku": "Lamoda MP002XW1C99L",
+      "signals": [
+        {
+          "type": "specific_listing",
+          "value": "Модель и цвет с отдельной карточкой",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1c99l/clothes-anta-pukhovik/",
+          "note": "Покупки конкретной позиции не опубликованы"
+        },
+        {
+          "type": "category_context",
+          "value": "Категория курток ANTA, ассортимент в продаже",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "note": "Контекст категории, не второе независимое подтверждение продаж"
+        }
+      ],
+      "china_offer_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_example": "На Alibaba представлены независимые похожие пуховики, а не подтверждённые поставки ANTA",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "budget_fit": "20–300 тыс. ₽ — только после проверки партии и документов",
+      "why": "Конкретная модель в российском магазине, пригодная для сравнения цены и посадки; спрос SKU ещё не измерен",
+      "risks": "Размерная сетка, маркировка, возвраты, оригинальность бренда, сезонность",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
+    },
+    {
+      "id": "MR-007",
+      "name": "ANTA ODP A-PROTECTION — бежевый пуховик",
+      "category": "Верхняя одежда",
+      "ru_platform": "Lamoda",
+      "ru_product_url": "https://www.lamoda.ru/p/mp002xm0c9xf/clothes-anta-pukhovik/",
+      "ru_sku": "Lamoda MP002XM0C9XF",
+      "signals": [
+        {
+          "type": "specific_listing",
+          "value": "Модель и цвет с отдельной карточкой",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xm0c9xf/clothes-anta-pukhovik/",
+          "note": "Покупки конкретной позиции не опубликованы"
+        },
+        {
+          "type": "category_context",
+          "value": "Категория курток ANTA, ассортимент в продаже",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "note": "Контекст категории, не второе независимое подтверждение продаж"
+        }
+      ],
+      "china_offer_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_example": "На Alibaba представлены независимые похожие пуховики, а не подтверждённые поставки ANTA",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "budget_fit": "20–300 тыс. ₽ — только после проверки партии и документов",
+      "why": "Конкретная модель в российском магазине, пригодная для сравнения цены и посадки; спрос SKU ещё не измерен",
+      "risks": "Размерная сетка, маркировка, возвраты, оригинальность бренда, сезонность",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
+    },
+    {
+      "id": "MR-008",
+      "name": "ANTA ODP A-PROTECTION — женский бежевый пуховик",
+      "category": "Верхняя одежда",
+      "ru_platform": "Lamoda",
+      "ru_product_url": "https://www.lamoda.ru/p/mp002xw1cqrp/clothes-anta-pukhovik/",
+      "ru_sku": "Lamoda MP002XW1CQRP",
+      "signals": [
+        {
+          "type": "specific_listing",
+          "value": "Модель и цвет с отдельной карточкой",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1cqrp/clothes-anta-pukhovik/",
+          "note": "Покупки конкретной позиции не опубликованы"
+        },
+        {
+          "type": "category_context",
+          "value": "Категория курток ANTA, ассортимент в продаже",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "note": "Контекст категории, не второе независимое подтверждение продаж"
+        }
+      ],
+      "china_offer_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_example": "На Alibaba представлены независимые похожие пуховики, а не подтверждённые поставки ANTA",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "budget_fit": "20–300 тыс. ₽ — только после проверки партии и документов",
+      "why": "Конкретная модель в российском магазине, пригодная для сравнения цены и посадки; спрос SKU ещё не измерен",
+      "risks": "Размерная сетка, маркировка, возвраты, оригинальность бренда, сезонность",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
+    },
+    {
+      "id": "MR-009",
+      "name": "ANTA ODP A-PROTECTION — женский чёрный пуховик",
+      "category": "Верхняя одежда",
+      "ru_platform": "Lamoda",
+      "ru_product_url": "https://www.lamoda.ru/p/mp002xw1cqru/clothes-anta-pukhovik/",
+      "ru_sku": "Lamoda MP002XW1CQRU",
+      "signals": [
+        {
+          "type": "specific_listing",
+          "value": "Модель и цвет с отдельной карточкой",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1cqru/clothes-anta-pukhovik/",
+          "note": "Покупки конкретной позиции не опубликованы"
+        },
+        {
+          "type": "category_context",
+          "value": "Категория курток ANTA, ассортимент в продаже",
+          "source": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "note": "Контекст категории, не второе независимое подтверждение продаж"
+        }
+      ],
+      "china_offer_url": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_example": "На Alibaba представлены независимые похожие пуховики, а не подтверждённые поставки ANTA",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "budget_fit": "20–300 тыс. ₽ — только после проверки партии и документов",
+      "why": "Конкретная модель в российском магазине, пригодная для сравнения цены и посадки; спрос SKU ещё не измерен",
+      "risks": "Размерная сетка, маркировка, возвраты, оригинальность бренда, сезонность",
+      "ready_to_buy": false,
+      "checked_at": "2026-11-18"
     }
   ],
   "source_policy": {
@@ -209,5 +345,6 @@
     "sku_status_rule": "Присутствие на разных сайтах считается подтверждением рыночного предложения, а не двух независимых продаж",
     "publication_rule": "Все товары — исследования, не рекомендации к оптовой закупке. Прямые ссылки только на конкретные товарные страницы РФ; если китайская ссылка ведёт на категорию, явно пометить.",
     "photo_rule": "Показывать изображение только при подтверждённом праве встраивания; иначе открыть карточку продавца."
-  }
+  },
+  "notice": "В каталоге прямые карточки товаров, наблюдения рынка и китайские аналоги; наличие модели не доказывает популярность или прибыль. Отсутствие данных о продажах явно указано."
 }
