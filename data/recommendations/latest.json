@@ -1,0 +1,730 @@
+{
+  "schema_version": "1.0",
+  "published_at": "2026-11-18",
+  "type": "editorial_priority_shortlist",
+  "title": "Приоритетные товары для проверки импорта Китай → Россия",
+  "market": "RU",
+  "purchase_budget_rub": {
+    "min": 5000,
+    "max": 300000
+  },
+  "ranking_disclaimer": "Баллы — редакционный приоритет дальнейшего исследования, НЕ вероятность успеха, не рейтинг продаж и не прогноз маржи. Максимум 10: сигнал российского спроса 0–3, простота транспортировки 0–3, простота регуляторных требований 0–2, широта источников 0–2. Нулевой балл не означает отсутствие спроса, часто означает отсутствие проверенных данных.",
+  "market_context": {
+    "home_online_share_percent_2026_9m": 15.7,
+    "fashion_online_share_percent_2026_9m": 14.7,
+    "source_url": "https://www.retail.ru/news/akit-za-9-mesyatsev-2026-goda-obem-internet-torgovli-sostavil-10-85-trln-rubley-12-noyabrya-2026-284375/"
+  },
+  "products": [
+    {
+      "id": "RD-CN-RU-015",
+      "source_record_id": "CN-RU-015",
+      "name": "Xiaomi Mijia Lint Remover MQXJQ01KL — машинка для удаления катышков",
+      "category": "Уход за одеждой",
+      "ru_product_url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+      "image_url": "https://yablonya.com/upload/iblock/6d5/yjvpj3fv8p8tfgiq9l7s4rwfv3ogrukn.png",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 9,
+      "score_components": {
+        "russian_demand_signal": 3,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 1,
+        "source_breadth": 2
+      },
+      "research_priority": "проверить в первую очередь",
+      "why": "Много накопленных покупок в карточке Яндекс Маркета, есть отдельная карточка Ozon. Компактный товар; у аналогов встречаются небольшие MOQ.",
+      "next_check": "Подтвердить качество и батарею, выбрать оригинал либо легальный аналог, проверить сертификаты.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "17,4 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+          "signal_type": "additional_listing_or_category",
+          "claim": "Наличие похожих или сопоставимых предложений",
+          "note": "Совпадение точного SKU на второй площадке не подтверждено"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-002",
+      "source_record_id": "CN-RU-002",
+      "name": "UGREEN LP678 (15608) — складная алюминиевая подставка для телефона",
+      "category": "Аксессуары смартфонов",
+      "ru_product_url": "https://market.yandex.ru/card/podstavka-ugreen-dlya-telefona-nastolnaya-skladnaya-15608-seryy/4757640666",
+      "image_url": "https://www.ugreen.pl/hpeciai/a8ad5ab5ee99ed1557485601575a6f3a/eng_pm_UGREEN-LP678-folding-stand-for-phone-148905_2.jpg",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 9,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 2,
+        "source_breadth": 2
+      },
+      "research_priority": "проверить в первую очередь",
+      "why": "Компактная алюминиевая подставка, простая логистика; похожие UGREEN доступны на Ozon.",
+      "next_check": "Не путать LP678 c LP263/LP805; сравнить точный артикул и конкуренцию.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/podstavka-ugreen-dlya-telefona-nastolnaya-skladnaya-15608-seryy/4757640666",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "453 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/category/podstavki-ugreen/",
+          "signal_type": "additional_listing_or_category",
+          "claim": "Наличие похожих или сопоставимых предложений",
+          "note": "Совпадение точного SKU на второй площадке не подтверждено"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-014",
+      "source_record_id": "CN-RU-014",
+      "name": "Xiaomi Mi Colorful Mini Backpack (2076) — рюкзак 10 л, чёрный",
+      "category": "Сумки и рюкзаки",
+      "ru_product_url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
+      "image_url": "https://www.orrohomedubai.com/cdn/shop/products/ZJB4143GL-BLACK-MAIN.jpg?v=1676367049",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 9,
+      "score_components": {
+        "russian_demand_signal": 3,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 1,
+        "source_breadth": 2
+      },
+      "research_priority": "проверить в первую очередь",
+      "why": "Покупки в карточке конкретного рюкзака, компактный формат; присутствие рюкзаков Xiaomi на Ozon.",
+      "next_check": "Материал, размер, маркировка и текстильные требования; совпадение конкретной модели на площадках не установлено.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "2,9 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/category/ryukzak-xiaomi-mi-casual-backpack/",
+          "signal_type": "additional_listing_or_category",
+          "claim": "Наличие похожих или сопоставимых предложений",
+          "note": "Совпадение точного SKU на второй площадке не подтверждено"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-001",
+      "source_record_id": "CN-RU-001",
+      "name": "Xiaomi Mi Precision Screwdriver Kit — набор отвёрток 24 в 1, MJJXLSD002QW",
+      "category": "Инструменты и ремонт",
+      "ru_product_url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+      "image_url": "https://www.metalife.co.nz/cdn/shop/products/BHR4680GL_wr_01.jpg?v=1680212673",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 8,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 2,
+        "source_breadth": 1
+      },
+      "research_priority": "проверить в первую очередь",
+      "why": "Небольшой набор, понятная комплектация; наблюдаются покупки модели в России.",
+      "next_check": "Проверить оригинальность, комплект бит, цену партии и отличие артикулов.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "1,2 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-005",
+      "source_record_id": "CN-RU-005",
+      "name": "Xiaomi Mijia Electric Air Pump 2 — насос MJCQB06QW",
+      "category": "Автоаксессуары",
+      "ru_product_url": "https://market.yandex.ru/card/xiaomi-kompressor-portativnyy-xiaomi-portable-electric-air-compressor-2-mjcqb06qw-bhr7112gl/103658583109",
+      "image_url": "https://xiaomix.com.ua/sites/default/files/product/elektrichniy-nasos-xiaomi-mijia-electric-air-pump-2-25792.jpg",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 7,
+      "score_components": {
+        "russian_demand_signal": 3,
+        "transport_simplicity": 2,
+        "regulatory_simplicity": 1,
+        "source_breadth": 1
+      },
+      "research_priority": "перспективно для дополнительной проверки",
+      "why": "Есть наблюдаемые покупки модели MJCQB06QW; компактный автотовар.",
+      "next_check": "Аккумулятор, гарантия, ввоз техники, условия перевозки и конкурентная цена.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/xiaomi-kompressor-portativnyy-xiaomi-portable-electric-air-compressor-2-mjcqb06qw-bhr7112gl/103658583109",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "3,2 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-006",
+      "source_record_id": "CN-RU-006",
+      "name": "UGREEN CM880 (55544) — USB-C хаб 7-в-1",
+      "category": "Аксессуары компьютеров",
+      "ru_product_url": "https://market.yandex.ru/card/usb-kontsentratordok-stantsiya-ugreen-cm880-55610-khab-usb-c-7-in-1-dp-8k30hzhdmi-4k60hz-usb3020-pd100w-hub/227714188188598272",
+      "image_url": "https://content.rozetka.com.ua/goods/images/big/634124348.jpg",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 7,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 1,
+        "source_breadth": 1
+      },
+      "research_priority": "перспективно для дополнительной проверки",
+      "why": "Наблюдаемые покупки, компактный товар; покупатели ищут USB-C хабы.",
+      "next_check": "Проверить точный CM880/55610, стандарты портов, гарантию и совместимость.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/usb-kontsentratordok-stantsiya-ugreen-cm880-55610-khab-usb-c-7-in-1-dp-8k30hzhdmi-4k60hz-usb3020-pd100w-hub/227714188188598272",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "1,3 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-MR-004",
+      "source_record_id": "MR-004",
+      "name": "Органайзер в багажник / автомобильная сумка",
+      "category": "Автоаксессуары",
+      "ru_product_url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/",
+      "image_url": null,
+      "observed_at": "2026-11-18",
+      "research_priority_score": 7,
+      "score_components": {
+        "russian_demand_signal": 1,
+        "transport_simplicity": 2,
+        "regulatory_simplicity": 2,
+        "source_breadth": 2
+      },
+      "research_priority": "перспективно для дополнительной проверки",
+      "why": "Конкретная карточка Ozon с отзывами и товарный аналог Alibaba.",
+      "next_check": "Размер, материал Oxford, MOQ, кубатура; отзывы — не число продаж.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/reviews/",
+          "signal_type": "reviews",
+          "claim": "467 отзывов",
+          "note": "Отзывы, не периодические продажи"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-dlya-avtomobilya-70-30-30-1709330527/",
+          "signal_type": "alternative_listing",
+          "claim": "Органайзер 70×30×30",
+          "note": "Другая модель, сравнивать размеры"
+        }
+      ],
+      "china_link": "https://www.alibaba.com/product-detail/Wholesale-Multipurpose-Car-Trunk-Organizer-Foldable_1601714941909.html",
+      "china_link_status": "analog_or_category_not_verified_supplier",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-013",
+      "source_record_id": "CN-RU-013",
+      "name": "Xiaomi Redmi Buds 6 Play — чёрные наушники BHR8776GL",
+      "category": "Аудио",
+      "ru_product_url": "https://market.yandex.ru/card/tws-naushniki-redmi-buds-6-play-black-bhr8776gl/103747826362",
+      "image_url": "https://content.rozetka.com.ua/goods/images/big/493915018.jpg",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 6,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 0,
+        "source_breadth": 1
+      },
+      "research_priority": "перспективно для дополнительной проверки",
+      "why": "Накопленные покупки точной модели, лёгкий товар.",
+      "next_check": "Батареи, подделки, возвраты, маркировка радиооборудования.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/tws-naushniki-redmi-buds-6-play-black-bhr8776gl/103747826362",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "826 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-011",
+      "source_record_id": "CN-RU-011",
+      "name": "Xiaomi Smart Band 9 — фитнес-браслет Arctic Blue",
+      "category": "Носимая электроника",
+      "ru_product_url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-blue/4352265808",
+      "image_url": "https://i.mi.ua/media/catalog/product/cache/3/image/710x600/602f0fa2c1f0d1ba5e241f914e856ff9/x/i/xiaomi_smart_band_9-tpu_blue_-side45_45.webp",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 6,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 0,
+        "source_breadth": 1
+      },
+      "research_priority": "перспективно для дополнительной проверки",
+      "why": "Покупки, известная модель, компактная.",
+      "next_check": "Оригинальность, батарея, документы, гарантия.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-blue/4352265808",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "881 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-012",
+      "source_record_id": "CN-RU-012",
+      "name": "Xiaomi Smart Band 9 — фитнес-браслет Glacier Silver",
+      "category": "Носимая электроника",
+      "ru_product_url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-silver-white/103834290668",
+      "image_url": "https://kingandmoffattretail.com/cdn/shop/files/E71026290_Xiaomi_Smart_Band_9_Glacier_Silver_ebab7451-8262-4021-815a-0dc1427ca4be.webp?v=1765814992",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 6,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 0,
+        "source_breadth": 1
+      },
+      "research_priority": "перспективно для дополнительной проверки",
+      "why": "Наблюдения вариантов одной серии; не суммировать как независимые модели.",
+      "next_check": "Дубликат серии Smart Band 9, цвет не равен новой нише.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-silver-white/103834290668",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "788 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-008",
+      "source_record_id": "CN-RU-008",
+      "name": "Xiaomi Smart Humidifier 2 EU — увлажнитель BHR6026EU",
+      "category": "Климатическая техника",
+      "ru_product_url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-xiaomi-smart-humidifier-2-eu-mjjsq05dy-bhr6026eu/4996170194",
+      "image_url": "https://cdn2.electronicscrazy.sg/Productimage/2022-12-0604-45-5026.webp",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 5,
+      "score_components": {
+        "russian_demand_signal": 3,
+        "transport_simplicity": 1,
+        "regulatory_simplicity": 0,
+        "source_breadth": 1
+      },
+      "research_priority": "наблюдать и собирать данные",
+      "why": "Зафиксированы покупки; спрос может быть сезонным.",
+      "next_check": "Бак и хрупкие детали, электротехника, документы и гарантийные возвраты.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-xiaomi-smart-humidifier-2-eu-mjjsq05dy-bhr6026eu/4996170194",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "2,2 тыс. купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-007",
+      "source_record_id": "CN-RU-007",
+      "name": "Xiaomi Redmi Buds 4 — беспроводные наушники, белые, BHR5846GL",
+      "category": "Аудио",
+      "ru_product_url": "https://market.yandex.ru/card/xiaomi-redmi-buds-4-white/103240420368",
+      "image_url": "https://mobilyskalka.cz/_obchody/6363/prilohy/761/sluchatka-xiaomi-redmi-buds-4-bila.jpg.big.jpg",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 5,
+      "score_components": {
+        "russian_demand_signal": 1,
+        "transport_simplicity": 3,
+        "regulatory_simplicity": 0,
+        "source_breadth": 1
+      },
+      "research_priority": "наблюдать и собирать данные",
+      "why": "Покупки наблюдались, но более старое поколение продукта.",
+      "next_check": "Подделки, гарантия, актуальность модели, батареи.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/xiaomi-redmi-buds-4-white/103240420368",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "95 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-003",
+      "source_record_id": "CN-RU-003",
+      "name": "Deerma DX118C — вертикальный проводной пылесос 2 в 1",
+      "category": "Техника для уборки",
+      "ru_product_url": "https://market.yandex.ru/card/pylesos-deerma-dx118c/102336612509",
+      "image_url": "https://www.orrohomedubai.com/cdn/shop/products/DX118-C-1.png?v=1658569003",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 4,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 0,
+        "regulatory_simplicity": 1,
+        "source_breadth": 1
+      },
+      "research_priority": "наблюдать и собирать данные",
+      "why": "Наблюдаемые покупки, но габаритная техника требует больше вложений.",
+      "next_check": "Объёмный вес, электробезопасность, гарантия; для маленького бюджета не подходит.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/pylesos-deerma-dx118c/102336612509",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "887 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-004",
+      "source_record_id": "CN-RU-004",
+      "name": "Deerma DX700 Pro — вертикальный пылесос, чёрный",
+      "category": "Техника для уборки",
+      "ru_product_url": "https://market.yandex.ru/card/vertikalnyy-provodnoy-pylesos-deerma-dx700-pro-chernyy/103240210164",
+      "image_url": "https://www.deerma.com.pe/cdn/shop/files/DX700_2_b4ed04d1-a4e5-4ead-8d1b-9af3888907d9.png?v=1755711803&width=1214",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 4,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 0,
+        "regulatory_simplicity": 1,
+        "source_breadth": 1
+      },
+      "research_priority": "наблюдать и собирать данные",
+      "why": "Наблюдаемые покупки, но товар громоздкий и сложен в логистике.",
+      "next_check": "Полная стоимость доставки и документы; модель может быть нерентабельна.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/vertikalnyy-provodnoy-pylesos-deerma-dx700-pro-chernyy/103240210164",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "924 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-CN-RU-016",
+      "source_record_id": "CN-RU-016",
+      "name": "Deerma DEM-F628S — ультразвуковой увлажнитель воздуха, 5 л",
+      "category": "Климатическая техника",
+      "ru_product_url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-deerma-dem-f628s/103240549853",
+      "image_url": "https://indexiq.ru/storage/tiny/deerma/Air-Humidifier-5L-DEM-F628S/Deerma-Air-Humidifier-5L-DEM-F628S-01.jpg",
+      "observed_at": "2026-11-18",
+      "research_priority_score": 4,
+      "score_components": {
+        "russian_demand_signal": 2,
+        "transport_simplicity": 1,
+        "regulatory_simplicity": 0,
+        "source_breadth": 1
+      },
+      "research_priority": "наблюдать и собирать данные",
+      "why": "Наблюдаемые покупки; спрос на увлажнители есть, но импорт сложнее.",
+      "next_check": "Объём, электробезопасность, доставка, срок службы.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-deerma-dem-f628s/103240549853",
+          "signal_type": "observed_cumulative_purchase_counter",
+          "claim": "697 купили",
+          "note": "Период счётчика неизвестен; наблюдение 2026-11-17"
+        }
+      ],
+      "china_link": null,
+      "china_link_status": "not_yet_found",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-MR-002",
+      "source_record_id": "MR-002",
+      "name": "ANTA ODP A-PROTECTION — мужской чёрный пуховик",
+      "category": "Куртки мужские",
+      "ru_product_url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
+      "image_url": null,
+      "observed_at": "2026-11-18",
+      "research_priority_score": 4,
+      "score_components": {
+        "russian_demand_signal": 1,
+        "transport_simplicity": 1,
+        "regulatory_simplicity": 0,
+        "source_breadth": 2
+      },
+      "research_priority": "наблюдать и собирать данные",
+      "why": "Конкретная модель ANTA на Lamoda и ассортимент верхней одежды марки.",
+      "next_check": "Спрос точной модели, размеры, возвраты, маркировка, право на бренд.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
+          "signal_type": "listing",
+          "claim": "Реальная карточка ODP A-PROTECTION",
+          "note": "Нет доступного периода продаж"
+        },
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/479-2767/clothes-muzhskaya-verkhnyaya-odezhda-anta/",
+          "signal_type": "category",
+          "claim": "79 мужских курток и пуховиков ANTA в выдаче",
+          "note": "Ширина ассортимента, не продажи SKU"
+        },
+        {
+          "platform": "Wildberries",
+          "url": "https://www.wildberries.ru/catalog/zhenshchinam/odezhda/puhoviki/tags/na-puhu",
+          "signal_type": "category",
+          "claim": "Категория пуховиков",
+          "note": "Иллюстрация конкурентной категории; не товар ANTA"
+        }
+      ],
+      "china_link": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_link_status": "analog_or_category_not_verified_supplier",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-MR-003",
+      "source_record_id": "MR-003",
+      "name": "ANTA ODP Winter Vibes — женский чёрный пуховик",
+      "category": "Куртки женские",
+      "ru_product_url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
+      "image_url": null,
+      "observed_at": "2026-11-18",
+      "research_priority_score": 4,
+      "score_components": {
+        "russian_demand_signal": 1,
+        "transport_simplicity": 1,
+        "regulatory_simplicity": 0,
+        "source_breadth": 2
+      },
+      "research_priority": "наблюдать и собирать данные",
+      "why": "Женская модель ANTA Winter Vibes с прямой карточкой Lamoda; зимняя сезонность.",
+      "next_check": "Спрос и размеры, качество наполнителя, возвраты и документы.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
+          "signal_type": "listing",
+          "claim": "Точная карточка ODP Winter Vibes",
+          "note": "Продажи и остатки не подтверждены"
+        },
+        {
+          "platform": "Lamoda",
+          "url": "https://www.lamoda.ru/cb/8837-2767/clothes-kurtki_i_puhoviki_jen-anta/",
+          "signal_type": "category",
+          "claim": "74 женские куртки ANTA в выдаче",
+          "note": "Размер категории, не доказательство продаж артикула"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/brand/bosideng-29461901/",
+          "signal_type": "market_presence",
+          "claim": "Пуховики китайского бренда Bosideng",
+          "note": "Конкурентный ориентир в брендовом сегменте"
+        }
+      ],
+      "china_link": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_link_status": "analog_or_category_not_verified_supplier",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    },
+    {
+      "id": "RD-MR-005",
+      "source_record_id": "MR-005",
+      "name": "Bosideng B30145252Y — женский пуховик с капюшоном",
+      "category": "Куртки женские",
+      "ru_product_url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+      "image_url": null,
+      "observed_at": "2026-11-18",
+      "research_priority_score": 2,
+      "score_components": {
+        "russian_demand_signal": 0,
+        "transport_simplicity": 1,
+        "regulatory_simplicity": 0,
+        "source_breadth": 1
+      },
+      "research_priority": "отложить до проверки",
+      "why": "Есть точный артикул производителя Bosideng, но нет доказательств российских продаж.",
+      "next_check": "Найти российский спрос SKU, оптового поставщика и документы.",
+      "budget_min_rub": 5000,
+      "budget_max_rub": 300000,
+      "budget_fit_status": "not_verified_without_quote",
+      "market_links": [
+        {
+          "platform": "Bosideng",
+          "url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+          "signal_type": "specific_listing",
+          "claim": "Официально опубликованная модель B30145252Y",
+          "note": "Модель существует, спрос в РФ по SKU не определён"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/brand/bosideng-29461901/",
+          "signal_type": "market_presence",
+          "claim": "Пуховики Bosideng в России",
+          "note": "Брендовые предложения, не точный SKU"
+        }
+      ],
+      "china_link": "https://apparel.alibaba.com/product/down-quilted-jackets-women",
+      "china_link_status": "analog_or_category_not_verified_supplier",
+      "verified_wholesale_quote": false,
+      "verified_net_margin": false,
+      "sales_forecast_probability": null
+    }
+  ]
+}
