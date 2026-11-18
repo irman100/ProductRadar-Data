@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "audited_at": "2026-11-18",
+  "catalog_source": "data/catalog/unified.json",
+  "image_source": "data/catalog/images.json",
+  "scope": "Repository structural and editorial evidence audit; not live verification of sales or stock.",
+  "total_items": 38,
+  "main_items": 12,
+  "research_items": 26,
+  "statuses": {
+    "observed_purchase_signal": 12,
+    "research_only": 19,
+    "variant_of_existing_model": 1,
+    "low_purchase_signal": 6
+  },
+  "photo_url_count": 28,
+  "photos_without_url": [
+    {
+      "id": "RD-MR-004",
+      "name": "Органайзер в багажник / автомобильная сумка",
+      "url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/",
+      "status": "research_only"
+    },
+    {
+      "id": "RD-OZON-1313640836",
+      "name": "Регулируемая шлейка-жилет для собак",
+      "url": "https://www.ozon.ru/product/shleyka-dlya-sobak-reguliruemyy-zhilet-troynoy-protivopobeg-progulki-dlya-malenkih-srednih-i-1313640836/",
+      "status": "research_only"
+    },
+    {
+      "id": "RD-OZON-1962683054",
+      "name": "Интерактивный мячик с хвостом для кошек, серый",
+      "url": "https://www.ozon.ru/product/interaktivnaya-igrushka-dlya-koshek-umnyy-myachik-s-hvostom-serogo-tsveta-1962683054/",
+      "status": "research_only"
+    },
+    {
+      "id": "RD-OZON-5761260692",
+      "name": "Кормушка с резервуаром 3,8 л для кошек",
+      "url": "https://www.ozon.ru/product/avtomaticheskaya-kormushka-dlya-koshek-3-8l-neoprokidyvaemaya-miska-s-rezervuarom-dlya-suhogo-5761260692/",
+      "status": "research_only"
+    },
+    {
+      "id": "OUT-RU-ANTA-103594293902",
+      "name": "ANTA — короткий чёрный пуховик",
+      "url": "https://market.yandex.ru/card/pukhovik-korotkiy-chernyy/103594293902",
+      "status": "low_purchase_signal"
+    },
+    {
+      "id": "OUT-RU-ANTA-5025032654",
+      "name": "ANTA Basic — пуховик унисекс, чёрный, 4XL",
+      "url": "https://market.yandex.ru/card/anta-down-jacket-unisex-basic-black-4xl/5025032654",
+      "status": "low_purchase_signal"
+    },
+    {
+      "id": "OUT-RU-ANTA-5650132137",
+      "name": "ANTA Irving Collection — пуховик унисекс, чёрный, L",
+      "url": "https://market.yandex.ru/card/anta-irving-collection-pukhovik-uniseks-chernyy-l/5650132137",
+      "status": "low_purchase_signal"
+    },
+    {
+      "id": "OUT-RU-ANTA-103719112751",
+      "name": "ANTA KT Down Jacket — чёрный пуховик, размер S",
+      "url": "https://market.yandex.ru/card/pukhovik-anta-kt-down-jacket-tsvet-chernyy-razmer-s-int/103719112751",
+      "status": "low_purchase_signal"
+    },
+    {
+      "id": "OUT-RU-LINING-4716227508",
+      "name": "Li-Ning AFDVC10-4 — спортивная куртка Essentials, синяя, S",
+      "url": "https://market.yandex.ru/card/afdvc10-4-kurtka-essentials-siniy/4716227508",
+      "status": "low_purchase_signal"
+    },
+    {
+      "id": "MULTI-MR-001",
+      "name": "Xiaomi Mijia — машинка для удаления катышков",
+      "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+      "status": "research_only"
+    }
+  ],
+  "main_missing_photo_url": 0,
+  "quality_policy": "Show researched products separately; sales listing alone does not make a recommendation. Historical purchase counts have unknown time window. A 100-purchase cutoff is an editorial filter only and not a statistical threshold. Research items may have no verifiable current sales.",
+  "main_page_message": "Main catalog shows observed cumulative purchases >=100, excluding repeated colors of same model. Sales period, import economics and supplier remain unknown."
+}
