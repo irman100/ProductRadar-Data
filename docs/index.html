@@ -77,6 +77,7 @@
 .catalog-stat{display:inline-block;border-radius:10px;background:#eaf1e9;padding:8px 10px;font-size:12px;color:#365b49}
 @media(max-width:900px){.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:580px){.catalog-grid{grid-template-columns:1fr}.catalog-photo{height:220px}.catalog-shell{margin-top:15px}}
+.catalog-modes{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0 4px}.catalog-modes button{background:#e6efe9;color:#2e6552}.catalog-modes button[aria-pressed="true"]{background:#145f4d;color:#fff}.catalog-scope{margin:10px 0;padding:12px 14px;border-left:3px solid #bc9957;background:#fff9ee;border-radius:8px;font-size:12px;color:#684f23}
 </style></head><body>
 <header><strong>◈ Product Radar</strong><small>Наблюдаемые покупки • Китай → Россия</small></header>
 <main>
@@ -84,13 +85,14 @@
 <div class="actions"><button id="refresh">Загрузить свежие данные</button><a href="https://github.com/irman100/ProductRadar-Data" rel="noopener noreferrer" target="_blank">Данные и методика ↗</a></div><div id="status" role="status">Загрузка подтверждённых данных…</div>
 <div class="summary"><div class="stat"><small>Категорий в статистике</small><b id="cat-count">—</b></div><div class="stat"><small>Моделей с открытыми наблюдениями</small><b id="item-count">—</b></div><div class="stat"><small>Период данных</small><b id="period" style="font-size:14px">—</b></div></div></section>
 <section id="catalog" class="catalog-shell" aria-labelledby="catalog-title">
-<div class="catalog-header"><div><small class="tag">ЕДИНАЯ ТОВАРНАЯ ВИТРИНА</small><h2 id="catalog-title">Товары для изучения закупок</h2><p class="catalog-sub">Одна карточка на оригинальное предложение продавца. Здесь собраны модели из рекомендаций, исследований и раздела одежды без повторов одних и тех же ссылок. Покупки и рейтинг проверки не гарантируют прибыльность.</p></div><span id="catalog-count" class="catalog-stat">Загрузка каталога…</span></div>
+<div class="catalog-header"><div><small class="tag">ЕДИНАЯ ТОВАРНАЯ ВИТРИНА</small><h2 id="catalog-title">Товары с наблюдаемыми покупками</h2><p class="catalog-sub">Одна карточка на оригинальное предложение продавца. По умолчанию — только модели со счётчиком от 100 накопленных покупок и без повторения цветовых вариантов. Это редакционный порог отбора, а не доказательство высоких текущих продаж. Остальные товары хранятся отдельно как исследовательские предложения.</p></div><span id="catalog-count" class="catalog-stat">Загрузка каталога…</span></div>
+<div class="catalog-modes" role="group" aria-label="Уровень проверки товаров"><button type="button" id="catalog-mode-evidence" aria-pressed="true">С наблюдаемыми покупками</button><button type="button" id="catalog-mode-research" aria-pressed="false">Требуют проверки спроса</button></div>
 <div class="catalog-tools">
 <input type="search" id="catalog-query" placeholder="Поиск: пуховик, ANTA, Xiaomi, артикул" aria-label="Поиск по каталогу">
 <select id="catalog-group" aria-label="Группа товаров"><option value="all">Все категории</option></select>
-<select id="catalog-proof" aria-label="Доказательства спроса"><option value="all">Все статусы</option><option value="purchases">Есть счётчик покупок</option><option value="photos">Есть фото продавца</option><option value="priority">Приоритет ≥ 8/10</option></select>
+<select id="catalog-proof" aria-label="Доказательства спроса"><option value="all">Любой уровень доказательств в разделе</option><option value="purchases">Есть счётчик покупок</option><option value="photos">Есть фото продавца</option><option value="priority">Приоритет ≥ 8/10</option></select>
 </div>
-<p id="catalog-status" class="hint" role="status">Загружаются карточки…</p>
+<p id="catalog-status" class="hint" role="status">Загружаются карточки…</p><div id="catalog-scope" class="catalog-scope">Счётчик «купили» показывает накопленные наблюдения с неизвестным периодом. Рейтинг не подтверждает продажи в последние 30 дней или прибыль от импорта.</div>
 <div id="catalog-grid" class="catalog-grid"></div>
 <p class="hint">Фото загружаются с внешних сайтов по ссылкам из каталога и метаданных продавцов, где они доступны. Если изображение не загружается, карточка остаётся на странице и открывает товар на сайте продавца. При необходимости проверяйте цену, размер и наличие непосредственно там.</p>
 </section>
@@ -276,18 +278,20 @@ function recalcEconomics(){
 ['#calc-buy','#calc-landed','#calc-sell','#calc-fee'].forEach(id=>$(id).addEventListener('input',recalcEconomics));
 
 
-let unifiedCatalog=[];
+let unifiedCatalog=[],catalogMode='evidence';
 const catalogGlyph=g=>/Куртки/.test(g)?'🧥':/Одежда/.test(g)?'🎒':/Зоо/.test(g)?'🐾':/Авто/.test(g)?'🚗':/Электро/.test(g)?'🔌':'📦';
 function cardFallback(p){return '<div class="catalog-fallback"><span class="glyph" aria-hidden="true">'+catalogGlyph(p.group)+'</span><b>Фото на сайте продавца</b><span>'+esc(p.group)+'</span></div>'}
 function drawUnifiedCatalog(){
 const q=$('#catalog-query').value.trim().toLowerCase(),g=$('#catalog-group').value,pf=$('#catalog-proof').value;
-const rows=unifiedCatalog.filter(p=>(p.name+' '+(p.sku||'')+' '+p.group).toLowerCase().includes(q)&& (g==='all'||p.group===g)&&(pf==='all'||pf==='purchases'&&p.evidence_type==='cumulative_purchases'||pf==='photos'&&safeUrl(p.image_url)||pf==='priority'&&p.priority!==null&&p.priority>=8));
-$('#catalog-count').textContent=unifiedCatalog.length+' разных товаров';
-$('#catalog-status').textContent='Показано '+rows.length+' из '+unifiedCatalog.length+'. Фото подключаются по прямым ссылкам продавцов, если доступны. При сбое карточка остаётся видимой.';
+const scoped=unifiedCatalog.filter(p=>catalogMode==='evidence'?p.demand_review_status==='observed_purchase_signal':p.demand_review_status!=='observed_purchase_signal');
+const rows=scoped.filter(p=>(p.name+' '+(p.sku||'')+' '+p.group).toLowerCase().includes(q)&& (g==='all'||p.group===g)&&(pf==='all'||pf==='purchases'&&p.evidence_type==='cumulative_purchases'||pf==='photos'&&safeUrl(p.image_url)||pf==='priority'&&p.priority!==null&&p.priority>=8));
+$('#catalog-count').textContent=unifiedCatalog.filter(p=>p.demand_review_status==='observed_purchase_signal').length+' с наблюдениями / '+unifiedCatalog.filter(p=>p.demand_review_status!=='observed_purchase_signal').length+' на проверке';
+$('#catalog-status').textContent='Показано '+rows.length+' из '+scoped.length+' товаров этого раздела. Все карточки имеют прямой переход к продавцу.';
+$('#catalog-scope').textContent=catalogMode==='evidence'?'Показаны товары с зафиксированным накопленным счётчиком покупок не менее 100; порог выбран для удобства отбора, он не доказывает популярность за месяц или прибыльность.':'В этом разделе товары без достоверного количественного спроса, с малым наблюдаемым счётчиком и варианты той же модели. Это НЕ рекомендации к закупке. У части товаров нет разрешённого прямого фото; откройте страницу продавца.';
 $('#catalog-grid').innerHTML=rows.map(p=>{
 const src=safeUrl(p.image_url),img=src?'<img src="'+esc(src)+'" alt="'+esc(p.name)+'" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">'+cardFallback(p).replace('class="catalog-fallback"','class="catalog-fallback" hidden'):cardFallback(p);
 const score=typeof p.priority==='number'?'<span class="catalog-pill">Проверка '+p.priority+'/10</span>':'';
-const evidence=p.evidence_type==='cumulative_purchases'&&p.evidence?'<span class="catalog-pill">'+esc(p.evidence)+' · период неизвестен</span>':'<span class="catalog-pill catalog-pill-muted">Продажи SKU не подтверждены</span>';
+const evidence=p.evidence_type==='cumulative_purchases'&&p.evidence?'<span class="catalog-pill">'+esc(p.evidence)+' · накопленный счётчик, период неизвестен</span>':'<span class="catalog-pill catalog-pill-muted">Продажи SKU не подтверждены</span>';
 const links=(p.sources||[]).filter(s=>safeUrl(s.url)&&safeUrl(s.url)!==safeUrl(p.url)).slice(0,3).map(s=>'<a target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(s.url))+'">'+esc(s.platform||'Источник')+' ↗</a>').join('');
 const photoDirect=safeUrl(p.image_url)?'<a href="'+esc(safeUrl(p.image_url))+'" target="_blank" rel="noopener noreferrer">Открыть оригинал фото ↗</a>':'';
 const china=safeUrl(p.china_url)?'<a target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(p.china_url))+'">Китайский аналог ↗</a>':'';
@@ -317,6 +321,15 @@ $('#audit-cards').textContent=unifiedCatalog.length;$('#audit-photo').textConten
 $('#catalog-query').addEventListener('input',drawUnifiedCatalog);
 $('#catalog-group').addEventListener('change',drawUnifiedCatalog);
 $('#catalog-proof').addEventListener('change',drawUnifiedCatalog);
+function setCatalogMode(mode){
+ catalogMode=mode;
+ $('#catalog-mode-evidence').setAttribute('aria-pressed',mode==='evidence'?'true':'false');
+ $('#catalog-mode-research').setAttribute('aria-pressed',mode==='research'?'true':'false');
+ $('#catalog-group').value='all';$('#catalog-proof').value='all';$('#catalog-query').value='';
+ drawUnifiedCatalog();
+}
+$('#catalog-mode-evidence').addEventListener('click',()=>setCatalogMode('evidence'));
+$('#catalog-mode-research').addEventListener('click',()=>setCatalogMode('research'));
 
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();loadOffers();loadReport();loadAudit();loadOpportunities();loadPriority();loadUnifiedCatalog();
 })();
