@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "audited_at": "2026-11-18",
+  "description": "Structural completeness audit of existing published Product Radar data, not a live check of merchants, counters or image URLs.",
+  "sources": [
+    "data/verified/products.json",
+    "data/real_offers/outerwear_20261117.json"
+  ],
+  "observed_marketplace_cards": 14,
+  "apparel_offer_cards": 13,
+  "apparel_cards_with_observed_counter": 5,
+  "apparel_cards_with_photo_url": 8,
+  "apparel_cards_without_photo_url": 5,
+  "wholesale_china_supplier_verified": 0,
+  "landed_unit_economics_verified": 0,
+  "ready_to_buy_for_resale": 0,
+  "verified_purchase_period": 0,
+  "interpretation": "No item has full proof of current demand plus verified China wholesale supplier plus complete unit economics. Observed marketplace purchase counters do not reveal a time period. URLs may be unavailable.",
+  "method": "Counts of files in the repository; live availability is not checked.",
+  "display_policy": "Never display the existing assortment as profitable or verified for procurement; merchants can be viewed for research."
+}
