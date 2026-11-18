@@ -4,7 +4,7 @@
 set -euo pipefail
 ROOT="/home/dockeruser/product-radar-public"
 DEST="$ROOT/index.html"
-SOURCE="https://raw.githubusercontent.com/irman100/ProductRadar-Data/d4393283545df52fb21544c8f8d61749b76bbf12/docs/index.html"
+SOURCE="https://raw.githubusercontent.com/irman100/ProductRadar-Data/997be1ed965e04efbc5708e924203d5aa85277a3/docs/index.html"
 [ -f "$DEST" ] || { echo "ERROR: not found: $DEST" >&2; exit 1; }
 command -v curl >/dev/null || { echo "ERROR: curl is required" >&2; exit 1; }
 TMP="$(mktemp "$ROOT/.index.html.new.XXXXXX")"
@@ -13,7 +13,7 @@ curl -fLSs --connect-timeout 12 --max-time 45 "$SOURCE" -o "$TMP"
 python3 - "$TMP" <<'PY'
 import sys
 s=open(sys.argv[1],encoding='utf-8').read()
-required=['<!doctype html>','const BASE=','data/verified/','id="products"','function draw()','load();fashionStats();loadOffers();','id="shop"','id="research-report"','loadReport();','marketplace_purchase_counter_observed']
+required=['<!doctype html>','const BASE=','data/verified/','id="products"','function draw()','load();fashionStats();loadOffers();','id="shop"','id="research-report"','loadReport();','marketplace_purchase_counter_observed','id="quality-audit"']
 assert all(x in s for x in required), "Downloaded HTML is incomplete"
 assert 'id="candidates"' not in s, "Unverified research cards must not be public"
 print("HTML verified: published research report, purchase observations and real merchant offers")
