@@ -1,0 +1,28 @@
+name: Validate multi-market research
+on:
+  push:
+    paths:
+      - 'data/research/multimarket_opportunities_*.json'
+      - 'scripts/validate_multimarket.py'
+      - '.github/workflows/validate-multimarket.yml'
+  pull_request:
+    paths:
+      - 'data/research/multimarket_opportunities_*.json'
+      - 'scripts/validate_multimarket.py'
+      - '.github/workflows/validate-multimarket.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate all multi-market research files
+        run: |
+          for f in data/research/multimarket_opportunities_*.json; do
+            python scripts/validate_multimarket.py "$f"
+          done
