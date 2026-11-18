@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-11-18",
+  "description": "Existing merchant image URL index. Missing images pending metadata extraction. Not confirmation of hotlink availability.",
+  "items": {
+    "RD-CN-RU-002": {
+      "image_url": "https://www.ugreen.pl/hpeciai/a8ad5ab5ee99ed1557485601575a6f3a/eng_pm_UGREEN-LP678-folding-stand-for-phone-148905_2.jpg",
+      "image_source_url": "https://market.yandex.ru/card/podstavka-ugreen-dlya-telefona-nastolnaya-skladnaya-15608-seryy/4757640666",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-014": {
+      "image_url": "https://www.orrohomedubai.com/cdn/shop/products/ZJB4143GL-BLACK-MAIN.jpg?v=1676367049",
+      "image_source_url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-015": {
+      "image_url": "https://yablonya.com/upload/iblock/6d5/yjvpj3fv8p8tfgiq9l7s4rwfv3ogrukn.png",
+      "image_source_url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-001": {
+      "image_url": "https://www.metalife.co.nz/cdn/shop/products/BHR4680GL_wr_01.jpg?v=1680212673",
+      "image_source_url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-006": {
+      "image_url": "https://content.rozetka.com.ua/goods/images/big/634124348.jpg",
+      "image_source_url": "https://market.yandex.ru/card/usb-kontsentratordok-stantsiya-ugreen-cm880-55610-khab-usb-c-7-in-1-dp-8k30hzhdmi-4k60hz-usb3020-pd100w-hub/227714188188598272",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-005": {
+      "image_url": "https://xiaomix.com.ua/sites/default/files/product/elektrichniy-nasos-xiaomi-mijia-electric-air-pump-2-25792.jpg",
+      "image_source_url": "https://market.yandex.ru/card/xiaomi-kompressor-portativnyy-xiaomi-portable-electric-air-compressor-2-mjcqb06qw-bhr7112gl/103658583109",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-MR-004": {
+      "image_url": null,
+      "image_source_url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "RD-OZON-1313640836": {
+      "image_url": null,
+      "image_source_url": "https://www.ozon.ru/product/shleyka-dlya-sobak-reguliruemyy-zhilet-troynoy-protivopobeg-progulki-dlya-malenkih-srednih-i-1313640836/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-013": {
+      "image_url": "https://content.rozetka.com.ua/goods/images/big/493915018.jpg",
+      "image_source_url": "https://market.yandex.ru/card/tws-naushniki-redmi-buds-6-play-black-bhr8776gl/103747826362",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-011": {
+      "image_url": "https://i.mi.ua/media/catalog/product/cache/3/image/710x600/602f0fa2c1f0d1ba5e241f914e856ff9/x/i/xiaomi_smart_band_9-tpu_blue_-side45_45.webp",
+      "image_source_url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-blue/4352265808",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-012": {
+      "image_url": "https://kingandmoffattretail.com/cdn/shop/files/E71026290_Xiaomi_Smart_Band_9_Glacier_Silver_ebab7451-8262-4021-815a-0dc1427ca4be.webp?v=1765814992",
+      "image_source_url": "https://market.yandex.ru/card/xiaomi-smart-band-9-band-9-silver-white/103834290668",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-OZON-1962683054": {
+      "image_url": null,
+      "image_source_url": "https://www.ozon.ru/product/interaktivnaya-igrushka-dlya-koshek-umnyy-myachik-s-hvostom-serogo-tsveta-1962683054/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-007": {
+      "image_url": "https://mobilyskalka.cz/_obchody/6363/prilohy/761/sluchatka-xiaomi-redmi-buds-4-bila.jpg.big.jpg",
+      "image_source_url": "https://market.yandex.ru/card/xiaomi-redmi-buds-4-white/103240420368",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-008": {
+      "image_url": "https://cdn2.electronicscrazy.sg/Productimage/2022-12-0604-45-5026.webp",
+      "image_source_url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-xiaomi-smart-humidifier-2-eu-mjjsq05dy-bhr6026eu/4996170194",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-016": {
+      "image_url": "https://indexiq.ru/storage/tiny/deerma/Air-Humidifier-5L-DEM-F628S/Deerma-Air-Humidifier-5L-DEM-F628S-01.jpg",
+      "image_source_url": "https://market.yandex.ru/card/uvlazhnitel-vozdukha-deerma-dem-f628s/103240549853",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-003": {
+      "image_url": "https://www.orrohomedubai.com/cdn/shop/products/DX118-C-1.png?v=1658569003",
+      "image_source_url": "https://market.yandex.ru/card/pylesos-deerma-dx118c/102336612509",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-CN-RU-004": {
+      "image_url": "https://www.deerma.com.pe/cdn/shop/files/DX700_2_b4ed04d1-a4e5-4ead-8d1b-9af3888907d9.png?v=1755711803&width=1214",
+      "image_source_url": "https://market.yandex.ru/card/vertikalnyy-provodnoy-pylesos-deerma-dx700-pro-chernyy/103240210164",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "RD-OZON-5761260692": {
+      "image_url": null,
+      "image_source_url": "https://www.ozon.ru/product/avtomaticheskaya-kormushka-dlya-koshek-3-8l-neoprokidyvaemaya-miska-s-rezervuarom-dlya-suhogo-5761260692/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "RD-MR-002": {
+      "image_url": null,
+      "image_source_url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "RD-MR-003": {
+      "image_url": null,
+      "image_source_url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "RD-MR-005": {
+      "image_url": "https://www.bosidengfashion.com/cdn/shop/files/bosideng-2023-4-black-women-s-classic-down-coat-with-hood-5252-b30145252y8056155-80a-88213-30634058711175.jpg?v=1744045039&width=2048",
+      "image_source_url": "https://www.bosidengfashion.com/products/womensclassicdowncoatwithhood5252-b30145252y",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-RU-ANTA-103594293902": {
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/pukhovik-korotkiy-chernyy/103594293902",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-RU-ANTA-5025032654": {
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/anta-down-jacket-unisex-basic-black-4xl/5025032654",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-RU-ANTA-5650132137": {
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/anta-irving-collection-pukhovik-uniseks-chernyy-l/5650132137",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-RU-ANTA-103719112751": {
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/pukhovik-anta-kt-down-jacket-tsvet-chernyy-razmer-s-int/103719112751",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-RU-LINING-4716227508": {
+      "image_url": null,
+      "image_source_url": "https://market.yandex.ru/card/afdvc10-4-kurtka-essentials-siniy/4716227508",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-ANTA-852241910-3": {
+      "image_url": "https://cdnya.proimagescdn.ru/images/bimages/1368/852241910-3_1.jpg",
+      "image_source_url": "https://anta-sport.ru/product/puhovik-bez-kapyushona-anta-kt",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-ANTA-952547901-1": {
+      "image_url": "https://cdn.hstatic.net/products/1000150581/952547901-1__8__7a93c76d9c4f4622a7a248c5ca80e736_1024x1024.jpg",
+      "image_source_url": "https://anta.com.vn/products/ao-khoac-long-vu-puffer-down-jacket-anta-952547901-1",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-ANTA-952547927-1": {
+      "image_url": "https://i6.momoshop.com.tw/1780279809/goodsimg/TP000/9562/0004/364/TP00095620004364_R_m.jpg",
+      "image_source_url": "https://www.momoshop.com.tw/TP/TP0009562/goodsDetail/TP00095620004364",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "MULTI-MR-006": {
+      "image_url": null,
+      "image_source_url": "https://www.lamoda.ru/p/mp002xw1c99l/clothes-anta-pukhovik/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "MULTI-MR-007": {
+      "image_url": null,
+      "image_source_url": "https://www.lamoda.ru/p/mp002xm0c9xf/clothes-anta-pukhovik/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "MULTI-MR-008": {
+      "image_url": null,
+      "image_source_url": "https://www.lamoda.ru/p/mp002xw1cqrp/clothes-anta-pukhovik/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "MULTI-MR-009": {
+      "image_url": null,
+      "image_source_url": "https://www.lamoda.ru/p/mp002xw1cqru/clothes-anta-pukhovik/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-LINING-AFDS365-1": {
+      "image_url": "https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_c45a19eb-c4da-40ee-9eaf-d80a6b65708b.jpg?v=1714117145",
+      "image_source_url": "https://www.kickscrew.com/products/li-ning-logo-running-windbreaker-white-afds365-1",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-LINING-AFDW104-8": {
+      "image_url": "https://lining-sport.ru/upload/resize_cache/iblock/76f/nqq1esyqeje4oy9o0mkr9fio715mwsba/512_512_1/Li-Ning%2019.02.2603491%201%20-%20main.jpg",
+      "image_source_url": "https://lining-sport.ru/product/afdw104_8_vetrovka_essentials_chernyy/",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-LINING-AYMU079-1": {
+      "image_url": "https://lining-sport.ru/upload/iblock/b92/snt4ib2qlusz48t4a2pnsdspgdyhtl4h/2I6A6651.jpg",
+      "image_source_url": "https://lining-sport.ru/product/aymu079_1_pukhovik_active_chyernyy/",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "OUT-LINING-AYMU197-3": {
+      "image_url": "https://img.joomcdn.net/6906565dd52155ae4079763c24e73c4469361c8d_1024_1024.jpeg",
+      "image_source_url": "https://www.joom.com/en/products/68ca5adae0ccc2018216b7b0",
+      "status": "catalog_image_url",
+      "checked_at": "2026-11-18"
+    },
+    "MULTI-MR-001": {
+      "image_url": null,
+      "image_source_url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+      "status": "pending_merchant_metadata",
+      "checked_at": "2026-11-18"
+    }
+  }
+}
