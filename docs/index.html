@@ -40,6 +40,13 @@
 .radar-warning{font-size:12px;color:#76592e;background:#fff8e9;border-radius:8px;padding:10px}
 @media(max-width:900px){.radar-board-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.radar-board-grid{grid-template-columns:1fr}}
+
+.calc-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.calc-grid label{font-size:12px;display:block;color:#5d7167}.calc-grid input{width:100%;max-width:none;margin-top:5px}
+.calc-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:14px}.calc-result{border:1px solid #d9e5dd;background:#f3f8f3;padding:11px;border-radius:10px}
+.calc-result b{display:block;font-size:18px}.calc-result small{color:#5c7469}
+@media(max-width:740px){.calc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:410px){.calc-results{grid-template-columns:1fr}}
 </style></head><body>
 <header><strong>◈ Product Radar</strong><small>Наблюдаемые покупки • Китай → Россия</small></header>
 <main>
@@ -57,6 +64,13 @@
 <div id="priority-status" class="hint" role="status">Загружаем предметные рекомендации…</div>
 <div id="priority-list" class="radar-board-grid"></div>
 <div class="radar-warning">Шкала 0–10 — только приоритет исследования (спрос, логистика, требования, источники). Не прогноз продаж. Для всех позиций закупочная цена с доставкой и чистая прибыль ещё требуют проверки.</div>
+</section>
+<section id="economics" class="report">
+<h2>Калькулятор: есть ли смысл в закупке?</h2>
+<p class="hint">Введи реальные суммы из предложения поставщика и расчёта логистики. Без этих данных сайт не должен обещать прибыль. Все значения ниже — ввод пользователя, а не подтверждённые рыночные цены.</p>
+<div class="calc-grid"><label>Цена закупки за шт., ₽<input type="number" min="0" step="1" id="calc-buy" placeholder="из 1688/Alibaba"></label><label>Доставка, пошлины и документы на шт., ₽<input type="number" min="0" step="1" id="calc-landed" placeholder="после расчёта"></label><label>Продажная цена в России, ₽<input type="number" min="0" step="1" id="calc-sell" placeholder="из карточки товара"></label><label>Комиссии, реклама и возвраты, %<input type="number" min="0" max="100" step="0.1" id="calc-fee" placeholder="введи расходы"></label></div>
+<div class="calc-results"><div class="calc-result"><small>Остаток на штуку до налогов</small><b id="calc-profit">—</b></div><div class="calc-result"><small>Рентабельность от выручки до налогов</small><b id="calc-margin">—</b></div><div class="calc-result"><small>Штук в бюджет 5–300 тыс. ₽</small><b id="calc-batch">—</b></div></div>
+<p id="calc-status" class="hint">Заполни все поля, чтобы увидеть расчёт. Это ещё не чистая прибыль: налоги и непредвиденные расходы учитываются отдельно.</p>
 </section>
 <section id="opportunities" class="opps" aria-labelledby="opps-title">
 <div class="opps-head"><div><h2 id="opps-title">Товары: Россия → Китай</h2><p class="hint">Конкретные предложения российских магазинов и сравнительные источники. Китайская ссылка указывает на аналог или категорию — не на подтверждённую фабрику оригинального бренда. Это исследование, а не готовая рекомендация закупки.</p></div><span class="tag" id="opp-count">Загрузка…</span></div>
@@ -205,6 +219,21 @@ async function loadPriority(){
  }catch(e){$('#priority-status').textContent='Не удалось загрузить подборку: '+e.message;}
 }
 $('#priority-search').addEventListener('input',drawPriority);$('#priority-filter').addEventListener('change',drawPriority);
+
+function recalcEconomics(){
+ const ids=['#calc-buy','#calc-landed','#calc-sell','#calc-fee'];
+ const vals=ids.map(x=>$(x).value.trim());
+ if(vals.some(x=>x==='')){['#calc-profit','#calc-margin','#calc-batch'].forEach(x=>$(x).textContent='—');$('#calc-status').textContent='Введи все четыре значения. Нули допустимы только если расход действительно отсутствует.';return;}
+ const [buy,land,sell,fee]=vals.map(Number);
+ if([buy,land,sell,fee].some(x=>!Number.isFinite(x)||x<0)||sell<=0||fee>100){$('#calc-status').textContent='Проверь ввод: продажная цена должна быть больше нуля, комиссия — от 0 до 100%.';return;}
+ const cost=buy+land;const gross=sell-cost-sell*fee/100;
+ $('#calc-profit').textContent=Math.round(gross).toLocaleString('ru-RU')+' ₽';
+ $('#calc-margin').textContent=(100*gross/sell).toFixed(1)+'%';
+ $('#calc-batch').textContent=cost>0?Math.floor(5000/cost)+'–'+Math.floor(300000/cost)+' шт.':'н/д';
+ $('#calc-status').textContent='Расчёт приблизительный: не включает налоги и расходы, не внесённые в поля. Отрицательный результат означает убыток при заданных предположениях.';
+}
+['#calc-buy','#calc-landed','#calc-sell','#calc-fee'].forEach(id=>$(id).addEventListener('input',recalcEconomics));
+
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();loadOffers();loadReport();loadAudit();loadOpportunities();loadPriority();
 })();
 </script></body></html>
