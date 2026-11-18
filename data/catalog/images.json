@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "updated_at": "2026-11-18",
-  "description": "Existing merchant image URL index. Missing images pending metadata extraction. Not confirmation of hotlink availability.",
+  "description": "Known merchant image URLs plus two exact SKU Lamoda images verified via matching product URLs; remaining images resolved automatically from merchant metadata where available. Not a guarantee that hotlinking is permitted.",
   "items": {
     "RD-CN-RU-002": {
       "image_url": "https://www.ugreen.pl/hpeciai/a8ad5ab5ee99ed1557485601575a6f3a/eng_pm_UGREEN-LP678-folding-stand-for-phone-148905_2.jpg",
@@ -184,15 +184,15 @@
       "checked_at": "2026-11-18"
     },
     "MULTI-MR-007": {
-      "image_url": null,
+      "image_url": "https://a.lmcdn.ru/product/M/P/MP002XM0C9XF_25816576_1_v1_2x.jpg",
       "image_source_url": "https://www.lamoda.ru/p/mp002xm0c9xf/clothes-anta-pukhovik/",
-      "status": "pending_merchant_metadata",
+      "status": "product_image_exact_sku_search_result",
       "checked_at": "2026-11-18"
     },
     "MULTI-MR-008": {
-      "image_url": null,
+      "image_url": "https://a.lmcdn.ru/product/M/P/MP002XW1CQRP_25821102_1_v2_2x.jpg",
       "image_source_url": "https://www.lamoda.ru/p/mp002xw1cqrp/clothes-anta-pukhovik/",
-      "status": "pending_merchant_metadata",
+      "status": "product_image_exact_sku_search_result",
       "checked_at": "2026-11-18"
     },
     "MULTI-MR-009": {
