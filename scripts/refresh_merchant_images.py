@@ -85,9 +85,9 @@ def discover(url):
             if "text/html" not in ctype:
                 return None, "not_html"
             raw = response.read(MAX_BYTES + 1)
-            if len(raw) > MAX_BYTES:
-                return None, "html_too_large"
-            content = raw.decode(response.headers.get_content_charset() or "utf-8", "replace")
+            # Metadata is normally in the document head. Parse the first MAX_BYTES
+            # even if a marketplace sends a very large HTML document.
+            content = raw[:MAX_BYTES].decode(response.headers.get_content_charset() or "utf-8", "replace")
         parser = MetaParser()
         parser.feed(content)
         offers = [v for _, v in parser.meta]
