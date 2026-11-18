@@ -112,16 +112,18 @@
       "checked_at": "2026-11-18"
     },
     "RD-MR-002": {
-      "image_url": null,
+      "image_url": "https://a.lmcdn.ru/img600x866/M/P/MP002XM0C9XK_25816583_3_v2_2x.jpg",
       "image_source_url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
-      "status": "pending_merchant_metadata",
-      "checked_at": "2026-11-18"
+      "status": "exact_merchant_page_image_web_found",
+      "checked_at": "2026-11-18",
+      "note": "Source page depicts the same listing. Hotlink availability for each visitor is not guaranteed."
     },
     "RD-MR-003": {
-      "image_url": null,
+      "image_url": "https://a.lmcdn.ru/img600x866/M/P/MP002XW1CQRN_25822200_2_v1_2x.jpg",
       "image_source_url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
-      "status": "pending_merchant_metadata",
-      "checked_at": "2026-11-18"
+      "status": "exact_merchant_page_image_web_found",
+      "checked_at": "2026-11-18",
+      "note": "Source page depicts the same listing. Hotlink availability for each visitor is not guaranteed."
     },
     "RD-MR-005": {
       "image_url": "https://www.bosidengfashion.com/cdn/shop/files/bosideng-2023-4-black-women-s-classic-down-coat-with-hood-5252-b30145252y8056155-80a-88213-30634058711175.jpg?v=1744045039&width=2048",
@@ -178,10 +180,11 @@
       "checked_at": "2026-11-18"
     },
     "MULTI-MR-006": {
-      "image_url": null,
+      "image_url": "https://a.lmcdn.ru/img600x866/R/T/RTLADD293801_21801818_3_v1_2x.jpg",
       "image_source_url": "https://www.lamoda.ru/p/mp002xw1c99l/clothes-anta-pukhovik/",
-      "status": "pending_merchant_metadata",
-      "checked_at": "2026-11-18"
+      "status": "exact_merchant_page_image_web_found",
+      "checked_at": "2026-11-18",
+      "note": "Source page depicts the same listing. Hotlink availability for each visitor is not guaranteed."
     },
     "MULTI-MR-007": {
       "image_url": "https://a.lmcdn.ru/product/M/P/MP002XM0C9XF_25816576_1_v1_2x.jpg",
@@ -196,10 +199,11 @@
       "checked_at": "2026-11-18"
     },
     "MULTI-MR-009": {
-      "image_url": null,
+      "image_url": "https://a.lmcdn.ru/img600x866/M/P/MP002XW1CQRU_25852458_1_v2_2x.jpg",
       "image_source_url": "https://www.lamoda.ru/p/mp002xw1cqru/clothes-anta-pukhovik/",
-      "status": "pending_merchant_metadata",
-      "checked_at": "2026-11-18"
+      "status": "exact_merchant_page_image_web_found",
+      "checked_at": "2026-11-18",
+      "note": "Source page depicts the same listing. Hotlink availability for each visitor is not guaranteed."
     },
     "OUT-LINING-AFDS365-1": {
       "image_url": "https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_c45a19eb-c4da-40ee-9eaf-d80a6b65708b.jpg?v=1714117145",
