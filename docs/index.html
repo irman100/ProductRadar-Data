@@ -31,7 +31,7 @@
 <p class="report-meta">ПОСЛЕДНИЙ ОПУБЛИКОВАННЫЙ ОБЗОР · <span id="report-date">загрузка…</span></p>
 <h2 id="report-title">Что покупать в Китае для продажи в России?</h2>
 <p id="report-summary" class="hint">Загружаем опубликованное исследование из GitHub…</p>
-<div id="report-findings" class="report-grid"></div>
+<div id="report-findings" class="report-grid"></div><div id="report-sources" class="action-links"></div><p class="hint" id="report-budget">Бюджет закупки: 5 000–300 000 ₽. Без подтверждения MOQ, доставки и себестоимости товар не может быть признан готовым к закупке.</p>
 <div class="report-note">Счётчик «купили» без указанного периода нельзя приравнивать к месячным продажам. Наличие карточки товара не доказывает прибыльность перепродажи.</div>
 <div class="action-links"><a href="#shop">Одежда: открыть товары</a><a href="#products">Другие товары с покупками</a></div>
 </section>
@@ -115,6 +115,7 @@ async function loadReport(){
   $('#report-title').textContent=d.title||'Последний обзор рынка';
   $('#report-summary').textContent=d.summary||'Описание исследования отсутствует';
   $('#report-findings').innerHTML=d.findings.map(x=>'<div class="report-finding"><strong>'+esc(x.title)+'</strong><p>'+esc(x.body)+'</p></div>').join('');
+  $('#report-sources').innerHTML=(d.sources||[]).filter(x=>safeUrl(x.url)).slice(0,5).map(x=>'<a href="'+esc(safeUrl(x.url))+'" target="_blank" rel="noopener noreferrer">'+esc(x.title)+' ↗</a>').join('');
  }catch(e){$('#report-date').textContent='не подтверждена';$('#report-summary').textContent='Отчёт сейчас недоступен. Данные товаров остаются доступны ниже.';}
 }
 
