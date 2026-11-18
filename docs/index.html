@@ -60,7 +60,7 @@
 .catalog-card{min-width:0;border:1px solid #d9e6df;border-radius:16px;overflow:hidden;background:white;display:flex;flex-direction:column}
 .catalog-photo{height:195px;display:flex;justify-content:center;align-items:center;background:linear-gradient(145deg,#ebf5ed,#e1ebe5);position:relative;text-align:center}
 .catalog-photo img{height:100%;width:100%;object-fit:contain}
-.catalog-fallback{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:18px;width:100%;height:100%;color:#406353;font-size:13px}
+.catalog-fallback[hidden]{display:none!important}.catalog-fallback{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:18px;width:100%;height:100%;color:#406353;font-size:13px}
 .catalog-fallback .glyph{font-size:42px;line-height:1.1}.catalog-fallback b{font-size:12px}
 .catalog-copy{padding:15px;display:flex;flex-direction:column;gap:9px;flex:1}
 .catalog-copy h3{margin:0;font-size:16px;line-height:1.4;overflow-wrap:anywhere}
@@ -285,7 +285,7 @@ const rows=unifiedCatalog.filter(p=>(p.name+' '+(p.sku||'')+' '+p.group).toLower
 $('#catalog-count').textContent=unifiedCatalog.length+' разных товаров';
 $('#catalog-status').textContent='Показано '+rows.length+' из '+unifiedCatalog.length+'. У всех карточек есть прямая ссылка на продавца; наличие и цены требуют проверки.';
 $('#catalog-grid').innerHTML=rows.map(p=>{
-const src=safeUrl(p.image_url),img=src?'<img src="'+esc(src)+'" alt="'+esc(p.name)+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createRange().createContextualFragment(\''+cardFallback(p).replace(/'/g,"&#39;")+'\'))">':cardFallback(p);
+const src=safeUrl(p.image_url),img=src?'<img src="'+esc(src)+'" alt="'+esc(p.name)+'" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">'+cardFallback(p).replace('class="catalog-fallback"','class="catalog-fallback" hidden'):cardFallback(p);
 const score=typeof p.priority==='number'?'<span class="catalog-pill">Проверка '+p.priority+'/10</span>':'';
 const evidence=p.evidence_type==='cumulative_purchases'&&p.evidence?'<span class="catalog-pill">'+esc(p.evidence)+' · период неизвестен</span>':'<span class="catalog-pill catalog-pill-muted">Продажи SKU не подтверждены</span>';
 const links=(p.sources||[]).filter(s=>safeUrl(s.url)&&safeUrl(s.url)!==safeUrl(p.url)).slice(0,3).map(s=>'<a target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(s.url))+'">'+esc(s.platform||'Источник')+' ↗</a>').join('');
