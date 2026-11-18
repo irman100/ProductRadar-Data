@@ -171,7 +171,7 @@ $('#cat-list').innerHTML=categories.map(x=>'<div class="cat"><span class="rank">
 $('#cat-source').innerHTML='Источник: <a href="'+esc(safeUrl(c.source_url))+'" target="_blank" rel="noopener noreferrer">'+esc(c.source_name)+'</a> · проверено '+esc(c.verified_at);
 $('#cat-count').textContent=categories.length;$('#item-count').textContent=products.length;$('#period').textContent='янв–сен 2026';$('#status').textContent='Данные проверены: '+esc(c.verified_at)+'. Счётчики покупок показывают состояние на дату наблюдения, не продажи за последние 30 дней.';draw()
 }catch(e){$('#status').textContent='Не удалось получить подтверждённые данные: '+e.message+'; последний успешный результат не заменён.'}finally{b.disabled=false}}
-$('#refresh').addEventListener('click',()=>{load();fashionStats();loadOffers();loadReport();loadAudit();loadOpportunities()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();loadOffers();loadReport();loadAudit();loadOpportunities();loadPriority();loadUnifiedCatalog();fashionStats();window.scrollTo({top:0,behavior:'smooth'})});
+$('#refresh').addEventListener('click',()=>{load();fashionStats();loadOffers();loadReport();loadAudit();loadOpportunities();loadPriority();loadUnifiedCatalog()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();loadOffers();loadReport();loadAudit();loadOpportunities();loadPriority();loadUnifiedCatalog();fashionStats();window.scrollTo({top:0,behavior:'smooth'})});
 
 let offers=[];
 function drawOffers(){
