@@ -96,7 +96,7 @@
 </section>
 <section id="quality-audit" class="report" aria-label="Качество данных и готовность к закупке">
 <h2>Можно ли уже закупать?</h2><p class="hint">Product Radar показывает найденные товары и наблюдения российских маркетплейсов. Это ещё не рейтинг выгодных закупок: оптовые поставщики, полная себестоимость и прибыльность требуют подтверждения.</p>
-<div class="summary"><div class="stat"><small>Записей в исходных подборках</small><b id="audit-cards">—</b></div><div class="stat"><small>Готовы к обоснованной закупке</small><b id="audit-ready">—</b></div><div class="stat"><small>Нет фото у карточек одежды</small><b id="audit-photo">—</b></div></div>
+<div class="summary"><div class="stat"><small>Карточек единого каталога</small><b id="audit-cards">—</b></div><div class="stat"><small>Готовы к обоснованной закупке</small><b id="audit-ready">—</b></div><div class="stat"><small>Без адреса фотографии</small><b id="audit-photo">—</b></div></div>
 <p class="hint" id="audit-date">Получаем структурную проверку данных…</p><p class="report-note">Статус «счётчик покупок наблюдался» не означает «товар ходовой сегодня». Кнопка поиска на 1688 не подтверждает поставщика или доступность партии.</p>
 </section>
 <section class="radar-board" id="priority" aria-labelledby="priority-heading">
@@ -212,7 +212,7 @@ async function loadReport(){
 }
 
 async function loadAudit(){
-try{const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/quality/catalog_audit_20261118.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();$('#audit-cards').textContent=Number(d.observed_marketplace_cards)+Number(d.apparel_offer_cards);$('#audit-ready').textContent=d.ready_to_buy_for_resale;$('#audit-photo').textContent=d.apparel_cards_without_photo_url;$('#audit-date').textContent='Структура файлов проверена '+d.audited_at+'. Доступность страниц продавцов и достоверность счётчиков онлайн не проверялись.';}catch(e){$('#audit-date').textContent='Аудит недоступен: '+e.message;}}
+try{const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/quality/catalog_audit_20261118.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();$('#audit-ready').textContent=d.ready_to_buy_for_resale;$('#audit-date').textContent='Структура файлов проверена '+d.audited_at+'. Доступность страниц продавцов и достоверность счётчиков онлайн не проверялись.';}catch(e){$('#audit-date').textContent='Аудит недоступен: '+e.message;}}
 
 let opportunities=[],oppCategory='all';
 function drawOpportunities(){
@@ -298,7 +298,7 @@ try{const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar
 const keys=new Set();unifiedCatalog=d.products.filter(p=>{if(!p||!p.name||!p.group||!safeUrl(p.url))return false;const key=new URL(p.url).hostname.toLowerCase()+new URL(p.url).pathname.replace(/\/$/,'').toLowerCase();if(keys.has(key))return false;keys.add(key);return true;});
 const selected=$('#catalog-group').value;$('#catalog-group').innerHTML='<option value="all">Все категории</option>'+[...new Set(unifiedCatalog.map(p=>p.group))].sort((a,b)=>a.localeCompare(b,'ru')).map(g=>'<option value="'+esc(g)+'">'+esc(g)+'</option>').join('');
 $('#catalog-group').value=[...new Set(unifiedCatalog.map(p=>p.group))].includes(selected)?selected:'all';
-drawUnifiedCatalog();
+$('#audit-cards').textContent=unifiedCatalog.length;$('#audit-photo').textContent=unifiedCatalog.filter(p=>!safeUrl(p.image_url)).length;drawUnifiedCatalog();
 }catch(e){$('#catalog-status').textContent='Не удалось загрузить единый каталог: '+e.message;}
 }
 $('#catalog-query').addEventListener('input',drawUnifiedCatalog);
