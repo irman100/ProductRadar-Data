@@ -60,7 +60,7 @@
 .catalog-card{min-width:0;border:1px solid #d9e6df;border-radius:16px;overflow:hidden;background:white;display:flex;flex-direction:column}
 .catalog-photo{height:195px;display:flex;justify-content:center;align-items:center;background:linear-gradient(145deg,#ebf5ed,#e1ebe5);position:relative;text-align:center}
 .catalog-photo img{height:100%;width:100%;object-fit:contain}
-.catalog-fallback[hidden]{display:none!important}.catalog-fallback{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:18px;width:100%;height:100%;color:#406353;font-size:13px}
+.catalog-fallback[hidden]{display:none!important}.catalog-fallback{text-decoration:none;color:inherit;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:18px;width:100%;height:100%;color:#406353;font-size:13px}
 .catalog-fallback .glyph{font-size:42px;line-height:1.1}.catalog-fallback b{font-size:12px}
 .catalog-copy{padding:15px;display:flex;flex-direction:column;gap:9px;flex:1}
 .catalog-copy h3{margin:0;font-size:16px;line-height:1.4;overflow-wrap:anywhere}
@@ -287,7 +287,7 @@ function refreshCatalogGroups(){
 }
 
 const catalogGlyph=g=>/Куртки/.test(g)?'🧥':/Одежда/.test(g)?'🎒':/Зоо/.test(g)?'🐾':/Авто/.test(g)?'🚗':/Электро/.test(g)?'🔌':'📦';
-function cardFallback(p){return '<div class="catalog-fallback"><span class="glyph" aria-hidden="true">'+catalogGlyph(p.group)+'</span><b>Фото на сайте продавца</b><span>'+esc(p.group)+'</span></div>'}
+function cardFallback(p){return '<a class="catalog-fallback" target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(p.url))+'"><span class="glyph" aria-hidden="true">'+catalogGlyph(p.group)+'</span><b>Открыть фотографии продавца ↗</b><span>'+esc(p.group)+'</span></a>'}
 function drawUnifiedCatalog(){
 const q=$('#catalog-query').value.trim().toLowerCase(),g=$('#catalog-group').value,pf=$('#catalog-proof').value;
 const scoped=unifiedCatalog.filter(p=>catalogMode==='evidence'?p.demand_review_status==='observed_purchase_signal':p.demand_review_status!=='observed_purchase_signal');
