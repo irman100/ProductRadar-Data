@@ -16,6 +16,16 @@
 .action-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.action-links a{background:#146c58;color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
 .report-note{padding:12px;background:#fff8eb;border-left:3px solid #c59c56;border-radius:8px;color:#68562d;font-size:13px;margin-top:14px}
 @media(max-width:650px){.report{padding:17px}.report-grid{grid-template-columns:1fr}}
+
+.opps{margin:24px 0}.opps-head{display:flex;gap:16px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap}
+.opps-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+.opp-card{border:1px solid #d8e5db;border-radius:16px;background:white;padding:18px;display:flex;flex-direction:column;gap:11px}
+.opp-card h3{font-size:18px;line-height:1.35;margin:0}.opp-card p{font-size:13px;margin:0;color:#566d60}
+.opp-links{display:flex;flex-wrap:wrap;gap:8px}.opp-links a{padding:8px 12px;border-radius:8px;background:#e9f3ed;color:#155d4e;font-size:13px;font-weight:700;text-decoration:none}
+.opp-signal{background:#f5f8f5;padding:10px 12px;border-radius:10px;font-size:13px}.opp-signal small{display:block;color:#63786e}
+.opp-note{background:#fff8ed;border-left:3px solid #c59c56;padding:10px;border-radius:6px;font-size:12px;color:#6d582c}
+.opp-controls{display:flex;gap:9px;flex-wrap:wrap}.opp-controls button{background:#e4f0e9;color:#235b4c;font-weight:650}.opp-controls button[aria-pressed="true"]{background:#166b57;color:#fff}
+@media(max-width:720px){.opps-grid{grid-template-columns:1fr}}
 </style></head><body>
 <header><strong>◈ Product Radar</strong><small>Наблюдаемые покупки • Китай → Россия</small></header>
 <main>
@@ -26,6 +36,12 @@
 <h2>Можно ли уже закупать?</h2><p class="hint">Product Radar показывает найденные товары и наблюдения российских маркетплейсов. Это ещё не рейтинг выгодных закупок: оптовые поставщики, полная себестоимость и прибыльность требуют подтверждения.</p>
 <div class="summary"><div class="stat"><small>Товары в витринах</small><b id="audit-cards">—</b></div><div class="stat"><small>Готовы к обоснованной закупке</small><b id="audit-ready">—</b></div><div class="stat"><small>Нет фото у карточек одежды</small><b id="audit-photo">—</b></div></div>
 <p class="hint" id="audit-date">Получаем структурную проверку данных…</p><p class="report-note">Статус «счётчик покупок наблюдался» не означает «товар ходовой сегодня». Кнопка поиска на 1688 не подтверждает поставщика или доступность партии.</p>
+</section>
+<section id="opportunities" class="opps" aria-labelledby="opps-title">
+<div class="opps-head"><div><h2 id="opps-title">Товары: Россия → Китай</h2><p class="hint">Конкретные предложения российских магазинов и сравнительные источники. Китайская ссылка указывает на аналог или категорию — не на подтверждённую фабрику оригинального бренда. Это исследование, а не готовая рекомендация закупки.</p></div><span class="tag" id="opp-count">Загрузка…</span></div>
+<div class="opp-controls" id="opp-controls"><button type="button" data-opp-cat="all" aria-pressed="true">Все</button><button type="button" data-opp-cat="Верхняя одежда" aria-pressed="false">Куртки</button><button type="button" data-opp-cat="Уход за одеждой" aria-pressed="false">Уход</button><button type="button" data-opp-cat="Автоаксессуары" aria-pressed="false">Авто</button></div>
+<p id="opp-status" class="hint" role="status">Загружаем товарные карточки исследования…</p>
+<div id="opp-list" class="opps-grid"></div>
 </section>
 <section id="research-report" class="report" aria-labelledby="report-title">
 <p class="report-meta">ПОСЛЕДНИЙ ОПУБЛИКОВАННЫЙ ОБЗОР · <span id="report-date">загрузка…</span></p>
@@ -45,7 +61,7 @@
 <section id="categories"><h2>Рынок по категориям</h2><p class="hint">Общий оборот онлайн-торговли по АКИТ: это контекст российского спроса, а не рейтинг товаров китайского происхождения и не прогноз прибыльности импорта.</p><div id="cat-list" class="table"></div><p class="hint" id="cat-source"></p></section>
 <section id="fashion"><h2>Статистика категории верхней одежды</h2><p class="hint">Отдельная статистика по продажам в России. Не путайте рост подкатегории с продажами конкретной куртки.</p><div id="fashion-list" class="cards"></div></section>
 <footer class="foot">Product Radar • Рынок России: АКИТ • Конкретные модели: страницы продавцов и открытые наблюдения • Фабрика, себестоимость и документы ввоза ещё не проверены.</footer>
-</main><nav class="nav"><a href="#research-report"><span>◉</span>Обзор</a><a href="#shop"><span>▤</span>Одежда</a><a href="#products"><span>▦</span>Товары</a><a href="#categories"><span>◈</span>Рынок</a><a href="#refresh"><span>↻</span>Обновить</a></nav>
+</main><nav class="nav"><a href="#opportunities"><span>▤</span>Подбор</a><a href="#research-report"><span>◉</span>Обзор</a><a href="#shop"><span>▤</span>Одежда</a><a href="#products"><span>▦</span>Товары</a><a href="#categories"><span>◈</span>Рынок</a><a href="#refresh"><span>↻</span>Обновить</a></nav>
 <script>
 (()=>{'use strict';
 const BASE='https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/verified/';
@@ -79,7 +95,7 @@ $('#cat-list').innerHTML=categories.map(x=>'<div class="cat"><span class="rank">
 $('#cat-source').innerHTML='Источник: <a href="'+esc(safeUrl(c.source_url))+'" target="_blank" rel="noopener noreferrer">'+esc(c.source_name)+'</a> · проверено '+esc(c.verified_at);
 $('#cat-count').textContent=categories.length;$('#item-count').textContent=products.length;$('#period').textContent='янв–сен 2026';$('#status').textContent='Данные проверены: '+esc(c.verified_at)+'. Счётчики покупок показывают состояние на дату наблюдения, не продажи за последние 30 дней.';draw()
 }catch(e){$('#status').textContent='Не удалось получить подтверждённые данные: '+e.message+'; последний успешный результат не заменён.'}finally{b.disabled=false}}
-$('#refresh').addEventListener('click',()=>{load();fashionStats();loadOffers();loadReport();loadAudit()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();loadOffers();loadReport();loadAudit();fashionStats();window.scrollTo({top:0,behavior:'smooth'})});
+$('#refresh').addEventListener('click',()=>{load();fashionStats();loadOffers();loadReport();loadAudit();loadOpportunities()});$('#search').addEventListener('input',draw);document.querySelector('.nav a[href="#refresh"]').addEventListener('click',e=>{e.preventDefault();load();loadOffers();loadReport();loadAudit();loadOpportunities();fashionStats();window.scrollTo({top:0,behavior:'smooth'})});
 
 let offers=[];
 function drawOffers(){
@@ -121,6 +137,32 @@ async function loadReport(){
 
 async function loadAudit(){
 try{const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/quality/catalog_audit_20261118.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();$('#audit-cards').textContent=Number(d.observed_marketplace_cards)+Number(d.apparel_offer_cards);$('#audit-ready').textContent=d.ready_to_buy_for_resale;$('#audit-photo').textContent=d.apparel_cards_without_photo_url;$('#audit-date').textContent='Структура файлов проверена '+d.audited_at+'. Доступность страниц продавцов и достоверность счётчиков онлайн не проверялись.';}catch(e){$('#audit-date').textContent='Аудит недоступен: '+e.message;}}
-if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();loadOffers();loadReport();loadAudit();
+
+let opportunities=[],oppCategory='all';
+function drawOpportunities(){
+ const selected=opportunities.filter(p=>oppCategory==='all'||p.category===oppCategory);
+ $('#opp-count').textContent=selected.length+' из '+opportunities.length+' кейсов';
+ $('#opp-list').innerHTML=selected.map(p=>{
+ const signals=(p.signals||[]).filter(s=>safeUrl(s.url)).map(s=>'<div class="opp-signal"><strong>'+esc(s.source)+'</strong> · '+esc(s.value)+'<small>'+esc(s.note||'')+'</small><a class="source" href="'+esc(safeUrl(s.url))+'" target="_blank" rel="noopener noreferrer">Проверить источник ↗</a></div>').join('');
+ return '<article class="opp-card"><span class="tag">'+esc(p.category)+' · '+esc(p.ru_platform)+'</span><h3>'+esc(p.name)+'</h3><p><b>Карточка:</b> '+esc(p.ru_sku)+'</p><div>'+signals+'</div><p><b>Почему изучаем:</b> '+esc(p.why)+'</p><p><b>Бюджет:</b> '+esc(p.budget_fit)+'</p><div class="opp-note"><strong>Китай:</strong> '+esc(p.china_example)+'<p style="margin-top:6px"><b>Риски:</b> '+esc(p.risks)+'</p></div><div class="opp-links"><a target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(p.ru_product_url))+'">Открыть товар в России ↗</a><a target="_blank" rel="noopener noreferrer" href="'+esc(safeUrl(p.china_offer_url))+'">Смотреть аналоги в Китае ↗</a></div><small class="hint">Исследовано '+esc(p.checked_at)+' · прибыль и поставщик не подтверждены</small></article>';
+ }).join('')||'<p class="hint">Для выбранной категории пока нет проверенных кейсов.</p>';
+ $('#opp-status').textContent='Источники и ссылки приведены внутри карточек. Даты относятся к исследованию, цены и остатки требуют повторной проверки.';
+}
+async function loadOpportunities(){
+ try{
+ const r=await fetch('https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/research/multimarket_opportunities_20261118.json?t='+Date.now(),{cache:'no-store'});
+ if(!r.ok)throw Error('HTTP '+r.status);
+ const d=await r.json();if(!Array.isArray(d.items))throw Error('Неверная структура');
+ opportunities=d.items.filter(p=>p&&p.id&&p.name&&p.category&&safeUrl(p.ru_product_url)&&safeUrl(p.china_offer_url)&&Array.isArray(p.signals)&&p.signals.length);
+ drawOpportunities();
+ }catch(e){$('#opp-status').textContent='Данные исследовательских карточек недоступны: '+e.message;}
+}
+document.querySelectorAll('[data-opp-cat]').forEach(b=>b.addEventListener('click',()=>{
+ oppCategory=b.getAttribute('data-opp-cat');
+ document.querySelectorAll('[data-opp-cat]').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));
+ drawOpportunities();
+}));
+
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));load();fashionStats();loadOffers();loadReport();loadAudit();loadOpportunities();
 })();
 </script></body></html>
