@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.1",
+  "report_id": "radar-2026-11-20-anta-ozon-audit",
+  "published_at": "2026-11-20",
+  "report_type": "evidence_based_editorial",
+  "title": "Product Radar: проверка двух карточек ANTA Ozon и рисков двойного счёта",
+  "summary": "Проверены две конкретные карточки Ozon ANTA. Обнаружены накопленные отзывы, изменяющиеся между представлениями карточек, и отдельные цветовые варианты с общими отзывами. Продажи SKU за период, прямые изображения для записи, китайские оптовые котировки и полная экономика не подтверждены. Новые записи допустимы только в data/research; в основной каталог и verified не добавлены.",
+  "budget_min_rub": 5000,
+  "budget_max_rub": 300000,
+  "highlights": [
+    {
+      "product_id": "Ozon 2241418080",
+      "name": "ANTA ODP AEROGEL PRINTING A-PROTECTION — женский чёрный пуховик",
+      "evidence_value": "226–228 (разные представления)",
+      "evidence_date": "2026-11-20",
+      "source_url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/",
+      "interpretation": "Отзывы — не продажи; оптовая цена и MOQ неизвестны."
+    },
+    {
+      "product_id": "Ozon 3391760789",
+      "name": "ANTA ODP CAMPUS AEROGEL PRINTING A-ANTISEPTIC 2.0 — женский чёрный пуховик",
+      "evidence_value": "228–232 (разные представления)",
+      "evidence_date": "2026-11-20",
+      "source_url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/",
+      "interpretation": "Отзывы — не продажи; оптовая цена и MOQ неизвестны."
+    }
+  ],
+  "findings": [
+    {
+      "title": "Разные артикулы и общие отзывы",
+      "category": "Женские пуховики",
+      "status": "research_only",
+      "body": "Ozon 3391760789, 3073002113 и 3073001042 являются цветами одной модели CAMPUS; отзывы не суммировать. 2241418080 требует проверки пересечения семейства отзывов с другими артикулами ANTA."
+    },
+    {
+      "title": "Импортная экономика",
+      "category": "Закупка Китай → РФ",
+      "status": "not_verified",
+      "body": "Нет подтверждённых MOQ, цены производителя, фабрики, страны конкретной партии, логистики, пошлин, документов, маркировки и комиссии. Для всех бюджетов 5–20, 20–50, 50–150 и 150–300 тыс. руб. пригодность не установлена."
+    },
+    {
+      "title": "Фото",
+      "category": "Качество данных",
+      "status": "missing_exact_url",
+      "body": "Прямой URL точного фото продавца не установлен. Не добавлять похожие изображения и не включать в основную витрину."
+    }
+  ],
+  "next_research": [
+    "Проверить SKU ANTA на Lamoda, WB и Яндекс Маркете, не смешивая размеры и цвета",
+    "Получить датированный счётчик покупок конкретного листинга или временной ряд",
+    "Найти прямой URL фотографии из метаданных той же карточки",
+    "Найти прямую страницу поставщика 1688/Alibaba с проверенными MOQ и ценой",
+    "Проверить Честный знак, документы по ТН ВЭД, происхождение партии и полную себестоимость"
+  ],
+  "methodology": "docs/RESEARCH_METHOD.md; отзывы не считаются продажами; новые записи только исследовательские",
+  "research_status": "partial",
+  "units_sold_period_verified": false,
+  "china_wholesale_quotes_verified": 0,
+  "profitable_skus_verified": 0,
+  "sources": [
+    {
+      "title": "Ozon ANTA A-PROTECTION",
+      "url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/"
+    },
+    {
+      "title": "Ozon ANTA CAMPUS",
+      "url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/"
+    },
+    {
+      "title": "Датированное исследование",
+      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/research/multimarket_opportunities_20261120.json"
+    },
+    {
+      "title": "Методика",
+      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/docs/RESEARCH_METHOD.md"
+    }
+  ]
+}
