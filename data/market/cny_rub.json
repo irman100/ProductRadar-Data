@@ -4,9 +4,9 @@
   "source_name": "Bank of Russia",
   "currency": "CNY",
   "base_currency": "RUB",
-  "effective_date": "2026-11-20",
-  "rate_rub_per_cny": 12.2546,
+  "effective_date": "2026-11-21",
+  "rate_rub_per_cny": 12.2759,
   "nominal": 1,
-  "fetched_at": "2026-11-19T16:35:44+00:00",
+  "fetched_at": "2026-11-20T16:10:32+00:00",
   "status": "ok"
 }
