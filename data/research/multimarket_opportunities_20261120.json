@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "published_at": "2026-11-20",
+  "market": "RU",
+  "budget_min_rub": 5000,
+  "budget_max_rub": 300000,
+  "title": "Новые предметные наблюдения ANTA на Ozon, 20 ноября 2026",
+  "methodology": "Новые листинги в отдельном датированном файле; прежние исследования сохранены. Отзывы и розничные цены не являются продажами или оптовыми котировками. Китайские ссылки ведут на категорию аналогов, не на подтверждённого поставщика. Не готово к закупке.",
+  "items": [
+    {
+      "id": "PR-20261120-OZ-2241418080",
+      "name": "ANTA ODP AEROGEL PRINTING A-PROTECTION — женский чёрный пуховик",
+      "category": "Верхняя одежда",
+      "ru_platform": "Ozon",
+      "ru_sku": "Ozon 2241418080",
+      "ru_product_url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/",
+      "signals": [
+        {
+          "type": "reviews",
+          "value": "226–228 (разные представления)",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/reviews/",
+          "note": "Накопленные отзывы, не продажи за период; разные варианты могут объединяться"
+        },
+        {
+          "type": "retail_price",
+          "value": "19 351 RUB",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/",
+          "note": "Цена отображена в индексируемой карточке; вариант и актуальность цены требуют перепроверки"
+        }
+      ],
+      "china_offer_url": "https://www.alibaba.com/wholesale/down-fill-jacket.html",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "why": "Конкретный российский листинг, но не установлена количественная метрика продаж SKU",
+      "risks": "Объединённые отзывы, размеры и возвраты, Честный знак, документы, права на бренд, логистика",
+      "checked_at": "2026-11-20",
+      "ready_to_buy": false,
+      "image_url": null,
+      "image_status": "exact_image_url_not_verified",
+      "observed_at": "2026-11-20",
+      "margin_verified": false,
+      "supplier_verified": false,
+      "china_origin_batch_verified": false
+    },
+    {
+      "id": "PR-20261120-OZ-3391760789",
+      "name": "ANTA ODP CAMPUS AEROGEL PRINTING A-ANTISEPTIC 2.0 — женский чёрный пуховик",
+      "category": "Верхняя одежда",
+      "ru_platform": "Ozon",
+      "ru_sku": "Ozon 3391760789",
+      "ru_product_url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/",
+      "signals": [
+        {
+          "type": "reviews",
+          "value": "228–232 (разные представления)",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/reviews/",
+          "note": "Отзывы не равны продажам; могут объединять цвета и размеры"
+        },
+        {
+          "type": "retail_price",
+          "value": "11 193 RUB",
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/",
+          "note": "Наблюдаемая розничная цена, не цена поставщика"
+        }
+      ],
+      "china_offer_url": "https://www.alibaba.com/wholesale/down-fill-jacket.html",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_moq_example": null,
+      "china_price_example_usd": null,
+      "why": "Конкретный российский листинг; бежевый Ozon 3073002113 и розовый Ozon 3073001042 — варианты той же модели, не дополнительные уникальные модели",
+      "risks": "Дублирование по цветам, общие отзывы, размеры и возвраты, Честный знак, документы, права на бренд",
+      "checked_at": "2026-11-20",
+      "ready_to_buy": false,
+      "image_url": null,
+      "image_status": "exact_image_url_not_verified",
+      "observed_at": "2026-11-20",
+      "margin_verified": false,
+      "supplier_verified": false,
+      "china_origin_batch_verified": false
+    }
+  ],
+  "source_policy": {
+    "minimum_research_sources": 2,
+    "sku_status_rule": "Проверен один источник Ozon для каждого SKU; независимого количественного сигнала спроса нет",
+    "photo_rule": "Без прямого URL точного изображения карточка остаётся только в исследовании"
+  },
+  "notice": "Ни один SKU не прошёл порог основного каталога; готовность к закупке false."
+}
