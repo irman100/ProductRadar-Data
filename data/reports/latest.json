@@ -1,121 +1,78 @@
 {
   "schema_version": "1.1",
-  "report_id": "radar-2026-11-18-priority-board-21",
-  "published_at": "2026-11-18",
+  "report_id": "radar-2026-11-20-anta-ozon-audit",
+  "published_at": "2026-11-20",
   "report_type": "evidence_based_editorial",
-  "title": "Product Radar: 21 конкретный товар, разделённый по приоритету проверки закупки",
-  "summary": "Опубликованы 21 предметная модель с прямыми российскими карточками, прозрачными редакционными приоритетами 0–10 и обозначенными следующими проверками. Самый высокий приоритет исследования получили машинка Xiaomi Mijia от катышков, алюминиевая подставка UGREEN, рюкзак Xiaomi и набор прецизионных отверток Xiaomi. Баллы отражают сочетание сигналов спроса и простоты теста, а не вероятность продаж или прогноз прибыли. Отдельно сохранены куртки ANTA, предложения Lamoda и варианты поиска аналогов в Китае; для них необходима проверка размерных продаж и поставщика. Дополнительно включены конкретные карточки зоотоваров с Ozon: интерактивный мяч для кошек, регулируемая шлейка и кормушка 3,8 л. Это исследование растущей категории, а не подтверждённые лидеры продаж по SKU.",
+  "title": "Product Radar: проверка двух карточек ANTA Ozon и рисков двойного счёта",
+  "summary": "Проверены две конкретные карточки Ozon ANTA. Обнаружены накопленные отзывы, изменяющиеся между представлениями карточек, и отдельные цветовые варианты с общими отзывами. Продажи SKU за период, прямые изображения для записи, китайские оптовые котировки и полная экономика не подтверждены. Новые записи допустимы только в data/research; в основной каталог и verified не добавлены.",
   "budget_min_rub": 5000,
   "budget_max_rub": 300000,
   "highlights": [
     {
-      "product_id": "CN-RU-015",
-      "name": "Xiaomi Mijia Lint Remover MQXJQ01KL — машинка для удаления катышков",
-      "evidence_value": "17,4 тыс. купили",
-      "evidence_date": "2026-11-17",
-      "source_url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
-      "interpretation": "Наблюдение конкретной товарной карточки в РФ без периода продаж. Китайская оптовая партия и прибыльность не подтверждены."
+      "product_id": "Ozon 2241418080",
+      "name": "ANTA ODP AEROGEL PRINTING A-PROTECTION — женский чёрный пуховик",
+      "evidence_value": "226–228 (разные представления)",
+      "evidence_date": "2026-11-20",
+      "source_url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/",
+      "interpretation": "Отзывы — не продажи; оптовая цена и MOQ неизвестны."
     },
     {
-      "product_id": "CN-RU-005",
-      "name": "Xiaomi Mijia Electric Air Pump 2 — насос MJCQB06QW",
-      "evidence_value": "3,2 тыс. купили",
-      "evidence_date": "2026-11-17",
-      "source_url": "https://market.yandex.ru/card/xiaomi-kompressor-portativnyy-xiaomi-portable-electric-air-compressor-2-mjcqb06qw-bhr7112gl/103658583109",
-      "interpretation": "Наблюдение конкретной товарной карточки в РФ без периода продаж. Китайская оптовая партия и прибыльность не подтверждены."
-    },
-    {
-      "product_id": "CN-RU-014",
-      "name": "Xiaomi Mi Colorful Mini Backpack (2076) — рюкзак 10 л, чёрный",
-      "evidence_value": "2,9 тыс. купили",
-      "evidence_date": "2026-11-17",
-      "source_url": "https://market.yandex.ru/card/ryukzak-xiaomi-mi-colorful-mini-backpack-10-l-dlya-sporta-i-otdykha-chernyy/4351108188",
-      "interpretation": "Наблюдение конкретной товарной карточки в РФ без периода продаж. Китайская оптовая партия и прибыльность не подтверждены."
-    },
-    {
-      "product_id": "CN-RU-006",
-      "name": "UGREEN CM880 (55544) — USB-C хаб 7-в-1",
-      "evidence_value": "1,3 тыс. купили",
-      "evidence_date": "2026-11-17",
-      "source_url": "https://market.yandex.ru/card/usb-kontsentratordok-stantsiya-ugreen-cm880-55610-khab-usb-c-7-in-1-dp-8k30hzhdmi-4k60hz-usb3020-pd100w-hub/227714188188598272",
-      "interpretation": "Наблюдение конкретной товарной карточки в РФ без периода продаж. Китайская оптовая партия и прибыльность не подтверждены."
-    },
-    {
-      "product_id": "CN-RU-001",
-      "name": "Xiaomi Mi Precision Screwdriver Kit — набор отвёрток 24 в 1, MJJXLSD002QW",
-      "evidence_value": "1,2 тыс. купили",
-      "evidence_date": "2026-11-17",
-      "source_url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
-      "interpretation": "Наблюдение конкретной товарной карточки в РФ без периода продаж. Китайская оптовая партия и прибыльность не подтверждены."
+      "product_id": "Ozon 3391760789",
+      "name": "ANTA ODP CAMPUS AEROGEL PRINTING A-ANTISEPTIC 2.0 — женский чёрный пуховик",
+      "evidence_value": "228–232 (разные представления)",
+      "evidence_date": "2026-11-20",
+      "source_url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/",
+      "interpretation": "Отзывы — не продажи; оптовая цена и MOQ неизвестны."
     }
   ],
   "findings": [
     {
-      "title": "Первая группа: компактные недорогие вещи",
-      "category": "Кандидаты для малой партии",
-      "status": "high_research_priority_not_sales_rank",
-      "body": "Машинка от катышков Xiaomi MQXJQ01KL, подставка UGREEN LP678, набор отвёрток Xiaomi и рюкзак Xiaomi получили более высокий приоритет исследования благодаря наблюдаемым карточкам в России и относительной простоте проверки. В отдельных случаях есть похожие предложения на Ozon. Оригинальные китайские оптовые цены не подтверждены."
+      "title": "Разные артикулы и общие отзывы",
+      "category": "Женские пуховики",
+      "status": "research_only",
+      "body": "Ozon 3391760789, 3073002113 и 3073001042 являются цветами одной модели CAMPUS; отзывы не суммировать. 2241418080 требует проверки пересечения семейства отзывов с другими артикулами ANTA."
     },
     {
-      "title": "Куртки ANTA: важное направление, но высокий порог доказательств",
-      "category": "Женская и мужская одежда",
-      "status": "category_large_sku_demand_not_verified",
-      "body": "Категория одежды и обуви занимает 14,7% денежного оборота российского e-commerce за девять месяцев 2026 по АКИТ. У Lamoda представлены конкретные модели ANTA, но масштаб категории не доказывает спрос конкретного пуховика. Нужно проверить артикулы, сезонность, размеры и возвраты."
+      "title": "Импортная экономика",
+      "category": "Закупка Китай → РФ",
+      "status": "not_verified",
+      "body": "Нет подтверждённых MOQ, цены производителя, фабрики, страны конкретной партии, логистики, пошлин, документов, маркировки и комиссии. Для всех бюджетов 5–20, 20–50, 50–150 и 150–300 тыс. руб. пригодность не установлена."
     },
     {
-      "title": "Органайзеры в багажник: изучать с учётом объёмного веса",
-      "category": "Автоаксессуары",
-      "status": "source_backed_not_ready",
-      "body": "На Ozon есть конкретные автомобильные органайзеры с карточками и отзывами, на Alibaba — складные аналоги. Перед закупкой нужно подтвердить размеры и материал, стоимость логистики, MOQ и регуляторные ограничения."
-    },
-    {
-      "title": "Потенциал растущих рынков",
-      "category": "Тенденции рынка",
-      "status": "category_level_only",
-      "body": "Согласно информации АКИТ за январь–сентябрь 2026, товары для дома — 15,7% онлайн-оборота, одежда и обувь — 14,7%; зоомагазины показали рост оборота на 26,8% год к году. Это обоснование для исследования ниш, не рейтинг конкретных товаров."
-    },
-    {
-      "title": "Зоотовары: перспективный сегмент для поиска точных ходовых SKU",
-      "category": "Зоотовары",
-      "status": "category_growth_only",
-      "body": "По публикации данных АКИТ рост онлайн-оборота зоомагазинов за девять месяцев 2026 составил 26,8% год к году. Найдены прямые карточки на Ozon: умный мяч для кошек, регулируемая шлейка, резервуарная кормушка. Спрос именно этих SKU и китайская себестоимость не доказаны."
+      "title": "Фото",
+      "category": "Качество данных",
+      "status": "missing_exact_url",
+      "body": "Прямой URL точного фото продавца не установлен. Не добавлять похожие изображения и не включать в основную витрину."
     }
   ],
   "next_research": [
-    "Получить фактические SKU продажи или временной ряд спроса через доступные официальные инструменты продавцов Ozon и Wildberries",
-    "Найти прямые карточки поставщиков 1688/Alibaba с проверенными MOQ, ценами и себестоимостью",
-    "Для приоритетных четырёх SKU сверить цену в РФ, налоги, таможенные расходы и чистую маржу",
-    "Продолжить собирать конкретные товары одежды, а не дублировать оттенки одной модели"
+    "Проверить SKU ANTA на Lamoda, WB и Яндекс Маркете, не смешивая размеры и цвета",
+    "Получить датированный счётчик покупок конкретного листинга или временной ряд",
+    "Найти прямой URL фотографии из метаданных той же карточки",
+    "Найти прямую страницу поставщика 1688/Alibaba с проверенными MOQ и ценой",
+    "Проверить Честный знак, документы по ТН ВЭД, происхождение партии и полную себестоимость"
   ],
-  "methodology": "Сравнение нескольких независимых площадок, без подмены отзывов продажами и без отождествления китайских аналогов с брендовым SKU.",
+  "methodology": "docs/RESEARCH_METHOD.md; отзывы не считаются продажами; новые записи только исследовательские",
   "research_status": "partial",
   "units_sold_period_verified": false,
   "china_wholesale_quotes_verified": 0,
   "profitable_skus_verified": 0,
   "sources": [
     {
-      "title": "Рекомендации и методика оценки 18 SKU",
-      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/recommendations/latest.json"
+      "title": "Ozon ANTA A-PROTECTION",
+      "url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/"
     },
     {
-      "title": "АКИТ: оборот категорий, 9 месяцев 2026",
-      "url": "https://www.retail.ru/news/akit-za-9-mesyatsev-2026-goda-obem-internet-torgovli-sostavil-10-85-trln-rubley-12-noyabrya-2026-284375/"
+      "title": "Ozon ANTA CAMPUS",
+      "url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/"
     },
     {
-      "title": "Ozon: Xiaomi Mijia, пример точной карточки",
-      "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/"
+      "title": "Датированное исследование",
+      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/research/multimarket_opportunities_20261120.json"
     },
     {
-      "title": "Lamoda: ANTA Winter Vibes",
-      "url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/"
-    },
-    {
-      "title": "Сравнения российских и китайских предложений",
-      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/research/multimarket_opportunities_20261118.json"
-    },
-    {
-      "title": "Ozon: регулируемая шлейка для собак",
-      "url": "https://www.ozon.ru/product/shleyka-dlya-sobak-reguliruemyy-zhilet-troynoy-protivopobeg-progulki-dlya-malenkih-srednih-i-1313640836/"
+      "title": "Методика",
+      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/docs/RESEARCH_METHOD.md"
     }
   ]
 }
