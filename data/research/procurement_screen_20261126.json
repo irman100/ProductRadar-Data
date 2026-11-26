@@ -1,0 +1,294 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-11-26",
+  "title": "Фильтр закупочной пригодности: повторная сверка цен",
+  "fx": {
+    "cny_rub": 12.3154,
+    "usd_rub": 82.313,
+    "cny_source": "data/market/cny_rub.json",
+    "usd_source": "https://ppt.ru/currencies/usd/26-11-2026"
+  },
+  "method": "Ценовой разрыв не равен марже. Для сценария 20% расходов продажи и 15% целевой маржи: максимум прочих затрат = розничная цена * 0.65 - закупочная цена. Не подтвержденные суммы не подставлять в чистую прибыль. Не считать индекс наличием. Подборка допускает только прямой сопоставимый товар, спрос, конкурентную цену, MOQ и подтвержденную экономику.",
+  "items": [
+    {
+      "id": "SOURCING-VGR-V256",
+      "name": "VGR V-256 — профессиональная машинка для стрижки с зарядной базой",
+      "model": "V-256",
+      "checked_at": "2026-11-26",
+      "status": "promising_unverified_variant",
+      "ready_to_buy": false,
+      "public_purchase_shortlist": false,
+      "demand": {
+        "value": 375,
+        "type": "cumulative_purchases_indexed",
+        "url": "https://market.yandex.ru/card/mashinka-dlya-strizhki-vgr-v-256-serebristyy/102219329368",
+        "freshness": "last week",
+        "period": null,
+        "note": "Прямое открытие блокируется; показатель не продажи за период."
+      },
+      "ru_offers": [
+        {
+          "price_rub": 3840,
+          "price_type": "conditional_yandex_pay",
+          "url": "https://market.yandex.ru/offers/mashinka-dlya-strizhki-vgr-v-256-serebristyy/6026401839?sku=101329645468",
+          "freshness": "last week",
+          "in_stock": null,
+          "source_access": "search_index"
+        },
+        {
+          "price_rub": 2978,
+          "price_type": "conditional_yandex_pay",
+          "url": "https://market.yandex.ru/card/trimmer-vgr-v-256/103486620734",
+          "freshness": "2 months ago",
+          "in_stock": null,
+          "source_access": "related_offer_index",
+          "note": "Стресс-сценарий, не текущая цена."
+        },
+        {
+          "price_rub": 5590,
+          "platform": "Joom",
+          "url": "https://www.joom.ru/ru/products/6a734c05348a0801699c1d7b",
+          "freshness": "last week",
+          "in_stock": null,
+          "note": "Трансграничная карточка, не использовать для средней внутренней цены."
+        },
+        {
+          "price_rub": 3299,
+          "platform": "Carcam",
+          "url": "https://carcam.ru/product/vgr-v-256.html",
+          "in_stock": false,
+          "note": "Не использовать для средней."
+        }
+      ],
+      "china": {
+        "platform": "Yiwugo",
+        "seller": "Yiwu Gemei Electric Appliance",
+        "url": "https://yiwugo.com/product/detail/933514360.html?loc=35",
+        "price_cny": 128,
+        "moq": 20,
+        "unit_rub": 1576.37,
+        "goods_batch_rub": 31527.42,
+        "source_updated_at": "2026-11-26 09:32:45 China local time",
+        "model_match": "same_model_claimed",
+        "variant_verified": false,
+        "quote_verified": false,
+        "note": "Зарядная база, USB, дисплей. Цвет, аккумулятор, насадки, оригинальность, доставка до РФ требуют подтверждения."
+      },
+      "alternative_china": [
+        {
+          "platform": "Alibaba",
+          "url": "https://www.alibaba.com/product-detail/VGR-V-256-Hair-Clippers-Man_1601288582332.html",
+          "price_usd": 25.69,
+          "moq": 20,
+          "unit_rub": 2114.62,
+          "note": "Старая копия прямой страницы, зелёный цвет, противоречивые данные аккумулятора, не эквивалент серебристой версии."
+        }
+      ],
+      "average_sale_price_rub": null,
+      "scenario": [
+        {
+          "retail_rub": 3840,
+          "china_unit_rub": 1576.37,
+          "gross_difference_rub": 2263.63,
+          "gross_difference_pct": 58.95,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 1495.63,
+          "max_other_costs_for_target_margin_rub": 919.63,
+          "net_margin_pct": null
+        },
+        {
+          "retail_rub": 2978,
+          "china_unit_rub": 1576.37,
+          "gross_difference_rub": 1401.63,
+          "gross_difference_pct": 47.07,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 806.03,
+          "max_other_costs_for_target_margin_rub": 359.33,
+          "net_margin_pct": null
+        }
+      ],
+      "decision": "Приоритет запроса цены и комплектации; пока не добавлять в активную закупочную подборку."
+    },
+    {
+      "id": "SOURCING-KEMEI-KM2299",
+      "model": "KM-2299",
+      "status": "reject_thin_competitive_spread",
+      "ready_to_buy": false,
+      "ru_offers": [
+        {
+          "price_rub": 2203,
+          "url": "https://www.ozon.ru/product/mashinka-dlya-strizhki-km-2299-chernyy-1646200963/?at=1ias1WmBuRqVdkBH6g_FVPP8aBrKob5i",
+          "price_type": "other_bank",
+          "reviews": 501,
+          "in_stock": true,
+          "freshness": "today"
+        },
+        {
+          "price_rub": 923,
+          "url": "https://www.ozon.ru/product/mashinka-dlya-strizhki-km-2299-chernyy-1646200963/?at=1ias1WmBuRqVdkBH6g_FVPP8aBrKob5i",
+          "note": "Есть дешевле от 923; комплектация и точная карточка не сверены; стресс-сценарий"
+        },
+        {
+          "price_rub": 1311,
+          "url": "https://market.yandex.ru/card/mashinka-dlya-strizhki-volos-trimmer-dlya-borody-i-usov-model-kemei-km-2299/4660613932",
+          "price_type": "conditional_yandex_pay",
+          "purchases": 114,
+          "note": "Связанная карточка из копии Яндекс; прямое открытие не удалось.",
+          "source_url": "https://market.yandex.ru/card/kemei-mashinka-dlya-strizhki-km-2299-chernyy-matovyy/4996416184"
+        }
+      ],
+      "china": {
+        "url": "https://www.alibaba.com/product-introduction/Kemei-Km-2299-1200mah-Professional-Hair_1601061676425.html",
+        "detail_url": "https://www.alibaba.com/product-detail/Km2299-Professional-Hair-Beard-Trimmer-Grooming_1601061676425.html",
+        "price_usd": 8.41,
+        "moq": 10,
+        "note": "Цена публичной страницы introduction, detail не отдал данные, комплект не подтвержден."
+      },
+      "scenario": [
+        {
+          "retail_rub": 1311,
+          "china_unit_rub": 692.25,
+          "gross_difference_rub": 618.75,
+          "gross_difference_pct": 47.2,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 356.55,
+          "max_other_costs_for_target_margin_rub": 159.9,
+          "net_margin_pct": null
+        },
+        {
+          "retail_rub": 923,
+          "china_unit_rub": 692.25,
+          "gross_difference_rub": 230.75,
+          "gross_difference_pct": 25,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 46.15,
+          "max_other_costs_for_target_margin_rub": -92.3,
+          "net_margin_pct": null
+        }
+      ],
+      "decision": "Не рекомендовать по текущим данным: низкие конкурентные предложения и не подтверждена идентичность комплекта."
+    },
+    {
+      "id": "SOURCING-JAKEMY-JM8183",
+      "model": "JM-8183",
+      "status": "hold_price_and_availability_conflict",
+      "ready_to_buy": false,
+      "demand": {
+        "value": 102,
+        "type": "indexed_related_card_counter_attribution_unverified",
+        "url": "https://market.yandex.ru/card/nabor-pretsizionnykh-otvertok-jakemy-jm-8183-145-v-1-s-aksessuarami-instrumenty-dlya-remonta-elektronnykh-izdeliy/5873120046",
+        "note": "Прямое открытие заблокировано, нельзя уверенно атрибутировать счётчик."
+      },
+      "ru_offers": [
+        {
+          "price_rub": 2337,
+          "url": "https://market.yandex.ru/card/otvertka-s-naborom-bit-jakemy-precision-screwdriver-145-in-1-jm-8183/103823177595",
+          "price_type": "conditional_yandex_pay",
+          "in_stock": null,
+          "freshness": "6 days ago"
+        },
+        {
+          "price_rub": 499,
+          "url": "https://www.gigamart.ru/catalog/home/tools/screwdrivers/193668/",
+          "in_stock": null,
+          "note": "Под заказ, одновременно указан опт 1799; аномалия цены, не считать гарантированной."
+        }
+      ],
+      "china": {
+        "url": "https://es.made-in-china.com/amp/co_jakemy/product_Jakemy-New-Product-145-in-1-Precision-Hardware-Tools-with-Screwdriver-Set-and-Accessories-for-Electronic-Products-Household-Appliances_uoiognsehg.html",
+        "seller": "Guangzhou Yifeng Technology Electron Co., Ltd.",
+        "price_usd": 13.8,
+        "moq": 20,
+        "weight_g": 701.4,
+        "note": "Модель JM-8183 145 предметов, чёрный; прямое предложение."
+      },
+      "scenario": [
+        {
+          "retail_rub": 2337,
+          "china_unit_rub": 1135.92,
+          "gross_difference_rub": 1201.08,
+          "gross_difference_pct": 51.39,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 733.68,
+          "max_other_costs_for_target_margin_rub": 383.13,
+          "net_margin_pct": null
+        }
+      ],
+      "decision": "Не публиковать как выгодную закупку до подтверждения конкурентной цены и наличия."
+    },
+    {
+      "id": "RD-CN-RU-015",
+      "model": "MQXJQ01KL",
+      "status": "reject_at_observed_supplier_price",
+      "scenario": {
+        "retail_rub": 805,
+        "china_unit_rub": 535.03,
+        "gross_difference_rub": 269.97,
+        "gross_difference_pct": 33.54,
+        "sales_expense_assumption_pct": 20,
+        "target_margin_assumption_pct": 15,
+        "remaining_before_import_rub": 108.97,
+        "max_other_costs_for_target_margin_rub": -11.78,
+        "net_margin_pct": null
+      },
+      "extra_ru_observation": null,
+      "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен."
+    },
+    {
+      "id": "RD-CN-RU-001",
+      "model": "MJJXLSD002QW",
+      "status": "reject_at_observed_supplier_price",
+      "scenario": {
+        "retail_rub": 1688,
+        "china_unit_rub": 1221.52,
+        "gross_difference_rub": 466.48,
+        "gross_difference_pct": 27.64,
+        "sales_expense_assumption_pct": 20,
+        "target_margin_assumption_pct": 15,
+        "remaining_before_import_rub": 128.88,
+        "max_other_costs_for_target_margin_rub": -124.32,
+        "net_margin_pct": null
+      },
+      "extra_ru_observation": {
+        "url": "https://market.yandex.ru/card/nabor-otvertok-mi-precision-screwdriver-kit-mjjxlsd002qw/103212791289",
+        "price_rub": 1688,
+        "price_type": "conditional_yandex_pay",
+        "freshness": "last week",
+        "source_access": "search_index",
+        "note": "Прямое открытие CAPTCHA; цена требует подтверждения."
+      },
+      "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен."
+    },
+    {
+      "id": "RD-CN-RU-005",
+      "model": "MJCQB06QW",
+      "status": "reject_at_observed_supplier_price",
+      "scenario": {
+        "retail_rub": 3012,
+        "china_unit_rub": 2634.02,
+        "gross_difference_rub": 377.98,
+        "gross_difference_pct": 12.55,
+        "sales_expense_assumption_pct": 20,
+        "target_margin_assumption_pct": 15,
+        "remaining_before_import_rub": -224.42,
+        "max_other_costs_for_target_margin_rub": -676.22,
+        "net_margin_pct": null
+      },
+      "extra_ru_observation": null,
+      "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен."
+    }
+  ],
+  "summary": {
+    "reviewed_pairs": 6,
+    "new_active_products": 0,
+    "promising_unverified_candidates": 1,
+    "confirmed_profitable": 0,
+    "existing_catalog_count": 42
+  },
+  "limitations": "1688 точные предложения не подтверждены. Нет строгих средних цен, полного landed cost и подтвержденных котировок. Архив не удален; существующий UI фильтрует не по procurement_screen, требуется отдельная правка для показа только закупочной подборки."
+}
