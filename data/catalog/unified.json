@@ -70,7 +70,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-014",
@@ -130,7 +135,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-015",
@@ -292,7 +302,27 @@
         "net_margin_pct": null,
         "ready_to_buy": false
       },
-      "retail_offer_price_rub": 805
+      "retail_offer_price_rub": 805,
+      "procurement_screen": {
+        "id": "RD-CN-RU-015",
+        "model": "MQXJQ01KL",
+        "status": "reject_at_observed_supplier_price",
+        "scenario": {
+          "retail_rub": 805,
+          "china_unit_rub": 535.03,
+          "gross_difference_rub": 269.97,
+          "gross_difference_pct": 33.54,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 108.97,
+          "max_other_costs_for_target_margin_rub": -11.78,
+          "net_margin_pct": null
+        },
+        "extra_ru_observation": null,
+        "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен.",
+        "checked_at": "2026-11-26",
+        "public_purchase_shortlist": false
+      }
     },
     {
       "id": "RD-CN-RU-001",
@@ -447,7 +477,34 @@
         "net_margin_pct": null,
         "ready_to_buy": false
       },
-      "retail_offer_price_rub": 1809
+      "retail_offer_price_rub": 1809,
+      "procurement_screen": {
+        "id": "RD-CN-RU-001",
+        "model": "MJJXLSD002QW",
+        "status": "reject_at_observed_supplier_price",
+        "scenario": {
+          "retail_rub": 1688,
+          "china_unit_rub": 1221.52,
+          "gross_difference_rub": 466.48,
+          "gross_difference_pct": 27.64,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 128.88,
+          "max_other_costs_for_target_margin_rub": -124.32,
+          "net_margin_pct": null
+        },
+        "extra_ru_observation": {
+          "url": "https://market.yandex.ru/card/nabor-otvertok-mi-precision-screwdriver-kit-mjjxlsd002qw/103212791289",
+          "price_rub": 1688,
+          "price_type": "conditional_yandex_pay",
+          "freshness": "last week",
+          "source_access": "search_index",
+          "note": "Прямое открытие CAPTCHA; цена требует подтверждения."
+        },
+        "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен.",
+        "checked_at": "2026-11-26",
+        "public_purchase_shortlist": false
+      }
     },
     {
       "id": "RD-CN-RU-006",
@@ -500,7 +557,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-005",
@@ -653,7 +715,27 @@
         "net_margin_pct": null,
         "ready_to_buy": false
       },
-      "retail_offer_price_rub": 3012
+      "retail_offer_price_rub": 3012,
+      "procurement_screen": {
+        "id": "RD-CN-RU-005",
+        "model": "MJCQB06QW",
+        "status": "reject_at_observed_supplier_price",
+        "scenario": {
+          "retail_rub": 3012,
+          "china_unit_rub": 2634.02,
+          "gross_difference_rub": 377.98,
+          "gross_difference_pct": 12.55,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": -224.42,
+          "max_other_costs_for_target_margin_rub": -676.22,
+          "net_margin_pct": null
+        },
+        "extra_ru_observation": null,
+        "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен.",
+        "checked_at": "2026-11-26",
+        "public_purchase_shortlist": false
+      }
     },
     {
       "id": "RD-MR-004",
@@ -711,7 +793,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-OZON-1313640836",
@@ -771,7 +858,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-013",
@@ -824,7 +916,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-011",
@@ -877,7 +974,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-012",
@@ -930,7 +1032,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-OZON-1962683054",
@@ -990,7 +1097,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-007",
@@ -1043,7 +1155,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-008",
@@ -1096,7 +1213,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-016",
@@ -1149,7 +1271,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-003",
@@ -1202,7 +1329,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-CN-RU-004",
@@ -1255,7 +1387,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-OZON-5761260692",
@@ -1315,7 +1452,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-MR-002",
@@ -1384,7 +1526,12 @@
       "availability_checked_at": "2026-11-26",
       "availability_source_freshness": "копия 2 недели назад",
       "availability_source_url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
-      "retail_offer_price_rub": null
+      "retail_offer_price_rub": null,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-MR-003",
@@ -1465,7 +1612,12 @@
       "availability_checked_at": "2026-11-26",
       "availability_source_freshness": "копия месяц назад",
       "availability_source_url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
-      "retail_offer_price_rub": 19990
+      "retail_offer_price_rub": 19990,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "RD-MR-005",
@@ -1528,7 +1680,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-RU-ANTA-103594293902",
@@ -1579,7 +1736,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-RU-ANTA-5025032654",
@@ -1630,7 +1792,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-RU-ANTA-5650132137",
@@ -1681,7 +1848,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-RU-ANTA-103719112751",
@@ -1732,7 +1904,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-RU-LINING-4716227508",
@@ -1783,7 +1960,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-ANTA-852241910-3",
@@ -1839,7 +2021,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-ANTA-952547901-1",
@@ -1895,7 +2082,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-ANTA-952547927-1",
@@ -1951,7 +2143,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "MULTI-MR-006",
@@ -2014,7 +2211,12 @@
       "availability_checked_at": "2026-11-26",
       "availability_source_freshness": "копия сегодня",
       "availability_source_url": "https://www.lamoda.ru/p/mp002xw1c99l/clothes-anta-pukhovik/",
-      "retail_offer_price_rub": null
+      "retail_offer_price_rub": null,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "MULTI-MR-007",
@@ -2072,7 +2274,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "MULTI-MR-008",
@@ -2147,7 +2354,12 @@
       "availability_checked_at": "2026-11-26",
       "availability_source_freshness": "копия 3 недели назад",
       "availability_source_url": "https://www.lamoda.ru/p/mp002xw1cqrp/clothes-anta-pukhovik/",
-      "retail_offer_price_rub": 21322
+      "retail_offer_price_rub": 21322,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "MULTI-MR-009",
@@ -2222,7 +2434,12 @@
       "availability_checked_at": "2026-11-26",
       "availability_source_freshness": "копия месяц назад",
       "availability_source_url": "https://www.lamoda.ru/p/mp002xw1cqru/clothes-anta-pukhovik/",
-      "retail_offer_price_rub": 21322
+      "retail_offer_price_rub": 21322,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-LINING-AFDS365-1",
@@ -2278,7 +2495,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-LINING-AFDW104-8",
@@ -2334,7 +2556,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-LINING-AYMU079-1",
@@ -2390,7 +2617,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "OUT-LINING-AYMU197-3",
@@ -2446,7 +2678,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "MULTI-MR-001",
@@ -2510,7 +2747,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": null,
       "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "PR-20261126-OZ-2705690080",
@@ -2588,7 +2830,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": 2458,
       "retail_offer_price_max_rub": 2458,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "PR-20261126-OZ-2496966190",
@@ -2666,7 +2913,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": 5803,
       "retail_offer_price_max_rub": 5803,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "PR-20261126-OZ-3261273024",
@@ -2744,7 +2996,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": 1852,
       "retail_offer_price_max_rub": 1852,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     },
     {
       "id": "PR-20261126-OZ-5926500126",
@@ -2822,7 +3079,12 @@
       "price_observations_used": [],
       "retail_offer_price_min_rub": 3583,
       "retail_offer_price_max_rub": 3583,
-      "realized_sale_price_verified": false
+      "realized_sale_price_verified": false,
+      "procurement_screen": {
+        "status": "insufficient_comparison_evidence",
+        "public_purchase_shortlist": false,
+        "checked_at": "2026-11-26"
+      }
     }
   ],
   "version_note": "Main storefront only shows dated cumulative purchase counters of at least 100, excluding duplicate model colorways. 100 is an editorial research filter, not a statistical popularity guarantee. Other records remain in research tab.",
