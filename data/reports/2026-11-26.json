@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1",
+  "report_id": "radar-2026-11-26-outerwear-refresh",
+  "published_at": "2026-11-26",
+  "report_type": "evidence_based_editorial",
+  "title": "Product Radar: свежие куртки, цены и контроль наличия",
+  "summary": "Добавлено 4 новых карточки с прямыми фото и наблюдаемыми ценами в раздел исследования. 6 дополнительных кандидатов без полной проверки, 5 старых карточек Lamoda проверены по доступным копиям, 2 отмечены отсутствующими. 0 новых verified и 0 средних цен по двум площадкам.",
+  "budget_min_rub": 5000,
+  "budget_max_rub": 300000,
+  "highlights": [
+    {
+      "product_id": "PR-20261126-OZ-2705690080",
+      "name": "ТВОЕ — зимняя женская куртка, светло-бежевая",
+      "evidence_value": "2688 отзывов; 2458 ₽",
+      "evidence_date": "2026-11-26",
+      "source_url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB",
+      "interpretation": "Нет данных о количестве покупок точного SKU; отзывы не продажи. Оптовая партия и маржа не подтверждены."
+    },
+    {
+      "product_id": "PR-20261126-OZ-2496966190",
+      "name": "De Mount — зимняя куртка для мальчиков, болотная, 152–158",
+      "evidence_value": "2385 отзывов; 5803 ₽",
+      "evidence_date": "2026-11-26",
+      "source_url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL",
+      "interpretation": "Нет данных о количестве покупок точного SKU; отзывы не продажи. Оптовая партия и маржа не подтверждены."
+    },
+    {
+      "product_id": "PR-20261126-OZ-3261273024",
+      "name": "De Mount — куртка для мальчиков, чёрная с зелёным, 122–128",
+      "evidence_value": "1192 отзывов; 1852 ₽",
+      "evidence_date": "2026-11-26",
+      "source_url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620",
+      "interpretation": "Нет данных о количестве покупок точного SKU; отзывы не продажи. Оптовая партия и маржа не подтверждены."
+    },
+    {
+      "product_id": "PR-20261126-OZ-5926500126",
+      "name": "QIANZHIDU — демисезонная женская куртка, леопардовый принт, 44",
+      "evidence_value": "651 отзывов; 3583 ₽",
+      "evidence_date": "2026-11-26",
+      "source_url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3",
+      "interpretation": "Нет данных о количестве покупок точного SKU; отзывы не продажи. Оптовая партия и маржа не подтверждены."
+    }
+  ],
+  "findings": [
+    {
+      "title": "Новые SKU",
+      "category": "Верхняя одежда",
+      "status": "research_only",
+      "body": "4 карточки Ozon с прямыми фото: ТВОЕ, De Mount (две разные модели по характеристикам), QIANZHIDU."
+    },
+    {
+      "title": "Наличие старых карточек",
+      "category": "Lamoda",
+      "status": "cached_observations",
+      "body": "Два старых артикула ANTA в копиях страниц не в наличии; три показывают цену, но копии не свежие."
+    },
+    {
+      "title": "Цены",
+      "category": "Розница",
+      "status": "one_platform_only",
+      "body": "4 новых наблюдаемых цены с другими банками, не средняя цена сделки. Нет двух точных независимых площадок."
+    },
+    {
+      "title": "Китай",
+      "category": "Закупка",
+      "status": "not_verified",
+      "body": "Alibaba предлагает аналоги, точная фабрика, MOQ, стоимость и страна партии не подтверждены; ни один бюджет не рассчитан."
+    }
+  ],
+  "next_research": [
+    "Найти независимые точные SKU WB, Яндекс Маркет, Lamoda и Спортмастер; сравнить цены без специальных условий",
+    "Проверить все оставшиеся старые ссылки и фотоссылки",
+    "Найти точные предложения 1688 и Alibaba; проверить документы, логистику, размеры и возвраты",
+    "Расширить мужские и детские модели и остальные пять направлений"
+  ],
+  "methodology": "docs/RESEARCH_METHOD.md; эквивалентная проверка структуры JS перед записью; не путать отзывы и покупки.",
+  "research_status": "partial",
+  "units_sold_period_verified": false,
+  "china_wholesale_quotes_verified": 0,
+  "profitable_skus_verified": 0,
+  "sources": [
+    {
+      "title": "ТВОЕ — зимняя женская куртка, светло-бежевая",
+      "url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB"
+    },
+    {
+      "title": "De Mount — зимняя куртка для мальчиков, болотная, 152–158",
+      "url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL"
+    },
+    {
+      "title": "De Mount — куртка для мальчиков, чёрная с зелёным, 122–128",
+      "url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620"
+    },
+    {
+      "title": "QIANZHIDU — демисезонная женская куртка, леопардовый принт, 44",
+      "url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3"
+    },
+    {
+      "title": "Исследование и ограничения",
+      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/research/multimarket_opportunities_20261126.json"
+    }
+  ],
+  "counts": {
+    "new_research_cards": 4,
+    "new_verified": 0,
+    "new_main": 0,
+    "catalog": 42,
+    "main": 12,
+    "research": 30
+  }
+}
