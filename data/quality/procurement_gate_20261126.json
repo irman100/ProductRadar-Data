@@ -1,0 +1,157 @@
+{
+  "checked_at": "2026-11-26",
+  "policy": {
+    "minimum_purchases": 100,
+    "max_age_days": 7,
+    "target_net_margin_pct": 15,
+    "budget_min_rub": 5000,
+    "budget_max_rub": 300000,
+    "scenario_sales_pct": 20
+  },
+  "results": [
+    {
+      "id": "SOURCING-VGR-V256",
+      "status": "candidate",
+      "reasons": [
+        "Точный вариант и комплект Китай / РФ не сверены",
+        "Нет двух свежих сопоставимых цен независимых площадок и подтверждённого наличия",
+        "Нет двух проверенных фотографий точной модели",
+        "Нет действующей котировки, точного объёма партии и проверки поставщика",
+        "Полная себестоимость и расходы не подтверждены"
+      ],
+      "average_offer_rub": null,
+      "benchmark_rub": null,
+      "net_profit_rub": null,
+      "net_margin_pct": null,
+      "batch_rub": null,
+      "observed_benchmark_rub": 4766,
+      "gross_difference_rub": 3189.63,
+      "max_other_costs_for_target_margin_rub": 1521.53
+    },
+    {
+      "id": "SOURCING-KEMEI-KM2299",
+      "status": "archive",
+      "reasons": [
+        "Точный вариант и комплект Китай / РФ не сверены",
+        "Нет двух свежих сопоставимых цен независимых площадок и подтверждённого наличия",
+        "Нет свежего подтверждённого счётчика покупок SKU",
+        "Нет двух проверенных фотографий точной модели",
+        "Нет действующей котировки, точного объёма партии и проверки поставщика",
+        "Полная себестоимость и расходы не подтверждены",
+        "Исследователь отклонил предложение"
+      ],
+      "average_offer_rub": null,
+      "benchmark_rub": null,
+      "net_profit_rub": null,
+      "net_margin_pct": null,
+      "batch_rub": null,
+      "observed_benchmark_rub": 1311,
+      "gross_difference_rub": 618.75,
+      "max_other_costs_for_target_margin_rub": 159.9
+    },
+    {
+      "id": "SOURCING-JAKEMY-JM8183",
+      "status": "archive",
+      "reasons": [
+        "Точный вариант и комплект Китай / РФ не сверены",
+        "Нет двух свежих сопоставимых цен независимых площадок и подтверждённого наличия",
+        "Нет свежего подтверждённого счётчика покупок SKU",
+        "Нет двух проверенных фотографий точной модели",
+        "Нет действующей котировки, точного объёма партии и проверки поставщика",
+        "Полная себестоимость и расходы не подтверждены"
+      ],
+      "average_offer_rub": null,
+      "benchmark_rub": null,
+      "net_profit_rub": null,
+      "net_margin_pct": null,
+      "batch_rub": null,
+      "observed_benchmark_rub": 2337,
+      "gross_difference_rub": 1201.08,
+      "max_other_costs_for_target_margin_rub": 383.13
+    },
+    {
+      "id": "RD-CN-RU-015",
+      "status": "archive",
+      "reasons": [
+        "Точный вариант и комплект Китай / РФ не сверены",
+        "Нет двух свежих сопоставимых цен независимых площадок и подтверждённого наличия",
+        "Нет свежего подтверждённого счётчика покупок SKU",
+        "Нет двух проверенных фотографий точной модели",
+        "Нет действующей котировки, точного объёма партии и проверки поставщика",
+        "Полная себестоимость и расходы не подтверждены",
+        "Исследователь отклонил предложение"
+      ],
+      "average_offer_rub": null,
+      "benchmark_rub": null,
+      "net_profit_rub": null,
+      "net_margin_pct": null,
+      "batch_rub": null,
+      "observed_benchmark_rub": 805,
+      "gross_difference_rub": 269.97,
+      "max_other_costs_for_target_margin_rub": -11.78
+    },
+    {
+      "id": "RD-CN-RU-001",
+      "status": "archive",
+      "reasons": [
+        "Точный вариант и комплект Китай / РФ не сверены",
+        "Нет двух свежих сопоставимых цен независимых площадок и подтверждённого наличия",
+        "Нет свежего подтверждённого счётчика покупок SKU",
+        "Нет двух проверенных фотографий точной модели",
+        "Нет действующей котировки, точного объёма партии и проверки поставщика",
+        "Полная себестоимость и расходы не подтверждены",
+        "Исследователь отклонил предложение"
+      ],
+      "average_offer_rub": null,
+      "benchmark_rub": null,
+      "net_profit_rub": null,
+      "net_margin_pct": null,
+      "batch_rub": null,
+      "observed_benchmark_rub": 1688,
+      "gross_difference_rub": 466.48,
+      "max_other_costs_for_target_margin_rub": -124.32
+    },
+    {
+      "id": "RD-CN-RU-005",
+      "status": "archive",
+      "reasons": [
+        "Точный вариант и комплект Китай / РФ не сверены",
+        "Нет двух свежих сопоставимых цен независимых площадок и подтверждённого наличия",
+        "Нет свежего подтверждённого счётчика покупок SKU",
+        "Нет двух проверенных фотографий точной модели",
+        "Нет действующей котировки, точного объёма партии и проверки поставщика",
+        "Полная себестоимость и расходы не подтверждены",
+        "Исследователь отклонил предложение"
+      ],
+      "average_offer_rub": null,
+      "benchmark_rub": null,
+      "net_profit_rub": null,
+      "net_margin_pct": null,
+      "batch_rub": null,
+      "observed_benchmark_rub": 3012,
+      "gross_difference_rub": 377.98,
+      "max_other_costs_for_target_margin_rub": -676.22
+    }
+  ],
+  "tests": {
+    "passed": 13,
+    "fixture": "synthetic test only, never included in published evidence",
+    "negative_cases": [
+      "missing cost",
+      "duplicate platform",
+      "conditional",
+      "different SKU",
+      "review count",
+      "expired quote",
+      "poor margin",
+      "missing image",
+      "excess budget",
+      "stale price"
+    ]
+  },
+  "summary": {
+    "approved": 0,
+    "candidate": 1,
+    "archive": 5
+  }
+}
