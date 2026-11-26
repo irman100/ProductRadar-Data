@@ -1,78 +1,111 @@
 {
   "schema_version": "1.1",
-  "report_id": "radar-2026-11-20-anta-ozon-audit",
-  "published_at": "2026-11-20",
+  "report_id": "radar-2026-11-26-outerwear-refresh",
+  "published_at": "2026-11-26",
   "report_type": "evidence_based_editorial",
-  "title": "Product Radar: проверка двух карточек ANTA Ozon и рисков двойного счёта",
-  "summary": "Проверены две конкретные карточки Ozon ANTA. Обнаружены накопленные отзывы, изменяющиеся между представлениями карточек, и отдельные цветовые варианты с общими отзывами. Продажи SKU за период, прямые изображения для записи, китайские оптовые котировки и полная экономика не подтверждены. Новые записи допустимы только в data/research; в основной каталог и verified не добавлены.",
+  "title": "Product Radar: свежие куртки, цены и контроль наличия",
+  "summary": "Добавлено 4 новых карточки с прямыми фото и наблюдаемыми ценами в раздел исследования. 6 дополнительных кандидатов без полной проверки, 5 старых карточек Lamoda проверены по доступным копиям, 2 отмечены отсутствующими. 0 новых verified и 0 средних цен по двум площадкам.",
   "budget_min_rub": 5000,
   "budget_max_rub": 300000,
   "highlights": [
     {
-      "product_id": "Ozon 2241418080",
-      "name": "ANTA ODP AEROGEL PRINTING A-PROTECTION — женский чёрный пуховик",
-      "evidence_value": "226–228 (разные представления)",
-      "evidence_date": "2026-11-20",
-      "source_url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/",
-      "interpretation": "Отзывы — не продажи; оптовая цена и MOQ неизвестны."
+      "product_id": "PR-20261126-OZ-2705690080",
+      "name": "ТВОЕ — зимняя женская куртка, светло-бежевая",
+      "evidence_value": "2688 отзывов; 2458 ₽",
+      "evidence_date": "2026-11-26",
+      "source_url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB",
+      "interpretation": "Нет данных о количестве покупок точного SKU; отзывы не продажи. Оптовая партия и маржа не подтверждены."
     },
     {
-      "product_id": "Ozon 3391760789",
-      "name": "ANTA ODP CAMPUS AEROGEL PRINTING A-ANTISEPTIC 2.0 — женский чёрный пуховик",
-      "evidence_value": "228–232 (разные представления)",
-      "evidence_date": "2026-11-20",
-      "source_url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/",
-      "interpretation": "Отзывы — не продажи; оптовая цена и MOQ неизвестны."
+      "product_id": "PR-20261126-OZ-2496966190",
+      "name": "De Mount — зимняя куртка для мальчиков, болотная, 152–158",
+      "evidence_value": "2385 отзывов; 5803 ₽",
+      "evidence_date": "2026-11-26",
+      "source_url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL",
+      "interpretation": "Нет данных о количестве покупок точного SKU; отзывы не продажи. Оптовая партия и маржа не подтверждены."
+    },
+    {
+      "product_id": "PR-20261126-OZ-3261273024",
+      "name": "De Mount — куртка для мальчиков, чёрная с зелёным, 122–128",
+      "evidence_value": "1192 отзывов; 1852 ₽",
+      "evidence_date": "2026-11-26",
+      "source_url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620",
+      "interpretation": "Нет данных о количестве покупок точного SKU; отзывы не продажи. Оптовая партия и маржа не подтверждены."
+    },
+    {
+      "product_id": "PR-20261126-OZ-5926500126",
+      "name": "QIANZHIDU — демисезонная женская куртка, леопардовый принт, 44",
+      "evidence_value": "651 отзывов; 3583 ₽",
+      "evidence_date": "2026-11-26",
+      "source_url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3",
+      "interpretation": "Нет данных о количестве покупок точного SKU; отзывы не продажи. Оптовая партия и маржа не подтверждены."
     }
   ],
   "findings": [
     {
-      "title": "Разные артикулы и общие отзывы",
-      "category": "Женские пуховики",
+      "title": "Новые SKU",
+      "category": "Верхняя одежда",
       "status": "research_only",
-      "body": "Ozon 3391760789, 3073002113 и 3073001042 являются цветами одной модели CAMPUS; отзывы не суммировать. 2241418080 требует проверки пересечения семейства отзывов с другими артикулами ANTA."
+      "body": "4 карточки Ozon с прямыми фото: ТВОЕ, De Mount (две разные модели по характеристикам), QIANZHIDU."
     },
     {
-      "title": "Импортная экономика",
-      "category": "Закупка Китай → РФ",
+      "title": "Наличие старых карточек",
+      "category": "Lamoda",
+      "status": "cached_observations",
+      "body": "Два старых артикула ANTA в копиях страниц не в наличии; три показывают цену, но копии не свежие."
+    },
+    {
+      "title": "Цены",
+      "category": "Розница",
+      "status": "one_platform_only",
+      "body": "4 новых наблюдаемых цены с другими банками, не средняя цена сделки. Нет двух точных независимых площадок."
+    },
+    {
+      "title": "Китай",
+      "category": "Закупка",
       "status": "not_verified",
-      "body": "Нет подтверждённых MOQ, цены производителя, фабрики, страны конкретной партии, логистики, пошлин, документов, маркировки и комиссии. Для всех бюджетов 5–20, 20–50, 50–150 и 150–300 тыс. руб. пригодность не установлена."
-    },
-    {
-      "title": "Фото",
-      "category": "Качество данных",
-      "status": "missing_exact_url",
-      "body": "Прямой URL точного фото продавца не установлен. Не добавлять похожие изображения и не включать в основную витрину."
+      "body": "Alibaba предлагает аналоги, точная фабрика, MOQ, стоимость и страна партии не подтверждены; ни один бюджет не рассчитан."
     }
   ],
   "next_research": [
-    "Проверить SKU ANTA на Lamoda, WB и Яндекс Маркете, не смешивая размеры и цвета",
-    "Получить датированный счётчик покупок конкретного листинга или временной ряд",
-    "Найти прямой URL фотографии из метаданных той же карточки",
-    "Найти прямую страницу поставщика 1688/Alibaba с проверенными MOQ и ценой",
-    "Проверить Честный знак, документы по ТН ВЭД, происхождение партии и полную себестоимость"
+    "Найти независимые точные SKU WB, Яндекс Маркет, Lamoda и Спортмастер; сравнить цены без специальных условий",
+    "Проверить все оставшиеся старые ссылки и фотоссылки",
+    "Найти точные предложения 1688 и Alibaba; проверить документы, логистику, размеры и возвраты",
+    "Расширить мужские и детские модели и остальные пять направлений"
   ],
-  "methodology": "docs/RESEARCH_METHOD.md; отзывы не считаются продажами; новые записи только исследовательские",
+  "methodology": "docs/RESEARCH_METHOD.md; эквивалентная проверка структуры JS перед записью; не путать отзывы и покупки.",
   "research_status": "partial",
   "units_sold_period_verified": false,
   "china_wholesale_quotes_verified": 0,
   "profitable_skus_verified": 0,
   "sources": [
     {
-      "title": "Ozon ANTA A-PROTECTION",
-      "url": "https://www.ozon.ru/product/puhovik-anta-odp-aerogel-printing-a-protection-2241418080/"
+      "title": "ТВОЕ — зимняя женская куртка, светло-бежевая",
+      "url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB"
     },
     {
-      "title": "Ozon ANTA CAMPUS",
-      "url": "https://www.ozon.ru/product/puhovik-anta-odp-campus-down-jacket-aerogel-printing-a-antiseptic-2-0-3391760789/"
+      "title": "De Mount — зимняя куртка для мальчиков, болотная, 152–158",
+      "url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL"
     },
     {
-      "title": "Датированное исследование",
-      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/research/multimarket_opportunities_20261120.json"
+      "title": "De Mount — куртка для мальчиков, чёрная с зелёным, 122–128",
+      "url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620"
     },
     {
-      "title": "Методика",
-      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/docs/RESEARCH_METHOD.md"
+      "title": "QIANZHIDU — демисезонная женская куртка, леопардовый принт, 44",
+      "url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3"
+    },
+    {
+      "title": "Исследование и ограничения",
+      "url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/research/multimarket_opportunities_20261126.json"
     }
-  ]
+  ],
+  "counts": {
+    "new_research_cards": 4,
+    "new_verified": 0,
+    "new_main": 0,
+    "catalog": 42,
+    "main": 12,
+    "research": 30
+  }
 }
