@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-26",
+  "scope": "repository JSON structural inspection, no live HTTP checks",
+  "summary": {
+    "checked": 38,
+    "missing_primary": 5,
+    "rejected_generic_metadata": 5,
+    "other_primary_not_http_checked": 28,
+    "fallback_created": 0,
+    "new_price_observations": 0
+  },
+  "items": [
+    {
+      "product_id": "RD-MR-004",
+      "name": "Органайзер в багажник / автомобильная сумка",
+      "sku": "MR-004",
+      "merchant_url": "https://www.ozon.ru/product/organayzer-v-bagazhnik-sumka-v-bagazhnik-dlya-avtomobilya-3189390009/",
+      "primary_image_url": null,
+      "reason": "missing",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/RD-MR-004.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "RD-OZON-1313640836",
+      "name": "Регулируемая шлейка-жилет для собак",
+      "sku": "OZON-1313640836",
+      "merchant_url": "https://www.ozon.ru/product/shleyka-dlya-sobak-reguliruemyy-zhilet-troynoy-protivopobeg-progulki-dlya-malenkih-srednih-i-1313640836/",
+      "primary_image_url": null,
+      "reason": "missing",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/RD-OZON-1313640836.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "RD-OZON-1962683054",
+      "name": "Интерактивный мячик с хвостом для кошек, серый",
+      "sku": "OZON-1962683054",
+      "merchant_url": "https://www.ozon.ru/product/interaktivnaya-igrushka-dlya-koshek-umnyy-myachik-s-hvostom-serogo-tsveta-1962683054/",
+      "primary_image_url": null,
+      "reason": "missing",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/RD-OZON-1962683054.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "RD-OZON-5761260692",
+      "name": "Кормушка с резервуаром 3,8 л для кошек",
+      "sku": "OZON-5761260692",
+      "merchant_url": "https://www.ozon.ru/product/avtomaticheskaya-kormushka-dlya-koshek-3-8l-neoprokidyvaemaya-miska-s-rezervuarom-dlya-suhogo-5761260692/",
+      "primary_image_url": null,
+      "reason": "missing",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/RD-OZON-5761260692.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "OUT-RU-ANTA-103594293902",
+      "name": "ANTA — короткий чёрный пуховик",
+      "sku": "MARKET-103594293902",
+      "merchant_url": "https://market.yandex.ru/card/pukhovik-korotkiy-chernyy/103594293902",
+      "primary_image_url": "https://yastatic.net/s3/home-static/_/37/37a02b5dc7a51abac55d8a5b6c865f0e.png",
+      "reason": "suspect_metadata",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/OUT-RU-ANTA-103594293902.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "OUT-RU-ANTA-5025032654",
+      "name": "ANTA Basic — пуховик унисекс, чёрный, 4XL",
+      "sku": "MARKET-5025032654",
+      "merchant_url": "https://market.yandex.ru/card/anta-down-jacket-unisex-basic-black-4xl/5025032654",
+      "primary_image_url": "https://yastatic.net/s3/home-static/_/37/37a02b5dc7a51abac55d8a5b6c865f0e.png",
+      "reason": "suspect_metadata",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/OUT-RU-ANTA-5025032654.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "OUT-RU-ANTA-5650132137",
+      "name": "ANTA Irving Collection — пуховик унисекс, чёрный, L",
+      "sku": "MARKET-5650132137",
+      "merchant_url": "https://market.yandex.ru/card/anta-irving-collection-pukhovik-uniseks-chernyy-l/5650132137",
+      "primary_image_url": "https://yastatic.net/s3/home-static/_/37/37a02b5dc7a51abac55d8a5b6c865f0e.png",
+      "reason": "suspect_metadata",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/OUT-RU-ANTA-5650132137.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "OUT-RU-ANTA-103719112751",
+      "name": "ANTA KT Down Jacket — чёрный пуховик, размер S",
+      "sku": "MARKET-103719112751",
+      "merchant_url": "https://market.yandex.ru/card/pukhovik-anta-kt-down-jacket-tsvet-chernyy-razmer-s-int/103719112751",
+      "primary_image_url": "https://yastatic.net/s3/home-static/_/37/37a02b5dc7a51abac55d8a5b6c865f0e.png",
+      "reason": "suspect_metadata",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/OUT-RU-ANTA-103719112751.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "OUT-RU-LINING-4716227508",
+      "name": "Li-Ning AFDVC10-4 — спортивная куртка Essentials, синяя, S",
+      "sku": "MARKET-4716227508",
+      "merchant_url": "https://market.yandex.ru/card/afdvc10-4-kurtka-essentials-siniy/4716227508",
+      "primary_image_url": "https://yastatic.net/s3/home-static/_/37/37a02b5dc7a51abac55d8a5b6c865f0e.png",
+      "reason": "suspect_metadata",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/OUT-RU-LINING-4716227508.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    },
+    {
+      "product_id": "MULTI-MR-001",
+      "name": "Xiaomi Mijia — машинка для удаления катышков",
+      "sku": "Ozon 1582928123",
+      "merchant_url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-xiaomi-mijia-rechargeable-lint-remover-1582928123/",
+      "primary_image_url": null,
+      "reason": "missing",
+      "fallback_image_url": null,
+      "suggested_asset_path": "assets/fallback-images/MULTI-MR-001.webp",
+      "allowed_types": [
+        "official_backup",
+        "licensed_copy",
+        "synthetic_backup"
+      ],
+      "synthetic_label": "Иллюстрация, не оригинальное фото товара",
+      "exact_photo_required_for_verified": true
+    }
+  ]
+}
