@@ -1,0 +1,584 @@
+{
+  "schema_version": "1.0",
+  "dataset": "procurement_evidence",
+  "checked_at": "2026-11-26",
+  "policy": {
+    "minimum_purchases": 100,
+    "max_age_days": 7,
+    "target_net_margin_pct": 15,
+    "budget_min_rub": 5000,
+    "budget_max_rub": 300000,
+    "scenario_sales_pct": 20
+  },
+  "fx": {
+    "cny_rub": 12.3154,
+    "usd_rub": 82.313,
+    "date": "2026-11-26",
+    "source_url": "https://www.rbc.ru/quote/26/11/2026/6b08207a0b8c9f8575a362bf"
+  },
+  "archive_catalog_count": 42,
+  "records": [
+    {
+      "id": "SOURCING-VGR-V256",
+      "name": "VGR V-256 — профессиональная машинка для стрижки с зарядной базой",
+      "model": "V-256",
+      "category": "Красота и уход",
+      "checked_at": "2026-11-26",
+      "decision": "Наиболее интересный кандидат; получить точный комплект, цену партии и стоимость ввоза. Не рекомендовать к закупке до проверки.",
+      "review_status": "promising_unverified_variant",
+      "ru": {
+        "url": "https://market.yandex.ru/offers/mashinka-dlya-strizhki-vgr-v-256-serebristyy/6026401839?sku=101329645468",
+        "image_url": "https://avatars.mds.yandex.net/get-mpic/5236885/img_id6310431358768635179.jpeg/orig",
+        "image_status": "merchant_photo_observed",
+        "benchmark_rub": 4766,
+        "average_offer_rub": null,
+        "offers": [
+          {
+            "platform": "Яндекс Маркет",
+            "seller": "Market Tovarov",
+            "url": "https://market.yandex.ru/offers/mashinka-dlya-strizhki-vgr-v-256-serebristyy/6026401839?sku=101329645468",
+            "price_rub": 4766,
+            "price_type": "conditional_yandex_pay",
+            "observed_at": "2026-11-26",
+            "available_on_page": true,
+            "match_confidence": "silver_model_claimed"
+          },
+          {
+            "price_rub": 3840,
+            "price_type": "conditional_yandex_pay",
+            "url": "https://market.yandex.ru/offers/mashinka-dlya-strizhki-vgr-v-256-serebristyy/6026401839?sku=101329645468",
+            "freshness": "last week",
+            "in_stock": null,
+            "source_access": "search_index"
+          },
+          {
+            "price_rub": 2978,
+            "price_type": "conditional_yandex_pay",
+            "url": "https://market.yandex.ru/card/trimmer-vgr-v-256/103486620734",
+            "freshness": "2 months ago",
+            "in_stock": null,
+            "source_access": "related_offer_index",
+            "note": "Стресс-сценарий, не текущая цена."
+          },
+          {
+            "price_rub": 5590,
+            "platform": "Joom",
+            "url": "https://www.joom.ru/ru/products/6a734c05348a0801699c1d7b",
+            "freshness": "last week",
+            "in_stock": null,
+            "note": "Трансграничная карточка, не использовать для средней внутренней цены."
+          },
+          {
+            "price_rub": 3299,
+            "platform": "Carcam",
+            "url": "https://carcam.ru/product/vgr-v-256.html",
+            "in_stock": false,
+            "note": "Не использовать для средней."
+          }
+        ],
+        "availability_verified": false,
+        "demand": {
+          "value": 376,
+          "type": "cumulative_purchases",
+          "url": "https://market.yandex.ru/offers/mashinka-dlya-strizhki-vgr-v-256-serebristyy/6026401839?sku=101329645468",
+          "verified": true,
+          "observed_at": "2026-11-26",
+          "note": "Счётчик серебристой карточки Market Tovarov; период неизвестен; общий счётчик модели 18,7 тыс. не используется."
+        }
+      },
+      "china": {
+        "url": "https://yiwugo.com/product/detail/933514360.html?loc=35",
+        "seller": "Yiwu Gemei Electric Appliance",
+        "unit_rub": 1576.37,
+        "price_cny": 128,
+        "price_usd": null,
+        "moq": 20,
+        "image_url": null,
+        "image_status": "not_http_checked",
+        "match_verified": false,
+        "quote_verified": false,
+        "quote_date": null,
+        "quote_valid_until": null,
+        "supplier_verified": false,
+        "match_note": "V-256, зарядная база, USB. Цвет, аккумулятор и комплект не подтверждены. Бесплатная доставка на странице относится к выбранной провинции Китая, не РФ.",
+        "public_price_checked_at": "2026-11-26",
+        "public_price_source_updated_at": "2026-11-26 09:32:45 China local time"
+      },
+      "economics": {
+        "verified": false,
+        "checked_at": null,
+        "source_urls": [],
+        "import_per_unit_rub": null,
+        "sales_fixed_per_unit_rub": null,
+        "sales_pct": null,
+        "taxes_per_unit_rub": null,
+        "other_per_unit_rub": null
+      },
+      "scenarios": [
+        {
+          "retail_rub": 4766,
+          "china_unit_rub": 1576.37,
+          "gross_difference_rub": 3189.63,
+          "remaining_before_import_rub": 2236.43,
+          "max_other_costs_for_target_margin_rub": 1521.53
+        },
+        {
+          "retail_rub": 3840,
+          "china_unit_rub": 1576.37,
+          "gross_difference_rub": 2263.63,
+          "remaining_before_import_rub": 1495.63,
+          "max_other_costs_for_target_margin_rub": 919.63
+        },
+        {
+          "retail_rub": 2978,
+          "china_unit_rub": 1576.37,
+          "gross_difference_rub": 1401.63,
+          "remaining_before_import_rub": 806.03,
+          "max_other_costs_for_target_margin_rub": 359.33
+        }
+      ],
+      "source_report": "data/research/procurement_screen_20261126.json",
+      "scenario_labels": [
+        "Свежая цена с Пэй, один продавец",
+        "Предыдущее наблюдение с Пэй",
+        "Старая цена — стресс-сценарий"
+      ]
+    },
+    {
+      "id": "SOURCING-KEMEI-KM2299",
+      "name": "KM-2299",
+      "model": "KM-2299",
+      "category": "Красота и уход",
+      "checked_at": "2026-11-26",
+      "decision": "Не рекомендовать по текущим данным: низкие конкурентные предложения и не подтверждена идентичность комплекта.",
+      "review_status": "reject_thin_competitive_spread",
+      "ru": {
+        "url": "https://www.ozon.ru/product/mashinka-dlya-strizhki-km-2299-chernyy-1646200963/?at=1ias1WmBuRqVdkBH6g_FVPP8aBrKob5i",
+        "image_url": null,
+        "image_status": "not_http_checked",
+        "benchmark_rub": 1311,
+        "average_offer_rub": null,
+        "offers": [
+          {
+            "price_rub": 2203,
+            "url": "https://www.ozon.ru/product/mashinka-dlya-strizhki-km-2299-chernyy-1646200963/?at=1ias1WmBuRqVdkBH6g_FVPP8aBrKob5i",
+            "price_type": "other_bank",
+            "reviews": 501,
+            "in_stock": true,
+            "freshness": "today"
+          },
+          {
+            "price_rub": 923,
+            "url": "https://www.ozon.ru/product/mashinka-dlya-strizhki-km-2299-chernyy-1646200963/?at=1ias1WmBuRqVdkBH6g_FVPP8aBrKob5i",
+            "note": "Есть дешевле от 923; комплектация и точная карточка не сверены; стресс-сценарий"
+          },
+          {
+            "price_rub": 1311,
+            "url": "https://market.yandex.ru/card/mashinka-dlya-strizhki-volos-trimmer-dlya-borody-i-usov-model-kemei-km-2299/4660613932",
+            "price_type": "conditional_yandex_pay",
+            "purchases": 114,
+            "note": "Связанная карточка из копии Яндекс; прямое открытие не удалось.",
+            "source_url": "https://market.yandex.ru/card/kemei-mashinka-dlya-strizhki-km-2299-chernyy-matovyy/4996416184"
+          }
+        ],
+        "availability_verified": false,
+        "demand": {
+          "value": null,
+          "type": "historical_cumulative_purchases",
+          "url": null,
+          "verified": false,
+          "observed_at": null
+        }
+      },
+      "china": {
+        "url": "https://www.alibaba.com/product-introduction/Kemei-Km-2299-1200mah-Professional-Hair_1601061676425.html",
+        "seller": null,
+        "unit_rub": 692.25,
+        "price_cny": null,
+        "price_usd": 8.41,
+        "moq": 10,
+        "image_url": null,
+        "image_status": "not_http_checked",
+        "match_verified": false,
+        "quote_verified": false,
+        "quote_date": null,
+        "quote_valid_until": null,
+        "supplier_verified": false,
+        "match_note": "Цена публичной страницы introduction, detail не отдал данные, комплект не подтвержден."
+      },
+      "economics": {
+        "verified": false,
+        "checked_at": null,
+        "source_urls": [],
+        "import_per_unit_rub": null,
+        "sales_fixed_per_unit_rub": null,
+        "sales_pct": null,
+        "taxes_per_unit_rub": null,
+        "other_per_unit_rub": null
+      },
+      "scenarios": [
+        {
+          "retail_rub": 1311,
+          "china_unit_rub": 692.25,
+          "gross_difference_rub": 618.75,
+          "gross_difference_pct": 47.2,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 356.55,
+          "max_other_costs_for_target_margin_rub": 159.9,
+          "net_margin_pct": null
+        },
+        {
+          "retail_rub": 923,
+          "china_unit_rub": 692.25,
+          "gross_difference_rub": 230.75,
+          "gross_difference_pct": 25,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 46.15,
+          "max_other_costs_for_target_margin_rub": -92.3,
+          "net_margin_pct": null
+        }
+      ],
+      "source_report": "data/research/procurement_screen_20261126.json"
+    },
+    {
+      "id": "SOURCING-JAKEMY-JM8183",
+      "name": "JM-8183",
+      "model": "JM-8183",
+      "category": "Инструменты",
+      "checked_at": "2026-11-26",
+      "decision": "Не публиковать как выгодную закупку до подтверждения конкурентной цены и наличия.",
+      "review_status": "hold_price_and_availability_conflict",
+      "ru": {
+        "url": "https://market.yandex.ru/card/otvertka-s-naborom-bit-jakemy-precision-screwdriver-145-in-1-jm-8183/103823177595",
+        "image_url": null,
+        "image_status": "not_http_checked",
+        "benchmark_rub": 2337,
+        "average_offer_rub": null,
+        "offers": [
+          {
+            "price_rub": 2337,
+            "url": "https://market.yandex.ru/card/otvertka-s-naborom-bit-jakemy-precision-screwdriver-145-in-1-jm-8183/103823177595",
+            "price_type": "conditional_yandex_pay",
+            "in_stock": null,
+            "freshness": "6 days ago"
+          },
+          {
+            "price_rub": 499,
+            "url": "https://www.gigamart.ru/catalog/home/tools/screwdrivers/193668/",
+            "in_stock": null,
+            "note": "Под заказ, одновременно указан опт 1799; аномалия цены, не считать гарантированной."
+          }
+        ],
+        "availability_verified": false,
+        "demand": {
+          "value": 102,
+          "type": "indexed_related_card_counter_attribution_unverified",
+          "url": "https://market.yandex.ru/card/nabor-pretsizionnykh-otvertok-jakemy-jm-8183-145-v-1-s-aksessuarami-instrumenty-dlya-remonta-elektronnykh-izdeliy/5873120046",
+          "verified": false,
+          "observed_at": null
+        }
+      },
+      "china": {
+        "url": "https://es.made-in-china.com/amp/co_jakemy/product_Jakemy-New-Product-145-in-1-Precision-Hardware-Tools-with-Screwdriver-Set-and-Accessories-for-Electronic-Products-Household-Appliances_uoiognsehg.html",
+        "seller": "Guangzhou Yifeng Technology Electron Co., Ltd.",
+        "unit_rub": 1135.92,
+        "price_cny": null,
+        "price_usd": 13.8,
+        "moq": 20,
+        "image_url": null,
+        "image_status": "not_http_checked",
+        "match_verified": false,
+        "quote_verified": false,
+        "quote_date": null,
+        "quote_valid_until": null,
+        "supplier_verified": false,
+        "match_note": "Модель JM-8183 145 предметов, чёрный; прямое предложение."
+      },
+      "economics": {
+        "verified": false,
+        "checked_at": null,
+        "source_urls": [],
+        "import_per_unit_rub": null,
+        "sales_fixed_per_unit_rub": null,
+        "sales_pct": null,
+        "taxes_per_unit_rub": null,
+        "other_per_unit_rub": null
+      },
+      "scenarios": [
+        {
+          "retail_rub": 2337,
+          "china_unit_rub": 1135.92,
+          "gross_difference_rub": 1201.08,
+          "gross_difference_pct": 51.39,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 733.68,
+          "max_other_costs_for_target_margin_rub": 383.13,
+          "net_margin_pct": null
+        }
+      ],
+      "source_report": "data/research/procurement_screen_20261126.json"
+    },
+    {
+      "id": "RD-CN-RU-015",
+      "name": "Xiaomi Mijia Lint Remover MQXJQ01KL — машинка для удаления катышков",
+      "model": "MQXJQ01KL",
+      "category": "Дом и повседневные товары",
+      "checked_at": "2026-11-26",
+      "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен.",
+      "review_status": "reject_at_observed_supplier_price",
+      "ru": {
+        "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-s-odezhdy-xiaomi-mqxjq01kl-1716822851/",
+        "image_url": "https://yablonya.com/upload/iblock/6d5/yjvpj3fv8p8tfgiq9l7s4rwfv3ogrukn.png",
+        "image_status": "not_http_checked",
+        "benchmark_rub": 805,
+        "average_offer_rub": null,
+        "offers": [
+          {
+            "platform": "Ozon",
+            "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-s-odezhdy-xiaomi-mqxjq01kl-1716822851/",
+            "price_rub": 805,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "2 days ago",
+            "price_type": "other_bank_retail_offer",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "Белый; 46 368 отзывов карточки, не число продаж; остаток 1 в индексе"
+          },
+          {
+            "platform": "Ozon",
+            "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-s-odezhdy-xiaomi-mqxjq01kl-6098780137/",
+            "price_rub": 966,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "today",
+            "price_type": "other_bank_retail_offer",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "Белый; отзывы карточки 12 449, не суммировать"
+          }
+        ],
+        "availability_verified": false,
+        "demand": {
+          "value": 17400,
+          "type": "historical_cumulative_purchases",
+          "url": "https://market.yandex.ru/card/mashinka-dlya-udaleniya-katyshek-xiaomi-mijia-rechargeable-lint-remover-mqxjq01kl-belyy/103749081313",
+          "verified": false,
+          "observed_at": null
+        }
+      },
+      "china": {
+        "url": "https://www.sznewway.com/xiaomi-lint-remover/59890226.html",
+        "seller": "Shenzhen Newway Technology Co., Ltd.",
+        "unit_rub": 535.03,
+        "price_cny": null,
+        "price_usd": 6.5,
+        "moq": 100,
+        "image_url": "https://bsg-i.nbxc.com/product/4f/88/53/079be8a2d30915d1252384e2ca.jpg@4e_500w_500h.src%7Cwatermark=2&text=d3d3LnN6bmV3d2F5LmNvbQ==&t=75&color=I0ZGRkZGRg==&s=20&size=31&p=9",
+        "image_status": "not_http_checked",
+        "match_verified": false,
+        "quote_verified": false,
+        "quote_date": null,
+        "quote_valid_until": null,
+        "supplier_verified": false,
+        "match_note": "Маркировка MQXJQ01KL, 1300 мА·ч, Micro USB, 90 минут, пять лезвий. Фото белой модели. Не доказана подлинность поставки."
+      },
+      "economics": {
+        "verified": false,
+        "checked_at": null,
+        "source_urls": [],
+        "import_per_unit_rub": null,
+        "sales_fixed_per_unit_rub": null,
+        "sales_pct": null,
+        "taxes_per_unit_rub": null,
+        "other_per_unit_rub": null
+      },
+      "scenarios": [
+        {
+          "retail_rub": 805,
+          "china_unit_rub": 535.03,
+          "gross_difference_rub": 269.97,
+          "gross_difference_pct": 33.54,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 108.97,
+          "max_other_costs_for_target_margin_rub": -11.78,
+          "net_margin_pct": null
+        }
+      ],
+      "source_report": "data/research/procurement_screen_20261126.json"
+    },
+    {
+      "id": "RD-CN-RU-001",
+      "name": "Xiaomi Mi Precision Screwdriver Kit — набор отвёрток 24 в 1, MJJXLSD002QW",
+      "model": "MJJXLSD002QW",
+      "category": "Дом и повседневные товары",
+      "checked_at": "2026-11-26",
+      "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен.",
+      "review_status": "reject_at_observed_supplier_price",
+      "ru": {
+        "url": "https://www.ozon.ru/product/nabor-otvertok-xiaomi-mijia-wiha-screwdriver-set-24-v-1-mjjxlsd002qw-dlya-tochnyh-rabot-1584210596/",
+        "image_url": "https://www.metalife.co.nz/cdn/shop/products/BHR4680GL_wr_01.jpg?v=1680212673",
+        "image_status": "not_http_checked",
+        "benchmark_rub": 1688,
+        "average_offer_rub": null,
+        "offers": [
+          {
+            "platform": "Ozon",
+            "url": "https://www.ozon.ru/product/nabor-otvertok-xiaomi-mijia-wiha-screwdriver-set-24-v-1-mjjxlsd002qw-dlya-tochnyh-rabot-1584210596/",
+            "price_rub": 1809,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "today",
+            "price_type": "other_bank_retail_offer",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "24 биты; проверить состав бит, в карточке есть несовпадающий перечень"
+          },
+          {
+            "platform": "Яндекс Маркет",
+            "url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+            "price_rub": 1812,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "last week",
+            "price_type": "conditional_yandex_pay",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "25 инструментов; серебристый в карточке, вариант требует подтверждения"
+          }
+        ],
+        "availability_verified": false,
+        "demand": {
+          "value": 1200,
+          "type": "historical_cumulative_purchases",
+          "url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+          "verified": false,
+          "observed_at": null
+        }
+      },
+      "china": {
+        "url": "https://www.tvcmall.com/details/xiaomi-mijia-mjjxlsd002qw-26-in-1-multi-purpose-precision-screwdriver-set-repair-tools-sku644600006a.html",
+        "seller": "TVCMALL",
+        "unit_rub": 1221.52,
+        "price_cny": null,
+        "price_usd": 14.84,
+        "moq": null,
+        "image_url": "https://img.tvcmall.com/dynamic/uploads/details/800x800_644600006A-1.webp?v=20250903162648",
+        "image_status": "not_http_checked",
+        "match_verified": false,
+        "quote_verified": false,
+        "quote_date": null,
+        "quote_valid_until": null,
+        "supplier_verified": false,
+        "match_note": "Артикул MJJXLSD002QW, ручная отвёртка, 24 биты S2, алюминиевый футляр; 168×67×17 мм. Фото серого набора. Продавцы по-разному считают предметы; проверить конкретный набор бит и цвет."
+      },
+      "economics": {
+        "verified": false,
+        "checked_at": null,
+        "source_urls": [],
+        "import_per_unit_rub": null,
+        "sales_fixed_per_unit_rub": null,
+        "sales_pct": null,
+        "taxes_per_unit_rub": null,
+        "other_per_unit_rub": null
+      },
+      "scenarios": [
+        {
+          "retail_rub": 1688,
+          "china_unit_rub": 1221.52,
+          "gross_difference_rub": 466.48,
+          "gross_difference_pct": 27.64,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": 128.88,
+          "max_other_costs_for_target_margin_rub": -124.32,
+          "net_margin_pct": null
+        }
+      ],
+      "source_report": "data/research/procurement_screen_20261126.json"
+    },
+    {
+      "id": "RD-CN-RU-005",
+      "name": "Xiaomi Mijia Electric Air Pump 2 — насос MJCQB06QW",
+      "model": "MJCQB06QW",
+      "category": "Автотовары",
+      "checked_at": "2026-11-26",
+      "decision": "Не закупать по наблюдаемой цене: при сценарии 20% расходов и цели 15% маржи запас на импорт отрицателен.",
+      "review_status": "reject_at_observed_supplier_price",
+      "ru": {
+        "url": "https://market.yandex.ru/card/umnyy-nasos-xiaomi-mijia-portable-electric-air-compressor-pump-2/4757812702",
+        "image_url": "https://xiaomix.com.ua/sites/default/files/product/elektrichniy-nasos-xiaomi-mijia-electric-air-pump-2-25792.jpg",
+        "image_status": "not_http_checked",
+        "benchmark_rub": 3012,
+        "average_offer_rub": null,
+        "offers": [
+          {
+            "platform": "Яндекс Маркет",
+            "url": "https://market.yandex.ru/card/umnyy-nasos-xiaomi-mijia-portable-electric-air-compressor-pump-2/4757812702",
+            "price_rub": 3012,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "6 days ago",
+            "price_type": "conditional_yandex_pay",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "Версия CN, 30 купили на этом предложении; отдельно в индексе есть более крупный счётчик модели"
+          }
+        ],
+        "availability_verified": false,
+        "demand": {
+          "value": 3200,
+          "type": "historical_cumulative_purchases",
+          "url": "https://market.yandex.ru/card/xiaomi-kompressor-portativnyy-xiaomi-portable-electric-air-compressor-2-mjcqb06qw-bhr7112gl/103658583109",
+          "verified": false,
+          "observed_at": null
+        }
+      },
+      "china": {
+        "url": "https://www.alibaba.co.uk/product-detail/Xiaomi-Mijia-Air-Pump-2-MJCQB06QW_1601003489557.html",
+        "seller": "SAMGLE ELECTRONICS LIMITED",
+        "unit_rub": 2634.02,
+        "price_cny": null,
+        "price_usd": 32,
+        "moq": 2,
+        "image_url": null,
+        "image_status": "not_http_checked",
+        "match_verified": false,
+        "quote_verified": false,
+        "quote_date": null,
+        "quote_valid_until": null,
+        "supplier_verified": false,
+        "match_note": "MJCQB06QW, чёрный, 2000 мА·ч, USB-C, 490 г, 150 PSI. Региональная упаковка CN/Global не подтверждена; карточка поставщика указывает отсутствие гарантии. Фото CDN не удалось открыть."
+      },
+      "economics": {
+        "verified": false,
+        "checked_at": null,
+        "source_urls": [],
+        "import_per_unit_rub": null,
+        "sales_fixed_per_unit_rub": null,
+        "sales_pct": null,
+        "taxes_per_unit_rub": null,
+        "other_per_unit_rub": null
+      },
+      "scenarios": [
+        {
+          "retail_rub": 3012,
+          "china_unit_rub": 2634.02,
+          "gross_difference_rub": 377.98,
+          "gross_difference_pct": 12.55,
+          "sales_expense_assumption_pct": 20,
+          "target_margin_assumption_pct": 15,
+          "remaining_before_import_rub": -224.42,
+          "max_other_costs_for_target_margin_rub": -676.22,
+          "net_margin_pct": null
+        }
+      ],
+      "source_report": "data/research/procurement_screen_20261126.json"
+    }
+  ],
+  "notes": "Витрина вычисляет допуск по фактам, а не по вручную установленному статусу. Сценарий 20% не является подтвержденными расходами. Архив не удалён."
+}
