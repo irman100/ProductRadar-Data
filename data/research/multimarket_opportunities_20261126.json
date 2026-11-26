@@ -1,0 +1,339 @@
+{
+  "schema_version": "1.0",
+  "published_at": "2026-11-26",
+  "market": "RU",
+  "title": "Верхняя одежда: свежие российские карточки, цены, фотографии и наличие",
+  "budget_min_rub": 5000,
+  "budget_max_rub": 300000,
+  "methodology": "Открытие карточек и их прямых изображений, фиксация времени индекса отдельно. Отзывы не продажи. Только 4 полные исследовательские записи с фото; дополнительные индексные наблюдения отдельно.",
+  "items": [
+    {
+      "id": "PR-20261126-OZ-2705690080",
+      "name": "ТВОЕ — зимняя женская куртка, светло-бежевая",
+      "category": "Женская зимняя одежда",
+      "ru_platform": "Ozon",
+      "ru_sku": "2705690080",
+      "ru_product_url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB",
+      "seller": "ООО ТВОЕ",
+      "checked_at": "2026-11-26",
+      "source_freshness": "indexed today",
+      "availability_status": "order_button_observed",
+      "image_url": "https://ir-20.ozone.ru/s3/multimedia-1-m/wc1000/20292549070.jpg",
+      "image_source_url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB",
+      "image_status": "exact_merchant_image_opened",
+      "signals": [
+        {
+          "type": "reviews",
+          "value": 2688,
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB",
+          "note": "Накопленные отзывы карточки; возможно объединение размеров и цветов; не продажи",
+          "observed_at": "2026-11-26",
+          "period": null
+        },
+        {
+          "type": "retail_offer_price",
+          "value": 2458,
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB",
+          "note": "Цена с другими банками; не фактическая цена сделки",
+          "observed_at": "2026-11-26"
+        }
+      ],
+      "retail_offer_price_rub": 2458,
+      "average_sale_price_rub": null,
+      "china_offer_url": "https://apparel.alibaba.com/product/corduroy-puffer-jacket-womens-cropped",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_supplier_verified": false,
+      "china_price_example_usd": null,
+      "china_moq_example": null,
+      "origin_claim": "Китай указан в индексируемой карточке; партия не проверена",
+      "why": "Конкретная карточка, цена и отзывы наблюдаются; полезный розничный ориентир, не подтверждение продаж или доступности оптового оригинала.",
+      "risks": "Китай указан в индексе; 100% полиэстер; размеры и посадка, продувание низа. Честный знак, документы по ТН ВЭД, права на бренд, логистика и возвраты.",
+      "ready_to_buy": false,
+      "landed_cost_verified": false,
+      "supplier_quote_verified": false,
+      "margin_verified": false,
+      "budget_fit_status": "unknown_all_bands",
+      "demand_review_status": "research_only"
+    },
+    {
+      "id": "PR-20261126-OZ-2496966190",
+      "name": "De Mount — зимняя куртка для мальчиков, болотная, 152–158",
+      "category": "Детская зимняя одежда",
+      "ru_platform": "Ozon",
+      "ru_sku": "2496966190",
+      "ru_product_url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL",
+      "seller": "Спортмастер",
+      "checked_at": "2026-11-26",
+      "source_freshness": "indexed today",
+      "availability_status": "order_button_observed",
+      "image_url": "https://ir-20.ozone.ru/s3/multimedia-1-a/wc1000/21352392046.jpg",
+      "image_source_url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL",
+      "image_status": "exact_merchant_image_opened",
+      "signals": [
+        {
+          "type": "reviews",
+          "value": 2385,
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL",
+          "note": "Накопленные отзывы карточки; возможно объединение размеров и цветов; не продажи",
+          "observed_at": "2026-11-26",
+          "period": null
+        },
+        {
+          "type": "retail_offer_price",
+          "value": 5803,
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL",
+          "note": "Цена с другими банками; не фактическая цена сделки",
+          "observed_at": "2026-11-26"
+        }
+      ],
+      "retail_offer_price_rub": 5803,
+      "average_sale_price_rub": null,
+      "china_offer_url": "https://wholesaler.alibaba.com/product-detail/c285-children-down-jacket-winter-warm_60686739852.html",
+      "china_offer_type": "comparable_product_not_identical",
+      "china_supplier_verified": false,
+      "china_price_example_usd": null,
+      "china_moq_example": null,
+      "origin_claim": "Китай указан в индексируемой карточке; партия не проверена",
+      "why": "Конкретная карточка, цена и отзывы наблюдаются; полезный розничный ориентир, не подтверждение продаж или доступности оптового оригинала.",
+      "risks": "Заявлено до −20°C; Китай в индексе, состав полиэстер; детская сертификация, проверка мембраны. Честный знак, документы по ТН ВЭД, права на бренд, логистика и возвраты.",
+      "ready_to_buy": false,
+      "landed_cost_verified": false,
+      "supplier_quote_verified": false,
+      "margin_verified": false,
+      "budget_fit_status": "unknown_all_bands",
+      "demand_review_status": "research_only"
+    },
+    {
+      "id": "PR-20261126-OZ-3261273024",
+      "name": "De Mount — куртка для мальчиков, чёрная с зелёным, 122–128",
+      "category": "Детская демисезонная одежда",
+      "ru_platform": "Ozon",
+      "ru_sku": "3261273024",
+      "ru_product_url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620",
+      "seller": "Спортмастер",
+      "checked_at": "2026-11-26",
+      "source_freshness": "indexed today",
+      "availability_status": "order_button_observed",
+      "image_url": "https://ir-20.ozone.ru/s3/multimedia-1-w/wc1000/13892209088.jpg",
+      "image_source_url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620",
+      "image_status": "exact_merchant_image_opened",
+      "signals": [
+        {
+          "type": "reviews",
+          "value": 1192,
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620",
+          "note": "Накопленные отзывы карточки; возможно объединение размеров и цветов; не продажи",
+          "observed_at": "2026-11-26",
+          "period": null
+        },
+        {
+          "type": "retail_offer_price",
+          "value": 1852,
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620",
+          "note": "Цена с другими банками; не фактическая цена сделки",
+          "observed_at": "2026-11-26"
+        }
+      ],
+      "retail_offer_price_rub": 1852,
+      "average_sale_price_rub": null,
+      "china_offer_url": "https://wholesaler.alibaba.com/product-detail/c285-children-down-jacket-winter-warm_60686739852.html",
+      "china_offer_type": "comparable_product_not_identical",
+      "china_supplier_verified": false,
+      "china_price_example_usd": null,
+      "china_moq_example": null,
+      "origin_claim": "Китай указан в индексируемой карточке; партия не проверена",
+      "why": "Конкретная карточка, цена и отзывы наблюдаются; полезный розничный ориентир, не подтверждение продаж или доступности оптового оригинала.",
+      "risks": "Карточка называет зимней, но заявляет до 0°C; не позиционировать как морозостойкую. Иная конструкция и теплозащита, чем 2496966190. Честный знак, документы по ТН ВЭД, права на бренд, логистика и возвраты.",
+      "ready_to_buy": false,
+      "landed_cost_verified": false,
+      "supplier_quote_verified": false,
+      "margin_verified": false,
+      "budget_fit_status": "unknown_all_bands",
+      "demand_review_status": "research_only"
+    },
+    {
+      "id": "PR-20261126-OZ-5926500126",
+      "name": "QIANZHIDU — демисезонная женская куртка, леопардовый принт, 44",
+      "category": "Женская демисезонная одежда",
+      "ru_platform": "Ozon",
+      "ru_sku": "5926500126",
+      "ru_product_url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3",
+      "seller": "QIANZHIDU 5М",
+      "checked_at": "2026-11-26",
+      "source_freshness": "indexed 3 days ago",
+      "availability_status": "order_button_observed",
+      "image_url": "https://ir-20.ozone.ru/s3/multimedia-1-s/wc1000/20511118396.jpg",
+      "image_source_url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3",
+      "image_status": "exact_merchant_image_opened",
+      "signals": [
+        {
+          "type": "reviews",
+          "value": 651,
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3",
+          "note": "Накопленные отзывы карточки; возможно объединение размеров и цветов; не продажи",
+          "observed_at": "2026-11-26",
+          "period": null
+        },
+        {
+          "type": "retail_offer_price",
+          "value": 3583,
+          "source": "Ozon",
+          "url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3",
+          "note": "Цена с другими банками; не фактическая цена сделки",
+          "observed_at": "2026-11-26"
+        }
+      ],
+      "retail_offer_price_rub": 3583,
+      "average_sale_price_rub": null,
+      "china_offer_url": "https://www.alibaba.com/wholesale/down-fill-jacket.html",
+      "china_offer_type": "category_analogs_not_same_sku",
+      "china_supplier_verified": false,
+      "china_price_example_usd": null,
+      "china_moq_example": null,
+      "origin_claim": "Китай указан в индексируемой карточке; партия не проверена",
+      "why": "Конкретная карточка, цена и отзывы наблюдаются; полезный розничный ориентир, не подтверждение продаж или доступности оптового оригинала.",
+      "risks": "Китай указан в индексе; 100% полиэстер; сезонность принта, размеры и возвраты. Честный знак, документы по ТН ВЭД, права на бренд, логистика и возвраты.",
+      "ready_to_buy": false,
+      "landed_cost_verified": false,
+      "supplier_quote_verified": false,
+      "margin_verified": false,
+      "budget_fit_status": "unknown_all_bands",
+      "demand_review_status": "research_only"
+    }
+  ],
+  "indexed_candidates": [
+    {
+      "sku": "6039376041",
+      "name": "O'STIN OWOJ01213CO02-99 — женская короткая зимняя куртка, чёрная S",
+      "url": "https://market.yandex.ru/card/kurtka-owoj01213co02-99-chernyy-s/6039376041",
+      "price": 11000,
+      "metric": 50,
+      "platform": "Яндекс Маркет",
+      "fresh": "индекс вчера",
+      "type": "cumulative_purchases",
+      "note": "Цена Пэй; прямое открытие 400"
+    },
+    {
+      "sku": "6039588357",
+      "name": "O'STIN OWOJ01169CO02-T5 — женская демисезонная куртка, бежевая XL",
+      "url": "https://market.yandex.ru/card/kurtka-owoj01169co02-t5-bezhevyy-xl/6039588357",
+      "price": 4264,
+      "metric": 70,
+      "platform": "Яндекс Маркет",
+      "fresh": "индекс 2 недели назад",
+      "type": "cumulative_purchases",
+      "note": "Цена Пэй; прямое открытие 400"
+    },
+    {
+      "sku": "6103170000",
+      "name": "Crockid ВК 38132/Н/1 ГР — зимняя мембранная куртка для девочки, 98–104",
+      "url": "https://market.yandex.ru/card/zimnyaya-kurtka-dlya-devochki-vk-38132n1-gr-r-98-1045652/6103170000",
+      "price": 5871,
+      "metric": 39,
+      "platform": "Яндекс Маркет",
+      "fresh": "индекс 2 недели назад",
+      "type": "cumulative_purchases",
+      "note": "Цена Пэй; прямое открытие 400"
+    },
+    {
+      "sku": "6077122235",
+      "name": "Мужская короткая зимняя куртка, чёрная, 50",
+      "url": "https://www.ozon.ru/product/kurtka-6077122235/?at=1jWs1V6p586dLtEUBXoMa0kq3dfk2-RO",
+      "price": null,
+      "metric": 1765,
+      "platform": "Ozon",
+      "fresh": "индекс сегодня",
+      "type": "reviews",
+      "note": "Прямое открытие недоступно; цена и наличие неизвестны"
+    },
+    {
+      "sku": "141585OUT-BC",
+      "name": "Outventure 141585 — мужская утеплённая куртка, чёрная/бежевая",
+      "url": "https://www.sportmaster.ru/product/42189190299/",
+      "price": 6999,
+      "metric": null,
+      "platform": "Спортмастер",
+      "fresh": "страница открыта сегодня",
+      "type": "listing",
+      "note": "Цена видна, отзывы не загрузились; точное наличие размера и фото URL не проверены"
+    },
+    {
+      "sku": "5537852867",
+      "name": "You do you — зимняя куртка для мальчиков, серая, 134",
+      "url": "https://www.ozon.ru/product/kurtka-you-do-you-detskie-malchiki-5537852867/?at=1kes1SKpbjnFeng43CpSC43p6DVL10yD",
+      "price": null,
+      "metric": 116,
+      "platform": "Ozon",
+      "fresh": "индекс сегодня",
+      "type": "reviews",
+      "note": "Прямое открытие недоступно; наличие и цена не подтверждены"
+    }
+  ],
+  "existing_availability_checks": [
+    {
+      "id": "RD-MR-002",
+      "url": "https://www.lamoda.ru/p/mp002xm0c9xk/clothes-anta-pukhovik/",
+      "status": "out_of_stock",
+      "price_rub": null,
+      "source_freshness": "копия 2 недели назад",
+      "checked_at": "2026-11-26"
+    },
+    {
+      "id": "RD-MR-003",
+      "url": "https://www.lamoda.ru/p/mp002xw1cqrn/clothes-anta-pukhovik/",
+      "status": "listed_cached",
+      "price_rub": 19990,
+      "source_freshness": "копия месяц назад",
+      "checked_at": "2026-11-26"
+    },
+    {
+      "id": "MULTI-MR-006",
+      "url": "https://www.lamoda.ru/p/mp002xw1c99l/clothes-anta-pukhovik/",
+      "status": "out_of_stock",
+      "price_rub": null,
+      "source_freshness": "копия сегодня",
+      "checked_at": "2026-11-26"
+    },
+    {
+      "id": "MULTI-MR-008",
+      "url": "https://www.lamoda.ru/p/mp002xw1cqrp/clothes-anta-pukhovik/",
+      "status": "listed_cached",
+      "price_rub": 21322,
+      "source_freshness": "копия 3 недели назад",
+      "checked_at": "2026-11-26"
+    },
+    {
+      "id": "MULTI-MR-009",
+      "url": "https://www.lamoda.ru/p/mp002xw1cqru/clothes-anta-pukhovik/",
+      "status": "listed_cached",
+      "price_rub": 21322,
+      "source_freshness": "копия месяц назад",
+      "checked_at": "2026-11-26"
+    }
+  ],
+  "excluded_unavailable": [
+    {
+      "url": "https://www.ozon.ru/product/kurtka-podrostkovaya-6132937469/?from_sku=6133511010&oos_search=false",
+      "reason": "Этот товар закончился",
+      "checked_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.lamoda.ru/p/mp002xw1pi9b/clothes-jnby-pukhovik/",
+      "reason": "Нет в наличии",
+      "checked_at": "2026-11-26"
+    }
+  ],
+  "limitations": [
+    "Wildberries, 1688, Poizon: точные сопоставимые карточки не подтверждены; не считать независимыми сигналами.",
+    "Alibaba: ссылки на аналоги, не оригинальные SKU; ни одной подтверждённой котировки.",
+    "Средние цены отсутствуют: нет двух независимых площадок для того же артикула и варианта.",
+    "Новые записи не проходят фильтр 100 накопленных покупок; не включать в основную подборку."
+  ]
+}
