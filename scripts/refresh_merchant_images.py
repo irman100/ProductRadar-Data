@@ -16,6 +16,8 @@ import time
 from urllib.parse import urljoin, urlsplit
 from urllib.request import Request, urlopen
 
+from audit_images import suspicious
+
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data/catalog/unified.json"
 OUT = ROOT / "data/catalog/images.json"
@@ -90,15 +92,16 @@ def discover(url):
             content = raw[:MAX_BYTES].decode(response.headers.get_content_charset() or "utf-8", "replace")
         parser = MetaParser()
         parser.feed(content)
-        offers = [v for _, v in parser.meta]
+        offers = []
         for script in parser.jsonld:
             try:
                 offers += list(ld_images(json.loads(script)))
             except (ValueError, TypeError):
                 pass
+        offers += [v for _, v in parser.meta]
         for candidate in offers:
             image = urljoin(url, html.unescape(candidate).strip())
-            if valid_url(image) and not re.search(r"\.(svg)(\?|$)", image, re.I):
+            if valid_url(image) and not suspicious(image) and not re.search(r"\.(svg)(\?|$)", image, re.I):
                 return image, "public_metadata"
         return None, "no_public_image_metadata"
     except Exception as ex:
@@ -119,10 +122,10 @@ def main():
     for p in catalog:
         id_, page, known_image = p["id"], p["url"], p.get("image_url")
         earlier = old.get(id_, {})
-        if valid_url(known_image):
+        if valid_url(known_image) and not suspicious(known_image):
             out[id_] = {"image_url": known_image, "image_source_url": p.get("image_source_url") or page,
                         "status": "catalog_image_url", "checked_at": date}
-        elif earlier.get("image_url") and valid_url(earlier.get("image_url")) and not args.force:
+        elif earlier.get("image_url") and valid_url(earlier.get("image_url")) and not suspicious(earlier.get("image_url")) and not args.force:
             out[id_] = earlier
         elif checks < args.limit:
             image, status = discover(page)
@@ -133,6 +136,11 @@ def main():
         else:
             out[id_] = earlier if earlier else {"image_url": None, "image_source_url": page,
                                                  "status": "not_checked", "checked_at": date}
+        # Keep fallback references and other enrichment fields when primary metadata changes.
+        new = out[id_]
+        if earlier.get("image_url") != new.get("image_url"):
+            earlier = {k: v for k, v in earlier.items() if k not in ("primary_image_audit", "primary_image_last_checked_at", "image_status")}
+        out[id_] = {**earlier, **new}
     # Preserve metadata and chronology but don't touch the checked-in images when they are available.
     result = {"schema_version": "1.0", "updated_at": date,
               "description": "Remote primary image URLs from public merchant product metadata. Not a guarantee that hotlinking works or is licensed.",
