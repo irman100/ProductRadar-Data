@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-25T17:27:47+00:00",
+  "updated_at": "2026-11-26",
   "description": "Remote primary image URLs from public merchant product metadata. Not a guarantee that hotlinking works or is licensed.",
   "items": {
     "RD-CN-RU-002": {
@@ -429,6 +429,38 @@
       "fallback_generated_at": null,
       "fallback_note": null,
       "image_status": "missing"
+    },
+    "PR-20261126-OZ-2705690080": {
+      "image_url": "https://ir-20.ozone.ru/s3/multimedia-1-m/wc1000/20292549070.jpg",
+      "image_source_url": "https://www.ozon.ru/product/kurtka-tvoe-zhenskaya-zimnyaya-2705690080/?at=1vqr1-BfEdnTYm5sQX_4umlthb9JfPLB",
+      "status": "exact_merchant_image_opened",
+      "checked_at": "2026-11-26",
+      "fallback_image_url": null,
+      "fallback_image_type": null
+    },
+    "PR-20261126-OZ-2496966190": {
+      "image_url": "https://ir-20.ozone.ru/s3/multimedia-1-a/wc1000/21352392046.jpg",
+      "image_source_url": "https://www.ozon.ru/product/kurtka-de-mount-2496966190/?at=1gus1ZXpMGeebAWNdZLCVzbDeKoDvnpL",
+      "status": "exact_merchant_image_opened",
+      "checked_at": "2026-11-26",
+      "fallback_image_url": null,
+      "fallback_image_type": null
+    },
+    "PR-20261126-OZ-3261273024": {
+      "image_url": "https://ir-20.ozone.ru/s3/multimedia-1-w/wc1000/13892209088.jpg",
+      "image_source_url": "https://www.ozon.ru/product/kurtka-de-mount-3261273024/?aspect_start_sku=4876958620&from_sku=4876958620&originSku=4876958620",
+      "status": "exact_merchant_image_opened",
+      "checked_at": "2026-11-26",
+      "fallback_image_url": null,
+      "fallback_image_type": null
+    },
+    "PR-20261126-OZ-5926500126": {
+      "image_url": "https://ir-20.ozone.ru/s3/multimedia-1-s/wc1000/20511118396.jpg",
+      "image_source_url": "https://www.ozon.ru/product/kurtka-qianzhidu-5926500126/?at=1tyr1RaXaQ2RXl08Uk7ZfTxcvpClf1p3",
+      "status": "exact_merchant_image_opened",
+      "checked_at": "2026-11-26",
+      "fallback_image_url": null,
+      "fallback_image_type": null
     }
   }
 }
