@@ -7,7 +7,8 @@
     "data/recommendations/latest.json",
     "data/real_offers/outerwear_20261117.json",
     "data/research/multimarket_opportunities_20261118.json",
-    "data/research/multimarket_opportunities_20261126.json"
+    "data/research/multimarket_opportunities_20261126.json",
+    "data/research/sourcing_comparisons_20261126.json"
   ],
   "notes": "No live revalidation of vendors. If image missing/broken show category placeholder and original seller link, not an invented image. Priority is editorial investigation order, not predicted sales.",
   "products": [
@@ -145,8 +146,8 @@
       "next_check": "Подтвердить качество и батарею, выбрать оригинал либо легальный аналог, проверить сертификаты.",
       "evidence": "17,4 тыс. купили",
       "evidence_type": "cumulative_purchases",
-      "china_url": null,
-      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "china_url": "https://www.sznewway.com/xiaomi-lint-remover/59890226.html",
+      "china_note": "Совпадает заявленный артикул; вариант, оригинальность, наличие партии и конечная цена не подтверждены. Не закупать 100 шт. по этой цене без расчёта полной себестоимости; искать цену ниже и малый MOQ.",
       "sources": [
         {
           "platform": "Яндекс Маркет",
@@ -164,9 +165,10 @@
         }
       ],
       "data_sources": [
-        "data/recommendations/latest.json"
+        "data/recommendations/latest.json",
+        "data/research/sourcing_comparisons_20261126.json"
       ],
-      "last_observed": "2026-11-18",
+      "last_observed": "2026-11-26",
       "procurement_ready": false,
       "demand_review_status": "observed_purchase_signal",
       "demand_review_note": "На карточке наблюдалось 17,4 тыс. купили; период неизвестен. Текущие продажи и прибыльность закупки не доказаны.",
@@ -184,12 +186,113 @@
       "average_sale_price_method": null,
       "average_sale_price_sample_size": 0,
       "average_sale_price_observed_at": null,
-      "average_sale_price_note": "Нет проверенных сопоставимых цен точного SKU на двух площадках.",
-      "price_observations": [],
+      "average_sale_price_note": "Среднее двух предложений Ozon (не среднее рынка). Яндекс Пэй и трансграничные предложения исключены.",
+      "price_observations": [
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-s-odezhdy-xiaomi-mqxjq01kl-1716822851/",
+          "price_rub": 805,
+          "currency": "RUB",
+          "observed_at": "2026-11-26",
+          "source_freshness": "2 days ago",
+          "price_type": "other_bank_retail_offer",
+          "match_confidence": "manufacturer_model_in_listing",
+          "in_stock": null,
+          "note": "Белый; 46 368 отзывов карточки, не число продаж; остаток 1 в индексе"
+        },
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-s-odezhdy-xiaomi-mqxjq01kl-6098780137/",
+          "price_rub": 966,
+          "currency": "RUB",
+          "observed_at": "2026-11-26",
+          "source_freshness": "today",
+          "price_type": "other_bank_retail_offer",
+          "match_confidence": "manufacturer_model_in_listing",
+          "in_stock": null,
+          "note": "Белый; отзывы карточки 12 449, не суммировать"
+        }
+      ],
       "price_observations_used": [],
-      "retail_offer_price_min_rub": null,
-      "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "retail_offer_price_min_rub": 805,
+      "retail_offer_price_max_rub": 966,
+      "realized_sale_price_verified": false,
+      "sourcing_comparison": {
+        "id": "RD-CN-RU-015",
+        "model": "MQXJQ01KL",
+        "demand": "17,4 тыс. купили — прежнее наблюдение; свежий индекс Маркета показывает около 20,3 тыс. по модели, возможна агрегация вариантов.",
+        "demand_url": "https://market.yandex.ru/category/mashinki-dlya-udaleniya-katyshkov-xiaomi",
+        "demand_type": "indexed_aggregate_purchase_signal_not_period_sales",
+        "offers": [
+          {
+            "platform": "Ozon",
+            "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-s-odezhdy-xiaomi-mqxjq01kl-1716822851/",
+            "price_rub": 805,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "2 days ago",
+            "price_type": "other_bank_retail_offer",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "Белый; 46 368 отзывов карточки, не число продаж; остаток 1 в индексе"
+          },
+          {
+            "platform": "Ozon",
+            "url": "https://www.ozon.ru/product/mashinka-dlya-udaleniya-katyshkov-s-odezhdy-xiaomi-mqxjq01kl-6098780137/",
+            "price_rub": 966,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "today",
+            "price_type": "other_bank_retail_offer",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "Белый; отзывы карточки 12 449, не суммировать"
+          }
+        ],
+        "decision": "Не закупать 100 шт. по этой цене без расчёта полной себестоимости; искать цену ниже и малый MOQ.",
+        "checked_at": "2026-11-26",
+        "match_status": "same_manufacturer_model_claimed_variant_unverified",
+        "russian_benchmark_rub": 805,
+        "observed_mean_rub": 885.5,
+        "observed_mean_note": "Среднее двух предложений Ozon (не среднее рынка). Яндекс Пэй и трансграничные предложения исключены.",
+        "average_sale_price_rub": null,
+        "china": {
+          "platform": "Shenzhen Newway",
+          "seller": "Shenzhen Newway Technology Co., Ltd.",
+          "url": "https://www.sznewway.com/xiaomi-lint-remover/59890226.html",
+          "price_usd": 6.5,
+          "quantity_min": 100,
+          "quantity_max": null,
+          "moq": 100,
+          "incoterm": "EXW",
+          "image_url": "https://bsg-i.nbxc.com/product/4f/88/53/079be8a2d30915d1252384e2ca.jpg@4e_500w_500h.src%7Cwatermark=2&text=d3d3LnN6bmV3d2F5LmNvbQ==&t=75&color=I0ZGRkZGRg==&s=20&size=31&p=9",
+          "source_freshness": "yesterday",
+          "match_details": "Маркировка MQXJQ01KL, 1300 мА·ч, Micro USB, 90 минут, пять лезвий. Фото белой модели. Не доказана подлинность поставки.",
+          "price_rub": 535.03,
+          "minimum_known_order_goods_rub": 53503,
+          "supplier_verified": false,
+          "quote_verified": false
+        },
+        "fx": {
+          "usd_rub": 82.313,
+          "effective_date": "2026-11-26",
+          "source_url": "https://www.cbr.ru/currency_base/dynamics/?UniDbQuery.FromDate=26.02.2026&UniDbQuery.Posted=True&UniDbQuery.ToDate=27.02.2026&UniDbQuery.VAL_NM_RQ=R01235&UniDbQuery.date_req1=&UniDbQuery.date_req2=&UniDbQuery.mode=1"
+        },
+        "gross_price_difference_rub": 269.97,
+        "gross_price_difference_pct_of_retail": 33.54,
+        "scenario": {
+          "sales_expense_pct_assumption": 20,
+          "target_margin_pct_assumption": 15,
+          "remaining_before_import_and_other_costs_rub": 108.97,
+          "max_other_costs_for_target_margin_rub": -11.78,
+          "note": "20% — условный сценарий совокупных расходов на продажу, не тариф маркетплейса; 15% — ориентир целевой маржи. Доставка, пошлины, НДС, сертификация, возвраты и налоги не оценены."
+        },
+        "landed_cost_rub": null,
+        "net_profit_rub": null,
+        "net_margin_pct": null,
+        "ready_to_buy": false
+      },
+      "retail_offer_price_rub": 805
     },
     {
       "id": "RD-CN-RU-001",
@@ -205,8 +308,8 @@
       "next_check": "Проверить оригинальность, комплект бит, цену партии и отличие артикулов.",
       "evidence": "1,2 тыс. купили",
       "evidence_type": "cumulative_purchases",
-      "china_url": null,
-      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "china_url": "https://www.tvcmall.com/details/xiaomi-mijia-mjjxlsd002qw-26-in-1-multi-purpose-precision-screwdriver-set-repair-tools-sku644600006a.html",
+      "china_note": "Совпадает заявленный артикул; вариант, оригинальность, наличие партии и конечная цена не подтверждены. Перспективнее двух других для поиска более дешёвого поставщика: компактный, без аккумулятора. По найденной цене чистая маржа не доказана.",
       "sources": [
         {
           "platform": "Яндекс Маркет",
@@ -217,9 +320,10 @@
         }
       ],
       "data_sources": [
-        "data/recommendations/latest.json"
+        "data/recommendations/latest.json",
+        "data/research/sourcing_comparisons_20261126.json"
       ],
-      "last_observed": "2026-11-18",
+      "last_observed": "2026-11-26",
       "procurement_ready": false,
       "demand_review_status": "observed_purchase_signal",
       "demand_review_note": "На карточке наблюдалось 1,2 тыс. купили; период неизвестен. Текущие продажи и прибыльность закупки не доказаны.",
@@ -237,12 +341,113 @@
       "average_sale_price_method": null,
       "average_sale_price_sample_size": 0,
       "average_sale_price_observed_at": null,
-      "average_sale_price_note": "Нет проверенных сопоставимых цен точного SKU на двух площадках.",
-      "price_observations": [],
+      "average_sale_price_note": "Ориентир двух площадок; Яндекс Пэй условная цена, вариант цвета и состав бит не подтверждены. Не строгая средняя SKU.",
+      "price_observations": [
+        {
+          "platform": "Ozon",
+          "url": "https://www.ozon.ru/product/nabor-otvertok-xiaomi-mijia-wiha-screwdriver-set-24-v-1-mjjxlsd002qw-dlya-tochnyh-rabot-1584210596/",
+          "price_rub": 1809,
+          "currency": "RUB",
+          "observed_at": "2026-11-26",
+          "source_freshness": "today",
+          "price_type": "other_bank_retail_offer",
+          "match_confidence": "manufacturer_model_in_listing",
+          "in_stock": null,
+          "note": "24 биты; проверить состав бит, в карточке есть несовпадающий перечень"
+        },
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+          "price_rub": 1812,
+          "currency": "RUB",
+          "observed_at": "2026-11-26",
+          "source_freshness": "last week",
+          "price_type": "conditional_yandex_pay",
+          "match_confidence": "manufacturer_model_in_listing",
+          "in_stock": null,
+          "note": "25 инструментов; серебристый в карточке, вариант требует подтверждения"
+        }
+      ],
       "price_observations_used": [],
-      "retail_offer_price_min_rub": null,
-      "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "retail_offer_price_min_rub": 1809,
+      "retail_offer_price_max_rub": 1812,
+      "realized_sale_price_verified": false,
+      "sourcing_comparison": {
+        "id": "RD-CN-RU-001",
+        "model": "MJJXLSD002QW",
+        "demand": "1,2 тыс. купили в карточке Маркета; период неизвестен; Ozon 1 436 отзывов.",
+        "demand_url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+        "demand_type": "cumulative_purchase_counter",
+        "offers": [
+          {
+            "platform": "Ozon",
+            "url": "https://www.ozon.ru/product/nabor-otvertok-xiaomi-mijia-wiha-screwdriver-set-24-v-1-mjjxlsd002qw-dlya-tochnyh-rabot-1584210596/",
+            "price_rub": 1809,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "today",
+            "price_type": "other_bank_retail_offer",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "24 биты; проверить состав бит, в карточке есть несовпадающий перечень"
+          },
+          {
+            "platform": "Яндекс Маркет",
+            "url": "https://market.yandex.ru/card/nabor-otvertok-dlya-tochechnykh-rabot-xiaomi-mi-24in1-mjjxlsd002qw/103786426260",
+            "price_rub": 1812,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "last week",
+            "price_type": "conditional_yandex_pay",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "25 инструментов; серебристый в карточке, вариант требует подтверждения"
+          }
+        ],
+        "decision": "Перспективнее двух других для поиска более дешёвого поставщика: компактный, без аккумулятора. По найденной цене чистая маржа не доказана.",
+        "checked_at": "2026-11-26",
+        "match_status": "same_manufacturer_model_claimed_variant_unverified",
+        "russian_benchmark_rub": 1809,
+        "observed_mean_rub": 1810.5,
+        "observed_mean_note": "Ориентир двух площадок; Яндекс Пэй условная цена, вариант цвета и состав бит не подтверждены. Не строгая средняя SKU.",
+        "average_sale_price_rub": null,
+        "china": {
+          "platform": "TVCMALL",
+          "seller": "TVCMALL",
+          "url": "https://www.tvcmall.com/details/xiaomi-mijia-mjjxlsd002qw-26-in-1-multi-purpose-precision-screwdriver-set-repair-tools-sku644600006a.html",
+          "price_usd": 14.84,
+          "quantity_min": 1,
+          "quantity_max": null,
+          "moq": null,
+          "incoterm": null,
+          "image_url": "https://img.tvcmall.com/dynamic/uploads/details/800x800_644600006A-1.webp?v=20250903162648",
+          "source_freshness": "last week",
+          "match_details": "Артикул MJJXLSD002QW, ручная отвёртка, 24 биты S2, алюминиевый футляр; 168×67×17 мм. Фото серого набора. Продавцы по-разному считают предметы; проверить конкретный набор бит и цвет.",
+          "price_rub": 1221.52,
+          "minimum_known_order_goods_rub": null,
+          "supplier_verified": false,
+          "quote_verified": false
+        },
+        "fx": {
+          "usd_rub": 82.313,
+          "effective_date": "2026-11-26",
+          "source_url": "https://www.cbr.ru/currency_base/dynamics/?UniDbQuery.FromDate=26.02.2026&UniDbQuery.Posted=True&UniDbQuery.ToDate=27.02.2026&UniDbQuery.VAL_NM_RQ=R01235&UniDbQuery.date_req1=&UniDbQuery.date_req2=&UniDbQuery.mode=1"
+        },
+        "gross_price_difference_rub": 587.48,
+        "gross_price_difference_pct_of_retail": 32.48,
+        "scenario": {
+          "sales_expense_pct_assumption": 20,
+          "target_margin_pct_assumption": 15,
+          "remaining_before_import_and_other_costs_rub": 225.68,
+          "max_other_costs_for_target_margin_rub": -45.67,
+          "note": "20% — условный сценарий совокупных расходов на продажу, не тариф маркетплейса; 15% — ориентир целевой маржи. Доставка, пошлины, НДС, сертификация, возвраты и налоги не оценены."
+        },
+        "landed_cost_rub": null,
+        "net_profit_rub": null,
+        "net_margin_pct": null,
+        "ready_to_buy": false
+      },
+      "retail_offer_price_rub": 1809
     },
     {
       "id": "RD-CN-RU-006",
@@ -311,8 +516,8 @@
       "next_check": "Аккумулятор, гарантия, ввоз техники, условия перевозки и конкурентная цена.",
       "evidence": "3,2 тыс. купили",
       "evidence_type": "cumulative_purchases",
-      "china_url": null,
-      "china_note": "Не подтверждена оптовая партия той же модели.",
+      "china_url": "https://www.alibaba.co.uk/product-detail/Xiaomi-Mijia-Air-Pump-2-MJCQB06QW_1601003489557.html",
+      "china_note": "Совпадает заявленный артикул; вариант, оригинальность, наличие партии и конечная цена не подтверждены. Не закупать по этому предложению: даже сценарная комиссия 20% поглощает ценовой разрыв; искать дешевле в Китае.",
       "sources": [
         {
           "platform": "Яндекс Маркет",
@@ -323,9 +528,10 @@
         }
       ],
       "data_sources": [
-        "data/recommendations/latest.json"
+        "data/recommendations/latest.json",
+        "data/research/sourcing_comparisons_20261126.json"
       ],
-      "last_observed": "2026-11-18",
+      "last_observed": "2026-11-26",
       "procurement_ready": false,
       "demand_review_status": "observed_purchase_signal",
       "demand_review_note": "На карточке наблюдалось 3,2 тыс. купили; период неизвестен. Текущие продажи и прибыльность закупки не доказаны.",
@@ -343,12 +549,111 @@
       "average_sale_price_method": null,
       "average_sale_price_sample_size": 0,
       "average_sale_price_observed_at": null,
-      "average_sale_price_note": "Нет проверенных сопоставимых цен точного SKU на двух площадках.",
-      "price_observations": [],
+      "average_sale_price_note": "Одна свежая цена CN, Яндекс Пэй. Ozon 3 256 ₽ по копии месячной давности исключена из среднего.",
+      "price_observations": [
+        {
+          "platform": "Яндекс Маркет",
+          "url": "https://market.yandex.ru/card/umnyy-nasos-xiaomi-mijia-portable-electric-air-compressor-pump-2/4757812702",
+          "price_rub": 3012,
+          "currency": "RUB",
+          "observed_at": "2026-11-26",
+          "source_freshness": "6 days ago",
+          "price_type": "conditional_yandex_pay",
+          "match_confidence": "manufacturer_model_in_listing",
+          "in_stock": null,
+          "note": "Версия CN, 30 купили на этом предложении; отдельно в индексе есть более крупный счётчик модели"
+        }
+      ],
       "price_observations_used": [],
-      "retail_offer_price_min_rub": null,
-      "retail_offer_price_max_rub": null,
-      "realized_sale_price_verified": false
+      "retail_offer_price_min_rub": 3012,
+      "retail_offer_price_max_rub": 3012,
+      "realized_sale_price_verified": false,
+      "sourcing_comparison": {
+        "id": "RD-CN-RU-005",
+        "model": "MJCQB06QW",
+        "demand": "3,2 тыс. купили в прежней карточке; свежий индекс Маркета показывает 3,3 тыс. у предложения CN, период неизвестен.",
+        "demand_url": "https://market.yandex.ru/category/nasosy-dlya-elektrosamokata-xiaomi",
+        "demand_type": "indexed_aggregate_purchase_signal_not_period_sales",
+        "offers": [
+          {
+            "platform": "Яндекс Маркет",
+            "url": "https://market.yandex.ru/card/umnyy-nasos-xiaomi-mijia-portable-electric-air-compressor-pump-2/4757812702",
+            "price_rub": 3012,
+            "currency": "RUB",
+            "observed_at": "2026-11-26",
+            "source_freshness": "6 days ago",
+            "price_type": "conditional_yandex_pay",
+            "match_confidence": "manufacturer_model_in_listing",
+            "in_stock": null,
+            "note": "Версия CN, 30 купили на этом предложении; отдельно в индексе есть более крупный счётчик модели"
+          }
+        ],
+        "decision": "Не закупать по этому предложению: даже сценарная комиссия 20% поглощает ценовой разрыв; искать дешевле в Китае.",
+        "checked_at": "2026-11-26",
+        "match_status": "same_manufacturer_model_claimed_variant_unverified",
+        "russian_benchmark_rub": 3012,
+        "observed_mean_rub": null,
+        "observed_mean_note": "Одна свежая цена CN, Яндекс Пэй. Ozon 3 256 ₽ по копии месячной давности исключена из среднего.",
+        "average_sale_price_rub": null,
+        "china": {
+          "platform": "Alibaba",
+          "seller": "SAMGLE ELECTRONICS LIMITED",
+          "url": "https://www.alibaba.co.uk/product-detail/Xiaomi-Mijia-Air-Pump-2-MJCQB06QW_1601003489557.html",
+          "price_usd": 32,
+          "quantity_min": 2,
+          "quantity_max": 99,
+          "moq": 2,
+          "incoterm": null,
+          "image_url": null,
+          "source_freshness": "direct page indexed 2 months ago; PLA index 5 days ago",
+          "match_details": "MJCQB06QW, чёрный, 2000 мА·ч, USB-C, 490 г, 150 PSI. Региональная упаковка CN/Global не подтверждена; карточка поставщика указывает отсутствие гарантии. Фото CDN не удалось открыть.",
+          "tiers": [
+            {
+              "min": 2,
+              "max": 99,
+              "usd": 32
+            },
+            {
+              "min": 100,
+              "max": 199,
+              "usd": 30.53
+            },
+            {
+              "min": 200,
+              "max": 499,
+              "usd": 30.03
+            },
+            {
+              "min": 500,
+              "max": null,
+              "usd": 29.53
+            }
+          ],
+          "price_rub": 2634.02,
+          "minimum_known_order_goods_rub": 5268.04,
+          "supplier_verified": false,
+          "quote_verified": false
+        },
+        "fx": {
+          "usd_rub": 82.313,
+          "effective_date": "2026-11-26",
+          "source_url": "https://www.cbr.ru/currency_base/dynamics/?UniDbQuery.FromDate=26.02.2026&UniDbQuery.Posted=True&UniDbQuery.ToDate=27.02.2026&UniDbQuery.VAL_NM_RQ=R01235&UniDbQuery.date_req1=&UniDbQuery.date_req2=&UniDbQuery.mode=1"
+        },
+        "gross_price_difference_rub": 377.98,
+        "gross_price_difference_pct_of_retail": 12.55,
+        "scenario": {
+          "sales_expense_pct_assumption": 20,
+          "target_margin_pct_assumption": 15,
+          "remaining_before_import_and_other_costs_rub": -224.42,
+          "max_other_costs_for_target_margin_rub": -676.22,
+          "note": "20% — условный сценарий совокупных расходов на продажу, не тариф маркетплейса; 15% — ориентир целевой маржи. Доставка, пошлины, НДС, сертификация, возвраты и налоги не оценены."
+        },
+        "landed_cost_rub": null,
+        "net_profit_rub": null,
+        "net_margin_pct": null,
+        "ready_to_buy": false
+      },
+      "retail_offer_price_rub": 3012
     },
     {
       "id": "RD-MR-004",
