@@ -717,7 +717,11 @@
       "china_link_status": "analog_or_category_not_verified_supplier",
       "verified_wholesale_quote": false,
       "verified_net_margin": false,
-      "sales_forecast_probability": null
+      "sales_forecast_probability": null,
+      "availability_status": "out_of_stock",
+      "availability_checked_at": "2026-11-26",
+      "availability_source_freshness": "копия 2 недели назад",
+      "retail_offer_price_rub": null
     },
     {
       "id": "RD-MR-003",
@@ -767,7 +771,11 @@
       "china_link_status": "analog_or_category_not_verified_supplier",
       "verified_wholesale_quote": false,
       "verified_net_margin": false,
-      "sales_forecast_probability": null
+      "sales_forecast_probability": null,
+      "availability_status": "listed_cached",
+      "availability_checked_at": "2026-11-26",
+      "availability_source_freshness": "копия месяц назад",
+      "retail_offer_price_rub": 19990
     },
     {
       "id": "RD-OZON-5761260692",
@@ -855,5 +863,8 @@
       "verified_net_margin": false,
       "sales_forecast_probability": null
     }
-  ]
+  ],
+  "latest_research_at": "2026-11-26",
+  "latest_research_url": "https://github.com/irman100/ProductRadar-Data/blob/main/data/research/multimarket_opportunities_20261126.json",
+  "latest_research_note": "4 новых исследовательских предложения; ни одно не проходит порог 100 покупок; баллы и основная подборка не увеличены."
 }
