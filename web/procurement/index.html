@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f6f8"><title>Product Radar — закупки из Китая</title><!-- radar-procurement-v1 -->
+<style>
+:root{color-scheme:light;--bg:#f4f6f8;--card:#fff;--ink:#152132;--muted:#667386;--line:#dce2e9;--brand:#173f64;--good:#16704f;--warn:#94601f}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:1180px;margin:auto;padding:28px 20px 60px}header{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:18px}h1{font-size:clamp(28px,5vw,42px);line-height:1.12;margin:8px 0 12px;letter-spacing:-.04em}h2{font-size:22px;margin:26px 0 10px}h3{font-size:19px;line-height:1.35;margin:5px 0 10px}p{margin:6px 0 12px}.muted,small{color:var(--muted)}small{display:block;font-size:12px}.eyebrow{font-size:12px;font-weight:700;letter-spacing:.13em;color:var(--brand)}a{color:var(--brand);overflow-wrap:anywhere}.btn,button{display:flex;justify-content:center;align-items:center;min-height:44px;text-align:center;padding:11px 15px;border-radius:10px;border:1px solid var(--brand);background:var(--brand);color:white;font-family:inherit;font-size:14px;font-weight:600;line-height:1.35;text-decoration:none;cursor:pointer}.btn.secondary,button.secondary{color:var(--brand);background:white}.actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.stats,.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stats{grid-template-columns:repeat(3,minmax(0,1fr));margin:22px 0}.stat,.card,.notice{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}.stat strong{font-size:30px;display:block;letter-spacing:-.04em}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.cell{border:1px solid var(--line);border-radius:12px;padding:12px;min-width:0}.cell strong{font-size:clamp(20px,3vw,26px);display:block;letter-spacing:-.03em}.photo{width:100%;height:160px;object-fit:contain;background:#fff;border-radius:8px;margin:8px 0}.photo-missing{height:160px;display:grid;place-items:center;text-align:center;background:#f4f6f8;border-radius:8px;padding:12px;color:var(--muted);font-size:12px;margin:8px 0}.tag{display:inline-block;font-size:12px;font-weight:650;color:var(--warn);padding:4px 0}.tag.good{color:var(--good)}.result{border-top:1px solid var(--line);margin-top:14px;padding-top:12px}.metric{font-size:22px;font-weight:700}.result p{margin:5px 0}.source{font-size:12px;display:block;margin:4px 0}.archive-item{padding:10px 0;border-top:1px solid var(--line)}details{margin-top:12px}summary{cursor:pointer;font-weight:600;color:var(--brand)}ul{padding-left:20px}.footer{margin-top:30px;border-top:1px solid var(--line);padding-top:14px}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #6b9fe6;outline-offset:3px}@media(max-width:760px){main{padding:20px 12px 40px}.grid{grid-template-columns:1fr}.stat,.card,.notice{padding:12px}.stat strong{font-size:25px}.stats{gap:6px}.stat small{font-size:11px}.actions{grid-template-columns:1fr}.photo,.photo-missing{height:130px}}@media(max-width:350px){.cell{padding:8px}.pair{gap:6px}.stat{padding:8px}}
+</style></head><body><main>
+<header><div class="eyebrow">PRODUCT RADAR / CHINA → RUSSIA</div><a class="btn secondary" href="./catalog-archive.html">Архив каталога</a></header>
+<h1>Закупки с расчётом прибыли</h1><p class="muted">Сравниваем одинаковые товары в России и Китае. В закупочной подборке — только позиции с проверенным спросом, ценой, поставщиком и экономикой.</p>
+<div class="stats" id="stats"></div><p id="status" role="status">Загружаем данные GitHub…</p><button id="refresh" class="secondary" type="button">Обновить данные</button>
+<section><h2>Прошли закупочный фильтр</h2><p class="muted">Расчётная маржа по проверенным исходным затратам, не гарантия будущих продаж.</p><div id="approved" class="grid"></div></section>
+<section><h2>Кандидаты с ценовым запасом</h2><p class="muted">Уже есть наблюдаемые цены и спрос, но ещё не подтверждена идентичность партии или полная себестоимость. Не рекомендации к покупке.</p><div id="candidates" class="grid"></div></section>
+<details id="rejected"><summary id="archive-title">Отклонённые сравнения</summary><div id="archive"></div></details><div class="footer muted">История всех товаров сохранена. <a href="./catalog-archive.html">Открыть прежний каталог и отчёты</a>. <a href="https://github.com/irman100/ProductRadar-Data/blob/main/docs/PROCUREMENT.md" target="_blank" rel="noopener noreferrer">Методика</a>.</div>
+</main><script>
+function evaluate(record,policy,asOf){
+ const p=policy,r=record.ru||{},c=record.china||{},e=record.economics||{},d=r.demand||{};
+ const finite=v=>typeof v==="number"&&Number.isFinite(v),pos=v=>finite(v)&&v>0;
+ const url=v=>typeof v==="string"&&/^https:\/\/[a-z0-9.-]+(?::443)?(?:\/[^\s]*)?$/i.test(v)&&!v.includes("\\");
+ const day=v=>typeof v==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(v)?Date.parse(v):NaN;
+ const age=v=>(day(asOf)-day(v))/86400000,fresh=v=>age(v)>=0&&age(v)<=p.max_age_days,round=v=>Math.round(v*100)/100;
+ const reasons=[],variant=typeof record.variant_key==="string"&&record.variant_key.trim(),offers=Array.isArray(r.offers)?r.offers:[];
+ const qualifying=offers.filter(o=>url(o.url)&&pos(o.price_rub)&&o.currency==="RUB"&&o.price_type==="public_unconditional_retail_offer"&&o.in_stock===true&&o.match_confidence==="exact_sku"&&variant&&o.variant_key===variant&&fresh(o.observed_at)&&typeof o.platform==="string"&&o.platform.trim());
+ const byPlatform=new Map();for(const o of qualifying){const k=o.platform.trim().toLowerCase();if(!byPlatform.has(k)||byPlatform.get(k).price_rub>o.price_rub)byPlatform.set(k,o);}
+ const comparable=[...byPlatform.values()],avg=comparable.length>=2?round(comparable.reduce((s,o)=>s+o.price_rub,0)/comparable.length):null,benchmark=comparable.length?Math.min(...comparable.map(o=>o.price_rub)):null;
+ if(!fresh(record.checked_at))reasons.push("Исследование устарело");
+ if(!variant||c.variant_key!==variant||c.match_verified!==true)reasons.push("Точный вариант и комплект Китай / РФ не сверены");
+ if(!url(r.url)||r.availability_verified!==true||comparable.length<2)reasons.push("Нет двух свежих сопоставимых цен независимых площадок и подтверждённого наличия");
+ if(d.verified!==true||d.type!=="cumulative_purchases"||!pos(d.value)||d.value<p.minimum_purchases||!url(d.url)||!fresh(d.observed_at))reasons.push("Нет свежего подтверждённого счётчика покупок SKU");
+ if(!url(r.image_url)||r.image_status!=="exact_photo_verified"||!url(c.image_url)||c.image_status!=="exact_photo_verified")reasons.push("Нет двух проверенных фотографий точной модели");
+ if(!url(c.url)||!pos(c.unit_rub)||!Number.isInteger(c.moq)||c.moq<1||c.quote_verified!==true||!fresh(c.quote_date)||!Number.isFinite(day(c.quote_valid_until))||day(c.quote_valid_until)<day(asOf)||c.supplier_verified!==true||!Number.isInteger(c.quote_quantity)||c.quote_quantity<c.moq||!url(c.quote_source_url)||!url(c.match_source_url))reasons.push("Нет действующей котировки, точного объёма партии и проверки поставщика");
+ const costKeys=["import_per_unit_rub","sales_fixed_per_unit_rub","sales_pct","taxes_per_unit_rub","other_per_unit_rub"];
+ const costs=e.verified===true&&fresh(e.checked_at)&&Array.isArray(e.source_urls)&&e.source_urls.length>0&&e.source_urls.every(url)&&costKeys.every(k=>finite(e[k])&&e[k]>=0)&&e.sales_pct<=100;
+ if(!costs)reasons.push("Полная себестоимость и расходы не подтверждены");
+ let net=null,margin=null,batch=null;
+ if(costs&&pos(c.unit_rub)&&pos(benchmark)&&Number.isInteger(c.quote_quantity)&&c.quote_quantity>=1){
+ net=round(benchmark*(1-e.sales_pct/100)-c.unit_rub-e.import_per_unit_rub-e.sales_fixed_per_unit_rub-e.taxes_per_unit_rub-e.other_per_unit_rub);margin=round(net/benchmark*100);batch=round((c.unit_rub+e.import_per_unit_rub)*c.quote_quantity);
+ if(margin<p.target_net_margin_pct)reasons.push("Чистая расчётная маржа ниже цели");if(batch<p.budget_min_rub||batch>p.budget_max_rub)reasons.push("Проверенная партия вне бюджета");}
+ const rejected=String(record.review_status||"").startsWith("reject");if(rejected)reasons.push("Исследователь отклонил предложение");
+ const approved=reasons.length===0&&margin!==null&&batch!==null,base=pos(r.benchmark_rub)?r.benchmark_rub:null;
+ const publicChinaFresh=fresh(c.public_price_checked_at)||fresh(c.quote_date),ruObserved=offers.some(o=>url(o.url)&&o.available_on_page===true&&fresh(o.observed_at)&&o.price_rub===base);
+ const spread=base!==null&&pos(c.unit_rub)?round(base-c.unit_rub):null,targetSpace=spread!==null?round(base*(1-(p.scenario_sales_pct+p.target_net_margin_pct)/100)-c.unit_rub):null;
+ const candidate=!approved&&!rejected&&fresh(record.checked_at)&&d.verified===true&&d.type==="cumulative_purchases"&&d.value>=p.minimum_purchases&&url(d.url)&&fresh(d.observed_at)&&url(r.url)&&url(r.image_url)&&["merchant_photo_observed","exact_photo_verified"].includes(r.image_status)&&ruObserved&&url(c.url)&&publicChinaFresh&&Number.isInteger(c.moq)&&c.moq>0&&targetSpace!==null&&targetSpace>0&&c.unit_rub*c.moq<=p.budget_max_rub;
+ return {status:approved?"approved":candidate?"candidate":"archive",reasons,average_offer_rub:avg,benchmark_rub:benchmark,net_profit_rub:approved?net:null,net_margin_pct:approved?margin:null,batch_rub:approved?batch:null,observed_benchmark_rub:base,gross_difference_rub:spread,max_other_costs_for_target_margin_rub:targetSpace};
+}
+if(typeof module!=='undefined')module.exports={evaluate};
+
+(function dashboard(){
+"use strict";
+const by=id=>document.getElementById(id);
+const fmt=n=>typeof n==="number"&&Number.isFinite(n)?Math.round(n).toLocaleString("ru-RU")+" ₽":"Не подтверждено";
+const el=(tag,cls,txt)=>{const a=document.createElement(tag);if(cls)a.className=cls;if(txt!==undefined)a.textContent=String(txt);return a};
+const add=(parent,...children)=>{parent.append(...children);return parent};
+const safe=v=>{try{const u=new URL(v);return u.protocol==="https:"&&!u.username&&!u.password?u.href:null}catch{return null}};
+function link(url,label,cls){const u=safe(url);if(!u)return el("small",null,"Прямая ссылка не подтверждена");const a=el("a",cls,label);a.href=u;a.target="_blank";a.rel="noopener noreferrer";return a}
+function photo(url,alt,backup,backupType){const u=safe(url),b=safe(backup);const placeholder=()=>el("div","photo-missing","Фото точного товара не подтверждено");if(!u&&!b)return placeholder();const wrap=el("div");const i=el("img","photo");const note=el("small",null,"");const fallback=()=>{if(b&&i.src!==b){i.src=b;note.textContent=backupType==="synthetic_backup"?"Иллюстрация, не оригинальное фото":"Резервное фото";}else i.replaceWith(placeholder());};i.addEventListener("error",fallback);i.alt=alt;i.loading="lazy";i.referrerPolicy="no-referrer";i.src=u||b;if(!u)note.textContent=backupType==="synthetic_backup"?"Иллюстрация, не оригинальное фото":"Резервное фото";return add(wrap,i,note)}
+function cell(label,value,extra){return add(el("div","cell"),el("small",null,label),el("strong",null,value),el("small",null,extra))}
+function card(r,x,p){
+ const approved=x.status==="approved",ru=r.ru||{},cn=r.china||{},d=ru.demand||{};
+ const a=el("article","card");add(a,el("span",approved?"tag good":"tag",approved?"Экономика прошла фильтр":"Кандидат · не закупать до сверки"),el("h3",null,r.name),el("small",null,"Артикул: "+r.model+" · "+r.checked_at),el("p",null,d.value+" накопленных покупок · период неизвестен"));
+ const rp=cell("Россия",fmt(approved?x.benchmark_rub:ru.benchmark_rub),approved?"Конкурентная цена без спецусловий":"Наблюдаемая цена; условия в источнике");add(rp,photo(ru.image_url,"Фото российской карточки",ru.fallback_image_url,ru.fallback_image_type),el("small",null,"Средняя цена: "+fmt(x.average_offer_rub)),link(d.url,"Источник спроса","source"));
+ const cp=cell("Китай",fmt(cn.unit_rub),cn.price_cny?cn.price_cny+" CNY / шт.":cn.price_usd?cn.price_usd+" USD / шт.":"Цена за единицу");add(cp,photo(cn.image_url,"Фото китайской карточки",cn.fallback_image_url,cn.fallback_image_type),el("small",null,"MOQ: "+(cn.moq??"не подтверждено")+" шт."),el("small",null,cn.seller||"Поставщик уточняется"),el("small",null,"Стоимость товара в минимальной партии: "+fmt(Number.isFinite(cn.unit_rub)&&Number.isInteger(cn.moq)?cn.unit_rub*cn.moq:null)));
+ add(a,add(el("div","pair"),rp,cp));
+ const res=el("div","result");
+ if(approved){add(res,el("small",null,"Чистая расчётная прибыль / шт."),el("div","metric",fmt(x.net_profit_rub)),el("p",null,"Маржа: "+x.net_margin_pct+"% · партия с импортом "+fmt(x.batch_rub)));}
+ else{add(res,el("small",null,"Разница цен до расходов / шт."),el("div","metric",fmt(x.gross_difference_rub)),el("p",null,"Запас на импорт и прочие расходы при условных "+p.scenario_sales_pct+"% расходов продажи и цели "+p.target_net_margin_pct+"%: "+fmt(x.max_other_costs_for_target_margin_rub)),el("small",null,"Чистая маржа неизвестна. Это сценарий, а не тарифы."));}
+ add(res,el("p",null,r.decision||""),el("small",null,cn.match_note||""));
+ const dt=el("details");add(dt,el("summary",null,"Источники, сценарии и ограничения"));for(const o of ru.offers||[]){add(dt,link(o.url,(o.platform||"Источник")+" · "+fmt(o.price_rub)+" · "+(o.price_type==="conditional_yandex_pay"?"с Яндекс Пэй":o.price_type==="public_unconditional_retail_offer"?"без спецусловий":o.price_type||"условия уточняются")+" · "+(o.observed_at||o.freshness||o.source_freshness||"дата не подтверждена"),"source"));}
+ if(!approved)for(const [i,s] of (r.scenarios||[]).entries()){if(s&&typeof s.retail_rub==="number")add(dt,el("p",null,(r.scenario_labels?.[i]||"Сценарий")+" "+fmt(s.retail_rub)+": запас на прочие затраты "+fmt(s.max_other_costs_for_target_margin_rub)));}
+ if(x.reasons.length){const ul=el("ul");for(const why of x.reasons)add(ul,el("li",null,why));add(dt,ul);}add(res,dt);add(a,res,add(el("div","actions"),link(ru.url,"Открыть товар в России ↗","btn"),link(cn.url,approved?"Точный товар в Китае ↗":"Карточка поставщика в Китае ↗","btn secondary")));return a;
+}
+function render(data){
+ const policy={minimum_purchases:100,max_age_days:7,target_net_margin_pct:15,budget_min_rub:5000,budget_max_rub:300000,scenario_sales_pct:20};
+ if(data.dataset!=="procurement_evidence"||!Array.isArray(data.records)||data.records.some(r=>!r||typeof r.id!=="string"||!r.ru||!r.china)||new Set(data.records.map(r=>r.id)).size!==data.records.length)throw Error("Неверная структура данных");
+ const today=new Date().toISOString().slice(0,10),rows=data.records.map(r=>({r,x:evaluate(r,policy,today)}));
+ const approved=rows.filter(z=>z.x.status==="approved").sort((a,b)=>b.x.net_margin_pct-a.x.net_margin_pct);
+ const candidates=rows.filter(z=>z.x.status==="candidate").sort((a,b)=>b.x.max_other_costs_for_target_margin_rub-a.x.max_other_costs_for_target_margin_rub);
+ const archive=rows.filter(z=>z.x.status==="archive");
+ by("stats").replaceChildren(...[[approved.length,"Прошли фильтр"],[candidates.length,"Кандидаты"],[archive.length,"Отклонено / на проверке"]].map(([n,l])=>add(el("div","stat"),el("strong",null,n),el("small",null,l))));
+ by("approved").replaceChildren(...(approved.length?approved.map(z=>card(z.r,z.x,policy)):[add(el("div","notice"),el("h3",null,"Пока нет подтверждённых выгодных предложений"),el("p",null,"Непроверенные товары не выдаются за выгодные. История сохранена, кандидаты показаны отдельно."))]));
+ by("candidates").replaceChildren(...(candidates.length?candidates.map(z=>card(z.r,z.x,policy)):[el("div","notice","Нет свежих кандидатов, отвечающих минимальным требованиям.")]));
+ by("archive-title").textContent="Отклонённые и неполные сравнения ("+archive.length+")";
+ by("archive").replaceChildren(...archive.map(({r,x})=>{const a=el("div","archive-item");add(a,el("b",null,r.name),el("p",null,r.decision||"Недостаточно данных"),el("small",null,x.reasons.join("; ")));return a}));
+ by("status").textContent="Исследование: "+data.checked_at+" · архив прежнего каталога: "+data.archive_catalog_count+" карточек. Проверка свежести на "+today+".";
+}
+let busy=false;
+async function load(){if(busy)return;busy=true;by("refresh").disabled=true;by("status").textContent="Загружаем актуальные данные…";try{const response=await fetch("https://raw.githubusercontent.com/irman100/ProductRadar-Data/main/data/procurement/evidence.json?v="+Date.now(),{cache:"no-store"});if(!response.ok)throw Error("HTTP "+response.status);render(await response.json());}catch(e){by("status").textContent="Не удалось обновить данные: "+e.message+"; данные не считаются актуальными.";by("approved").replaceChildren();by("candidates").replaceChildren();by("stats").replaceChildren();by("archive").replaceChildren();by("archive-title").textContent="Отклонённые сравнения";}finally{busy=false;by("refresh").disabled=false}}
+by("refresh").addEventListener("click",load);load();
+})();
+</script></body></html>
