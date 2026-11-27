@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "currency": {
     "state": "ok",
-    "updated_at": "2026-11-26T17:44:17+00:00",
-    "effective_date": "2026-11-27"
+    "updated_at": "2026-11-27T17:28:48+00:00",
+    "effective_date": "2026-11-28"
   },
   "research": {
     "state": "partial",
